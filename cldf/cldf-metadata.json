@@ -15,13 +15,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/valpal",
-            "dc:created": "28bdcd8"
+            "dc:created": "0fb869a"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "eWAVE-3.0-4-g9e5e22e"
+            "dc:created": "v4.1"
         },
         {
             "rdf:type": "prov:Entity",
@@ -221,6 +221,14 @@
                     {
                         "datatype": "string",
                         "name": "contributors"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "continent"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Comment"
                     }
                 ],
                 "primaryKey": [

@@ -26,6 +26,8 @@ class Verb(Lexeme):
 @attr.s
 class Contribution(Language):
     contributors = attr.ib(default=None)
+    continent = attr.ib(default=None)
+    Comment = attr.ib(default=None)
 
 
 class Dataset(pylexibank.Dataset):
@@ -105,11 +107,10 @@ class Dataset(pylexibank.Dataset):
                 ISO639P3code=lang['iso_code'],
                 Latitude=lang['latitude'],
                 Longitude=lang['longitude'],
+                Comment=lang['comments'],
                 contributors=contributions[lang['id']],
+                continent=lang['continent'],
             )
-        #OrderedDict([('family', 'Siouan'),
-        # ('comments', None), ('continent', 'Americas'),
-        # ('latitude', 43.5), ('longitude', -88.5)])
 
         cmap = {}
         for meaning in self.query("select * from meanings order by label"):
