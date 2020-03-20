@@ -1,0 +1,37 @@
+ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,contributors
+ainu1240,Ainu (Southern Hokkaido),ainu1240,Hokkaido Ainu,ain,Eurasia,43.0,143.0,Ainu,Anna Bugaeva
+bali1278,Balinese,bali1278,Balinese,ban,Papunesia,-8.36,115.08,Austronesian,Masayoshi Shibatani and Ketut Artawa
+bezh1248,Bezhta,bezh1248,Bezhta,kap,Eurasia,42.12,46.03,Nakh-Daghestanian,Zaira Khalilova and Bernard Comrie
+bora1263,Bora,bora1263,Bora,boa,South America,-2.16666666667,-72.3333333333,Boran,Frank Seifart
+chhi1245,Chintang,chhi1245,Chintang,ctn,Eurasia,26.947628,87.211189,Sino-Tibetan,Robert Schikowski and Balthasar Bickel and Netra Prasād Paudyāl
+east2283,Eastern Armenian (standard Eastern Armenian),east2283,,hye,,40.0,45.0,,Victoria Khurshudian and Michael Daniel
+emai1241,Emai,emai1241,Emai-Iuleha-Ora,ema,Africa,7.08333333333,5.91666666667,Atlantic-Congo,Ronald Schaefer and Francis Egbokhare
+stan1293,English,stan1293,English,eng,Eurasia,53.0,-1.0,Indo-European,Cliff Goddard
+even1260,Even,even1260,Even,eve,Eurasia,70.67,130.91,Tungusic,Andrej Malchukov
+even1259,Evenki,even1259,Evenki,evn,Eurasia,56.0,125.0,Tungusic,Igor Nedjalkov
+stan1295,German (Standard),stan1295,German,deu,Eurasia,51.344339,12.348633,Indo-European,Martin Haspelmath and Luisa Baumann
+hokk1249,Hokkaido Japanese,hokk1249,Hokkaidō,,,43.691708,142.866211,Japonic,Kan Sasaki
+hoch1243,Hoocąk (Wisconsin Hoocąk),hoch1243,Ho-Chunk,win,North America,43.5,-88.5,Siouan,Iren Hartmann
+icel1247,Icelandic,icel1247,Icelandic,isl,Eurasia,65.0,-17.0,Indo-European,Jóhanna Barðdal
+ital1282,Italian (Standard Italian),ital1282,Italian,ita,Eurasia,43.0,12.0,Indo-European,Michela Cennamo and Claudia Fabrizio
+indo1316,Jakarta Indonesian,indo1316,Indonesian,ind,Papunesia,-6.20924,106.833729,Austronesian,Thomas J. Conners and David Gil
+djam1255,Jaminjung (Both Jaminjung and Ngaliwurru varieties),djam1255,Jaminjung-Ngaliwurru,djd,Australia,-15.0833333333,130.5,Mirndi,Eva Schultze-Berndt
+nucl1643,Japanese (standard),nucl1643,Japanese,jpn,Eurasia,35.6895,139.6917,Japonic,Hideki Kishimoto and Taro Kageyama
+kett1243,Ket,kett1243,Ket,ket,Eurasia,64.0,87.0,Yeniseian,Edward J. Vajda and Elena Kryukova
+kore1280,Korean (Spoken Korean as used in and around Seoul),kore1280,Korean,kor,Eurasia,36.6331621,128.23242188,Koreanic,Soung-U Kim
+mand1415,Mandarin Chinese (PTH),mand1415,Mandarin Chinese,cmn,Eurasia,34.0,110.0,Sino-Tibetan,Guohua Zhang
+mand1436,Mandinka,mand1436,Mandinka,mnk,Africa,13.4166666667,-16.0,Mande,Denis Creissels
+mapu1245,Mapudungun,mapu1245,Mapudungun,arn,South America,-38.0,-72.0,Araucanian,Fernando Zúñiga and Leonel Lienlaf
+east2526,Mitsukaido Japanese,east2526,Eastern Japanese,,,36.059924,139.966507,Japonic,Kan Sasaki
+stan1318,Modern Standard Arabic (Modern Standard Arabic),stan1318,Standard Arabic,arb,Eurasia,27.96,43.85,Afro-Asiatic,Csilla Kász
+nenn1238,Nen,nenn1238,Nen,nqn,Papunesia,-8.581021,142.119141,Yam,Nicholas Evans
+nuuu1241,Nǀǀng,nuuu1241,N||ng,ngh,Africa,-28.434883,21.31897,Tuu,Martina Ernszt and Alena Witzlack-Makarevich and Tom Güldemann
+otta1242,Ojibwe (Odawa),otta1242,Ottawa,otw,North America,47.6667,-92.5,Algic,J. Randolph Valentine and Mary Ann Corbiere
+russ1263,Russian,russ1263,Russian,rus,Eurasia,56.0,38.0,Indo-European,Andrej Malchukov and Alexander Jahraus
+como1259,Sliammon,como1259,Comox,coo,North America,49.906,-124.6179,Salishan,Honore Watanabe
+sril1245,Sri Lanka Malay,sril1245,Sri Lanka Malay,sci,Eurasia,6.92,79.86,Austronesian,Sebastian Nordhoff
+xara1244,Xârâcùù,xara1244,Xârâcùù,ane,Papunesia,-21.6666666667,166.0,Austronesian,Claire Moyse-Faurie
+yaqu1251,Yaqui,yaqu1251,Yaqui,yaq,North America,27.5,-110.25,Uto-Aztecan,Zarina Estrada-Fernández and Mercedes Tubino Blanco and Jesús Francisco Villalpando Quiñonez
+yoru1245,Yorùbá (Standard Yoruba),yoru1245,Yoruba,yor,Africa,8.0,4.33333333333,Atlantic-Congo,Joseph Atoyebi
+yuca1254,"Yucatec Maya (dialect of Quintana Roo, zona maya)",yuca1254,Yucatec Maya,yua,North America,19.33,-88.47,Mayan,Christian Lehmann
+zenz1235,Zenzontepec Chatino,zenz1235,Zenzontepec Chatino,czn,North America,16.5334303,-97.4953304,Otomanguean,Eric Campbell
