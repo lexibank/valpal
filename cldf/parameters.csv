@@ -1,163 +1,163 @@
 ID,Name,Concepticon_ID,Concepticon_Gloss,typical_context
-appear,APPEAR,,,A bear appeared.
-ask-a-question,ASK (a question),,,She asked me a difficult question
+appear,APPEAR,1076,EMERGE (APPEAR),A bear appeared.
+ask-a-question,ASK (a question),1309,ASK (INQUIRE),She asked me a difficult question
 ask-about,ASK (about),,,The man asked the women about a place to rent.
-ask-for,ASK FOR,,,The boy asked his parents for money.
+ask-for,ASK FOR,1828,ASK (REQUEST),The boy asked his parents for money.
 assassinate,ASSASSINATE,,,The sniper assassinated the politician.
 be-a-dress,BE A DRESS,,,This piece of cloth is actually a dress.
-be-a-hunter,BE A HUNTER,,,This man is a hunter.
-be-bright,BE BRIGHT,,,The light is bright.
+be-a-hunter,BE A HUNTER,1053,HUNTER,This man is a hunter.
+be-bright,BE BRIGHT,679,BRIGHT,The light is bright.
 be-burdened,BE BURDENED,,,The man is burdened with a problem.
-be-cold,BE COLD,,,The water is cold.
-be-dry,BE DRY,,,The ground is dry.
+be-cold,BE COLD,1287,COLD,The water is cold.
+be-dry,BE DRY,1398,DRY,The ground is dry.
 be-far-from-the-truth,BE FAR FROM THE TRUTH,,,His reasoning is far from the truth.
-be-glad,BE GLAD,,,The woman is glad.
-be-hungry,BE HUNGRY,,,The baby is hungry.
-be-ill,BE ILL,,,The little boy is sick.
+be-glad,BE GLAD,2192,REJOICE,The woman is glad.
+be-hungry,BE HUNGRY,1533,BE HUNGRY,The baby is hungry.
+be-ill,BE ILL,1847,SICK,The little boy is sick.
 be-named,BE NAMED,,,The man was named Peter.
-be-needed,BE NEEDED,,,This is severely needed.
-be-sad,BE SAD,,,The little girl was sad.
+be-needed,BE NEEDED,2339,NEED (SOMETHING),This is severely needed.
+be-sad,BE SAD,699,SAD,The little girl was sad.
 be-sad-about,BE SAD ABOUT,,,The man is sad about his loss.
-beat,BEAT,,,The boy beat the snake with a stick.
-blink,BLINK,,,I blinked (my eyes).
-boil,BOIL,,,The water is boiling.
-boil-tr,BOIL (tr),,,The cook boiled the potatoes.
-break,BREAK,,,The boy broke the window with a stone.
-bring,BRING,,,The girl brought flowers to me.
-build,BUILD,,,The men built a house out of wood.
-burn,BURN,,,The house is burning.
-burn-tr,BURN (tr),,,The boy burnt his report card.
-call,CALL,,,The man called his girlfriend.
+beat,BEAT,1665,BEAT,The boy beat the snake with a stick.
+blink,BLINK,1655,BLINK,I blinked (my eyes).
+boil,BOIL,792,BOIL (OF LIQUID),The water is boiling.
+boil-tr,BOIL (tr),2492,BOIL (SOMETHING),The cook boiled the potatoes.
+break,BREAK,2558,BREAK (CLEAVE),The boy broke the window with a stone.
+bring,BRING,692,BRING,The girl brought flowers to me.
+build,BUILD,1840,BUILD,The men built a house out of wood.
+burn,BURN,1428,BURNING,The house is burning.
+burn-tr,BURN (tr),2102,BURN,The boy burnt his report card.
+call,CALL,1084,CALL,The man called his girlfriend.
 capsize,CAPSIZE,,,The boat capsizes.
-carry,CARRY,,,The men carried the boxes to the market.
+carry,CARRY,700,CARRY,The men carried the boxes to the market.
 chase,CHASE,,,The boy chased the racoon from the house.
-clean,CLEAN,,,The girl cleaned the floor.
-climb,CLIMB,,,The men climbed (up) the tree.
-close,CLOSE,,,Then man closes the door.
-come,COME,,,The boy came (to the village).
+clean,CLEAN,2235,CLEAN (SOMETHING),The girl cleaned the floor.
+climb,CLIMB,1102,CLIMB,The men climbed (up) the tree.
+close,CLOSE,1046,SHUT,Then man closes the door.
+come,COME,1446,COME,The boy came (to the village).
 come-1,COME (1),,,The boy came.
 come-2,COME (2),,,The boy came to/from the village.
-cook,COOK,,,The women cooked the meat.
-cough,COUGH,,,The old man coughed.
+cook,COOK,1100,COOK (SOMETHING),The women cooked the meat.
+cough,COUGH,879,COUGH,The old man coughed.
 cough-at,COUGH AT,,,The man choughed at my face.
-cover,COVER,,,The woman covered the boy with a blanket.
+cover,COVER,761,COVER,The woman covered the boy with a blanket.
 cram,CRAM,,,The boy crammed peanuts into his mouth.
 cross,CROSS,,,The boys crossed the road.
-cry,CRY,,,The baby is crying.
+cry,CRY,1839,CRY,The baby is crying.
 cry-about,CRY ABOUT,,,The woman cries about her loss.
-cut,CUT,,,The woman cut the bread with a sharp knife.
+cut,CUT,2156,CUT (WITH KNIFE),The woman cut the bread with a sharp knife.
 deserve,DESERVE,,,The woman deserves credit.
-die,DIE,,,The snake died.
-dig,DIG,,,The woman is digging for potatoes.
-do,DO,,,The man did his work.
-dream,DREAM,,,The woman was dreaming.
+die,DIE,1494,DIE,The snake died.
+dig,DIG,1418,DIG,The woman is digging for potatoes.
+do,DO,813,DO,The man did his work.
+dream,DREAM,1920,DREAM (SOMETHING),The woman was dreaming.
 dress,DRESS,,,The mother dressed her daughter
-drink,DRINK,,,The man drank strong coffee.
+drink,DRINK,1401,DRINK,The man drank strong coffee.
 drive-out,DRIVE OUT,,,The man drove out his boat.
-drop,DROP,,,The girl dropped the cup.
-drown,DROWN,,,The man drowned in a river.
-dry,DRY,,,The sun has dried out the ground.
-eat,EAT,,,The boy ate the fruit.
-enter,ENTER,,,The man entered (the house).
-fall,FALL,,,The horse fell.
-fear,FEAR,,,The man feared the bear.
-feel-cold,FEEL COLD,,,I’m cold.
-feel-pain,FEEL PAIN,,,My arm is hurting. =I’m feeling pain in my arm.
+drop,DROP,2866,DROP (SOMETHING),The girl dropped the cup.
+drown,DROWN,1904,DROWN,The man drowned in a river.
+dry,DRY,1786,DRY UP,The sun has dried out the ground.
+eat,EAT,1336,EAT,The boy ate the fruit.
+enter,ENTER,749,ENTER,The man entered (the house).
+fall,FALL,1280,FALL,The horse fell.
+fear,FEAR,1419,FEAR (BE AFRAID),The man feared the bear.
+feel-cold,FEEL COLD,,,I'm cold.
+feel-pain,FEEL PAIN,2561,HURT (SENSE PAIN),My arm is hurting. =I'm feeling pain in my arm.
 feel-sick,FEEL SICK,,,The boy felt sick.
-feel-sleepy,FEEL SLEEPY,,,The baby is sleepy.
-fell,FELL,,,The men felled the tree.
-fill,FILL,,,The girl filled the glass with water.
-follow,FOLLOW,,,The boys followed the girls.
-frighten,FRIGHTEN,,,The bear frightened the man.
-get,GET,,,The man got a letter from his friend.
+feel-sleepy,FEEL SLEEPY,3620,SLEEPY,The baby is sleepy.
+fell,FELL,355,CUT DOWN,The men felled the tree.
+fill,FILL,2006,FILL,The girl filled the glass with water.
+follow,FOLLOW,1085,FOLLOW,The boys followed the girls.
+frighten,FRIGHTEN,252,FRIGHTEN,The bear frightened the man.
+get,GET,694,GET,The man got a letter from his friend.
 get-obtain,GET (= obtain),,,The girl got a car.
-get-dressed,GET DRESSED,,,The little girl got dressed.
+get-dressed,GET DRESSED,814,DRESS UP,The little girl got dressed.
 get-excited,GET EXCITED,,,The woman got excited.
-give,GIVE,,,We gave the books to the children.
-give-birth,GIVE BIRTH,,,The woman gave birth to a baby boy.
-go,GO,,,The woman went to the market.
+give,GIVE,1447,GIVE,We gave the books to the children.
+give-birth,GIVE BIRTH,1195,GIVE BIRTH,The woman gave birth to a baby boy.
+go,GO,695,GO,The woman went to the market.
 go-well,GO WELL,,,Everything goes well for him.
-grind,GRIND,,,The women ground the seeds (with mortar and pestle).
+grind,GRIND,1033,GRIND,The women ground the seeds (with mortar and pestle).
 have-an-intuition,HAVE AN INTUITION,,,The woman has the intuition that it will rain.
-hear,HEAR,,,The boy heard the bear.
-help,HELP,,,I helped the boys.
-hide,HIDE,,,The boy hid the frog from his mother.
-hit,HIT,,,The boy hit the snake with a stick.
-hug,HUG,,,The mother hugged her little boy.
-hunt-for,HUNT (FOR),,,The man hunts for deer.
-hurt,HURT,,,The man hurts his hand.
-jump,JUMP,,,The girl jumped.
+hear,HEAR,1408,HEAR,The boy heard the bear.
+help,HELP,1897,HELP,I helped the boys.
+hide,HIDE,602,HIDE (CONCEAL),The boy hid the frog from his mother.
+hit,HIT,1433,HIT,The boy hit the snake with a stick.
+hug,HUG,928,EMBRACE,The mother hugged her little boy.
+hunt-for,HUNT (FOR),1435,HUNT,The man hunts for deer.
+hurt,HURT,44,INJURE,The man hurts his hand.
+jump,JUMP,1829,JUMP,The girl jumped.
 jump-over,JUMP OVER,,,The boy jumped over the fence.
-kill,KILL,,,The man killed his enemy with a club.
-know,KNOW,,,The girl knew the boy.
-laugh,LAUGH,,,The little girl laughed.
+kill,KILL,1417,KILL,The man killed his enemy with a club.
+know,KNOW,2248,KNOW (SOMEBODY),The girl knew the boy.
+laugh,LAUGH,1355,LAUGH,The little girl laughed.
 laugh-about,LAUGH ABOUT,,,The woman laught about the dog.
-learn,LEARN,,,The girl learnt the song.
-leave,LEAVE,,,The boy left the village.
-like,LIKE,,,The boy liked his new toy.
-listen,LISTEN,,,The boy listened to the music.
-live,LIVE,,,The old people live in town.
-load,LOAD,,,The farmer loaded hay onto the truck. = The farmer loaded the truck with hay.
-long-for,LONG FOR,,,The teacher longs for coffee.
-look-at,LOOK AT,,,The boy looked at the girl.
-make,MAKE,,,The man made a box out of wood.
+learn,LEARN,504,LEARN,The girl learnt the song.
+leave,LEAVE,1752,LEAVE,The boy left the village.
+like,LIKE,1117,LIKE,The boy liked his new toy.
+listen,LISTEN,1608,LISTEN,The boy listened to the music.
+live,LIVE,363,"DWELL (LIVE, RESIDE)",The old people live in town.
+load,LOAD,3669,LOAD (SOMETHING),The farmer loaded hay onto the truck. = The farmer loaded the truck with hay.
+long-for,LONG FOR,3473,LONG (FOR SOMETHING),The teacher longs for coffee.
+look-at,LOOK AT,1819,LOOK,The boy looked at the girl.
+make,MAKE,734,MAKE,The man made a box out of wood.
 make-appear,MAKE APPEAR,,,The wizard made a white dove appear.
 make-climb,MAKE CLIMB,,,The man made the monkey climb the wall.
 make-hungry,MAKE HUNGRY,,,The hard work made the men hungry.
 make-ones-presence-known,MAKE ONE'S PRESENCE KNOWN,,,He made his presence known in the province.
 make-run,MAKE RUN,,,The girl made the horse run.
 make-sick,MAKE SICK,,,The cold made the girl sick.
-marry,MARRY,,,The man married the woman.
-meet,MEET,,,The men met the boys.
-name,NAME,,,The parents called the baby Anna.
+marry,MARRY,203,MARRY,The man married the woman.
+meet,MEET,1831,MEET,The men met the boys.
+name,NAME,180,CALL BY NAME,The parents called the baby Anna.
 offer,OFFER,,,The girl offerd her help to a stranger.
-peel,PEEL,,,The boy peeled the bark off the stick.
-play,PLAY,,,The child is playing.
-pour,POUR,,,The man poured water into the glass.
+peel,PEEL,275,PEEL,The boy peeled the bark off the stick.
+play,PLAY,1413,PLAY,The child is playing.
+pour,POUR,1487,POUR,The man poured water into the glass.
 propose-a-marriage,PROPOSE (a marriage),,,The man proposed to the woman.
-push,PUSH,,,The boy pushed the girl (into the water).
-put,PUT,,,I put the cup onto the table.
-rain,RAIN,,,It rained.
-read,READ,,,The girl is reading a book.
-refuse,REFUSE,,,The old lady refused the man a place to sleep.
-remain,REMAIN,,,The woman remained in the village.
-remember,REMEMBER,,,She remembered the street.
-rest,REST,,,The girl was resting.
+push,PUSH,1452,PUSH,The boy pushed the girl (into the water).
+put,PUT,998,PUT,I put the cup onto the table.
+rain,RAIN,1253,RAIN (RAINING),It rained.
+read,READ,724,READ,The girl is reading a book.
+refuse,REFUSE,49,REFUSE,The old lady refused the man a place to sleep.
+remain,REMAIN,987,REMAIN,The woman remained in the village.
+remember,REMEMBER,707,REMEMBER,She remembered the street.
+rest,REST,168,REST,The girl was resting.
 roll,ROLL,,,The ball is rolling.
-roll-tr,ROLL (tr),,,The child rolls the ball.
-run,RUN,,,The horse is running.
-say,SAY,,,They said “no” to me.
+roll-tr,ROLL (tr),827,ROLL,The child rolls the ball.
+run,RUN,1519,RUN,The horse is running.
+say,SAY,1458,SAY,"They said ""no"" to me."
 say-impersonal,SAY (impersonal),,,It says (it) in the article.
 scream,SCREAM,,,The man screamed.
-search-for,SEARCH FOR,,,The men searched for the women.
-seat,SEAT,,,The mother seated her child on the chair.
-see,SEE,,,The man saw the bear.
-send,SEND,,,The girl sent flowers to her grandmother.
+search-for,SEARCH FOR,1468,LOOK FOR,The men searched for the women.
+seat,SEAT,2878,SEAT (SOMEBODY),The mother seated her child on the chair.
+see,SEE,1409,SEE,The man saw the bear.
+send,SEND,1127,SEND,The girl sent flowers to her grandmother.
 settle,SETTLE,,,The couple settled in a small town.
-shave-a-body-part_person,SHAVE (a body part/person),,,The man shaved his beard/cut his hair.
+shave-a-body-part_person,SHAVE (a body part/person),231,SHAVE,The man shaved his beard/cut his hair.
 shave-self,SHAVE (self),,,The barber shaved the man.
-shout-at,SHOUT AT,,,The woman shouted at the children.
-show,SHOW,,,The girls showed pictures to the teacher.
-sing,SING,,,The boy sang (a song).
-sink,SINK,,,The boat sank.
+shout-at,SHOUT AT,715,SHOUT,The woman shouted at the children.
+show,SHOW,1039,SHOW,The girls showed pictures to the teacher.
+sing,SING,1261,SING,The boy sang (a song).
+sink,SINK,1088,SINK (DESCEND),The boat sank.
 sink-tr,SINK (tr),,,The boy sank the paper boat.
-sit,SIT,,,The children sat on the floor.
-sit-down,SIT DOWN,,,The children sat down on the bench.
-smell,SMELL,,,The bear smelled the boy.
-speak,SPEAK,,,The girl spoke.
-steal,STEAL,,,The thief stole money from the old lady.
-stumble,STUMBLE,,,The boy stumbled.
-take,TAKE,,,The man took the money from his friend.
-talk,TALK,,,The girl talked to the boy about her dog.
-teach,TEACH,,,The old lady taught the girl a song.
-tear,TEAR,,,The girl tore the page from the book.
-tell,TELL,,,The girl told the boy a funny story.
-think,THINK,,,The girl thought about her grandmother yesterday.
-throw,THROW,,,The boy threw the ball into the window.
-tie,TIE,,,The man tied the horse with a rope to the tree.
-touch,TOUCH,,,The boy touched the snake with a stick.
-twinkle,TWINKLE,,,Stars twinkle.
-want,WANT,,,The monkey wanted a banana.
-wash,WASH,,,The mother washed the baby.
-wink,WINK,,,The boy winked at his favorite girl.
-wipe,WIPE,,,The women wiped dirt off the table.
+sit,SIT,1416,SIT,The children sat on the floor.
+sit-down,SIT DOWN,1649,SIT DOWN,The children sat down on the bench.
+smell,SMELL,1586,SMELL (PERCEIVE),The bear smelled the boy.
+speak,SPEAK,1623,SPEAK,The girl spoke.
+steal,STEAL,713,STEAL,The thief stole money from the old lady.
+stumble,STUMBLE,3617,STUMBLE,The boy stumbled.
+take,TAKE,1749,TAKE,The man took the money from his friend.
+talk,TALK,2708,TALK,The girl talked to the boy about her dog.
+teach,TEACH,709,TEACH,The old lady taught the girl a song.
+tear,TEAR,1735,TEAR (SHRED),The girl tore the page from the book.
+tell,TELL,1711,TELL,The girl told the boy a funny story.
+think,THINK,1415,THINK (REFLECT),The girl thought about her grandmother yesterday.
+throw,THROW,1456,THROW,The boy threw the ball into the window.
+tie,TIE,1917,TIE,The man tied the horse with a rope to the tree.
+touch,TOUCH,1892,TOUCH,The boy touched the snake with a stick.
+twinkle,TWINKLE,2889,TWINKLE,Stars twinkle.
+want,WANT,1784,WANT,The monkey wanted a banana.
+wash,WASH,1453,WASH,The mother washed the baby.
+wink,WINK,1655,BLINK,The boy winked at his favorite girl.
+wipe,WIPE,1454,WIPE,The women wiped dirt off the table.

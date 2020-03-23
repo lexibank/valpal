@@ -112,6 +112,8 @@ class Dataset(pylexibank.Dataset):
                 continent=lang['continent'],
             )
 
+        args.writer.add_concepts(
+            id_factory=lambda c: c.attributes['label_for_url'].replace('/', '_'))
         cmap = {}
         for meaning in self.query("select * from meanings order by label"):
             cmap[meaning['id']] = meaning['label_for_url'].replace('/', '_')
@@ -209,5 +211,5 @@ where e.id = ev.example_id group by e.id"""):
                 Translated_Text=row['translation'],
                 Comment=row['comment'],
                 Example_Type=row['example_type'],
-                Form_IDs=ex2verb.get(row['id'], []),
+                Form_IDs=sorted(ex2verb.get(row['id'], [])),
             ))
