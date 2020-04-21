@@ -11,6 +11,6 @@
     "source": null,
     "url": "http://valpal.info/",
     "lingpy_schema": null,
-    "title": "Valency Patterns Leipzig",
+    "title": "CLDF dataset derived from Hartmann et al.'s \"Valency Patterns Leipzig\" from 2013",
     "version": "2.3.0"
 }
