@@ -1,0 +1,24 @@
+{
+    "title": "CLDF dataset derived from Hartmann et al.'s \"Valency Patterns Leipzig\" from 2013",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Robert Forkel"
+        }
+    ],
+    "contributors": [],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Hartmann, Iren &amp; Haspelmath, Martin &amp; Taylor, Bradley (eds.) 2013. Valency Patterns Leipzig. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://valpal.info)</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-3.0"
+    }
+}

@@ -4,7 +4,7 @@
     "id": "valpal",
     "patron": null,
     "license": "CC-BY-3.0",
-    "conceptlist": [],
+    "conceptlist": ["Hartmann-2013-162"],
     "related": null,
     "derived_from": null,
     "description": null,
