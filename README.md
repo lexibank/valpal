@@ -1,4 +1,4 @@
-# Valency Patterns Leipzig
+# CLDF dataset derived from Hartmann et al.'s "Valency Patterns Leipzig" from 2013
 
 Cite the source dataset as
 
@@ -8,6 +8,9 @@ This dataset is licensed under a CC-BY-3.0 license
 
 Available online at http://valpal.info/
 
+
+Conceptlists in Concepticon:
+- [Hartmann-2013-162](https://concepticon.clld.org/contributions/Hartmann-2013-162)
 ## Statistics
 
 

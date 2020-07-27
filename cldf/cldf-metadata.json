@@ -3,43 +3,46 @@
     "aboutUrl": null,
     "dc:bibliographicCitation": "Hartmann, Iren & Haspelmath, Martin & Taylor, Bradley (eds.) 2013. Valency Patterns Leipzig. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://valpal.info)",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
+    "dc:format": [
+        "http://concepticon.clld.org/contributions/Hartmann-2013-162"
+    ],
     "dc:identifier": "http://valpal.info/",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/3.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "Valency Patterns Leipzig",
+    "dc:title": "CLDF dataset derived from Hartmann et al.'s \"Valency Patterns Leipzig\" from 2013",
     "dcat:accessURL": "https://github.com/lexibank/valpal",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/valpal",
-            "dc:created": "4b30e78"
+            "dc:created": "9c4096e"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Glottolog",
+            "rdf:about": "https://github.com/glottolog/glottolog",
+            "dc:created": "v4.2.1"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Concepticon",
+            "rdf:about": "https://github.com/concepticon/concepticon-data",
+            "dc:created": "v2.4.0-rc.1"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "CLTS",
             "rdf:about": "https://github.com/cldf-clts/clts",
             "dc:created": "v1.4"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Concepticon",
-            "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.3.0"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
-            "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.1"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.5.2"
+            "dc:description": "3.8.2"
         },
         {
             "dc:title": "python-packages",
@@ -115,6 +118,14 @@
                     {
                         "datatype": "boolean",
                         "name": "Loan"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Graphemes"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Profile"
                     },
                     {
                         "datatype": "string",
@@ -265,6 +276,18 @@
                     {
                         "datatype": "string",
                         "name": "typical_context"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "role_frame"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "meaning_list"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "label_for_url"
                     }
                 ],
                 "primaryKey": [

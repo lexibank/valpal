@@ -12,19 +12,22 @@ from pylexibank import Concept, Lexeme, Language
 
 
 @attr.s
-class Meaning(Concept):
+class CustomConcept(Concept):
     typical_context = attr.ib(default=None)
+    role_frame = attr.ib(default=None)
+    meaning_list = attr.ib(default=None)
+    label_for_url = attr.ib(default=None)
 
 
 @attr.s
-class Verb(Lexeme):
+class CustomLexeme(Lexeme):
     verb_type = attr.ib(default=None)
     original_script = attr.ib(default=None)
     simplex_or_complex = attr.ib(default=None)
 
 
 @attr.s
-class Contribution(Language):
+class CustomLanguage(Language):
     contributors = attr.ib(default=None)
     continent = attr.ib(default=None)
     Comment = attr.ib(default=None)
@@ -33,9 +36,9 @@ class Contribution(Language):
 class Dataset(pylexibank.Dataset):
     dir = pathlib.Path(__file__).parent
     id = "valpal"
-    lexeme_class = Verb
-    concept_class = Meaning
-    language_class = Contribution
+    lexeme_class = CustomLexeme
+    concept_class = CustomConcept
+    language_class = CustomLanguage
 
     # define the way in which forms should be handled
     form_spec = pylexibank.FormSpec(
