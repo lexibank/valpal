@@ -59,6 +59,8 @@ class Dataset(pylexibank.Dataset):
             return [collections.OrderedDict(zip(names, row)) for row in cu.fetchall()]
 
     def cmd_makecldf(self, args):
+        self.create_schema(args.writer.cldf)
+
         rmap = collections.defaultdict(list)
         for row in self.query('select * from "references"'):
             rmap[row['language_id']].append(row['id'])
@@ -216,3 +218,30 @@ where e.id = ev.example_id group by e.id"""):
                 Example_Type=row['example_type'],
                 Form_IDs=sorted(ex2verb.get(row['id'], [])),
             ))
+
+        for row in self.query("select * from microroles order by meaning_id, id"):
+            args.writer.objects['microroles.csv'].append(dict(
+                ID=row['id'],
+                Name=row['name'],
+                Parameter_ID=cmap[row['meaning_id']],
+                Role_Letter=row['role_letter'],
+                Original_Or_New=row['original_or_new'],
+                Name_For_URL=row['name_for_url'],
+                Verbs_Count=row['verbs_count'],
+                Coding_Frames_Count=row['coding_frames_count'],
+                Languages_Count=row['languages_count'],
+            ))
+
+    def create_schema(self, cldf):
+        cldf.add_table(
+            'microroles.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'http://cldf.clld.org/v1.0/terms.rdf#name',
+            {
+                'name': 'Parameter_ID',
+                'titles': 'Concept_ID',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#parameterReference',
+            },
+            'Role_Letter',
+            'Original_Or_New',
+            'Name_For_URL')
