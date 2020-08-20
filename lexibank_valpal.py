@@ -249,6 +249,17 @@ where e.id = ev.example_id group by e.id"""):
                 Complexity=row['complexity'],
             ))
 
+        # TODO add argument types, microroles, and coding sets
+        for row in self.query('select * from coding_frames order by language_id, id'):
+            args.writer.objects['coding-frames.csv'].append(dict(
+                ID=row['id'],
+                Language_ID=lmap[row['language_id']],
+                Coding_Frame_Schema=row['coding_frame_schema'],
+                Description=row['description'],
+                Comment=row['comment'],
+                Derived=row['derived'],
+            ))
+
     def create_schema(self, cldf):
         cldf.add_component(
             'ExampleTable',
@@ -278,7 +289,7 @@ where e.id = ev.example_id group by e.id"""):
             'http://cldf.clld.org/v1.0/terms.rdf#id',
             'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
             'http://cldf.clld.org/v1.0/terms.rdf#name',
-            'Comment')
+            'http://cldf.clld.org/v1.0/terms.rdf#comment')
 
         cldf.add_table(
             'alternations.csv',
@@ -289,3 +300,30 @@ where e.id = ev.example_id group by e.id"""):
             'Alternation_Type',
             'Coding_Frames_Text',
             'Complexity')
+
+        cldf.add_table(
+            'coding-frames.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
+            'Coding_Frame_Schema',
+            'http://cldf.clld.org/v1.0/terms.rdf#description',
+            'http://cldf.clld.org/v1.0/terms.rdf#comment',
+            'Derived',
+            {
+                'name': 'Argument_Types',
+                'datatype': 'string',
+                'separator': ';',
+            },
+            {
+                'name': 'Microrole_IDs',
+                'datatype': 'string',
+                'separator': ';',
+            },
+            {
+                'name': 'Coding_Set_IDs',
+                'datatype': 'string',
+                'separator': ';',
+            })
+
+        cldf.add_foreign_key('coding-frames.csv', 'Microrole_IDs', 'microroles.csv', 'ID')
+        cldf.add_foreign_key('coding-frames.csv', 'Coding_Set_IDs', 'coding-sets.csv', 'ID')
