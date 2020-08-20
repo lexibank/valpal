@@ -227,10 +227,17 @@ where e.id = ev.example_id group by e.id"""):
                 Role_Letter=row['role_letter'],
                 Original_Or_New=row['original_or_new'],
                 Name_For_URL=row['name_for_url'],
-                Verbs_Count=row['verbs_count'],
-                Coding_Frames_Count=row['coding_frames_count'],
-                Languages_Count=row['languages_count'],
             ))
+
+        for row in self.query("select * from coding_sets order by language_id, id"):
+            lang_id = lmap.get(row['language_id'])
+            if lang_id:
+                args.writer.objects['coding-sets.csv'].append(dict(
+                    ID=row['id'],
+                    Name=row['name'],
+                    Comment=row['comment'],
+                    Language_ID=lang_id,
+                ))
 
     def create_schema(self, cldf):
         cldf.add_table(
@@ -245,3 +252,10 @@ where e.id = ev.example_id group by e.id"""):
             'Role_Letter',
             'Original_Or_New',
             'Name_For_URL')
+
+        cldf.add_table(
+            'coding-sets.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'http://cldf.clld.org/v1.0/terms.rdf#name',
+            'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
+            'Comment')
