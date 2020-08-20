@@ -239,6 +239,17 @@ where e.id = ev.example_id group by e.id"""):
                     Language_ID=lang_id,
                 ))
 
+        for row in self.query("select * from alternations order by language_id, id"):
+            args.writer.objects['alternations.csv'].append(dict(
+                ID=row['id'],
+                Name=row['name'],
+                Description=row['description'],
+                Language_ID=lmap[row['language_id']],
+                Alteration_Type=row['alternation_type'],
+                Coding_Frame_Text=row['coding_frames_text'],
+                Complexity=row['complexity'],
+            ))
+
     def create_schema(self, cldf):
         cldf.add_table(
             'microroles.csv',
@@ -256,6 +267,16 @@ where e.id = ev.example_id group by e.id"""):
         cldf.add_table(
             'coding-sets.csv',
             'http://cldf.clld.org/v1.0/terms.rdf#id',
-            'http://cldf.clld.org/v1.0/terms.rdf#name',
             'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
+            'http://cldf.clld.org/v1.0/terms.rdf#name',
             'Comment')
+
+        cldf.add_table(
+            'alternations.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
+            'http://cldf.clld.org/v1.0/terms.rdf#name',
+            'http://cldf.clld.org/v1.0/terms.rdf#description',
+            'Alternation_Type',
+            'Coding_Frames_Text',
+            'Complexity')
