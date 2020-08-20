@@ -84,6 +84,10 @@ class Dataset(pylexibank.Dataset):
                 if row[key]:
                     kw[bkey] = row[key]
             args.writer.add_sources(Source(row['bibtex_type'] or 'misc', str(row['id']), **kw))
+        all_sources = {
+            rid
+            for lang_refs in rmap.values()
+            for rid in lang_refs}
 
         contributors = {
             r['id']: r['name'] for r in self.raw_dir.read_csv('contributors.csv', dicts=True)}
@@ -198,6 +202,9 @@ where e.id = ev.example_id group by e.id"""):
                 row['number'] = maxnum[row['language_id']] = maxnum[row['language_id']] + 1
             row['gloss'] = gloss_fix.get(row['gloss'], row['gloss'])
             row['analyzed_text'] = morphemes_fix.get(row['analyzed_text'], row['analyzed_text'])
+            source = None
+            if row.get('reference_id') and row.get('reference_id') in all_sources:
+                source = [str(row['reference_id'])]
             args.writer.objects['ExampleTable'].append(dict(
                 ID='{0}-{1}'.format(lmap[row['language_id']], row['number']),
                 Language_ID=lmap[row['language_id']],
@@ -207,6 +214,7 @@ where e.id = ev.example_id group by e.id"""):
                 Translated_Text=row['translation'],
                 Comment=row['comment'],
                 Example_Type=row['example_type'],
+                Source=source,
                 Form_IDs=sorted(ex2verb.get(row['id'], [])),
             ))
 
@@ -245,12 +253,12 @@ where e.id = ev.example_id group by e.id"""):
         cldf.add_component(
             'ExampleTable',
             'Example_Type',
+            'http://cldf.clld.org/v1.0/terms.rdf#source',
             {
                 "name": "Form_IDs",
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#formReference",
                 "separator": ";",
-            }
-        )
+            })
 
         cldf.add_table(
             'microroles.csv',
