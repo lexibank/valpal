@@ -1,0 +1,564 @@
+ID,Name,Parameter_ID,Role_Letter,Original_Or_New,Name_For_URL
+128,coverer,cover,A,Original role,coverer
+129,covered thing,cover,P,Original role,covered-thing
+130,cover,cover,X,Original role,cover
+7228070463,cover-beneficiary,cover,,New role,cover-beneficiary
+7417429396,cover causer,cover,,New role,cover-causer
+9769283417,cover instrument,cover,,New role,cover-instrument
+131,filler,fill,A,Original role,filler
+132,filled container,fill,P,Original role,filled-container
+133,filling material,fill,X,Original role,filling-material
+7711544252,fill causer,fill,,New role,fill-causer
+9258729131,fill beneficiary,fill,,New role,fill-beneficiary
+134,loader,load,A,Original role,loader
+135,loaded thing,load,T,Original role,loaded-thing
+136,loading place,load,L,Original role,loading-place
+7615653396,load beneficiary,load,,New role,load-beneficiary
+7711615279,load causer,load,,New role,load-causer
+118,tier,tie,A,Original role,tier
+119,tied thing,tie,P,Original role,tied-thing
+120,tying goal,tie,L,Original role,tying-goal
+121,tying instrument,tie,I,Original role,tying-instrument
+7617015546,tie beneficiary,tie,,New role,tie-beneficiary
+7617022877,tie causer,tie,,New role,tie-causer
+125,pourer,pour,A,Original role,pourer
+126,poured substance,pour,T,Original role,poured-substance
+127,pouring goal,pour,L,Original role,pouring-goal
+7193130664,pouring source,pour,F,New role,pouring-source
+7615512233,pour beneficiary,pour,,New role,pour-beneficiary
+7669583450,pour causer,pour,,New role,pour-causer
+122,putter,put,A,Original role,putter
+123,put thing,put,T,Original role,put-thing
+124,putting goal,put,L,Original role,putting-goal
+7615659602,put beneficiary,put,,New role,put-beneficiary
+7711618604,put causer,put,,New role,put-causer
+115,thrower,throw,A,Original role,thrower
+116,thrown thing,throw,T,Original role,thrown-thing
+117,throwing goal,throw,L,Original role,throwing-goal
+7615605805,throw beneficiary,throw,,New role,throw-beneficiary
+7650784664,throw causer,throw,,New role,throw-causer
+181,bringer,bring,A,Original role,bringer
+182,brought thing,bring,T,Original role,brought-thing
+183,bringing recipient,bring,R,Original role,bringing-recipient
+7617126123,bring causer,bring,,New role,bring-causer
+10019021701,bringing instrument,bring,,New role,bringing-instrument
+112,carrier,carry,A,Original role,carrier
+113,carried thing,carry,T,Original role,carried-thing
+114,carrying goal,carry,X,Original role,carrying-goal
+7615629691,carry beneficiary,carry,,New role,carry-beneficiary
+7650593880,carry instrument,carry,,New role,carry-instrument
+7711593293,carry causer,carry,,New role,carry-causer
+109,sender,send,A,Original role,sender
+110,sent thing,send,T,Original role,sent-thing
+111,sending recipient,send,X,Original role,sending-recipient
+9511010211,send causer,send,,New role,send-causer
+106,giver,give,A,Original role,giver
+107,gift,give,T,Original role,gift
+108,giving recipient,give,R,Original role,giving-recipient
+7375742999,give causer,give,,New role,give-causer
+103,shower,show,A,Original role,shower
+104,shown thing,show,T,Original role,shown-thing
+105,showing addressee,show,R,Original role,showing-addressee
+7617103005,show causer,show,,New role,show-causer
+184,stealer,steal,A,Original role,stealer
+185,stolen thing,steal,T,Original role,stolen-thing
+186,stealing source,steal,X,Original role,stealing-source
+7384178423,steal causer,steal,,New role,steal-causer
+12706812793,stealing source 2,steal,,New role,stealing-source-2
+100,hider,hide,A,Original role,hider
+101,hidden thing,hide,T,Original role,hidden-thing
+102,hiding affectee,hide,X,Original role,hiding-affectee
+7667979163,hide causer,hide,,New role,hide-causer
+9258968494,hiding beneficiary,hide,,New role,hiding-beneficiary
+10019013032,hiding instrument,hide,,New role,hiding-instrument
+13519242961,hiding place,hide,,New role,hiding-place
+94,tearer,tear,A,Original role,tearer
+95,torn thing,tear,P,Original role,torn-thing
+96,tearing source,tear,X,Original role,tearing-source
+7375792278,tear causer,tear,,New role,tear-causer
+7650203704,tear instrument,tear,,New role,tear-instrument
+7980238903,tearing place,tear,,New role,tearing-place
+173,wiper,wipe,A,Original role,wiper
+174,wiped material,wipe,T,Original role,wiped-material
+175,wiping surface,wipe,X,Original role,wiping-surface
+7384233416,wipe beneficiary,wipe,,New role,wipe-beneficiary
+7667995287,wipe causer,wipe,,New role,wipe-causer
+7980246754,wipe goal,wipe,,New role,wipe-goal
+9769236639,wipe instrument,wipe,,New role,wipe-instrument
+88,cutter,cut,A,Original role,cutter
+89,cut thing,cut,P,Original role,cut-thing
+90,cutting instrument,cut,I,Original role,cutting-instrument
+7384240844,cut beneficiary,cut,,New role,cut-beneficiary
+7668001120,cutting causer,cut,,New role,cutting-causer
+7980253337,cutting goal/place,cut,,New role,cutting-goal-or-place
+85,toucher,touch,A,Original role,toucher
+86,touchee,touch,P,Original role,touchee
+87,touching instrument,touch,I,Original role,touching-instrument
+7667985301,touch causer,touch,,New role,touch-causer
+82,hitter,hit,A,Original role,hitter
+83,hittee,hit,P,Original role,hittee
+84,hitting instrument,hit,I,Original role,hitting-instrument
+7617111995,hit causer,hit,,New role,hit-causer
+9603936083,hit location,hit,,New role,hit-location
+79,beater,beat,A,Original role,beater
+80,beatee,beat,P,Original role,beatee
+81,beating instrument,beat,I,Original role,beating-instrument
+7615743628,beat beneficiary,beat,,New role,beat-beneficiary
+7617119219,beat causer,beat,,New role,beat-causer
+76,killer,kill,A,Original role,killer
+77,killee,kill,P,Original role,killee
+78,killing instrument,kill,I,Original role,killing-instrument
+9258951975,killing beneficiary,kill,,New role,killing-beneficiary
+9622286541,kill causer,kill,,New role,kill-causer
+73,breaker,break,A,Original role,breaker
+74,broken thing,break,P,Original role,broken-thing
+75,breaking instrument,break,I,Original role,breaking-instrument
+7617092775,break maleficiary,break,,New role,break-maleficiary
+7617095027,break causer,break,,New role,break-causer
+7980310700,break location,break,,New role,break-location
+67,namer,name,A,Original role,namer
+68,namee,name,X,Original role,namee
+69,name,name,Y,Original role,name
+7615720773,name/say addressee,name,,New role,name-or-say-addressee
+9561683604,name causer,name,,New role,name-causer
+64,sayer,say,A,Original role,sayer
+65,saying addressee,say,X,Original role,saying-addressee
+66,said content,say,"""...""",Original role,said-content
+7669516010,say causer,say,,New role,say-causer
+61,teller,tell,A,Original role,teller
+62,tellee,tell,X,Original role,tellee
+63,told content,tell,Y,Original role,told-content
+7668017763,tell causer,tell,,New role,tell-causer
+56,asker,ask-for,A,Original role,asker
+57,askee,ask-for,X,Original role,askee
+58,requested thing,ask-for,Y,Original role,requested-thing
+7668025190,ask for causer,ask-for,,New role,ask-for-causer
+53,talker,talk,A,Original role,talker
+54,talked to person,talk,X,Original role,talked-to-person
+55,talked about content,talk,Y,Original role,talked-about-content
+7668032149,talk causer,talk,,New role,talk-causer
+35,knower,know,A,Original role,knower
+36,known thing/person,know,P,Original role,known-thing-or-person
+7711452024,know causer,know,,New role,know-causer
+7115996676,rememberer,remember,A,New role,rememberer
+7115998813,remembered thing,remember,X,New role,remembered-thing
+25,seeer,see,E,Original role,seeer
+26,seen entity,see,M,Original role,seen-entity
+7711472577,see causer,see,,New role,see-causer
+23,looker,look-at,A,Original role,looker
+24,looked at entity,look-at,P,Original role,looked-at-entity
+7650211408,look instrument,look-at,,New role,look-instrument
+7650216536,look causer,look-at,,New role,look-causer
+9768985497,look beneficiary,look-at,,New role,look-beneficiary
+31,frightener,frighten,A,Original role,frightener
+32,frightenee,frighten,P,Original role,frightenee
+7617040717,frighten beneficiary,frighten,,New role,frighten-beneficiary
+7650247542,frightening thing/instr.,frighten,,New role,frightening-thing-or-instr.
+7668463793,scare causer,frighten,,New role,scare-causer
+29,fearer,fear,E,Original role,fearer
+30,fear stimulus,fear,M,Original role,fear-stimulus
+7668071652,fear causer,fear,,New role,fear-causer
+33,liker,like,E,Original role,liker
+34,liked entity,like,M,Original role,liked-entity
+7668077711,like causer,like,,New role,like-causer
+7116049090,hunter,hunt-for,X,New role,hunter
+7116052880,hunted thing,hunt-for,Y,New role,hunted-thing
+9639856251,hunt causer,hunt-for,,New role,hunt-causer
+51,meeter,meet,A,Original role,meeter
+52,met person,meet,X,Original role,met-person
+7711479206,meet causer,meet,,New role,meet-causer
+8084262205,meet location,meet,,New role,meet-location
+9588279431,met obstacle/thing,meet,,New role,met-obstacle-or-thing
+49,follower,follow,A,Original role,follower
+50,followee,follow,X,Original role,followee
+7616351994,follow instrument,follow,,New role,follow-instrument
+7616358033,follow beneficiary,follow,,New role,follow-beneficiary
+7668090234,follow causer,follow,,New role,follow-causer
+47,helper,help,A,Original role,helper
+48,helpee,help,X,Original role,helpee
+7375778884,help causer,help,,New role,help-causer
+19,eater,eat,A,Original role,eater
+20,eaten food,eat,P,Original role,eaten-food
+7425365987,eating instrument,eat,I,New role,eating-instrument
+7616744877,eat beneficiary,eat,,New role,eat-beneficiary
+7668449135,eat causer/feeder,eat,,New role,eat-causer-or-feeder
+7980280184,eat location,eat,,New role,eat-location
+41,washer,wash,A,Original role,washer
+42,washed entity,wash,P,Original role,washed-entity
+7435077618,washing instrument,wash,I,New role,washing-instrument
+7616755920,wash beneficiary,wash,,New role,wash-beneficiary
+7616762521,wash causer,wash,,New role,wash-causer
+7980290802,wash location,wash,,New role,wash-location
+138,cougher,cough,S,Original role,cougher
+7711157597,cough causer,cough,,New role,cough-causer
+8084270422,coughed at person/bodypart,cough,,New role,coughed-at-person-or-bodypart
+9553894317,cough origin,cough,,New role,cough-origin
+9553918673,coughed up thing,cough,,New role,coughed-up-thing
+139,climber,climb,A,Original role,climber
+140,climbing goal,climb,L,Original role,climbing-goal
+7616774149,climb beneficiary,climb,,New role,climb-beneficiary
+7616778601,climb causer,climb,,New role,climb-causer
+7650232075,climb instrument,climb,,New role,climb-instrument
+144,sitdowner,sit-down,S,Original role,sitdowner
+145,sitting-down place,sit-down,L,Original role,sitting-down-place
+7669555923,sit down causer,sit-down,,New role,sit-down-causer
+141,runner,run,A,Original role,runner
+7669985914,running place,run,,New role,running-place
+7670014337,run causer,run,,New role,run-causer
+8084301972,run goal,run,,New role,run-goal
+9829508349,run from source,run,,New role,run-from-source
+10305564158,run distance,run,,New role,run-distance
+12101658600,running opponent,run,,New role,running-opponent
+146,jumper,jump,A,Original role,jumper
+7617613008,jump beneficiary,jump,,New role,jump-beneficiary
+7617622509,jump causer,jump,,New role,jump-causer
+7669249016,jump instrument,jump,,New role,jump-instrument
+7670070097,jump location,jump,,New role,jump-location
+10305571575,jumped over (obstacle),jump,,New role,jumped-over-obstacle
+11340530583,comming person,come-1,,New role,comming-person
+147,singer,sing,S,Original role,singer
+7616795867,song,sing,,New role,song
+7616797355,sing causer,sing,,New role,sing-causer
+7616799771,sung-to person,sing,,New role,sung-to-person
+152,liver,live,S,Original role,liver
+153,living place,live,L,Original role,living-place
+7980217394,live causer,live,,New role,live-causer
+9259096365,life,live,,New role,life
+195,appearer,appear,S,Original role,appearer
+7617604282,appear beneficiary,appear,,New role,appear-beneficiary
+7669440695,appear causer,appear,,New role,appear-causer
+8084158802,appear location,appear,,New role,appear-location
+160,dieer,die,S,Original role,dieer
+7650570896,killer/death causer,die,,New role,killer-or-death-causer
+7650573070,cause of death,die,,New role,cause-of-death
+9777301883,dying location,die,,New role,dying-location
+198,fallee,fall,S,Original role,fallee
+7617594168,fall causer,fall,,New role,fall-causer
+7651429140,fall instrument,fall,,New role,fall-instrument
+8076134827,fall goal,fall,L,New role,fall-goal
+9075670042,fall source,fall,,New role,fall-source
+158,freezing person,feel-cold,S,Original role,freezing-person
+159,feeling cold locus,feel-cold,X,Original role,feeling-cold-locus
+7711229587,chill causer,feel-cold,,New role,chill-causer
+163,hungry person,be-hungry,E,Original role,hungry-person
+7711235019,hunger causer,be-hungry,,New role,hunger-causer
+168,rain,rain,?,Original role,rain
+7670045716,rain goal,rain,,New role,rain-goal
+9848216112,rain causer,rain,,New role,rain-causer
+12273480264,rain source,rain,,New role,rain-source
+202,receiver,get,R,Original role,receiver
+203,received thing,get,T,Original role,received-thing
+204,receiving source,get,X,Original role,receiving-source
+10191912323,receive causer,get,,New role,receive-causer
+197,crier,cry,S,Original role,crier
+7617558915,cried after/for person,cry,,New role,cried-after-or-for-person
+7617579939,cry causer,cry,,New role,cry-causer
+199,maker,make,A,Original role,maker
+200,made thing,make,P,Original role,made-thing
+201,making material,make,X,Original role,making-material
+7617071811,make beneficiary,make,,New role,make-beneficiary
+7617080713,make causer,make,,New role,make-causer
+7980561902,make location,make,,New role,make-location
+37,thinker,think,A,Original role,thinker
+38,thought content,think,X,Original role,thought-content
+7616729510,think beneficiary,think,,New role,think-beneficiary
+7616734681,think causer,think,,New role,think-causer
+7721561942,thought (abstract),think,,New role,thought-abstract
+39,searcher,search-for,A,Original role,searcher
+40,searched for thing,search-for,X,Original role,searched-for-thing
+7616450004,search beneficiary,search-for,,New role,search-beneficiary
+7668440941,search causer,search-for,,New role,search-causer
+8196108327,searched entity,search-for,,New role,searched-entity
+8203157101,search location,search-for,,New role,search-location
+9769108878,search instrument,search-for,,New role,search-instrument
+21,hugger,hug,A,Original role,hugger
+22,huggee,hug,P,Original role,huggee
+7668096071,hug causer,hug,,New role,hug-causer
+156,pain-feeler,feel-pain,E,Original role,pain-feeler
+157,pain locus,feel-pain,M,Original role,pain-locus
+7711221981,pain causer,feel-pain,,New role,pain-causer
+162,sad person,be-sad,E,Original role,sad-person
+7669447880,sadness causer,be-sad,,New role,sadness-causer
+9361492769,saddening thing,be-sad,,New role,saddening-thing
+196,sick person,be-ill,S,Original role,sick-person
+7375585779,sickness causer,be-ill,,New role,sickness-causer
+7650301671,affliction/disease,be-ill,,New role,affliction-or-disease
+10554041481,sickness locus,be-ill,,New role,sickness-locus
+167,dry thing,be-dry,S,Original role,dry-thing
+7711202359,drier / dry causer,be-dry,,New role,drier-or-dry-causer
+154,laugher,laugh,S,Original role,laugher
+7110048951,laughed-about thing,laugh,X,New role,laughed-about-thing
+7375563156,laugh causer,laugh,,New role,laugh-causer
+9259111347,laugh,laugh,,New role,laugh
+166,burnt thing,burn,S,Original role,burnt-thing
+7711190183,burner,burn,,New role,burner
+11150977483,fire,burn,,New role,fire
+137,blinker,blink,S,Original role,blinker
+7711146282,blink causer,blink,,New role,blink-causer
+8084219749,winked at person,blink,,New role,winked-at-person
+10492975831,eye,blink,,New role,eye
+169,specialist/hunter,be-a-hunter,S,Original role,specialist-or-hunter
+91,taker,take,A,Original role,taker
+92,taken thing,take,P,Original role,taken-thing
+93,taking source,take,X,Original role,taking-source
+7668063656,take causer,take,,New role,take-causer
+7980268830,taken from place,take,,New role,taken-from-place
+9587654790,take to goal,take,,New role,take-to-goal
+176,digger,dig,A,Original role,digger
+177,dug up thing,dig,X,Original role,dug-up-thing
+7435113924,digging instrument,dig,I,New role,digging-instrument
+7616321085,dig beneficiary,dig,,New role,dig-beneficiary
+7668054234,dig causer,dig,,New role,dig-causer
+7980259640,digging place,dig,,New role,digging-place
+9656042425,dug hole/ground,dig,,New role,dug-hole-or-ground
+97,peeler,peel,A,Original role,peeler
+98,peeled object,peel,P,Original role,peeled-object
+99,peel,peel,X,Original role,peel
+7616294636,peel beneficiary,peel,,New role,peel-beneficiary
+7668039894,peel causer,peel,,New role,peel-causer
+9769185242,peel instrument,peel,,New role,peel-instrument
+170,grinder,grind,A,Original role,grinder
+171,ground thing,grind,P,Original role,ground-thing
+172,grinding instrument,grind,I,Original role,grinding-instrument
+7616261658,grind beneficiary,grind,,New role,grind-beneficiary
+7617133268,grind causer,grind,,New role,grind-causer
+9777227089,grinding location,grind,,New role,grinding-location
+45,shaver (of body part),shave-a-body-part_person,A,Original role,shaver-of-body-part
+46,shaved body part,shave-a-body-part_person,P,Original role,shaved-body-part
+7116151319,shaving instrument,shave-a-body-part_person,,New role,shaving-instrument
+7711694897,shave causer,shave-a-body-part_person,,New role,shave-causer
+9656073602,shaved person,shave-a-body-part_person,,New role,shaved-person
+9768882101,shave beneficiary,shave-a-body-part_person,,New role,shave-beneficiary
+178,pusher,push,A,Original role,pusher
+179,pushee,push,P,Original role,pushee
+180,pushing goal,push,L,Original role,pushing-goal
+7615645180,push beneficiary,push,,New role,push-beneficiary
+7650602980,push instrument,push,,New role,push-instrument
+7711603775,push causer,push,,New role,push-causer
+148,goer,go,S,Original role,goer
+149,going goal,go,L,Original role,going-goal
+9561757625,go causer,go,,New role,go-causer
+11168349127,gone with thing,go,,New role,gone-with-thing
+164,rolling entity,roll,A,Original role,rolling-entity
+7375476690,roller,roll,,New role,roller
+7670003922,rolling location,roll,,New role,rolling-location
+9639971883,roll causer,roll,,New role,roll-causer
+9769673560,rolling goal,roll,,New role,rolling-goal
+187,teacher,teach,A,Original role,teacher
+188,teachee,teach,R,Original role,teachee
+189,taught content,teach,T,Original role,taught-content
+7651185108,teach causer,teach,,New role,teach-causer
+155,screamer,scream,S,Original role,screamer
+7375654844,scream causer,scream,,New role,scream-causer
+8074452597,screamed at person,scream,,New role,screamed-at-person
+12991663425,screamed content,scream,,New role,screamed-content
+192,cooker,cook,A,Original role,cooker
+193,cooked food,cook,P,Original role,cooked-food
+7426927696,cooking instrument,cook,,New role,cooking-instrument
+7650195112,cook causer,cook,,New role,cook-causer
+9258837714,cook beneficiary,cook,,New role,cook-beneficiary
+190,hearer,hear,E,Original role,hearer
+191,heard sound,hear,M,Original role,heard-sound
+7650254435,hear instrument,hear,,New role,hear-instrument
+7650256289,hear causer,hear,,New role,hear-causer
+205,wanter,want,A,Original role,wanter
+206,wanted thing,want,X,Original role,wanted-thing
+7617057299,want beneficiary,want,,New role,want-beneficiary
+7617061253,want causer,want,,New role,want-causer
+165,sunken entity,sink,S,Original role,sunken-entity
+7375634554,sink-(caus)er,sink,,New role,sink-causer
+9837873715,sink location,sink,,New role,sink-location
+194,boiled thing,boil,S,Original role,boiled-thing
+7711181836,boiler,boil,,New role,boiler
+27,smeller,smell,E,Original role,smeller
+28,smelled entity,smell,M,Original role,smelled-entity
+7617141161,smell causer,smell,,New role,smell-causer
+43,dresser,dress,A,Original role,dresser
+44,dressee,dress,P,Original role,dressee
+7116077535,clothes,dress,,New role,clothes
+9510949113,dress causer,dress,,New role,dress-causer
+59,shouter,shout-at,A,Original role,shouter
+60,shoutee,shout-at,X,Original role,shoutee
+7617654837,shout causer,shout-at,,New role,shout-causer
+7668793482,shouted words,shout-at,,New role,shouted-words
+70,builder,build,A,Original role,builder
+71,built thing,build,P,Original role,built-thing
+72,building material,build,X,Original role,building-material
+7617073875,build beneficiary,build,,New role,build-beneficiary
+7617082783,build causer,build,,New role,build-causer
+7980562951,building location,build,,New role,building-location
+142,sitter,sit,S,Original role,sitter
+143,sitting place,sit,L,Original role,sitting-place
+7669558634,sit causer,sit,,New role,sit-causer
+150,leaver,leave,A,Original role,leaver
+151,left place/person,leave,L,Original role,left-place-or-person
+7080018391,leaving goal,leave,,New role,leaving-goal
+8170730967,leave causer,leave,,New role,leave-causer
+161,player,play,S,Original role,player
+7110096867,playing partner,play,C,New role,playing-partner
+7116181353,musical instrument,play,,New role,musical-instrument
+7617637717,play causer,play,,New role,play-causer
+7669238836,toy,play,,New role,toy
+7670075605,play location,play,,New role,play-location
+8170662746,game,play,,New role,game
+11339963917,closer,close,,New role,closer
+11339964864,closed thing,close,,New role,closed-thing
+11339980032,closing instrument,close,,New role,closing-instrument
+7110123211,cleaner,clean,A,New role,cleaner
+7110124323,cleaned thing,clean,P,New role,cleaned-thing
+11566579214,cleaned away material,clean,,New role,cleaned-away-material
+11912693029,cleaning causer,clean,,New role,cleaning-causer
+11340480980,refuser,refuse,,New role,refuser
+11340482554,refusee,refuse,,New role,refusee
+11340485042,refused thing,refuse,,New role,refused-thing
+9604532920,speaker,speak,,New role,speaker
+9837901908,spoken to person,speak,,New role,spoken-to-person
+9605181051,cold thing,be-cold,,New role,cold-thing
+11287369706,twinkler,twinkle,,New role,twinkler
+11290720112,chaser,chase,,New role,chaser
+11290721614,chasee,chase,,New role,chasee
+11981302357,chasing location,chase,,New role,chasing-location
+8121425264,marrying person,marry,,New role,marrying-person
+8121426468,married person,marry,,New role,married-person
+9562619122,marry causer,marry,,New role,marry-causer
+11186758254,reader,read,,New role,reader
+11186760009,read thing,read,,New role,read-thing
+11281235134,offerer,offer,,New role,offerer
+11281236507,offering,offer,,New role,offering
+11281239090,offered to person,offer,,New role,offered-to-person
+11281250091,asking (about) person,ask-about,,New role,asking-about-person
+11281253277,asked (about) thing,ask-about,,New role,asked-about-thing
+11281257294,askee (about),ask-about,,New role,askee-about
+11290735072,cramer,cram,,New role,cramer
+11290735973,crammed thing,cram,,New role,crammed-thing
+11290737107,crammed location,cram,,New role,crammed-location
+11186807662,doer,do,,New role,doer
+11186809885,done thing,do,,New role,done-thing
+11340504206,crosser,cross,,New role,crosser
+11340524256,crossed place,cross,,New role,crossed-place
+11281267785,birth giver,give-birth,,New role,birth-giver
+11281269836,born entity,give-birth,,New role,born-entity
+11340658181,enterer,enter,,New role,enterer
+11340664042,entered place,enter,,New role,entered-place
+11340679145,resting person,rest,,New role,resting-person
+11186826823,drinking person,drink,,New role,drinking-person
+11186827994,drunken thing,drink,,New role,drunken-thing
+9527867100,sleepy head,feel-sleepy,,New role,sleepy-head
+7254346864,dreamer,dream,,New role,dreamer
+7254348428,dream(t-of thing),dream,,New role,dreamt-of-thing
+7254507971,sick feeling person,feel-sick,,New role,sick-feeling-person
+7254801203,proposer,propose-a-marriage,,New role,proposer
+7254801950,proposed to person,propose-a-marriage,,New role,proposed-to-person
+7254820508,capsizing entity,capsize,,New role,capsizing-entity
+11687019484,capsizing causer,capsize,,New role,capsizing-causer
+7254825582,stumbling person,stumble,,New role,stumbling-person
+9527365511,sayer (quotation),say-impersonal,,New role,sayer-quotation
+9527367118,source of quotation,say-impersonal,,New role,source-of-quotation
+11679500131,said thing  (quotation),say-impersonal,,New role,said-thing-quotation
+9527413508,presence known maker,make-ones-presence-known,,New role,presence-known-maker
+9527428225,needee,be-needed,,New role,needee
+7110108029,assassin,assassinate,A,New role,assassin
+7110109356,assassinee,assassinate,P,New role,assassinee
+7110110667,assassination instrument,assassinate,I,New role,assassination-instrument
+10190539093,assassination causer,assassinate,,New role,assassination-causer
+10623464055,comer,come,,New role,comer
+10623465017,coming goal,come,,New role,coming-goal
+10504768528,obtainer,get-obtain,,New role,obtainer
+10504770013,obtained thing,get-obtain,,New role,obtained-thing
+9621156705,Q asker,ask-a-question,,New role,q-asker
+9621164766,Q asked person,ask-a-question,,New role,q-asked-person
+9838052436,Q,ask-a-question,,New role,q
+8203357482,drowned thing/person,drown,,New role,drowned-thing-or-person
+8170693974,learner,learn,,New role,learner
+8170695094,learned thing,learn,,New role,learned-thing
+8170594644,caller,call,,New role,caller
+8170595858,called to/for person,call,,New role,called-to-or-for-person
+8170811887,coming person/thing,come-2,,New role,coming-person-or-thing
+8170813559,come source,come-2,,New role,come-source
+8170817823,come goal,come-2,,New role,come-goal
+10305253037,come causer,come-2,,New role,come-causer
+8170866209,dress/clothing,be-a-dress,,New role,dress-or-clothing
+10642414023,dresser,be-a-dress,,New role,dresser
+11340582634,remainer,remain,,New role,remainer
+11340586473,remaining place,remain,,New role,remaining-place
+11340599936,winker,wink,,New role,winker
+11340601242,winkee,wink,,New role,winkee
+9527228533,longer,long-for,,New role,longer
+9527230328,longed for person/thing,long-for,,New role,longed-for-person-or-thing
+9656075558,out driver,drive-out,,New role,out-driver
+9656076668,driven out thing/person,drive-out,,New role,driven-out-thing-or-person
+11155669325,burner (tr),burn-tr,,New role,burner-tr
+11155672060,burnt thing (tr),burn-tr,,New role,burnt-thing-tr
+11194916357,burn instrument (tr),burn-tr,,New role,burn-instrument-tr
+11194929186,burn causer (tr),burn-tr,,New role,burn-causer-tr
+11158707699,hungry person (tr),make-hungry,,New role,hungry-person-tr
+11158709753,hunger causer (tr),make-hungry,,New role,hunger-causer-tr
+11158839662,sick person (tr),make-sick,,New role,sick-person-tr
+11158841302,sickness causer (tr),make-sick,,New role,sickness-causer-tr
+11158919019,drier (tr),dry,,New role,drier-tr
+11158921081,dry thing (tr),dry,,New role,dry-thing-tr
+11159017968,appearer (tr),make-appear,,New role,appearer-tr
+11159019620,appear causer (tr),make-appear,,New role,appear-causer-tr
+11159064358,feller,fell,,New role,feller
+11159065600,fellee,fell,,New role,fellee
+11159145873,dropper,drop,,New role,dropper
+11159147097,dropped thing,drop,,New role,dropped-thing
+11168605406,seater,seat,,New role,seater
+11168606513,seatee,seat,,New role,seatee
+11168607725,seating place,seat,,New role,seating-place
+11194772158,run causer (tr),make-run,,New role,run-causer-tr
+11194776791,runner (tr),make-run,,New role,runner-tr
+11194998855,sink-(caus)er (tr),sink-tr,,New role,sink-causer-tr
+11195000452,sunken entity (tr),sink-tr,,New role,sunken-entity-tr
+12706879364,sinking instrument,sink-tr,,New role,sinking-instrument
+13485510824,sinking causer (tr),sink-tr,,New role,sinking-causer-tr
+11195634058,boiler (tr),boil-tr,,New role,boiler-tr
+11195635210,boiled thing (tr),boil-tr,,New role,boiled-thing-tr
+11195928049,boiling causer (tr),boil-tr,,New role,boiling-causer-tr
+11912640664,boiling beneficiary (tr),boil-tr,,New role,boiling-beneficiary-tr
+11196023910,roller (tr),roll-tr,,New role,roller-tr
+11196032643,rolling thing (tr),roll-tr,,New role,rolling-thing-tr
+11196045932,rolling goal (tr),roll-tr,,New role,rolling-goal-tr
+11196048589,rolling location (tr),roll-tr,,New role,rolling-location-tr
+11196059851,roll causer (tr),roll-tr,,New role,roll-causer-tr
+11798759422,deserver,deserve,,New role,deserver
+11798760263,deserved thing,deserve,,New role,deserved-thing
+11798812350,burdened person,be-burdened,,New role,burdened-person
+11798813110,burden,be-burdened,,New role,burden
+11799205062,intuition haver,have-an-intuition,,New role,intuition-haver
+11799205580,intuition topic,have-an-intuition,,New role,intuition-topic
+11799318033,gladdened entity,be-glad,,New role,gladdened-entity
+11799381977,well going entity,go-well,,New role,well-going-entity
+11799388833,well going beneficiary,go-well,,New role,well-going-beneficiary
+11799564624,settler,settle,,New role,settler
+11799565613,settling place,settle,,New role,settling-place
+11799693890,excited entity,get-excited,,New role,excited-entity
+11799757801,untrue entity,be-far-from-the-truth,,New role,untrue-entity
+12110833665,climb maker,make-climb,,New role,climb-maker
+12110839184,make climbing entity,make-climb,,New role,make-climbing-entity
+12110844444,make climbing goal,make-climb,,New role,make-climbing-goal
+12110976685,hurter,hurt,,New role,hurter
+12110978127,hurt locus,hurt,,New role,hurt-locus
+12111120575,name carrier,be-named,,New role,name-carrier
+12111126080,name (intr.),be-named,,New role,name-intr.
+12136944643,laugher (tr.),laugh-about,,New role,laugher-tr.
+12136948251,laughed-about thing (tr.),laugh-about,,New role,laughed-about-thing-tr.
+12137178242,sad person (about),be-sad-about,,New role,sad-person-about
+12137186410,sad about thing,be-sad-about,,New role,sad-about-thing
+12137307255,crying person,cry-about,,New role,crying-person
+12137308853,cryed about thing,cry-about,,New role,cryed-about-thing
+12153079380,coughing person,cough-at,,New role,coughing-person
+12153080980,coughed at entity,cough-at,,New role,coughed-at-entity
+12153196384,jumping person,jump-over,,New role,jumping-person
+12153200020,jumped over entity,jump-over,,New role,jumped-over-entity
+12739764489,bright entity,be-bright,,New role,bright-entity
+13335222800,causer of brightness,be-bright,,New role,causer-of-brightness
+13303942085,listener,listen,,New role,listener
+13303943261,listened to sound,listen,,New role,listened-to-sound
+13335384730,listening causer,listen,,New role,listening-causer
+15609470559,getting dressed person,get-dressed,S,New role,getting-dressed-person
+15609863407,get dressed causer,get-dressed,,New role,get-dressed-causer
+15609953866,shaver (of self),shave-self,,New role,shaver-of-self
+15609961246,shaving instrument (for self),shave-self,,New role,shaving-instrument-for-self
+15609963241,shave (self) causer,shave-self,,New role,shave-self-causer
+15609965449,shave (self) body part,shave-self,,New role,shave-self-body-part
