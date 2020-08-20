@@ -181,15 +181,6 @@ order by v.language_id, mv.meaning_id;"""
         morphemes_fix = {
             r'tande-mne brbr-äm y/ram\te': 'tande-mne brbr-äm y/ram_te',
         }
-        args.writer.cldf.add_component(
-            'ExampleTable',
-            'Example_Type',
-            {
-                "name": "Form_IDs",
-                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#formReference",
-                "separator": ";",
-            }
-        )
         ex2verb = {}
         for row in self.query("""\
 select e.id, group_concat(ev.verb_id, ' ') as vids
@@ -245,12 +236,22 @@ where e.id = ev.example_id group by e.id"""):
                 Name=row['name'],
                 Description=row['description'],
                 Language_ID=lmap[row['language_id']],
-                Alteration_Type=row['alternation_type'],
-                Coding_Frame_Text=row['coding_frames_text'],
+                Alternation_Type=row['alternation_type'],
+                Coding_Frames_Text=row['coding_frames_text'],
                 Complexity=row['complexity'],
             ))
 
     def create_schema(self, cldf):
+        cldf.add_component(
+            'ExampleTable',
+            'Example_Type',
+            {
+                "name": "Form_IDs",
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#formReference",
+                "separator": ";",
+            }
+        )
+
         cldf.add_table(
             'microroles.csv',
             'http://cldf.clld.org/v1.0/terms.rdf#id',
