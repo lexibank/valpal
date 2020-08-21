@@ -262,7 +262,6 @@ where e.id = ev.example_id group by e.id"""):
             arg_types[row['coding_frame_id']][row['index_number'] - 1] =\
                 row['argument_type']
 
-        # TODO add microroles
         for row in self.query('select * from coding_frames order by language_id, id'):
             arg_type_list = None
             if row['id'] in arg_types:
@@ -336,11 +335,6 @@ where e.id = ev.example_id group by e.id"""):
             'Derived',
             {
                 'name': 'Argument_Types',
-                'datatype': 'string',
-                'separator': ';',
-            },
-            {
-                'name': 'Microrole_IDs',
                 'datatype': 'string',
                 'separator': ';',
             },
