@@ -238,17 +238,6 @@ where e.id = ev.example_id group by e.id"""):
                     Language_ID=lang_id,
                 ))
 
-        for row in self.query("select * from alternations order by language_id, id"):
-            args.writer.objects['alternations.csv'].append(dict(
-                ID=row['id'],
-                Name=row['name'],
-                Description=row['description'],
-                Language_ID=lmap[row['language_id']],
-                Alternation_Type=row['alternation_type'],
-                Coding_Frames_Text=row['coding_frames_text'],
-                Complexity=row['complexity'],
-            ))
-
         arg_types = collections.defaultdict(dict)
         frame_codingsets = collections.defaultdict(dict)
         for row in self.query(
@@ -284,6 +273,29 @@ where e.id = ev.example_id group by e.id"""):
                 Coding_Set_IDs=coding_set_list,
             ))
 
+        for row in self.query("select * from alternations order by language_id, id"):
+            args.writer.objects['alternations.csv'].append(dict(
+                ID=row['id'],
+                Name=row['name'],
+                Description=row['description'],
+                Language_ID=lmap[row['language_id']],
+                Alternation_Type=row['alternation_type'],
+                Coding_Frames_Text=row['coding_frames_text'],
+                Complexity=row['complexity'],
+            ))
+
+        for row in self.query('select * from alternation_values order by verb_id, alternation_id, id'):
+            vid = int(row['verb_id'])
+            if vid in fmap and fmap[vid]:
+                args.writer.objects['alternation-values.csv'].append(dict(
+                    ID=row['id'],
+                    Form_ID=fmap[vid][0],
+                    Alternation_ID=row['alternation_id'],
+                    Alternation_Occurs=row['alternation_occurs'],
+                    Comment=row['comment'],
+                    Derived_Code_Frame_ID=row['derived_coding_frame_id'],
+                ))
+
     def create_schema(self, cldf):
         cldf.add_component(
             'ExampleTable',
@@ -316,16 +328,6 @@ where e.id = ev.example_id group by e.id"""):
             'http://cldf.clld.org/v1.0/terms.rdf#comment')
 
         cldf.add_table(
-            'alternations.csv',
-            'http://cldf.clld.org/v1.0/terms.rdf#id',
-            'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
-            'http://cldf.clld.org/v1.0/terms.rdf#name',
-            'http://cldf.clld.org/v1.0/terms.rdf#description',
-            'Alternation_Type',
-            'Coding_Frames_Text',
-            'Complexity')
-
-        cldf.add_table(
             'coding-frames.csv',
             'http://cldf.clld.org/v1.0/terms.rdf#id',
             'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
@@ -344,5 +346,25 @@ where e.id = ev.example_id group by e.id"""):
                 'separator': ';',
             })
 
-        cldf.add_foreign_key('coding-frames.csv', 'Microrole_IDs', 'microroles.csv', 'ID')
+        cldf.add_table(
+            'alternations.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
+            'http://cldf.clld.org/v1.0/terms.rdf#name',
+            'http://cldf.clld.org/v1.0/terms.rdf#description',
+            'Alternation_Type',
+            'Coding_Frames_Text',
+            'Complexity')
+
+        cldf.add_table(
+            'alternation-values.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'http://cldf.clld.org/v1.0/terms.rdf#formReference',
+            'Alternation_ID',
+            'Alternation_Occurs',
+            'http://cldf.clld.org/v1.0/terms.rdf#comment',
+            'Derived_Code_Frame_ID')
+
         cldf.add_foreign_key('coding-frames.csv', 'Coding_Set_IDs', 'coding-sets.csv', 'ID')
+        cldf.add_foreign_key('alternation-values.csv', 'Alternation_ID', 'alternations.csv', 'ID')
+        cldf.add_foreign_key('alternation-values.csv', 'Derived_Code_Frame_ID', 'coding-frames.csv', 'ID')
