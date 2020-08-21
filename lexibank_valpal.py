@@ -249,8 +249,23 @@ where e.id = ev.example_id group by e.id"""):
                 Complexity=row['complexity'],
             ))
 
-        # TODO add argument types, microroles, and coding sets
+        arg_types = collections.defaultdict(dict)
+        for row in self.query(
+            'select coding_frame_id,index_number,argument_type'
+            '  from coding_frame_index_numbers join argument_types'
+            '  on argument_type_id = argument_types.id'
+            '  order by coding_frame_id, index_number'
+        ):
+            arg_types[row['coding_frame_id']][row['index_number'] - 1] =\
+                row['argument_type']
+
+        # TODO add microroles and coding sets
         for row in self.query('select * from coding_frames order by language_id, id'):
+            arg_type_list = None
+            if row['id'] in arg_types:
+                arg_type_list = [
+                    arg_types[row['id']].get(i) or ''
+                    for i in range(max(arg_types[row['id']]))]
             args.writer.objects['coding-frames.csv'].append(dict(
                 ID=row['id'],
                 Language_ID=lmap[row['language_id']],
@@ -258,6 +273,7 @@ where e.id = ev.example_id group by e.id"""):
                 Description=row['description'],
                 Comment=row['comment'],
                 Derived=row['derived'],
+                Argument_Types=arg_type_list,
             ))
 
     def create_schema(self, cldf):
