@@ -33,6 +33,10 @@ class CustomLanguage(Language):
     Comment = attr.ib(default=None)
 
 
+def example_id(row):
+    return 
+
+
 class Dataset(pylexibank.Dataset):
     dir = pathlib.Path(__file__).parent
     id = "valpal"
@@ -284,6 +288,16 @@ where e.id = ev.example_id group by e.id"""):
                 Complexity=row['complexity'],
             ))
 
+        av_examples = collections.defaultdict(list)
+        for row in self.query(
+            'select alternation_value_id, language_id, number'
+            '  from alternation_values_examples as ve'
+            '  join examples on ve.example_id = examples.id'
+            '  order by alternation_value_id, language_id, number'
+        ):
+            av_examples[row['alternation_value_id']].append(
+                '{0}-{1}'.format(lmap[row['language_id']], row['number']))
+
         for row in self.query('select * from alternation_values order by verb_id, alternation_id, id'):
             vid = int(row['verb_id'])
             if vid in fmap and fmap[vid]:
@@ -294,6 +308,7 @@ where e.id = ev.example_id group by e.id"""):
                     Alternation_Occurs=row['alternation_occurs'],
                     Comment=row['comment'],
                     Derived_Code_Frame_ID=row['derived_coding_frame_id'],
+                    Example_IDs=av_examples.get(row['id']),
                 ))
 
     def create_schema(self, cldf):
@@ -363,7 +378,12 @@ where e.id = ev.example_id group by e.id"""):
             'Alternation_ID',
             'Alternation_Occurs',
             'http://cldf.clld.org/v1.0/terms.rdf#comment',
-            'Derived_Code_Frame_ID')
+            'Derived_Code_Frame_ID',
+            {
+                'name': 'Example_IDs',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#exampleReference',
+                'separator': ';',
+            })
 
         cldf.add_foreign_key('coding-frames.csv', 'Coding_Set_IDs', 'coding-sets.csv', 'ID')
         cldf.add_foreign_key('alternation-values.csv', 'Alternation_ID', 'alternations.csv', 'ID')
