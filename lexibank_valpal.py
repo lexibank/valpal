@@ -205,7 +205,9 @@ where e.id = ev.example_id group by e.id"""):
             source = row.get('reference_id')
             if source and source in all_sources:
                 ref_pages = row.get('reference_pages') or ''
-                if re.match(r'\s*\d+([-–]+\d+)?\s*$', ref_pages):
+                # occasionally, `reference_pages` seems to contain stuff other
+                # than page numbers -- try to ignore that..
+                if re.fullmatch(r'\s*\d+([-–]+\d+)?\s*', ref_pages):
                     return ['{}[{}]'.format(source, ref_pages)]
                 else:
                     return [str(source)]
@@ -228,6 +230,9 @@ where e.id = ev.example_id group by e.id"""):
                 Gloss=row['gloss'].split(),
                 Translated_Text=row['translation'],
                 Comment=row['comment'],
+                Original_Orthography=row['original_orthography'],
+                Translation_Other=row['translation_other'],
+                Number=row['number'],
                 Example_Type=row['example_type'],
                 Source=get_source(row),
                 Form_IDs=sorted(ex2verb.get(row['id'], [])),
@@ -346,6 +351,12 @@ where e.id = ev.example_id group by e.id"""):
     def create_schema(self, cldf):
         cldf.add_component(
             'ExampleTable',
+            'Original_Orthography',
+            'Translation_Other',
+            {
+                'name': 'Number',
+                'datatype': 'integer',
+            },
             'Example_Type',
             'http://cldf.clld.org/v1.0/terms.rdf#source',
             {
