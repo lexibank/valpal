@@ -1,4 +1,5 @@
 import pathlib
+import re
 import sqlite3
 import itertools
 import contextlib
@@ -200,6 +201,17 @@ where e.id = ev.example_id group by e.id"""):
         def example_id(row):
             return '{0}-{1}'.format(lmap[row['language_id']], row['number'])
 
+        def get_source(row):
+            source = row.get('reference_id')
+            if source and source in all_sources:
+                ref_pages = row.get('reference_pages') or ''
+                if re.match(r'\s*\d+([-–]+\d+)?\s*$', ref_pages):
+                    return ['{}[{}]'.format(source, ref_pages)]
+                else:
+                    return [str(source)]
+            else:
+                return None
+
         maxnum = {}
         for row in self.query("select * from examples order by language_id, number desc"):
             if row['language_id'] not in maxnum:
@@ -208,9 +220,6 @@ where e.id = ev.example_id group by e.id"""):
                 row['number'] = maxnum[row['language_id']] = maxnum[row['language_id']] + 1
             row['gloss'] = gloss_fix.get(row['gloss'], row['gloss'])
             row['analyzed_text'] = morphemes_fix.get(row['analyzed_text'], row['analyzed_text'])
-            source = None
-            if row.get('reference_id') and row.get('reference_id') in all_sources:
-                source = [str(row['reference_id'])]
             args.writer.objects['ExampleTable'].append(dict(
                 ID=example_id(row),
                 Language_ID=lmap[row['language_id']],
@@ -220,7 +229,7 @@ where e.id = ev.example_id group by e.id"""):
                 Translated_Text=row['translation'],
                 Comment=row['comment'],
                 Example_Type=row['example_type'],
-                Source=source,
+                Source=get_source(row),
                 Form_IDs=sorted(ex2verb.get(row['id'], [])),
             ))
 
