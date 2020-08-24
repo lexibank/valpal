@@ -33,10 +33,6 @@ class CustomLanguage(Language):
     Comment = attr.ib(default=None)
 
 
-def example_id(row):
-    return 
-
-
 class Dataset(pylexibank.Dataset):
     dir = pathlib.Path(__file__).parent
     id = "valpal"
@@ -198,6 +194,9 @@ where e.id = ev.example_id group by e.id"""):
             for vid in set(row['vids'].split()):
                 ex2verb[row['id']].extend(fmap[int(vid)])
 
+        def example_id(row):
+            return '{0}-{1}'.format(lmap[row['language_id']], row['number'])
+
         maxnum = {}
         for row in self.query("select * from examples order by language_id, number desc"):
             if row['language_id'] not in maxnum:
@@ -210,7 +209,7 @@ where e.id = ev.example_id group by e.id"""):
             if row.get('reference_id') and row.get('reference_id') in all_sources:
                 source = [str(row['reference_id'])]
             args.writer.objects['ExampleTable'].append(dict(
-                ID='{0}-{1}'.format(lmap[row['language_id']], row['number']),
+                ID=example_id(row),
                 Language_ID=lmap[row['language_id']],
                 Primary_Text=row['primary_text'],
                 Analyzed_Word=row['analyzed_text'].split(),
@@ -277,6 +276,28 @@ where e.id = ev.example_id group by e.id"""):
                 Coding_Set_IDs=coding_set_list,
             ))
 
+        cf_examples = collections.OrderedDict()
+        for row in self.query(
+            'select verb_id,coding_frame_id,language_id,number'
+            '  from coding_frame_examples'
+            '  join examples on example_id = examples.id'
+        ):
+            verb_id = fmap.get(row['verb_id'])
+            if verb_id:
+                key = (verb_id[0], row['coding_frame_id'])
+                if key not in cf_examples:
+                    cf_examples[key] = []
+                cf_examples[key].append(example_id(row))
+
+        args.writer.objects['coding-frame-examples.csv'] = [
+            {
+                'ID': str(index + 1),
+                'Form_ID': verb_id,
+                'Coding_Frame_ID': cf_id,
+                'Example_IDs': ex_ids,
+            }
+            for (index, ((verb_id, cf_id), ex_ids)) in enumerate(cf_examples.items())]
+
         for row in self.query("select * from alternations order by language_id, id"):
             args.writer.objects['alternations.csv'].append(dict(
                 ID=row['id'],
@@ -295,8 +316,7 @@ where e.id = ev.example_id group by e.id"""):
             '  join examples on ve.example_id = examples.id'
             '  order by alternation_value_id, language_id, number'
         ):
-            av_examples[row['alternation_value_id']].append(
-                '{0}-{1}'.format(lmap[row['language_id']], row['number']))
+            av_examples[row['alternation_value_id']].append(example_id(row))
 
         for row in self.query('select * from alternation_values order by verb_id, alternation_id, id'):
             vid = int(row['verb_id'])
@@ -362,6 +382,17 @@ where e.id = ev.example_id group by e.id"""):
             })
 
         cldf.add_table(
+            'coding-frame-examples.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'http://cldf.clld.org/v1.0/terms.rdf#formReference',
+            'Coding_Frame_ID',
+            {
+                'name': 'Example_IDs',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#exampleReference',
+                'separator': ';',
+            })
+
+        cldf.add_table(
             'alternations.csv',
             'http://cldf.clld.org/v1.0/terms.rdf#id',
             'http://cldf.clld.org/v1.0/terms.rdf#languageReference',
@@ -386,5 +417,6 @@ where e.id = ev.example_id group by e.id"""):
             })
 
         cldf.add_foreign_key('coding-frames.csv', 'Coding_Set_IDs', 'coding-sets.csv', 'ID')
+        cldf.add_foreign_key('coding-frame-examples.csv', 'Coding_Frame_ID', 'coding-frames.csv', 'ID')
         cldf.add_foreign_key('alternation-values.csv', 'Alternation_ID', 'alternations.csv', 'ID')
         cldf.add_foreign_key('alternation-values.csv', 'Derived_Code_Frame_ID', 'coding-frames.csv', 'ID')
