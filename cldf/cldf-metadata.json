@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "git@github.com:lexibank/valpal",
-            "dc:created": "dcf7ab5"
+            "dc:created": "22860ab"
         },
         {
             "rdf:type": "prov:Entity",
@@ -138,6 +138,10 @@
                     {
                         "datatype": "string",
                         "name": "simplex_or_complex"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Basic_Coding_Frame_ID"
                     }
                 ],
                 "foreignKeys": [
@@ -158,6 +162,17 @@
                         ],
                         "reference": {
                             "resource": "parameters.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Basic_Coding_Frame_ID"
+                        ],
+                        "reference": {
+                            "resource": "coding-frames.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -356,6 +371,18 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "Original_Orthography"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Translation_Other"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Number"
+                    },
+                    {
+                        "datatype": "string",
                         "name": "Example_Type"
                     },
                     {
@@ -513,6 +540,150 @@
             "url": "coding-sets.csv"
         },
         {
+            "dc:extent": 1204,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "name": "Language_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Coding_Frame_Schema"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "name": "Description"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                        "name": "Comment"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Derived"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": ";",
+                        "name": "Argument_Types"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": ";",
+                        "name": "Coding_Set_IDs"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Coding_Set_IDs"
+                        ],
+                        "reference": {
+                            "resource": "coding-sets.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "coding-frames.csv"
+        },
+        {
+            "dc:extent": 3377,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#formReference",
+                        "name": "Form_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Coding_Frame_ID"
+                    },
+                    {
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#exampleReference",
+                        "separator": ";",
+                        "name": "Example_IDs"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Form_ID"
+                        ],
+                        "reference": {
+                            "resource": "forms.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Example_IDs"
+                        ],
+                        "reference": {
+                            "resource": "examples.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Coding_Frame_ID"
+                        ],
+                        "reference": {
+                            "resource": "coding-frames.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "coding-frame-examples.csv"
+        },
+        {
             "dc:extent": 483,
             "tableSchema": {
                 "columns": [
@@ -572,7 +743,7 @@
             "url": "alternations.csv"
         },
         {
-            "dc:extent": 1204,
+            "dc:extent": 46137,
             "tableSchema": {
                 "columns": [
                     {
@@ -585,17 +756,16 @@
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
-                        "name": "Language_ID"
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#formReference",
+                        "name": "Form_ID"
                     },
                     {
                         "datatype": "string",
-                        "name": "Coding_Frame_Schema"
+                        "name": "Alternation_ID"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
-                        "name": "Description"
+                        "name": "Alternation_Occurs"
                     },
                     {
                         "datatype": "string",
@@ -604,31 +774,21 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Derived"
+                        "name": "Derived_Code_Frame_ID"
                     },
                     {
-                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#exampleReference",
                         "separator": ";",
-                        "name": "Argument_Types"
-                    },
-                    {
-                        "datatype": "string",
-                        "separator": ";",
-                        "name": "Microrole_IDs"
-                    },
-                    {
-                        "datatype": "string",
-                        "separator": ";",
-                        "name": "Coding_Set_IDs"
+                        "name": "Example_IDs"
                     }
                 ],
                 "foreignKeys": [
                     {
                         "columnReference": [
-                            "Language_ID"
+                            "Form_ID"
                         ],
                         "reference": {
-                            "resource": "languages.csv",
+                            "resource": "forms.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -636,10 +796,10 @@
                     },
                     {
                         "columnReference": [
-                            "Microrole_IDs"
+                            "Example_IDs"
                         ],
                         "reference": {
-                            "resource": "microroles.csv",
+                            "resource": "examples.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -647,10 +807,21 @@
                     },
                     {
                         "columnReference": [
-                            "Coding_Set_IDs"
+                            "Alternation_ID"
                         ],
                         "reference": {
-                            "resource": "coding-sets.csv",
+                            "resource": "alternations.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Derived_Code_Frame_ID"
+                        ],
+                        "reference": {
+                            "resource": "coding-frames.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -661,7 +832,7 @@
                     "ID"
                 ]
             },
-            "url": "coding-frames.csv"
+            "url": "alternation-values.csv"
         }
     ]
 }

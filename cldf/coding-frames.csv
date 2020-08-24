@@ -1,1205 +1,1205 @@
-ID,Language_ID,Coding_Frame_Schema,Description,Comment,Derived,Argument_Types,Microrole_IDs,Coding_Set_IDs
-4867893054,even1260,1-nom 2-acc 3-abl V.subj[1],,,Basic,,,
-4867943104,even1260,1-nom V.subj[1],,,Basic,,,
-4867975791,even1260,1-nom 2-all V.subj[1],,,Basic,,,
-4867985804,even1260,1-nom 2-acc 3-dat V.subj[1],,,Basic,,,
-4868002621,even1260,1-nom 2-acc 3-instr V.subj[1],,,Basic,,,
-4868060585,even1260,1-nom 2-acc V.subj[1],,,Basic,,,
-4868175860,even1260,1-nom 2-acc 3-loc V.subj[1],,,Basic,,,
-4868320170,even1260,1-nom 2-instr V.subj[1],,,Basic,,,
-4868463105,even1260,1-nom 2-loc V.subj[1],,,Basic,,,
-4868856329,even1260,1-nom 2-abl V.subj[1],,,Basic,,,
-4869819450,even1260,1-nom 2-all 3-prol V.subj[1],,,Basic,,,
-4869892183,even1260,1-nom 2-acc 3-all V.subj[1],,,Basic,,,
-5234890587,even1260,1-gen 2-nom V.subj[2],,,Basic,,,
-7980937751,even1260,1&2-nom recV'.subj[1&2],,,Derived,,,
-7981097438,even1260,2-nom medV'.subj[2],,,Derived,,,
-7981266393,even1260,2-nom 1-dat advV'.subj[2],,,Derived,,,
-7981371512,even1260,1-nom V'.subj[1],,,Derived,,,
-7981423947,even1260,1-nom 2-com V'.subj[1],,,Derived,,,
-7981506985,even1260,1-nom resV'.subj[1],,,Derived,,,
-7981525570,even1260,2-nom resV'.subj[2],,,Derived,,,
-8620399287,even1260,1&3-nom 2-acc recV'.subj[1&3],,,Derived,,,
-8620469029,even1260,1&2-nom 3-instr recV'.subj[1&2],,,Derived,,,
-8620620888,even1260,2-nom 3-abl medV'.subj[2],,,Derived,,,
-8620744094,even1260,1&3-nom 2-all V'.subj[1&3],,,Derived,,,
-8620807411,even1260,2-nom 3-all medV'.subj[2],,,Derived,,,
-8620809937,even1260,2-nom 3-dat medV'.subj[2],,,Derived,,,
-8620812867,even1260,2-nom 3-instr medV'.subj[2],,,Derived,,,
-8620816801,even1260,2-nom 3-loc medV'.subj[2],,,Derived,,,
-8620837691,even1260,2-nom 1-dat 3-abl advV'.subj[2],,,Derived,,,
-8620843459,even1260,2-nom 1-dat 3-instr advV'.subj[2],,,Derived,,,
-8620846154,even1260,2-nom 1-dat 3-loc advV'.subj[2],,,Derived,,,
-8620852635,even1260,2-nom 3-abl resV'.subj[2],,,Derived,,,
-8620857288,even1260,2-nom 3-instr resV'.subj[2],,,Derived,,,
-8620860570,even1260,2-nom 3-loc resV'.subj[2],,,Derived,,,
-8620862951,even1260,1-nom 2-loc resV'.subj[1],,,Derived,,,
-8654689090,even1260,1&2-nom 3-abl recV'.subj[1&2],,,Derived,,,
-8654702359,even1260,1&2-nom 3-loc recV'.subj[1&2],,,Derived,,,
-8655169809,even1260,1&3-nom 2-all recV'.subj[1&3],,,Derived,,,
-2710206975,stan1295,1-nom V.subj[1] 2-acc,,,Basic,,,
-2891289685,stan1295,1-nom V.subj[1] nach+2-dat,"<SPAN STYLE= """" >The verb needs the prepositional object; </SPAN><SPAN STYLE= ""font-style:italic;"" >nach </SPAN><SPAN STYLE= """" >introduces the object being the &quot;aim of doing something&quot;.<BR>(</SPAN><SPAN STYLE= ""font-style:italic;"" >nach Gl&uuml;ck streben, nach Aufmerksamkeit verlangen</SPAN><SPAN STYLE= """" >)</SPAN>",,Basic,,,
-2960315448,stan1295,1-nom V.subj[1] vor+2-dat,"<SPAN STYLE= """" >The verb needs a subject and a prepositional object which is introduced by the preposition </SPAN><SPAN STYLE= ""font-style:italic;"" >vor.</SPAN>",,Basic,,,
-2960392624,stan1295,1-nom V.subj[1] (2-acc) um+3-acc,,,Basic,,,
-2960409349,stan1295,1-nom V.subj[1] 2-acc 3-acc,,,Basic,,,
-3064622350,stan1295,1-nom V.subj[1] an+2-acc,,,Basic,,,
-3583778286,stan1295,1-nom V.subj[1] 2-acc aus+3-dat,,,Basic,,,
-8196509400,stan1295,1-nom V.subj[1],,,Basic,,,
-8264294048,stan1295,1-nom V.subj[1] 2-dat 3-acc,,,Basic,,,
-8264294052,stan1295,1-nom V.subj[1] 2-acc auf+3-acc,,,Basic,,,
-8264294055,stan1295,1-nom V.subj[1] mit+2-dat,"<SPAN STYLE= ""font-family: 'Arial';"" >The verb needs apart from subject two prepositional objects: the first one has to be introduced by </SPAN><SPAN STYLE= ""font-family: 'Arial';font-style:italic;"" >mit</SPAN><SPAN STYLE= ""font-family: 'Arial';"" >, the second one by </SPAN><SPAN STYLE= ""font-family: 'Arial';font-style:italic;"" >&uuml;ber.</SPAN>",,Basic,,,
-8264294087,stan1295,1-dat V.subj[2] 2-nom,"<SPAN STYLE= """" >The Experiencer gets the first position in the syntax. The verb is congruent with X.  </SPAN>",,Basic,,,
-8413570789,stan1295,1-nom V.subj[1] 2-dat,"<SPAN STYLE= """" >The verb needs a dative object, which is generally human. </SPAN>",,Basic,,,
-8628483606,stan1295,1-nom V.subj[1] 2-acc LOC3,,,Basic,,,
-8628677223,stan1295,1-nom V.subj[1] LOC2,,,Basic,,,
-8637238044,stan1295,1-dat V,"<SPAN STYLE= """" >exceptional frame for sentences in which the original place holding subject (</SPAN><SPAN STYLE= ""font-style:italic;"" >es</SPAN><SPAN STYLE= """" >) is omitted and the dative object gets the first position in the syntax</SPAN>",,Basic,,,
-9208302212,stan1295,1-nom V'.subj[1] 3-dat 2-acc,,,Derived,,,
-9258692481,stan1295,1-nom V'.subj[1] 4-dat 2-acc auf+3-acc,,,Derived,,,
-9258770854,stan1295,1-nom V'.subj[1] 4-dat 2-acc LOC3,,,Derived,,,
-9259077111,stan1295,1-nom V'.subj[1] 2-acc,,,Derived,,,
-9259084860,stan1295,1-nom V'.subj[1] 3-acc LOC2,,,Derived,,,
-9259177676,stan1295,1-nom V'.subj[1],,,Derived,,,
-9259627224,stan1295,1/2-nom recV'.subj[1/2],,,Derived,,,
-9259845521,stan1295,1/2-nom recV'.subj[1/2] um+3-acc,,,Derived,,,
-9259900172,stan1295,1/2-nom recV'.subj[1/2] 3-acc,,,Derived,,,
-9259915762,stan1295,1/2-nom recV'.subj[1/2] LOC3,,,Derived,,,
-9260063862,stan1295,1-nom V'.subj[1] 3-acc (prep+2-case),,,Derived,,,
-9260147251,stan1295,1-nom beV'.subj[1] 3-acc (mit+2-dat),,,Derived,,,
-9268320672,stan1295,1-nom erV'.subj[1] 3-acc (von+2-dat),,,Derived,,,
-9268381240,stan1295,2-nom V'.subj[2],,,Derived,,,
-9268518020,stan1295,4-nom V'.subj[4] 2-acc,,,Derived,,,
-9268724202,stan1295,1-nom beV'.subj[1] 2-acc,,,Derived,,,
-9268768039,stan1295,1-nom beV'.subj[1] 4-acc mit+2-dat,,,Derived,,,
-9268861843,stan1295,1-nom V.subj[1] 2-acc mit+3-dat,,,Basic,,,
-9269036499,stan1295,2-nom passV'.subj[2] (von+1-dat),,,Derived,,,
-9269104983,stan1295,2-nom passV'.subj[2] (von+1-dat) 3-nom,,,Derived,,,
-9269131914,stan1295,2-nom passV'.subj[2] (von+1-dat) LOC3,,,Derived,,,
-9269246394,stan1295,2-nom passV'.subj[2] (von+1-dat) mit+3-dat,,,Derived,,,
-9269278536,stan1295,x-nom passV'.subj[x] 2-dat (von+1-dat),,,Derived,,,
-9317793032,stan1295,1-nom verV'.subj[1] 2-acc,,,Derived,,,
-9317812932,stan1295,1-nom verV'.subj[1] 3-acc,,,Derived,,,
-9379254034,stan1295,x-nom passV'.subj[x] (nach+2-dat),,,Derived,,,
-9500057942,stan1295,3-nom V'.subj[3] 2-acc,,,Derived,,,
-9500290868,stan1295,1-nom V'.subj[1] 4-dat 2-acc mit+3-acc,,,Derived,,,
-9500616129,stan1295,x-nom passV'.subj[x],,,Derived,,,
-9500718840,stan1295,2-nom passV'.subj[2] (von+1-dat) um+3-acc,,,Derived,,,
-9500837751,stan1295,3-nom passV'.subj[3] 2-dat (von+1-dat),,,Derived,,,
-9501011267,stan1295,x-nom passV'.subj[x] an+2-acc,,,Derived,,,
-9501061653,stan1295,x-nom passV'.subj[x] mit+2-dat,,,Derived,,,
-9510509308,stan1295,1/2-nom V'.subj[1/2] sich[1/2],,,Derived,,,
-9510577136,stan1295,1/2-nom V'.subj[1/2] sich[1/2] 3-acc,,,Derived,,,
-9510587960,stan1295,1/2-nom V'.subj[1/2] sich[1/2] 2-dat,,,Derived,,,
-9510598524,stan1295,1/2-nom V'.subj[1/2] sich[1/2] LOC3,,,Derived,,,
-10485425589,stan1295,V,,,Basic,,,
-12188062819,stan1295,1-nom V.subj[1] 2-acc vor+3-dat,,,Basic,,,
-12222894209,stan1295,x-nom passV'.subj[x] 2-nom,,,Derived,,,
-12275228306,stan1295,1-nom V.subj[1] 2-acc (zu+3-dat),,,Basic,,,
-6406943077,russ1263,1-nom V.subj[1] 2-acc (3-instr),,,Basic,,,
-6407016531,russ1263,1-nom V.subj[1] 2-acc (ot+3-gen),,,Basic,,,
-6778441411,russ1263,1-nom V.subj[1] 2-acc k+3-dat (4-instr),,,Basic,,,
-6780090770,russ1263,1-nom V.subj[1] 2-acc LOC3,"<SPAN STYLE= """" >In this coding frame the Locative argument is introduced by a locative preposition which can govern different cases (dependent on the preposition choice). Alternatively it can be expressed by a locative adverb. The present representation generalizes across different prepositions (and different cases of the nouns governed by the prepositions). </SPAN>",,Basic,,,
-6812858072,russ1263,1-nom V.subj[1] 2-acc 3-dat,,,Basic,,,
-6812861910,russ1263,1-nom V.subj[1] 2-acc (u+3-gen),,,Basic,,,
-6812888901,russ1263,1-nom V.subj[1] 2-acc,,,Basic,,,
-6813334717,russ1263,1-nom V.subj[1] 2-gen (3-instr),,,Basic,,,
-6813911949,russ1263,1-nom V.subj[1] 2-acc (iz+3-gen),,,Basic,,,
-6813951050,russ1263,1-nom V.subj[1] 2-dat UTT3,,UTT is for utterance,Basic,,,
-6813959416,russ1263,1-nom V.subj[1] na+2-acc,,,Basic,,,
-6813992101,russ1263,1-nom V.subj[1] 2-dat,,,Basic,,,
-6813995678,russ1263,1-nom V.subj[1] za+2-instr,,,Basic,,,
-6814010603,russ1263,1-nom V.subj[1] 2-acc (v+3-acc),,,Basic,,,
-6814012850,russ1263,1-nom V.subj[1],,,Basic,,,
-6814020142,russ1263,1-nom V.subj[1] (LOC2),,,Basic,,,
-6814044817,russ1263,1-nom V.subj[1] (iz/ot 2-gen),,,Basic,,,
-6814056290,russ1263,1-nom V.subj[1] u+2-gen,,,Basic,,,
-6814266730,russ1263,1-nom V.subj[1] (na+2-loc),,"The Russian ""prepositional"" case is abbreviated loc (locative), following Timberlake (2004).",Basic,,,
-6814270929,russ1263,1-nom V.subj[1] (v+2-acc),,,Basic,,,
-6814574334,russ1263,1-nom V.subj[1] o+2-LOC,,"The Russian ""prepositional"" case is abbreviated loc (locative), following Timberlake (2004).",Basic,,,
-6820484926,russ1263,1-nom V.subj[1] 2-acc (LOC3),,,Basic,,,
-6820489264,russ1263,1-nom V.subj[1] 2-acc (3-dat),"<SPAN STYLE= """" >3 is the thing or skill taught. It can also be an infinitive like </SPAN><SPAN STYLE= ""font-style:italic;"" >plavat'</SPAN><SPAN STYLE= """" >  &lsquo;to swim&rsquo;</SPAN>",,Basic,,,
-7115580522,russ1263,1-nom V.subj[1] 2-acc s+3-gen,,,Basic,,,
-7669109464,russ1263,3-nom V'.subj[3] 2-acc,,,Derived,,,
-7669168484,russ1263,1-nom V'.subj[1] 2-acc,,,Derived,,,
-7669306996,russ1263,1-nom obV'.subj[1] 3-acc (4-instr),,,Derived,,,
-7669371048,russ1263,1-nom zaV'.subj[1] 3-acc 2-instr,,,Derived,,,
-7719099625,russ1263,3-nom V'.subj[3] 2-gen,,,Derived,,,
-7719749278,russ1263,1-nom obV'.subj[1] 3-acc,,,Derived,,,
-7719836077,russ1263,1-nom V'sja.subj[1] (3-instr),,,Derived,,,
-7719848430,russ1263,1-nom V'sja.subj[1],,,Derived,,,
-7719854726,russ1263,1-nom V'sja.subj[1] (v+3-acc),,,Derived,,,
-7719860852,russ1263,1-nom V'sja.subj[1] (ot+3-gen),,,Derived,,,
-7720014638,russ1263,2-nom V'sja.subj[2],,,Derived,,,
-7720025451,russ1263,2-nom V'sja.subj[2] LOC3,,,Derived,,,
-7720030906,russ1263,2-nom V'sja.subj[2] (3-instr),,,Derived,,,
-7720034206,russ1263,2-nom V'sja.subj[2] (ot+3-gen),,,Derived,,,
-7720205392,russ1263,2-nom passV'.subj[2] (1-instr),,,Derived,,,
-7720219275,russ1263,2-nom passV'.subj[2] s+3-gen (1-instr),,,Derived,,,
-7720228376,russ1263,2-nom passV'.subj[2] LOC3 (1-instr),,,Derived,,,
-7720235561,russ1263,2-nom passV'.subj[2] 3-dat (1-instr),,,Derived,,,
-7720243231,russ1263,2-nom passV'.subj[2] (v+3-acc) (1-instr),,,Derived,,,
-7720249044,russ1263,2-nom passV'.subj[2] (u+3-gen) (1-instr),,,Derived,,,
-7720267361,russ1263,2-nom passV'.subj[2] (ot+3-gen) (1-instr),,,Derived,,,
-7720275192,russ1263,2-nom passV'.subj[2] (LOC3) (1-instr),,,Derived,,,
-7720297548,russ1263,2-nom passV'.subj[2] (iz+3-gen) (1-instr),,,Derived,,,
-7720506204,russ1263,1-nom V'.subj[1] s+2-instr,,,Derived,,,
-7720566817,russ1263,1-nom V'sja.subj[1],,,Derived,,,
-7720621339,russ1263,1-nom V'.subj[1],,,Derived,,,
-7720628965,russ1263,1-nom V'.subj[1] (3-instr),,,Derived,,,
-7721547569,russ1263,1-nom V'.subj[1] 3-acc,,,Derived,,,
-7728251358,russ1263,1-nom V'.subj[1] 2-gen,,,Derived,,,
-7729941662,russ1263,(1-dat) V'sja.subj,"<SPAN STYLE= """" >The coding frame is derived by means of the Reflexive Middle from an intransitive verb. The original actor optionally appears as a dative argument here, while the verb agrees with an (implicit, not overt) 3rd person singular neuter expletive subject (analogous to English </SPAN><SPAN STYLE= ""font-style:italic;"" >it</SPAN><SPAN STYLE= """" >).</SPAN>",,Derived,,,
-7865359317,russ1263,2-nom V'sja.subj[2] s+3-gen (1-instr),,,Derived,,,
-7865369383,russ1263,2-nom V'sja.subj[2] LOC3 (1-instr),,,Derived,,,
-7865376822,russ1263,2-nom V'sja.subj[2] 3-dat (1-instr),,,Derived,,,
-7865382912,russ1263,2-nom V'sja.subj[2] u+3-gen (1-instr),,,Derived,,,
-7865389114,russ1263,2-nom V'sja.subj[2] iz+3-gen (1-instr),,,Derived,,,
-7865393911,russ1263,2-nom V'sja.subj[2] (3-instr)/(1-instr),"<SPAN STYLE= """" >The agent argument of the basic coding frame can only appear in the Instrumental case if no instrument is present.</SPAN>",,Derived,,,
-8074159241,russ1263,1-nom negV'.subj[1] 2-gen,,,Derived,,,
-8074167870,russ1263,1-nom negV'.subj[1] 2-gen (3-instr),,,Derived,,,
-8074174351,russ1263,1-nom negV'.subj[1] 2-gen (iz+3-gen),,,Derived,,,
-8074177215,russ1263,1-nom negV'.subj[1] 2-gen (ot+3-gen),,,Derived,,,
-8074180659,russ1263,1-nom negV'.subj[1] 2-gen (u+3-gen),,,Derived,,,
-8074186714,russ1263,1-nom negV'.subj[1] 2-gen (v+3-acc),,,Derived,,,
-8074191272,russ1263,1-nom negV'.subj[1] 2-gen 3-dat,,,Derived,,,
-8074197262,russ1263,1-nom negV'.subj[1] 2-gen k+3-dat (4-instr),,,Derived,,,
-8074201436,russ1263,1-nom negV'.subj[1] 2-gen LOC3,,,Derived,,,
-8074206233,russ1263,1-nom negV'.subj[1] 2-gen s+3-gen,,,Derived,,,
-8074410924,russ1263,2-nom passV'.subj[2] (3-instr)/(1-instr),,,Derived,,,
-8074425776,russ1263,2-nom passV'.subj[2] k+3-dat (4-instr)/(1-instr),"<SPAN STYLE= """" >The agent argument of the basic coding frame can only appear in the Instrumental case if no instrument is present.</SPAN>",,Derived,,,
-10017602867,russ1263,N/A,,,Basic,,,
-11401425461,russ1263,V,,,Basic,,,
-13190845801,russ1263,2-nom V'sja.subj[2] (1-instr),,,Derived,,,
-13190855195,russ1263,2-nom V'sja.subj[2] (ot+3-gen) (1-instr),,,Derived,,,
-13191038680,russ1263,2-nom V'sja.subj[2] 3-dat,,,Derived,,,
-13191051634,russ1263,1-nom V'sja.subj[1] (3-dat),,,Derived,,,
-13293480754,russ1263,1-nom V'.subj[1] 3-acc (LOC2),,,Derived,,,
-4237270435,hoch1243,1 2 und[2].act[1].V,,,Basic,,,
-4238251136,hoch1243,1 act[1].V,,,Basic,,,
-6354922871,hoch1243,1 2 (3) und[2].act[1].V,,,Basic,,,
-6354998385,hoch1243,1 2 (LOC3) und[2].act[1].V,,,Basic,,,
-6355294063,hoch1243,1 und[1].V,,,Basic,,,
-6355463487,hoch1243,1 UTT2 act[1].V,,,Basic,,,
-6355572301,hoch1243,1 LOC2 act[1].V,,,Basic,,,
-6355886920,hoch1243,V,,,Basic,,,
-6883346751,hoch1243,N/A,,,Basic,,,
-7374704735,hoch1243,1 2 3 und[3].und[2].act[1].V,,,Basic,,,
-7374867684,hoch1243,2 1 und[1].act[2].V'caus,,,Derived,,,
-7375733366,hoch1243,4 1 2 3 und[3].und[2].und[1].act[4].V'caus,,,Derived,,,
-7375771884,hoch1243,6 1 2 und[2].und[1].act[6].V'caus,,,Derived,,,
-7375805159,hoch1243,1 2 4 und[4].und[2].act[1].V'ben,,,Derived,,,
-7418121311,hoch1243,1 2 5 und[5].und[2].act[1].V'inst,,,Derived,,,
-7615490643,hoch1243,1 3 UTT2 und[3].act[1].V'ben,,,Derived,,,
-7615504669,hoch1243,1 2 4 (LOC3) und[4].und[2].act[1].V'ben,,,Derived,,,
-7615733421,hoch1243,1 2 (3) 4 und[4].und[2].act[1].V'ben,,,Derived,,,
-7617567142,hoch1243,1 3 und[3].act[1].V'ben,,,Derived,,,
-7650316526,hoch1243,1 4 und[4].act[1].V'inst,,,Derived,,,
-7650566817,hoch1243,1 4 und[4].und[1].V'inst,,,Derived,,,
-7650588658,hoch1243,1 2 5 (LOC3) und[5].und[2].act[1].V'inst,,,Derived,,,
-7650763418,hoch1243,6 1 2 (3) und[2].und[1].act[6].V'caus,,,Derived,,,
-7650766286,hoch1243,6 1 2 (LOC3) und[2].und[1].act[6].V'caus,,,Derived,,,
-7651281536,hoch1243,1 act[1].V'caus,,,Derived,,,
-7669512232,hoch1243,4 1 UTT2 und[1].act[4].V'caus,,,Derived,,,
-7669548780,hoch1243,3 1 LOC2 und[1].act[3].V'caus,,,Derived,,,
-7669569560,hoch1243,2 und[2].V're,,,Derived,,,
-7669575928,hoch1243,2 (LOC3) und[2].V're,,,Derived,,,
-7669618140,hoch1243,1 act[1].V',,,Derived,,,
-7669710986,hoch1243,2 und[2].V'RDP,,,Derived,,,
-7669789252,hoch1243,1/2 (LOC3) act[1/2].V'rfl/rcp,,,Derived,,,
-7669793333,hoch1243,1/2 (3) act[1/2].V'rfl/rcp,,,Derived,,,
-7669796137,hoch1243,1/2 3 und[3].act[1/2].V'rfl/rcp,,,Derived,,,
-7669802149,hoch1243,1/2 act[1/2].V'rfl/rcp,,,Derived,,,
-7669851459,hoch1243,1/3 act[1/3].V'rfl/rcp,,,Derived,,,
-7669912583,hoch1243,1 2 (LOC)3 und[3].und[2].act[1].V'loc,,,Derived,,,
-7669925300,hoch1243,1 LOC5 und[5].act[1].V'loc,,,Derived,,,
-7669933336,hoch1243,1 LOC3 und[3].und[1].V'loc,,,Derived,,,
-7669941229,hoch1243,2 und[2].V'loc,,,Derived,,,
-7670022482,hoch1243,1 LOC2 und[2].act[1].V'loc,,,Derived,,,
-7711131950,hoch1243,2/1 act[2/1].V'caus,,,Derived,,,
-7711257098,hoch1243,6/1 2 und[2].act[6/1].V'caus,,,Derived,,,
-7711505180,hoch1243,4/1 2 3 und[3].und[2].act[4/1].V'caus,,,Derived,,,
-7711523311,hoch1243,3/1 LOC2 act[3/1].V'caus,,,Derived,,,
-7711540433,hoch1243,6/1 2 (3) und[2].act[6/1].V'caus,,,Derived,,,
-7711576123,hoch1243,6/1 2 (LOC3) und[2].act[6/1].V'caus,,,Derived,,,
-8396097647,hoch1243,1 2 LOC3 und[2].act[1].V,,,Basic,,,
-6536020791,stan1293,1-nom > V.subj[1] > 2-acc,,,Basic,,,
-6536020792,stan1293,1-nom > V.subj[1],,,Basic,,,
-6536020795,stan1293,1-nom > V.subj[1] > 2-acc (> with+3),,,Basic,,,
-6536020797,stan1293,1-nom > V.subj[1] (> to+2) (> about+3),,,Basic,,,
-6536020800,stan1293,1-nom > V.subj[1] > 2-acc > 3,,,Basic,,,
-6536020805,stan1293,1-nom > V.subj[1] > 2-acc (> to+3),,,Basic,,,
-6536020809,stan1293,1-nom > V.subj[1] > about+2,,,Basic,,,
-6536020815,stan1293,1-nom > V.subj[1] (> 2-acc) > for+3,,,Basic,,,
-6536020839,stan1293,1-nom > V.subj[1] > 2-acc (> from+3),,,Basic,,,
-6536020848,stan1293,1-nom > V.subj[1] > of+2,,,Basic,,,
-6536020864,stan1293,1-nom > V.subj[1] > to+2,,,Basic,,,
-7194938619,stan1293,1-nom > V.subj[1] > at+2,,,Basic,,,
-7201409055,stan1293,1-nom > V.subj[1] > 2-acc > LOC3,,,Basic,,,
-7201430694,stan1293,1-nom > V.subj[1] > LOC2,,,Basic,,,
-7202210233,stan1293,1-nom > V.subj[1] > 2-acc > LOC3 (> with+4),,,Basic,,,
-12309464060,stan1293,V,,,Basic,,,
-12333881386,stan1293,1-nom > V.subj[1] > UTT2 (> to+3),,,Basic,,,
-4323564222,bora1263,1-nom V,,,Basic,,,
-4323573057,bora1263,1-nom 2-acc (3-loc/instr) V,,,Basic,,,
-4782320758,bora1263,1-nom 2-acc (3-all) V,,,Basic,,,
-4782330525,bora1263,1-nom 2-acc 3-abl V,,,Basic,,,
-4842836491,bora1263,1-nom 2-acc 3-acc V,,,Basic,,,
-4842861538,bora1263,1-nom 2-acc V,,,Basic,,,
-4842907006,bora1263,1-nom 2-acc 3-nom V,,,Basic,,,
-4842955651,bora1263,1-nom (2-all) V,,,Basic,,,
-4842960265,bora1263,1-nom (2-loc/instr) V,,,Basic,,,
-4843025585,bora1263,1-nom 2-abl V,,,Basic,,,
-4965561699,bora1263,1-nom 2-soc 3-loc/instr V,,,Basic,,,
-6536020698,bora1263,N/A,,,Basic,,,
-9510899904,bora1263,4-nom 1-acc 2-acc 3-all V'tso,,,Derived,,,
-9511064182,bora1263,4-nom 1-acc 2-all V'tso,,,Derived,,,
-9561798272,bora1263,4-nom 1-acc V'tso,,,Derived,,,
-9562586860,bora1263,1/2-nom V'jcatsí,,,Derived,,,
-9562789863,bora1263,3-nom 2-acc V',,,Derived,,,
-9579720691,bora1263,1/2-nom 3-all V'meí,,,Derived,,,
-9579853419,bora1263,1/2-nom V'meí,,,Derived,,,
-9580076135,bora1263,1/2-nom 3-loc/instr V'meí,,,Derived,,,
-9580193015,bora1263,1/2-nom 3-abl V'meí,,,Derived,,,
-9580253146,bora1263,1/2-nom 3-nom V'meí,,,Derived,,,
-9580264104,bora1263,1/2-nom 3-acc V'meí,,,Derived,,,
-9639254507,bora1263,1/2-nom 3-loc/instr V'jcatsí,,,Derived,,,
-9639294918,bora1263,1/2-nom 3-nom V'jcatsí,,,Derived,,,
-9639906986,bora1263,4-nom 1-acc (2-loc/instr) V'tso,,,Derived,,,
-11314935309,bora1263,1-nom 2-acc UTT3,,,Basic,,,
-11315416874,bora1263,4-nom 1-acc 2-abl V'tso,,,Derived,,,
-12094086459,bora1263,4-nom 1-acc 2-acc UTT3 V'tso,,,Derived,,,
-12094170261,bora1263,4-nom 1-acc 2-acc 3-loc/instr V'tso,,,Derived,,,
-12094180792,bora1263,4-nom 1-acc 2-acc 3-nom V'tso,,,Derived,,,
-12094218019,bora1263,4-nom 1-acc 2-acc 3-abl V'tso,,,Derived,,,
-12094253391,bora1263,4-nom 1-acc 2-acc 3-acc V'tso,,,Derived,,,
-12094262032,bora1263,4-nom 1-acc 2-soc 3-loc/instr V'tso,,,Derived,,,
-12101169232,bora1263,1/2-nom (3-all) V'jcatsí,,,Derived,,,
-12101227631,bora1263,1/2-nom 3-abl V'jcatsí,,,Derived,,,
-12101243343,bora1263,1/2-nom 3-acc V'jcatsí,,,Derived,,,
-12101255814,bora1263,1/2-nom UTT3 V'jcatsí,,,Derived,,,
-12101295498,bora1263,1-nom 2-acc 3-loc/instr V',,,Derived,,,
-12101727336,bora1263,1/2-nom UTT3 V'meí,,,Derived,,,
-4886902670,sril1245,1 2-dat 3 V,,,Basic,,,
-4886907372,sril1245,1 2-acc 3-abl V,,,Basic,,,
-4886930312,sril1245,1 2-acc V,,,Basic,,,
-4886933032,sril1245,1 V,,,Basic,,,
-4886935583,sril1245,1 2-dat V,,,Basic,,,
-4887002120,sril1245,1-dat 2-acc V,,,Basic,,,
-4887104765,sril1245,1 2-loc 3-acc V,,The accusative marker can be dropped.,Basic,,,
-4887125969,sril1245,1 2-dat 3-abl V,,,Basic,,,
-4887167814,sril1245,1 2-abl V,,,Basic,,,
-4887270739,sril1245,1-acc V,"<SPAN STYLE= """" >An intransitive predication where the verb assigns the accusative</SPAN>",,Basic,,,
-4887306528,sril1245,V,"<SPAN STYLE= """" >avalent predication<BR>No dummy arguments whatsoever</SPAN>",,Basic,,,
-6536020182,sril1245,1-dat V,"<SPAN STYLE= """" >Experiencers are marked with the dative. The word class of the predicate can be ADJ, N, or V.</SPAN>",,Basic,,,
-6536020190,sril1245,replace me!,,,Basic,,,
-8195306103,sril1245,1 2-acc 3-dat V,,,Basic,,,
-10320350300,sril1245,1 LOC2 V,,,Basic,,,
-11410652815,sril1245,1 2 V,,,Basic,,,
-11618476637,sril1245,1-dat 2-loc 3-acc V,,,Basic,,,
-12333830468,sril1245,1 2-dat UTT3 V,,,Basic,,,
-12524840673,sril1245,1 2-acc LOC3 V,,,Basic,,,
-12524879924,sril1245,1 2-dat 3+katha V,,,Basic,,,
-12524897857,sril1245,1 2+atthas V,,,Basic,,,
-4332933120,yaqu1251,1-nom 2-acc LOC3 V,,,Basic,,,
-4782773306,yaqu1251,1-nom 2-acc V,"<SPAN STYLE= """" >This is considered the most common coding frame in Yaqui due to the decision that was taken about the basic form of the equipolent verbs. All of these verbs are listed in their transitive form as the basic.</SPAN>",,Basic,,,
-4844097985,yaqu1251,1-nom 2-acc (3-instr) V,"<SPAN STYLE= """" >The coding frame shows an instrument participant, which is represented as optional (by means of the parentheses). Cases like this are considered 'extended coding frames', since they show other possible participants, although the basic frame is the one represented out of the parentheses. <BR><BR></SPAN>",,Basic,,,
-4844640706,yaqu1251,1-nom (2-loc) V,,,Basic,,,
-4844692082,yaqu1251,1-nom V,,,Basic,,,
-4844816615,yaqu1251,1-nom 2-loc V,"<SPAN STYLE= """" >The participant marked with the locative </SPAN><SPAN STYLE= ""font-style:italic;"" >-po</SPAN><SPAN STYLE= """" > is necessary for the verb.</SPAN>",,Basic,,,
-4904094719,yaqu1251,1-nom 2-acc 3-acc V,"<SPAN STYLE= """" >This is the construction of double object. Both of them are marked with the accusative suffix </SPAN><SPAN STYLE= ""font-style:italic;"" >-ta</SPAN><SPAN STYLE= """" >.</SPAN>",,Basic,,,
-4904342921,yaqu1251,1-nom (2-dir) V,,,Basic,,,
-4904433950,yaqu1251,1-nom 2-dir 3-acc V,,,Basic,,,
-5310432996,yaqu1251,1-nom 2-acc 3-loc V,,,Basic,,,
-5310649687,yaqu1251,(1-dir) V,,,Basic,,,
-5310952717,yaqu1251,1-nom 2-acc 3-dir V,,,Basic,,,
-5311493484,yaqu1251,1-nom 2-acc 3 V,,,Basic,,,
-11230097083,yaqu1251,1-nom 2-acc-dir V,,,Basic,,,
-13408028728,yaqu1251,1-nom UTT2 (3-acc) V,,,Basic,,,
-13424931875,yaqu1251,1-nom 2 V,,,Basic,,,
-4783041186,indo1316,1 V 2 ke+3,,,Basic,,,
-6171973400,indo1316,1 V 2,,,Basic,,,
-6172675768,indo1316,1 V 2 LOC3,,,Basic,,,
-6225257568,indo1316,1 V,,,Basic,,,
-6225279937,indo1316,1 V ke+2 UTT3,,,Basic,,,
-6225288433,indo1316,1 V ke+2 soal+3,,,Basic,,,
-6225294905,indo1316,1 V ama+2 soal+3,,,Basic,,,
-6225561761,indo1316,1 V LOC2,,,Basic,,,
-6225618071,indo1316,V,,,Basic,,,
-6225672924,indo1316,1 V 2 dari+3,,,Basic,,,
-6225713117,indo1316,1 V 2 3,,,Basic,,,
-10519275592,indo1316,1 V (UTT2),,,Basic,,,
-12732168441,kore1280,1-nom 2-acc 3-instr V,,,Basic,,,
-12732199007,kore1280,1-nom 2-acc 3-loc V,,,Basic,,,
-12732293737,kore1280,1-nom 2-acc 3-dir V,,,Basic,,,
-12732317407,kore1280,1-nom 2-acc V,,,Basic,,,
-12732333804,kore1280,1-nom 2-acc 3-dat V,,,Basic,,,
-12732492625,kore1280,1-nom 2-acc 3-abl V,,,Basic,,,
-12732560131,kore1280,1-nom 2-dat 3-quot V,,,Basic,,,
-12732586939,kore1280,1-nom 2-acc 3-quot V,,,Basic,,,
-12732698953,kore1280,1-nom V,,,Basic,,,
-12733000513,kore1280,1-nom 2-loc V,,,Basic,,,
-12733105506,kore1280,V,,,Basic,,,
-12733340625,kore1280,1-nom 2-abl V,,,Basic,,,
-12733515115,kore1280,1-nom 2-dat V,,,Basic,,,
-13302558231,kore1280,1-nom 2-nom V,,,Basic,,,
-13335012104,kore1280,4-nom 1-acc causV',,,Derived,,,
-13335230679,kore1280,4-nom 1-acc 2-loc causV',,,Derived,,,
-13335309180,kore1280,4-nom 1-dat 2-acc causV',,,Derived,,,
-13335750129,kore1280,1-nom 2-com V',,,Derived,,,
-13335788745,kore1280,1-nom 2-com 3-quot V',,,Derived,,,
-13336924928,kore1280,2-nom 1-dat passV',,,Derived,,,
-13336936141,kore1280,2-nom 1-dat 3-quot passV',,,Derived,,,
-13336959634,kore1280,2-nom 1-dat 3-loc passV',,,Derived,,,
-13336966519,kore1280,2-nom 1-dat 3-instr passV',,,Derived,,,
-13336974177,kore1280,2-nom 1-dat 3-dir passV',,,Derived,,,
-13343797167,kore1280,1-nom 2-acc 3-acc V',,,Derived,,,
-13343945946,kore1280,passperV',,,Derived,,,
-13343950098,kore1280,2-nom passperV',,,Derived,,,
-13343954131,kore1280,2-nom 3-dat passperV',,,Derived,,,
-13344114534,kore1280,2-nom 3-loc passperV',,,Derived,,,
-13344394876,kore1280,2-nom 3-instr passperV',,,Derived,,,
-13344404150,kore1280,2-nom 3-dir passperV',,,Derived,,,
-13344580273,kore1280,2-nom 1-instr V',,,Derived,,,
-13344586953,kore1280,1-nom 3-acc 2-instr V',,,Derived,,,
-13346370484,kore1280,1-nom 2+ap-loc 3-acc V,,,Basic,,,
-13346623298,kore1280,1-nom 2-dat UTT3 V,,,Basic,,,
-13369639161,kore1280,1-nom 2-acc LOC3 V,,,Basic,,,
-13369892826,kore1280,1-nom 2-com UTT3 V',,,Derived,,,
-4333093764,zenz1235,V 1,,,Basic,,,
-4333118670,zenz1235,V 1 (LOC2),,,Basic,,,
-5871813350,zenz1235,UTT1 V 2 jiʔį̄+3,,,Basic,,,
-5993124311,zenz1235,V 1 jiʔį̄+2,"<SPAN STYLE= """" >use of</SPAN><SPAN STYLE= ""font-style:italic;"" > ji&#660;&#299;&#808;</SPAN><SPAN STYLE= """" > is optional</SPAN>",,Basic,,,
-5993173751,zenz1235,V 1 jiʔį̄+2 (lóʔō+3),,,Basic,,,
-5993180748,zenz1235,V 1 jiʔį̄+2 jiʔį̄+3 lóʔō+4,,,Basic,,,
-5993264997,zenz1235,V 1 jiʔį̄+2 jiʔį̄+3,,,Basic,,,
-5993518069,zenz1235,V 1 jiʔį̄+2 3,,,Basic,,,
-9829353545,zenz1235,V,,,Basic,,,
-9837955749,zenz1235,N/A,,,Basic,,,
-10761301104,zenz1235,utV' 2 jiʔį̄+1,,,Derived,,,
-10761349206,zenz1235,V' 1,,,Derived,,,
-11150133284,zenz1235,eV' 2 jiʔį̄+1,,,Derived,,,
-11150188174,zenz1235,eV' 3 jiʔį̄+2 jiʔį̄+1,,,Derived,,,
-11150362598,zenz1235,yV' 2,,,Derived,,,
-11150525254,zenz1235,uV' 2 jiʔį̄+1,,,Derived,,,
-11150533424,zenz1235,uV' 3 jiʔį̄+1,,,Derived,,,
-11150574463,zenz1235,V' 2,,,Derived,,,
-11150584955,zenz1235,V'lóʔō 1 jiʔį̄+3,,,Derived,,,
-11150639059,zenz1235,V'lóʔō 1 jiʔį̄+3 LOC2,,,Derived,,,
-11150682587,zenz1235,V' 1 jiʔį̄+3,,,Derived,,,
-11150688727,zenz1235,V' 1 jiʔį̄+2,,,Derived,,,
-11150854315,zenz1235,tV' 3,,,Derived,,,
-5216958329,nenn1238,1-erg 2-abs und[2].V.act[1],,,Basic,,,
-5217949194,nenn1238,1-erg 2-abs 3-dat und[3].V.act[1],"<SPAN STYLE= """" >The basic ditransitive frame. Note that here it is the recipient, not the patient, that is encoded by the undergoer slot, and that dual vs non-dual coding is sensitive to.</SPAN>",,Basic,,,
-5218007829,nenn1238,1-erg 2-abs (3-abl) und[2].V.act[1],"<SPAN STYLE= """" >Transitive frame plus instrumental NP</SPAN>",,Basic,,,
-5232440547,nenn1238,1-erg 2-abs 3-dat und[2].V.act[1],,,Basic,,,
-5232509389,nenn1238,1-erg 2-abs (3-dat-abl) und[2].V.act[1],"<SPAN STYLE= """" >Used with verbs of removal.<BR>Could be regarded simply as a normal transitive frame, with ablative adjunct.<BR>Source takes complex case (ablative built on dative) when human.</SPAN>",,Basic,,,
-5232805269,nenn1238,1-abs 2-abs und[1].V,,,Basic,,,
-5232869690,nenn1238,1-abs V.act[1],"<SPAN STYLE= """" >This is the basic frame for inherent middle verbs; used for many concepts normally expressed by intransitive verbs cross-linguistically.</SPAN>",,Basic,,,
-5232930765,nenn1238,1-erg 2-obl und[2].V.act[1],,,Basic,,,
-5233015164,nenn1238,1-abs und[1].V,,,Basic,,,
-5233146478,nenn1238,1-erg 2-abs V.act[1],"<SPAN STYLE= """" >Unusual pattern: case frame like transitive, verb morphology like middle. So far only attested with </SPAN><SPAN STYLE= ""font-style:italic;"" >ors</SPAN><SPAN STYLE= """" > 'to leave'.</SPAN>",,Basic,,,
-5233183775,nenn1238,1-erg 2-abs 3-loc und[2].V.act[1],,,Basic,,,
-6536020786,nenn1238,1-erg 2-abs 3-all und[2].V.act[1],"<SPAN STYLE= """" >Verbs of verbal influence taking infinitive complement</SPAN>",,Basic,,,
-6536020789,nenn1238,1-erg V.act[1],,,Basic,,,
-7443964678,nenn1238,1-abs 2-abs 3-dat V.act[1],"<SPAN STYLE= """" >2 is semantically restricted to cognate objects like zi 'word'</SPAN>",,Basic,,,
-12197033965,nenn1238,1-abs (2-loc) V.act[1],,,Basic,,,
-12653839499,nenn1238,1-abs 2-dat V.act[1],,,Basic,,,
-12654952470,nenn1238,1-abs 2-com V.act[1],,,Basic,,,
-12655769756,nenn1238,N/A,,,Basic,,,
-12739494680,nenn1238,1-erg 2-abs (LOC3) und[2].V.act[1],,,Basic,,,
-12739553024,nenn1238,1-erg 2-abs (3-obl) und[2].V.act[1],,,Basic,,,
-12739663728,nenn1238,1-abs 2-all und[1].V,,,Basic,,,
-13032925187,nenn1238,V,,,Basic,,,
-5655417010,nuuu1241,1 V 2,,,Basic,,,
-5655420783,nuuu1241,1 V,,,Basic,,,
-5748949939,nuuu1241,1 V 2-dat 3,,,Basic,,,
-5748964459,nuuu1241,1 V ng+2,,,Basic,,,
-5749008211,nuuu1241,1 V 2 ng+3,,,Basic,,,
-5781075063,nuuu1241,1 V ng+2 UTT3,,,Basic,,,
-10017620495,nuuu1241,N/A,,,Basic,,,
-4839029278,stan1318,V.subj[1] 1-nom 2-acc,,,Basic,,,
-4839039860,stan1318,V.subj[1] 1-nom 2-acc (bi+3),,,Basic,,,
-4839094640,stan1318,V.subj[1] 1-nom ʾilâ+2,,,Basic,,,
-4839142023,stan1318,V.subj[1] 1-nom ʿan+2,,,Basic,,,
-4839227796,stan1318,V.subj[1] 1-nom li+2 UTT3,,,Basic,,,
-4839256494,stan1318,V.subj[1] 1-nom (li+2) 3-acc,,,Basic,,,
-4839263719,stan1318,V.subj[1] 1-nom,,,Basic,,,
-4839270239,stan1318,V.subj[1] 1-nom (2-acc) 3-acc,,,Basic,,,
-4839282971,stan1318,V.subj[1] 1-nom (ʿalâ+2),,,Basic,,,
-5362499618,stan1318,V.subj[1] 1-nom 2-acc ʿalâ+3,,,Basic,,,
-5378746433,stan1318,V.subj[1] 1-nom fī+2,,,Basic,,,
-5379220181,stan1318,V.subj[1] 1-nom maʿa+2 ʿan+3,,,Basic,,,
-5421193866,stan1318,V.subj[1] 1-nom 2-acc (min+3),,,Basic,,,
-5421395022,stan1318,V.subj[1] 1-nom 2-acc (ʾilâ+3),,,Basic,,,
-5542672087,stan1318,V.subj[1] 1-nom 2-acc 3-acc,,,Basic,,,
-6328438275,stan1318,V.subj[1] 1-nom 2-acc LOC3,,,Basic,,,
-6329065044,stan1318,V 1-nom,,,Basic,,,
-6329221588,stan1318,V.subj[1] 1-nom min+2,,,Basic,,,
-6329469076,stan1318,V.subj[1] 1-nom 2-acc (ʿan+3),,,Basic,,,
-6329608060,stan1318,V.subj[1] 1-nom ʿalâ+2 min+3,,,Basic,,,
-13104662529,stan1318,V.subj[1] 1-nom 2-acc (ʾilâ+3) (bi+4),,,Basic,,,
-13104688890,stan1318,V.subj[1] 1-nom (LOC2),,,Basic,,,
-14375122626,stan1318,V.subj[1] 1-nom bi+ 2 (ʾilâ+3),,,Basic,,,
-4808512782,bezh1248,1-erg 2-abs abs[2].V,,,Basic,,,
-4808518806,bezh1248,1-lat 2-abs abs[2].V,,,Basic,,,
-4808529704,bezh1248,1-abs 2-poss abs[1].V,,,Basic,,,
-4808571662,bezh1248,1-erg 2-abs 3-instr abs[2].V,,,Basic,,,
-4837810705,bezh1248,1-abs abs[1].V,,,Basic,,,
-4837828829,bezh1248,1-erg 2-lat V,,,Basic,,,
-4837837229,bezh1248,1-erg 2-poss UTT3 V,,,Basic,,,
-4837856233,bezh1248,1-erg 2-lat 3-abs abs[3].V,,,Basic,,,
-4842107264,bezh1248,1-erg V,,,Basic,,,
-4842115440,bezh1248,1-abs 2-com abs[1].V,,,Basic,,,
-4842374522,bezh1248,1-erg 2-abl 3-abs abs[3].V,,,Basic,,,
-4842403135,bezh1248,1-erg 2-abs 3-sup abs[2].V,,,Basic,,,
-8343886320,bezh1248,1-erg LOC2 3-abs abs[3].V,,,Basic,,,
-8343886324,bezh1248,1-erg 2-poss 3-abs abs[3].V,,,Basic,,,
-8343886333,bezh1248,1-erg 2-sup V,,,Basic,,,
-8343886336,bezh1248,1-lat V,,,Basic,,,
-8343886341,bezh1248,N/A,,,Basic,,,
-8343886346,bezh1248,1-erg 2-iness V,,,Basic,,,
-8343886365,bezh1248,1-abs 2-supabl abs[1].V,,,Basic,,,
-8343886366,bezh1248,1-abs LOC2 abs[1].V,,,Basic,,,
-8343886367,bezh1248,1-abs 2-abl abs[1].V,,,Basic,,,
-8343886372,bezh1248,1-erg 2-abs 3-instr LOC4 abs[2].V,,,Basic,,,
-8343886374,bezh1248,1-lat 2-possabl 3-abs abs[3].V,,,Basic,,,
-8343886377,bezh1248,1-erg 2-gen 3-abs abs[3].V,,,Basic,,,
-8343886379,bezh1248,1-erg 2-possabl 3-abs abs[3].V,,,Basic,,,
-9077022315,bezh1248,2-abs abs[2].V',,,Derived,,,
-9077090546,bezh1248,1-abs abs[1].V'antip,,,Derived,,,
-9077135513,bezh1248,1-abs 3-instr 2-abl abs[1].V'antip,,,Derived,,,
-9135540855,bezh1248,1-abs 3-instr 4-loc abs[1].V'antip,,,Derived,,,
-9135570486,bezh1248,1-abs 2-instr abs[1].V'antip,,,Derived,,,
-9604680794,bezh1248,3-erg 1-abs 2-com abs[1].V'caus,,,Derived,,,
-9604713015,bezh1248,3-erg 1-abs LOC2 abs[1].V'caus,,,Derived,,,
-9604802922,bezh1248,3-erg 1-abs 2-poss abs[1].V'caus,,,Derived,,,
-9604861367,bezh1248,3-erg 1-abs 2-supabl abs[1].V'caus,,,Derived,,,
-9604948974,bezh1248,4-erg 1-instr 2-abl 3-abs abs[3].V'caus,,,Derived,,,
-9605059526,bezh1248,5-erg 1-instr 2-abs 3-instr LOC4 abs[2].V'caus,,,Derived,,,
-9622256621,bezh1248,4-erg 1-instr 2-abs 3-instr abs[2].V'caus,,,Derived,,,
-9622408359,bezh1248,4-erg 1-instr 2-abs 3-sup abs[2].V'caus,,,Derived,,,
-9622916363,bezh1248,4-erg 1-instr 2-gen 3-abs abs[3].V'caus,,,Derived,,,
-9622953708,bezh1248,3-erg 1-instr 2-iness V'caus,,,Derived,,,
-9623026647,bezh1248,4-erg 1-instr 2-lat 3-abs abs[3].V'caus,,,Derived,,,
-9623121647,bezh1248,3-erg 1-instr 2-lat V'caus,,,Derived,,,
-9623269501,bezh1248,4-erg 1-instr LOC2 3-abs abs[3].V'caus,,,Derived,,,
-9623298644,bezh1248,4-erg 1-instr 2-poss 3-abs abs[3].V'caus,,,Derived,,,
-9623348594,bezh1248,4-erg 1-instr 2-poss UTT3-quot V'caus,,,Derived,,,
-9647636369,bezh1248,4-erg 1-instr 2-possabl 3-abs abs[3].V'caus,,,Derived,,,
-9647674219,bezh1248,4-erg 1-instr 2-sup 3-abs V'caus,,,Derived,,,
-9647727980,bezh1248,3-erg 1-instr 2-sup V'caus,,,Derived,,,
-9647773649,bezh1248,2-erg 1-instr V'caus,,,Derived,,,
-9648152746,bezh1248,2-erg 1-lat V'caus,,,Derived,,,
-9648670975,bezh1248,2-erg 1-abs abs[1].V'caus,,,Derived,,,
-9648810587,bezh1248,3-erg 1-instr 2-abs abs[2].V'caus,,,Derived,,,
-9648963414,bezh1248,1-erg 2-abs 3-instr abs[2].V',,,Derived,,,
-9649034379,bezh1248,1-erg 2-poss 3-abs abs[3].V',,,Derived,,,
-9672531535,bezh1248,3-erg 1-lat 2-abs abs[2].V'caus,,,Derived,,,
-9673282692,bezh1248,1-abs 2-lat 3-instr abs[1].V'antip,,,Derived,,,
-9673354758,bezh1248,1-abs 2-lat abs[1].V'antip,,,Derived,,,
-9673473034,bezh1248,1-abs 2-possabl 3-instr abs[1].V'antip,,,Derived,,,
-9674004251,bezh1248,1-abs 2-sup abs[1].V'antip,,,Derived,,,
-9674086388,bezh1248,1-abs LOC2 3-instr abs[1].V'antip,,,Derived,,,
-9681943683,bezh1248,1-poss 2-com abs[1].V'pot,,,Derived,,,
-9682028547,bezh1248,1-poss 2-poss abs[1].V'pot,,,Derived,,,
-9682116236,bezh1248,1-poss LOC2 abs[1].V'pot,,,Derived,,,
-9682153597,bezh1248,1-poss 2-abl 3-abs abs[3].V'pot,,,Derived,,,
-9682203356,bezh1248,1-poss 2-abs 3-instr LOC4 abs[2].V'pot,,,Derived,,,
-9682241256,bezh1248,1-poss 2-gen 3-abs abs[3].V'pot,,,Derived,,,
-9682264005,bezh1248,1-poss 2-iness V'pot,,,Derived,,,
-9682284195,bezh1248,1-poss 2-lat 3-abs abs[3].V'pot,,,Derived,,,
-9682354675,bezh1248,1-poss 2-lat V'pot,,,Derived,,,
-9682390170,bezh1248,1-poss 2-poss 3-abs abs[3].V'pot,,,Derived,,,
-9682408115,bezh1248,1-poss 2-poss UTT3-quot V'pot,,,Derived,,,
-9682430271,bezh1248,1-poss 2-possabl 3-abs abs[3]V'pot,,,Derived,,,
-9682465065,bezh1248,1-poss 2-sup 3-abs V'pot,,,Derived,,,
-9682486010,bezh1248,1-poss 2-sup V'pot,,,Derived,,,
-9682503904,bezh1248,1-poss LOC2 3-abs abs[3].V'pot,,,Derived,,,
-9682531370,bezh1248,1-poss V'pot,,,Derived,,,
-9682704424,bezh1248,1-poss abs[1].V'pot,,,Derived,,,
-10433098163,bezh1248,1-abs 3-sup 2-instr abs[1].V'antip,,,Derived,,,
-10433495253,bezh1248,1-poss 2-abs abs[2].V'pot,,,Derived,,,
-10433502686,bezh1248,1-poss 2-abs 3-instr abs[2].V'pot,,,Derived,,,
-10433647583,bezh1248,2-poss 1-abs abs[1].V',,,Derived,,,
-10493841266,bezh1248,3-poss 2-supabl 1-abs abs[1].V',,,Derived,,,
-10493861116,bezh1248,1-poss 2-abs abs[2].V',,,Derived,,,
-10493866330,bezh1248,1-poss 3-instr 2-abs abs[2].V',,,Derived,,,
-10494324209,bezh1248,1-erg 2-abs abs[2].V'caus,,,Derived,,,
-10494992751,bezh1248,3-erg 1-abs abs[1].V'caus,,,Derived,,,
-10495019006,bezh1248,3-erg 1-abs 2-instr abs[1].V'caus4,,,Derived,,,
-10510388890,bezh1248,1-erg 2-apud 3-abs abs[3].V',,,Derived,,,
-10510516884,bezh1248,1-poss 2-supabl abs[1].V'pot,,,Derived,,,
-10510647005,bezh1248,2-erg 1-abs abs[1].V'caus2,,,Derived,,,
-10510656740,bezh1248,3-erg 1-abs 2-supabl abs[1].V'caus3,,,Derived,,,
-10510665476,bezh1248,2-erg 1-abs abs[1].V'caus3,,,Derived,,,
-10510676859,bezh1248,3-erg 1-abs abs[1].V'caus4,,,Derived,,,
-10510682712,bezh1248,2-erg 1-abs abs[1].V'caus4,,,Derived,,,
-10555018403,bezh1248,2-poss 1-abs abs[1].V'pot,,,Derived,,,
-10555025609,bezh1248,3-poss 1-abs abs[1].V'pot,,,Derived,,,
-11288732313,bezh1248,1-abs 2-abl abs[1].V'antip,,,Derived,,,
-11288757489,bezh1248,1-abs 2-com abs[1].V'antip,,,Derived,,,
-11288788242,bezh1248,1-abs 2-supabl abs[1].V'antip,,,Derived,,,
-11288814704,bezh1248,1-abs LOC2 abs[1].V'antip,,,Derived,,,
-11289022534,bezh1248,1-poss 2-abs 3-sup abs[2].V'pot,,,Derived,,,
-11289089094,bezh1248,V,,,Basic,,,
-11289103252,bezh1248,1-poss V',,,Derived,,,
-11289113231,bezh1248,V'antip,,,Derived,,,
-11289124660,bezh1248,1-erg V'caus,,,Derived,,,
-4298676080,ital1282,1 > V.subj[1] > 2,,,Basic,,,
-4301873762,ital1282,a+1 > V.subj[2] > 2,"<SPAN STYLE= """" >The coding frame E-dat &gt; V.subj[M] &gt; M refers to the pattern where the Experiencer is realized by a pronoun (e.g.</SPAN><SPAN STYLE= ""font-style:italic;"" > gli piace la matematica</SPAN><SPAN STYLE= """" >).</SPAN>",,Basic,,,
-4301902544,ital1282,1 > V.subj[1] (> a+2),,,Basic,,,
-4302032358,ital1282,1 > V.subj[1] > 2 > 3,,,Basic,,,
-4302041977,ital1282,1 > V.subj[1] > 2 (con+3),,,Basic,,,
-4323589689,ital1282,1 > V.subj[1] > con+2 di+3,,,Basic,,,
-4757648034,ital1282,1 > V.subj[1] > 2 (a+3),,,Basic,,,
-4757686076,ital1282,1 > V.subj[1] > 2 (di+3),,,Basic,,,
-4757696113,ital1282,1 > V.subj[1] (> LOC2),,,Basic,,,
-4757700126,ital1282,1 > V.subj[1] > 2 (> LOC3),,,Basic,,,
-4757710632,ital1282,1 > V.subj[1],,,Basic,,,
-4758013371,ital1282,1 > V.subj[1] > 2 (da+3),,,Basic,,,
-4758038607,ital1282,1 > V.subj[1] > 2 (a+3) (con+4),,,Basic,,,
-6079839742,ital1282,1 > V.subj[1] > 2 (su+3),,,Basic,,,
-6079872551,ital1282,1 V.subj[1] (da+2) (per+3),,,Basic,,,
-6079880539,ital1282,1 V.subj[1] (di+2),,,Basic,,,
-6079889985,ital1282,1 V.subj[1] (con+2),,,Basic,,,
-6079945091,ital1282,V,,,Basic,,,
-7865853157,ital1282,2 > siV'.subj[2] (> daParteDi+1),,,Derived,,,
-9907680292,ital1282,1 > V'.subj[1],,,Derived,,,
-9907740876,ital1282,1 > V'.subj[1] > (LOC3),,,Derived,,,
-9907759415,ital1282,1 > V'.subj[1] > (a+3),,,Derived,,,
-9907785464,ital1282,1 > V'.subj[1] > (con+3),,,Derived,,,
-9907809028,ital1282,1 > V'.subj[1] > (da+3),,,Derived,,,
-9907821801,ital1282,1 > V'.subj[1] > (di+3),,,Derived,,,
-9907832509,ital1282,1 V'.subj[1] (su+3),,,Derived,,,
-9949961024,ital1282,2 > passV'.subj[2] (> daParteDi+1),,,Derived,,,
-9949986263,ital1282,2 > passV'.subj[2] (> LOC3) (> daParteDi+1),,,Derived,,,
-9950011749,ital1282,2 > passV'.subj[2] (> a+3) (> daParteDi+1),,,Derived,,,
-9950028074,ital1282,2 > passV'.subj[2] (a+3) (con+4) (daParteDi+1),,,Derived,,,
-9950043855,ital1282,2 > passV'.subj[2] (con+3) (daParteDi+1),,,Derived,,,
-9950076068,ital1282,2 > passV'.subj[2] (da+3) (daParteDi+1),,,Derived,,,
-9950101669,ital1282,2 > passV'.subj[2] (di+3) (daParteDi+1),,,Derived,,,
-9950115988,ital1282,2 > passV'.subj[2] > 3 (daParteDi+1),,,Derived,,,
-9950128101,ital1282,2 > passV'.subj[2] (su+3) (daParteDi+1),,,Derived,,,
-9959660741,ital1282,2 > siV'.subj[2] (> LOC3) (> daParteDi+1),,,Derived,,,
-9959669096,ital1282,2 > siV'.subj[2] (> a+3) (> daParteDi+1),,,Derived,,,
-9959683612,ital1282,2 > siV'.subj[2] (a+3) (con+4) (> daParteDi+1),,,Derived,,,
-9959695048,ital1282,2 > siV'.subj[2] (> con+3) (> daParteDi+1),,,Derived,,,
-9959708847,ital1282,2 > siV'.subj[2] (> da+3) (> daParteDi+1),,,Derived,,,
-9959750587,ital1282,2 > siV'.subj[2] (> di+3) (> daParteDi+1),,,Derived,,,
-9959757705,ital1282,2 > siV'.subj[2] (> 3) (> daParteDi+1),,,Derived,,,
-9959791028,ital1282,2 > siV'.subj[2] (> su+3) (> daParteDi+1),,,Derived,,,
-9959812514,ital1282,1 > V'.subj[1] > 3 > di+2,,,Derived,,,
-9959838844,ital1282,2 > siV'.subj[2],,,Derived,,,
-9959846765,ital1282,2 > siV'.subj[2] (> LOC3),,,Derived,,,
-9959853753,ital1282,2 > siV'.subj[2] (> a+3),,,Derived,,,
-9959858927,ital1282,2 > siV'.subj[2] (> con+3),,,Derived,,,
-9959864734,ital1282,2 > siV'.subj[2] (> da+3),,,Derived,,,
-9959870376,ital1282,2 > siV'.subj[2] (> su+3),,,Derived,,,
-10018855863,ital1282,3 > V'.subj[3] (> 2),,,Derived,,,
-10018997704,ital1282,4 > V'.subj[4] (> 2) (a+3),,,Derived,,,
-10087589253,ital1282,1/2 > siV'.subj[1/2],,,Derived,,,
-10088222885,ital1282,1/2 > siV'.subj[1/2] (> LOC3),,,Derived,,,
-10088243168,ital1282,1/2 > siV'.subj[1/2] (> a+3) (> con+4),,,Derived,,,
-10088797667,ital1282,1/2 > siV'.subj[1/2] (> con+3),,,Derived,,,
-10088884411,ital1282,1/2 > siV'.subj[1/2] > 3,,,Derived,,,
-10089055187,ital1282,1/2 > siV'.subj[1/2] (> di+3),,,Derived,,,
-10089118120,ital1282,2 > V'.subj[2],,,Derived,,,
-10131679668,ital1282,siV',,,Derived,,,
-10131687467,ital1282,siV' (> a+2),,,Derived,,,
-10131707400,ital1282,siV' (> LOC2),,,Derived,,,
-10131746189,ital1282,siV'.subj[2] > 2,,,Derived,,,
-10131753078,ital1282,siV'.subj[2] > 2 (> LOC3),,,Derived,,,
-10131757733,ital1282,siV'.subj[2] > 2 (> a+3),,,Derived,,,
-10131765120,ital1282,siV'.subj[2] > 2 (> a+3) (> con+4),,,Derived,,,
-10131772887,ital1282,siV'.subj[2] > 2 (> con+3),,,Derived,,,
-10131777127,ital1282,siV'.subj[2] > 2 (> da+3),,,Derived,,,
-10131787773,ital1282,siV'.subj[2] > 2 (> di+3),,,Derived,,,
-10131803464,ital1282,siV'.subj[2] > 2 (> 3),,,Derived,,,
-10131822623,ital1282,siV' > (con+2) (di+3),,,Derived,,,
-10131832239,ital1282,siV' (> con+2),,,Derived,,,
-10131842092,ital1282,siV' (da+2) (per+3),,,Derived,,,
-10131849471,ital1282,siV' (di+2),,,Derived,,,
-10131864964,ital1282,siV'.subj[2] > 2 (> su+3),,,Derived,,,
-10140195479,ital1282,4 > causV'.subj[4] > 2 > a+1,,,Derived,,,
-10140582961,ital1282,3 > causV'.subj[3] > 1 (> LOC2),,,Derived,,,
-10140612516,ital1282,3 > causV'.subj[3] > 1,,,Derived,,,
-10140632358,ital1282,N/A,,,Basic,,,
-10140649026,ital1282,3 > causV'.subj[3] (a+2) a+1,,,Derived,,,
-10140816290,ital1282,4 > causV'.subj[4] > 2 (LOC3) a+1,,,Derived,,,
-10140857939,ital1282,5 > causV'.subj[5] > 2 (a+3) da+1,,,Derived,,,
-10190123934,ital1282,siPassV' (da+1),,,Derived,,,
-10190134939,ital1282,siPassV' (LOC3) (da+1),,,Derived,,,
-10190149547,ital1282,siPassV' (a+3) (da+1),,,Derived,,,
-10190155525,ital1282,siPassV' (a+3) (con+4) (da+1),,,Derived,,,
-10190167045,ital1282,siPassV' (con+3) (da+1),,,Derived,,,
-10190196791,ital1282,siPassV' 3 (da+1),,,Derived,,,
-10190205531,ital1282,siPassV' (su+3) (da+1),,,Derived,,,
-10190389623,ital1282,5 > causV'.subj[5] > 2 (a+3) (con+4) da+1,,,Derived,,,
-10190467003,ital1282,4 > causV'.subj[4] > 2 (con+3) a+1,,,Derived,,,
-10191898306,ital1282,4 > causV'.subj[4] > 2 (da+3) a+1,,,Derived,,,
-10191933391,ital1282,4 > causV'.subj[4] > 2 (di+3) a+1,,,Derived,,,
-10191966305,ital1282,4 > causV'.subj[4] > 2 > 3 a+1,,,Derived,,,
-10192022673,ital1282,4 > causV'.subj[4] 1 (con+2) (di+3),,,Derived,,,
-10192089986,ital1282,3 > causV'.subj[3] > 1 (> con+2),,,Derived,,,
-10192120167,ital1282,4 > causV'.subj[4] > 1 (da+2) (per+3),,,Derived,,,
-10192132612,ital1282,3 > causV'.subj[3] > 1 (di+2),,,Derived,,,
-10192388404,ital1282,4 > causV'.subj[4] > 2 (su+3) a+1,,,Derived,,,
-10192410045,ital1282,1 > causV'.subj[1],,,Derived,,,
-10201065760,ital1282,ciSiV',,,Derived,,,
-10201070591,ital1282,ciSiV' (> a+2),,,Derived,,,
-10201079689,ital1282,ciSiV' (> LOC2),,,Derived,,,
-10201087826,ital1282,ciSiV' (> LOC3),,,Derived,,,
-10201090932,ital1282,ciSiV' (> a+3),,,Derived,,,
-12222577952,ital1282,1 > V.subj[1] > (a+2) (di+3),,,Basic,,,
-12706805092,ital1282,1 > V.subj[1] > 2 (a+3) (da+4),,,Basic,,,
-12707247745,ital1282,1 > V'.subj[1] (a+3) (da+4),,,Derived,,,
-12707357730,ital1282,2 > passV'.subj[2] (a+3) (da+4) (daParteDi+1),,,Derived,,,
-13000364005,ital1282,1/3 > siV'.subj[1/3] > 2,,,Derived,,,
-13001201033,ital1282,2 > siV'.subj[2] (a+3) (da+4) (> daParteDi+1),,,Derived,,,
-13001355616,ital1282,siV' (a+2) (di+3),,,Derived,,,
-13001370427,ital1282,siV'.subj[2] > 2 (>a+3) (>da+4),,,Derived,,,
-13070400709,ital1282,1/2 > siV'.subj[1/2] (> da+3),,,Derived,,,
-13070409890,ital1282,1/2 > siV'.subj[1/2] (> a+3),,,Derived,,,
-13070452264,ital1282,1/5 > siV'.subj[1/5] > 2,,,Derived,,,
-13070546867,ital1282,1/3 > siV'.subj[1/3] > 2 (>da+4),,,Derived,,,
-13070574632,ital1282,1/5 > siV'.subj[1/5] > 2 (>con+3),,,Derived,,,
-13070604377,ital1282,1/5 > siV'.subj[1/5] > 2 (>di+3),,,Derived,,,
-13070751488,ital1282,1 > V'.subj[1] > 2,,,Derived,,,
-13070776225,ital1282,4 > causV'.subj[4] > 1 (a+2) (di+3),,,Derived,,,
-13070803369,ital1282,5 > causV'.subj[4] > 2 (a+3) (da+4) (a+1),,,Derived,,,
-13251381016,ital1282,1/5 > siV'.subj[1/5] > 2 (>LOC3),,,Derived,,,
-6536020144,chhi1245,1-abs V.subj[1],,,Basic,,,
-7411046836,chhi1245,1-erg 2-abs V.agt[1].obj[2],,,Basic,,,
-7411097016,chhi1245,1-abs poss[1].V.subj[1],,,Basic,,,
-7411181386,chhi1245,1-erg 2-abs 3-abs V.agt[1].obj[3],,,Basic,,,
-7436238819,chhi1245,1-erg 2-abs 3-erg V.agt[1].obj[2],,,Basic,,,
-7436483785,chhi1245,1-erg 2-abs 3-loc V.agt[1].obj[2],,,Basic,,,
-7436606406,chhi1245,1-erg 2-abs 3-erg 4-loc V.agt[1].obj[2],,,Basic,,,
-7436890800,chhi1245,1-abs 2-loc V.subj[1],,,Basic,,,
-8111021185,chhi1245,1-abs V,,,Basic,,,
-8290896275,chhi1245,1-erg 2-abs poss[1].V.agt[1].obj[2],,,Basic,,,
-8291332461,chhi1245,V,,,Basic,,,
-9588500497,chhi1245,1-abs V.obj[1],,,Basic,,,
-6346296240,mapu1245,V.subj[1] 1,"<SPAN STYLE= """" >Monovalent single-argument verb frame; a </SPAN><SPAN STYLE= ""font-style:italic;"" >mew</SPAN><SPAN STYLE= """" > adpositional phrase to incorporate a further participant is only reluctantly (if animate) or somewhat readily (if inanimate and semantically primed, e.g.</SPAN><SPAN STYLE= ""font-style:italic;"" > ruka mew</SPAN><SPAN STYLE= """" > 'in the house) accepted in elicitation, and infrequently found in texts </SPAN>",,Basic,,,
-6346375907,mapu1245,V.subj[1].obj[2] 2 1 3+mew,"<SPAN STYLE= """" >Bipersonal transitive frame plus oblique/adjunct</SPAN>","The adposition mew covers a wide range of semantic roles: source, goal, location, afficiary, cause, recipient, topic, instrument, etc.",Basic,,,
-6347398986,mapu1245,V.subj[1].obj[2] 2 3 1,,,Basic,,,
-6347428233,mapu1245,V.subj[1] 1 2+mew,"<SPAN STYLE= """" >Extended monopersonal intransitive frame; the adpositional phrase is readily produced in elicitation and not infrequent in texts</SPAN>",,Basic,,,
-6347700008,mapu1245,V.subj[1].obj[2] 2 1,,,Basic,,,
-7549445631,mapu1245,V.subj[0],"<SPAN STYLE= """" >Monopersonal dummy subject frame; no NP is accepted.</SPAN>",Used with meteorological predicates,Basic,,,
-4876976047,xara1244,1 > V > 2 (kèwâ+3),,,Basic,,,
-4876983181,xara1244,1 > V,,,Basic,,,
-4876985242,xara1244,1 > V 2 (ngê+3),,,Basic,,,
-4877070908,xara1244,1 > V 2 xù+3,,,Basic,,,
-4877109634,xara1244,1 > V 2 taa+3,,,Basic,,,
-4877126997,xara1244,1 > V 2 (kè+3),,,Basic,,,
-4877174351,xara1244,1 > V ngê+2 xù+3,,,Basic,,,
-4877199126,xara1244,1 > V 2,,,Basic,,,
-4877275083,xara1244,1 > V tö+2,"<SPAN STYLE= """" >The verb is followed by a verbal directional, if the event is dynamic.</SPAN>",,Basic,,,
-4877347958,xara1244,1 > V wâ+2 (xù+3),,,Basic,,,
-4877430031,xara1244,1 > V 2 (LOC3) (ngê+4),,,Basic,,,
-6536020573,xara1244,1 > V taa+2,,,Basic,,,
-10624947903,xara1244,1 > V (LOC2),,,Basic,,,
-10641104662,xara1244,V,,,Basic,,,
-11722176718,xara1244,1 > V 2 (LOC3),,,Basic,,,
-6536020485,como1259,V.obj[1].sbj[2] 1 (obl-3),,,Basic,,,
-6536020486,como1259,V.obj[1].sbj[2] 1,,Clauses with two NPs (agent and patient) have to be in passive.,Basic,,,
-6536020487,como1259,V.sbj[1] 1,,,Basic,,,
-6536020500,como1259,V.sbj[1] 1 obl-2,,,Basic,,,
-6536020532,como1259,V.obj[1].sbj[2] 1 niniǰi+3,,,Basic,,,
-6805545501,como1259,V,,,Basic,,,
-10017633972,como1259,N/A,,,Basic,,,
-6345176521,emai1241,1 > V > 2,,,Basic,,,
-6345308937,emai1241,1>V>2>vbi+3,,,Basic,,,
-6345501137,emai1241,1>V>UTT2,,,Basic,,,
-6345525831,emai1241,1>V>2 UTT3,,,Basic,,,
-6345635763,emai1241,1>V>2>3,,,Basic,,,
-6345739889,emai1241,1>V,,,Basic,,,
-6345751654,emai1241,1>V>2>lí+3,,,Basic,,,
-6345858014,emai1241,1>V>vbi+2,,,Basic,,,
-6346264702,emai1241,V>1,,,Basic,,,
-9603947126,emai1241,1>V>2>3>vbi+4,,,Basic,,,
-9605011039,emai1241,V,,,Basic,,,
-9768864678,emai1241,1>V'>2>lí+3,,,Derived,,,
-9769040493,emai1241,1>re+4>V'>2,,,Derived,,,
-9769411442,emai1241,1>re+4>V'>2>vbi+3,,,Derived,,,
-9769435814,emai1241,1>re+4>V',,,Derived,,,
-9769467002,emai1241,1>V>li+CC2,,,Basic,,,
-9769648750,emai1241,1>V'>2>ye+5,,,Derived,,,
-9776726855,emai1241,2>V',,,Derived,,,
-9776874540,emai1241,1>V'>2>vbiee+3,,,Derived,,,
-9777147755,emai1241,1>V'>2>vbi+6+re,,,Derived,,,
-9777204605,emai1241,1>V'>2>o+vbi+5,,,Derived,,,
-9777293652,emai1241,1>V'>o+vbi+5,,,Derived,,,
-9777348624,emai1241,1>V'>2>3,,,Derived,,,
-9777359911,emai1241,1>V',,,Derived,,,
-9829514710,emai1241,1>V'>lí+2,,,Derived,,,
-9837793974,emai1241,1>V'>2>fi/ku+e+5,,,Derived,,,
-9837872856,emai1241,1>V'>2>li+3+hon,,,Derived,,,
-9837894282,emai1241,1>V'>li+3+hon,,,Derived,,,
-10017618321,emai1241,N/A,,,Basic,,,
-3291849142,even1259,1-nom 2-acc 3-instr V,,,Basic,,,
-3291880259,even1259,1-nom 2-acc 3-dat V,,,Basic,,,
-3291913773,even1259,1-nom 2-acc 3-loc V,,,Basic,,,
-3291957923,even1259,1-nom 2-acc 3-abl V,,,Basic,,,
-3292055457,even1259,1-nom 2-all V,,,Basic,,,
-3292118303,even1259,1-nom 2-acc 3-acc V,,,Basic,,,
-3292150992,even1259,1-nom 2-prol 3-com V,,,Basic,,,
-3292168913,even1259,1-nom 2-acc V,,,Basic,,,
-3292202487,even1259,1-nom 2-abl V,,,Basic,,,
-3292227823,even1259,1-nom 2-dat V,,,Basic,,,
-3292259875,even1259,1-nom V,,,Basic,,,
-3292266433,even1259,1-nom 2-loc V,,,Basic,,,
-3292353164,even1259,V,,,Basic,,,
-3295666191,even1259,1-nom 2-prol V,,,Basic,,,
-4878085582,mand1436,1 > 2 > V > 3+bala,,,Basic,,,
-4878089411,mand1436,1 > niŋ+2 > V,"<SPAN STYLE= """" >This is a particular case of the standard intransitive frame Subject &gt; Verb, with an 'associative extension' of the subject NP; the preposition </SPAN><SPAN STYLE= ""font-style:italic;"" >ning</SPAN><SPAN STYLE= """" > is used in a construction superficially similar to NP coordination, but is clearly comitative in its semantics</SPAN>",,Basic,,,
-4878093648,mand1436,1 > 2 > V,,,Basic,,,
-4878102623,mand1436,1 > V > 2+la,,,Basic,,,
-4878141903,mand1436,1 > 2 > V > LOC3,,,Basic,,,
-4878152088,mand1436,1 > 2 > V > 3+ye,,,Basic,,,
-4878225804,mand1436,1 > 2 > V > 3+la,,,Basic,,,
-4878229208,mand1436,1 > V,,,Basic,,,
-4878274886,mand1436,1 > V > LOC2,,,Basic,,,
-4878479388,mand1436,1 > 2 > V > 3+bulu,,,Basic,,,
-4878487820,mand1436,1 > 2 > V > 3+ma,,,Basic,,,
-4878523578,mand1436,1 > V > 2+ti > 3+ye,,,Basic,,,
-4878546065,mand1436,1 > 2 > V > 3+bala > 4+la,,,Basic,,,
-4878681330,mand1436,1 > 2 > V> 3+ti,,,Basic,,,
-4878695448,mand1436,1 > V > 2+ye,,,Basic,,,
-6536021091,mand1436,N/A,,,Basic,,,
-8395044003,mand1436,1 > V > 2+ti > LOC3,,,Basic,,,
-8403569951,mand1436,1 > V (> LOC2),,,Basic,,,
-11290375323,mand1436,1 > V > 2+nooma,,,Basic,,,
-11340492614,mand1436,1 > V > 2+ma 3+la,,,Basic,,,
-11981290811,mand1436,1 > V (> 2+ye),,,Basic,,,
-13465822749,mand1436,1 > 2 > V > 3+kóno,,,Basic,,,
-6535919183,djam1255,1-erg 2-abs 3-dat subj[1].obj[2].V,"<SPAN STYLE= """" >Dative-marked recipient/beneficiary frame with a subset of (potentially semantically) ditransitive predicates.</SPAN>",,Basic,,,
-6536019979,djam1255,1-erg 2-abs subj[1].obj[2].V,"<SPAN STYLE= """" >Standard transitive frame: ergative marking is usual, but not obligatory.</SPAN>",,Basic,,,
-6536020997,djam1255,1-abs 2-abs subj[1].V,"<SPAN STYLE= """" >Transitive coding frame with bivalent atelic activity predicates; only in combination with inflecting verbs </SPAN><SPAN STYLE= ""font-style:italic;"" >gagba</SPAN><SPAN STYLE= """" > 'be' or </SPAN><SPAN STYLE= ""font-style:italic;"" >gajgany</SPAN><SPAN STYLE= """" > 'go' in their atelic reading.</SPAN>",,Basic,,,
-6536021003,djam1255,1-abs 2-dat subj[1].V,,,Basic,,,
-6536021009,djam1255,V,,,Basic,,,
-6536021048,djam1255,1-abs V,"<SPAN STYLE= """" >Verbless clause with nominal predicate.</SPAN>",,Basic,,,
-6536021078,djam1255,1-abs 2-loc subj[1].V,"<SPAN STYLE= """" >Typically, locative marking is omitted with place names, but also with inherently locative nominals like </SPAN><SPAN STYLE= ""font-style:italic;"" >yagbali</SPAN><SPAN STYLE= """" > 'place, home, camp'. Locative marking is occasionally replaced with purposive marking when L denotes the habitat of animal species with the verb </SPAN><SPAN STYLE= ""font-style:italic;"" >gagba</SPAN><SPAN STYLE= """" > 'be'.</SPAN>",,Basic,,,
-6746080809,djam1255,1-erg 2-abs 3-abs subj[1].obj[2].V,"<SPAN STYLE= """" >Ditransitive (double absolutive) frame; recipient indexed on verb.</SPAN>",,Basic,,,
-6753449817,djam1255,1-erg 2-abs subj[1].obj[2].V 3-instr,,,Basic,,,
-6753521162,djam1255,1-abs subj[1].V,"<SPAN STYLE= """" >Default intransitive construction with absolutive S and S agreement on morphologically intransitive verb.</SPAN>",,Basic,,,
-6772290327,djam1255,1-erg 2-abs LOC3 subj[1].obj[2].V,"<SPAN STYLE= """" >Coding frame for predicates of transfer. The goal argument can be marked with either locative or allative case (not considered here separately as a case of alternation).</SPAN>",,Basic,,,
-6772313995,djam1255,1-erg 2-abs subj[1].obj[2].V 3-instr 4-loc,,,Basic,,,
-6883604136,djam1255,1-abs 2-all subj[1].V,,,Basic,,,
-8082708263,djam1255,2-abs obj[2].V,,,Basic,,,
-9794148427,djam1255,1-erg CC2 subj[1].obj[2].V,,,Basic,,,
-12982940026,djam1255,UTT2 1-erg 3-dat subj[1].obj[2].V,,,Basic,,,
-5371446322,nucl1643,1-nom 2-abl 3-acc V,,,Basic,,,
-5371461865,nucl1643,1-nom 2-acc V,,,Basic,,,
-6536020711,nucl1643,1-nom 2-gen 3-acc V,,,Basic,,,
-6536020719,nucl1643,1-nom 2-dat 3-acc V,,,Basic,,,
-6536020729,nucl1643,1-nom 2-acc 3-quot V,,,Basic,,,
-6536020733,nucl1643,1-nom (2-instr) 3-acc V,,,Basic,,,
-6536020739,nucl1643,1-nom 2-loc 3-acc V,,,Basic,,,
-6536020741,nucl1643,1-nom (2-instr) 3-loc 4-acc V,,,Basic,,,
-6536020747,nucl1643,1-nom V,,,Basic,,,
-6536020751,nucl1643,1-nom 2-loc V,,,Basic,,,
-7081256030,nucl1643,1-dat 2-nom V,,,Basic,,,
-7081333520,nucl1643,1-nom 2-gen V,,,Basic,,,
-7081416451,nucl1643,1-nom 2-dat V,,,Basic,,,
-9778107494,nucl1643,3-nom (2-instr) passV',,,Derived,,,
-9778140431,nucl1643,4-nom (2-instr) 3-loc passV',,,Derived,,,
-9778153848,nucl1643,3-nom 2-abl passV',,,Derived,,,
-9778163077,nucl1643,2-nom 3-quot passV',,,Derived,,,
-9778172647,nucl1643,2-nom passV',,,Derived,,,
-9778252649,nucl1643,3-nom 2-dat passV',,,Derived,,,
-9778320236,nucl1643,3-nom 2-loc passV',,,Derived,,,
-9778351205,nucl1643,1-nom 2-dat 3-quot V,,,Basic,,,
-9778373529,nucl1643,2-nom 3-acc passV',,,Derived,,,
-10017630793,nucl1643,N/A,,,Basic,,,
-11349361511,nucl1643,1-nom 2-nom V,,,Basic,,,
-12333943651,nucl1643,1-nom 2-dat UTT3 V,,,Basic,,,
-12456288435,nucl1643,1-nom (2-instr) 3-acc V'pot,,,Derived,,,
-12456299080,nucl1643,1-nom (2-instr) 3-loc 4-acc V'pot,,,Derived,,,
-12456302132,nucl1643,1-nom 2-abl 3-acc V'pot,,,Derived,,,
-12456304036,nucl1643,1-nom 2-acc 3-quot V'pot,,,Derived,,,
-12456306422,nucl1643,1-nom 2-acc V'pot,,,Derived,,,
-12456310180,nucl1643,1-nom 2-dat 3-acc V'pot,,,Derived,,,
-12456319011,nucl1643,1-nom 2-dat V'pot,,,Derived,,,
-12456320762,nucl1643,1-nom 2-loc 3-acc V'pot,,,Derived,,,
-12456323709,nucl1643,1-nom 2-loc V'pot,,,Derived,,,
-12456325478,nucl1643,1-nom V'pot,,,Derived,,,
-12456398035,nucl1643,3-nom V'decr,,,Derived,,,
-12456408232,nucl1643,2-nom V'decr,,,Derived,,,
-12456600663,nucl1643,2-nom 3-acc V'decr,,,Derived,,,
-12456614071,nucl1643,4-nom 1-acc V'incr,,,Derived,,,
-12456746165,nucl1643,1-nom 3-instr 2-acc V',,,Derived,,,
-12456789854,nucl1643,1-nom 3-acc 2-abl V',,,Derived,,,
-12456971443,nucl1643,1-nom 2-dat UTT3 V'pot,,,Derived,,,
-12456983361,nucl1643,2-nom UTT3 passV',,,Derived,,,
-6536020369,kett1243,1 2 3 subj[1].obj[3].V,,,Basic,,,
-6536020371,kett1243,1 2 (3-abl) subj[1].obj[2].V,,,Basic,,,
-6536020382,kett1243,1 2-dat subj[1].V,,,Basic,,,
-6536020385,kett1243,1 2-instr 3 subj[1].obj[3].V,,,Basic,,,
-6536020386,kett1243,1 2 subj[1].V,,,Basic,,,
-6536020389,kett1243,1 2-poss+tān subj[1].V,,,Basic,,,
-6536020393,kett1243,1 2-adess subj[1].V,,,Basic,,,
-7437678350,kett1243,1 2 subj[1].obj[2].V,,,Basic,,,
-7437693214,kett1243,1 2 (3-instr) subj[1].obj[2].V,,,Basic,,,
-7437727200,kett1243,1 2 3-dat subj[1].obj[2].V,,,Basic,,,
-7437798231,kett1243,V,,,Basic,,,
-7437815073,kett1243,1 V,,,Basic,,,
-7437819590,kett1243,1 subj[1].V,,,Basic,,,
-7437842975,kett1243,1 2 subj[1].rfl/sbj[2].V,,,Basic,,,
-7437867588,kett1243,1 subj[1].obj[2].V,,,Basic,,,
-7437881880,kett1243,1 LOC2 subj[1].V,,,Basic,,,
-7445923583,kett1243,1 2-abl subj[1].V,,,Basic,,,
-8343886238,kett1243,1 (2-abl) (3-transl) subj[1].V,,,Basic,,,
-8834356159,kett1243,1 2 (LOC3) subj[1].obj[2].V,,,Basic,,,
-8834636685,kett1243,1 (2-dat) subj[1].V UTT3,,,Basic,,,
-10017611166,kett1243,N/A,,,Basic,,,
-6865448042,yuca1254,sbj[1].V 1,,,Basic,,,
-6865705177,yuca1254,sbj[1].V ti'+2 1,,,Basic,,,
-6865723890,yuca1254,sbj[1].V.obj[2] 2 1,"<SPAN STYLE= """" >Basic transitive construction:<BR>[ [ Pn ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >PC.i</SPAN><SPAN STYLE= """" > [ W ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >V.tr</SPAN><SPAN STYLE= """" > -</SPAN><SPAN STYLE= ""font-variant:small-caps;"" >Abs</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >j</SPAN><SPAN STYLE= """" > [ P ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >NP.j</SPAN><SPAN STYLE= """" > [ A ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >NP .i </SPAN><SPAN STYLE= """" >]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >VCC<BR></SPAN><SPAN STYLE= """" >&quot;A affects / acts on P.&quot;<BR>The transitive subject function (actor) is the same for different semantic roles, including agents and experiencers. The subject and direct object (P) are cross-referenced on the transitive verb. The actants themselves are optional, not case-marked and may occur in any order, although subject-final order is the default.</SPAN>",,Basic,,,
-6865841860,yuca1254,sbj[1].V.obj[2] 2 ti'+3 1,"<SPAN STYLE= """" >Construction of ditransitive verb with animate indirect complement:<BR>[ [ Pn ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >PC.i</SPAN><SPAN STYLE= """" > [ W ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >V.tr</SPAN><SPAN STYLE= """" > -</SPAN><SPAN STYLE= ""font-variant:small-caps;"" >Abs</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >j</SPAN><SPAN STYLE= """" > [ P ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >NP.j</SPAN><SPAN STYLE= """" > [ A ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >NP.i</SPAN><SPAN STYLE= """" > [ </SPAN><SPAN STYLE= ""font-style:italic;"" >ti&rsquo;</SPAN><SPAN STYLE= """" > [ L ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >NP</SPAN><SPAN STYLE= """" > ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >PrepP</SPAN><SPAN STYLE= """" > ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >VCC<BR></SPAN><SPAN STYLE= """" >&quot;A acts upon P with respect to L.&quot;<BR>This is a subtype of the construction of ditransitive verb with inanimate indirect complement.</SPAN>",,Basic,,,
-6865866932,yuca1254,sbj[1].V 1 yéetel+2 yóok'ol+3,,,Basic,,,
-6866002191,yuca1254,sbj[1].V.obj[2] 2 1 (yéetel+3),,,Basic,,,
-6866098435,yuca1254,sbj[1].V.obj[2] 2 1 LOC3,,,Basic,,,
-6866132788,yuca1254,sbj[1].V.obj[2] 2 (ti'+3) (yéetel+4) 1,,,Basic,,,
-6866278769,yuca1254,sbj[1].V LOC2 1,,,Basic,,,
-10304951298,yuca1254,sbj[2].V'caus.obj[1] 1 2,,,Derived,,,
-10305018487,yuca1254,sbj[3].V'caus.obj[1] 1 3 LOC2,,,Derived,,,
-10305277288,yuca1254,sbj[2].V'deag 2 (ti'+3) (yéetel+4),,,Derived,,,
-10305294278,yuca1254,sbj[2].V'deag 2,,,Derived,,,
-10305301809,yuca1254,sbj[2].V'deag 2 LOC3,,,Derived,,,
-10305309004,yuca1254,sbj[2].V'deag 2 (yéetel+3),,,Derived,,,
-10305544265,yuca1254,sbj[1].V'extra.obj[3] 3 1,,,Derived,,,
-10305665145,yuca1254,sbj[1].V'extra.obj[3] 3 1 ti'+2,,,Derived,,,
-10312853525,yuca1254,sbj[1].V'intro 1,,,Derived,,,
-10312940368,yuca1254,sbj[2].V'pass 2 (tumen+1),,,Derived,,,
-10312974505,yuca1254,sbj[2].V'pass 2 (tumen+1) (ti'+3) (yéetel+4),,,Derived,,,
-10313099041,yuca1254,sbj[2].V'pass 2 (tumen+1) (yéetel+3),,,Derived,,,
-10313133229,yuca1254,sbj[2].V'pass 2 (tumen+1) LOC3,,,Derived,,,
-10313192114,yuca1254,sbj[2].V'pass 2 (tumen+1) ti'+3,,,Derived,,,
-10329637124,yuca1254,sbj[1/2].V',,,Derived,,,
-10329797591,yuca1254,sbj[1/2].V' (yéetel+3),,,Derived,,,
-10329807756,yuca1254,sbj[1/2].V' LOC3,,,Derived,,,
-10330015578,yuca1254,sbj[1/2].V' ti'+3,,,Derived,,,
-10381008777,yuca1254,sbj[1].V'.obj[2] 2 1,,,Derived,,,
-10561737135,yuca1254,sbj[1].V'extra.obj[2] 2 1,,,Derived,,,
-10561792332,yuca1254,sbj[1].V' 1,,,Derived,,,
-10561798295,yuca1254,sbj[1].V' ti'+2 1,,,Derived,,,
-10561958083,yuca1254,sbj[1/2].V' (ti'+3) (yéetel+4),,,Derived,,,
-10561979366,yuca1254,sbj[1/2].V' (yóok'ol+3),,,Derived,,,
-10641563997,yuca1254,sbj[1].V' ti'+3 1,,,Derived,,,
-10641574316,yuca1254,sbj[1].V' LOC3 1,,,Derived,,,
-10641579379,yuca1254,sbj[1].V' (yéetel+3) 1,,,Derived,,,
-10642455917,yuca1254,sbj[2].V'usat.obj[1] 1 2,,,Derived,,,
-4333019405,icel1247,1-nom V.agr[1] við-2-acc um+3-acc,,,Basic,,,
-4333034006,icel1247,1-nom V.agr[1] UTT2 við+3-acc,,,Basic,,,
-4781364732,icel1247,1-nom V.agr[1] 2-acc á+3-acc,,,Basic,,,
-4781395547,icel1247,1-nom V.agr[1] 2-acc yfir+3-acc,,,Basic,,,
-4781499904,icel1247,1-nom V.agr[1] 2-acc,,,Basic,,,
-4781522458,icel1247,1-nom V.agr[1] á+2-acc,,,Basic,,,
-4781546520,icel1247,1-nom V.agr[1] 2-acc af+3-dat,,,Basic,,,
-4781763138,icel1247,1-nom V.agr[1] við+2-acc,,,Basic,,,
-4781771801,icel1247,1-dat V.agr[2] 2-nom,,,Basic,,,
-4781833472,icel1247,1-nom V.agr[1] að+2-dat,,,Basic,,,
-4781863756,icel1247,1-nom V.agr[1] um+2-acc,,,Basic,,,
-4781880751,icel1247,1-nom V.agr[1] 2-dat,,,Basic,,,
-4781888826,icel1247,1-nom V.agr[1] 2-acc (í +3-acc),,,Basic,,,
-4782020736,icel1247,1-nom V.agr[1] (2-acc) um+3-acc,,,Basic,,,
-4782372131,icel1247,1-nom V.agr[1] 2-acc 3-acc,,,Basic,,,
-4782382762,icel1247,1-nom V.agr[1] 2-acc (úr+3-dat),,,Basic,,,
-4782397674,icel1247,1-nom V.agr[1] 2-acc (með+3-dat),,,Basic,,,
-4782441781,icel1247,1-nom V.agr[1] 2-acc (fyrir+3-dat),,,Basic,,,
-4782463794,icel1247,1-nom V.agr[1] 2-dat 3-acc,,,Basic,,,
-4782484004,icel1247,1-nom V.agr[1] 2-acc til+3-gen,,,Basic,,,
-4782582333,icel1247,1-nom V.agr[1] 2-acc (með+3-dat) (við+4-acc),,,Basic,,,
-4782625588,icel1247,1-nom V.agr[1] 2-dat (í+3-acc),,,Basic,,,
-4782645899,icel1247,1-nom V.agr[1] 2-acc (af+3-dat),,,Basic,,,
-4782652132,icel1247,1-nom V.agr[1] 2-dat á+3-acc,,,Basic,,,
-4782666572,icel1247,1-nom V.agr[1],,,Basic,,,
-4782700699,icel1247,1-nom V.agr[1] (á+2-acc),,,Basic,,,
-4782723644,icel1247,1-nom V.agr[1] í+2-dat,,,Basic,,,
-4782734068,icel1247,1-acc V,,,Basic,,,
-4782744071,icel1247,1-dat V (í+2-dat),,,Basic,,,
-4782758310,icel1247,1-acc V 2-acc,,,Basic,,,
-4782769693,icel1247,1-dat V,,,Basic,,,
-4808496980,icel1247,V,,,Basic,,,
-4808501465,icel1247,1-nom V.agr[1] 2-dat (frá+3-dat),,,Basic,,,
-4808529404,icel1247,1-dat V.agr[2] 2-nom (frá+3-dat),,,Basic,,,
-4808536204,icel1247,1-nom V.agr[1] 2-gen,,,Basic,,,
-4808541111,icel1247,1-acc V 2-gen,,,Basic,,,
-4808551488,icel1247,1-nom V.agr[1] 2-gen (í+3-dat),,,Basic,,,
-4808555050,icel1247,1-gen V,,,Basic,,,
-4808916071,icel1247,1-nom V.agr[1] af+2-dat,,,Basic,,,
-9526784738,icel1247,1-nom V.agr[1] (LOC2),,,Basic,,,
-9527567027,icel1247,1-nom V.agr[1] eftir+2-dat,,,Basic,,,
-9545419587,icel1247,1-nom rcpV'.agr[1] á,,,Derived,,,
-9545479950,icel1247,1/2-nom rcpV'.agr[1/2],,,Derived,,,
-9545547519,icel1247,1/2-nom rcpV'.agr[1/2] á,,,Derived,,,
-9545570866,icel1247,1/2-nom rcpV'.agr[1/2] að,,,Derived,,,
-9545620510,icel1247,1/2-nom rcpV'.agr[1/2] við,,,Derived,,,
-9553108187,icel1247,2-nom V'na.agr[2],,,Derived,,,
-9553137825,icel1247,2-nom V'na.agr[2] úr+3-dat,,,Derived,,,
-9553234935,icel1247,1-nom V'.agr[1] við+2-dat frá+3-dat,,,Derived,,,
-9553309352,icel1247,1-nom V'.agr[1] við+2-acc,,,Derived,,,
-9553675647,icel1247,1-nom V'.agr[1] 3-acc með+2-dat,,,Derived,,,
-9553798683,icel1247,1-nom V'.agr[1] 2-acc,,,Derived,,,
-9553873434,icel1247,1-nom V'.agr[1] 2-dat LOC3,,,Derived,,,
-9553993400,icel1247,2-nom V'.agr[2] 1-acc,,,Derived,,,
-9554033960,icel1247,2-acc V',,,Derived,,,
-9613889188,icel1247,2-dat V',,,Derived,,,
-9613990704,icel1247,2-nom V'.agr[2],,,Derived,,,
-9614122329,icel1247,2-nom medV'.agr[2],,,Derived,,,
-9614233247,icel1247,2-nom medV'.agr[2] 3-nom,,,Derived,,,
-9614267224,icel1247,2-nom medV'.agr[2] til+3-gen,,,Derived,,,
-9724096836,icel1247,2-nom passV'.agr[2] um+3-acc,,,Derived,,,
-9724125174,icel1247,2-nom passV'.agr[2],,,Derived,,,
-9724224027,icel1247,2-nom passV'.agr[2] með+3-dat,,,Derived,,,
-9724281600,icel1247,2-nom passV'.agr[2] í+3-dat,,,Derived,,,
-9724365453,icel1247,2-nom passV'.agr[2] 3-nom,,,Derived,,,
-9724385939,icel1247,2-nom passV'.agr[2] á+3-acc,,,Derived,,,
-9724446174,icel1247,2-nom passV'.agr[2] til+3-gen,,,Derived,,,
-9724477899,icel1247,2-nom passV'.agr[2] yfir+3-acc,,,Derived,,,
-9724517734,icel1247,2-nom passV'.agr[2] (úr+3-dat),,,Derived,,,
-9724542520,icel1247,3-nom passV'.agr[3],,,Derived,,,
-9725011356,icel1247,x-nom passV'.agr[x] 1-dat,,,Derived,,,
-9725037865,icel1247,x-nom passV'.agr[x],,,Derived,,,
-9725228998,icel1247,x-nom passV'agr[x] um+3-acc,,,Derived,,,
-9725247522,icel1247,x-nom passV'.agr[x] 2-acc,,,Derived,,,
-9725307425,icel1247,x-nom passV'.agr[x] 2-acc með+3-dat,,,Derived,,,
-9725340335,icel1247,x-nom passV'.agr[x] 2-acc (í+3-acc),,,Derived,,,
-9725463848,icel1247,x-nom passV'.agr[x] 2-acc (úr+3-dat),,,Derived,,,
-9725489233,icel1247,x-nom passV'.agr[x] 2-dat,,,Derived,,,
-9725538345,icel1247,x-nom passV'.agr[x] (2-dat) 3-acc,,,Derived,,,
-9725663384,icel1247,x-nom passV'.agr[x] 2-gen,,,Derived,,,
-9725681788,icel1247,x-nom passV'.agr[x] á+2-acc,,,Derived,,,
-9725722015,icel1247,x-nom passV'.agr[x] að+2-dat,,,Derived,,,
-9725745753,icel1247,x-nom passV'.agr[x] eftir+2-dat,,,Derived,,,
-9725767969,icel1247,x-nom passV'.agr[x] í+2-dat,,,Derived,,,
-9725790168,icel1247,x-nom passV'.agr[x] um+2-acc,,,Derived,,,
-9725819392,icel1247,x-nom passV'.agr[x] við-2-acc,,,Derived,,,
-9726036149,icel1247,2-gen passV',,,Derived,,,
-9726198086,icel1247,2-dat passV',,,Derived,,,
-9726228198,icel1247,2-dat passV'.agr[3] 3-nom,,,Derived,,,
-9734684181,icel1247,2-dat V' 3-acc,,,Derived,,,
-9734710060,icel1247,x-nom medV'.arg[x],,,Derived,,,
-9734735069,icel1247,x-nom medV'.arg[x] LOC2,,,Derived,,,
-9734790281,icel1247,x-nom medV'.agr[x] af+2-dat,,,Derived,,,
-9734827799,icel1247,x-nom medV'.arg[x] í+2-dat,,,Derived,,,
-9976609648,icel1247,1-nom V.agr[1] 2-acc LOC3,,,Basic,,,
-11626022779,icel1247,1/2-nom rcpV'.agr[1/2] hvort öðru,,,Derived,,,
-11679325724,icel1247,2-nom passV'.agr[2] (af+3-dat),,,Derived,,,
-11685652039,icel1247,2-nom V'ja.agr[2],,,Derived,,,
-11686527954,icel1247,1-nom V.agr[1] 2-dat LOC3,,,Basic,,,
-11686635448,icel1247,1-nom V'.agr[1] 3-acc til 2-gen,,,Derived,,,
-11686698323,icel1247,1-nom V'.agr[1] 3-dat 2-acc,,,Derived,,,
-11687267767,icel1247,2-nom medV'.agr[2] LOC3,,,Derived,,,
-11687299524,icel1247,1-nom medV'.agr[1],,,Derived,,,
-11799217784,icel1247,1-dat V um+2,,,Basic,,,
-11903393330,icel1247,2-nom V'.agr[2] 1-dat,,,Derived,,,
-11903815860,icel1247,1/2-nom reflV'.agr[1/2],,,Derived,,,
-11910874615,icel1247,x-nom passV'.agr[x] 3-acc við+2-acc,,,Derived,,,
-11910960295,icel1247,x-nom passV'.agr[x] 2-acc LOC3,,,Derived,,,
-11911045785,icel1247,x-nom passV'.agr[x] 2-dat (í+3-acc),,,Derived,,,
-11911064177,icel1247,x-nom passV'.agr[x] 2-dat LOC3,,,Derived,,,
-11911153909,icel1247,x-nom passV'.agr[x] 2-gen (í+3-dat),,,Derived,,,
-11911233742,icel1247,1-nom V'.agr[1] 2-gen,,,Derived,,,
-11911441863,icel1247,2-gen passV' (í+3-dat),,,Derived,,,
-11911666317,icel1247,2-gen V' í+3-dat,,,Derived,,,
-11911791619,icel1247,x-nom medV'.agr[x] um+2-acc,,,Derived,,,
-12074721721,icel1247,1-nom V.agr[1] (2-dat),,,Basic,,,
-12074762812,icel1247,4-nom V'.agr[1] 1-dat LOC3,,,Derived,,,
-12075873302,icel1247,1/2-nom reflV'.agr[1/2] 3-dat,,,Derived,,,
-12076046665,icel1247,2-nom passV'.agr[2] LOC3,,,Derived,,,
-12076398911,icel1247,2-dat passV' (LOC3),,,Derived,,,
-6536020888,hokk1249,1-nom 2-acc V,,,Basic,,,
-6536020889,hokk1249,1-nom 2-dat V,,,Basic,,,
-6536020895,hokk1249,1-nom 2-nom V,,,Basic,,,
-6536020897,hokk1249,1-nom 2+nituite V,,,Basic,,,
-6536020900,hokk1249,1-nom 2-dat 3-acc V,,,Basic,,,
-6536020906,hokk1249,1-nom 2-com/dat V,,,Basic,,,
-6536020911,hokk1249,1-nom 2-dat UTT3 V,,,Basic,,,
-6536020912,hokk1249,1-nom 2-acc 3-com V,,,Basic,,,
-6536020920,hokk1249,1-nom 2-abl 3-acc V,,,Basic,,,
-6536020937,hokk1249,1-nom 2-acc (3-instr) V,,,Basic,,,
-8827854105,hokk1249,1-nom V,,,Basic,,,
-10348259522,hokk1249,3-nom 2-abl 1-dat/niyotte V'pass,,,Derived,,,
-10348309379,hokk1249,2-nom 1-dat/niyotte 3-instr V'pass,,,Derived,,,
-10348399133,hokk1249,2-nom 1-dat/niyotte 3-com V'pass,,,Derived,,,
-10348419769,hokk1249,2-nom 1-dat/niyotte V'pass,,,Derived,,,
-10348784284,hokk1249,3-nom 1-niyotte 2-dat V'pass,,,Derived,,,
-10348968666,hokk1249,2-nom 1-dat V'pass,,,Derived,,,
-10349071923,hokk1249,4-nom 1-dat 2-abl 3-acc V'caus,,,Derived,,,
-10349145802,hokk1249,4-nom 1-dat 2-acc 3-instr V'caus,,,Derived,,,
-10349210229,hokk1249,4-nom 1-dat 2-acc 3-com V'cause,,,Derived,,,
-10349227721,hokk1249,4-nom 1-dat 2-acc V'cause,,,Derived,,,
-10373656794,hokk1249,4-nom 1-acc 2-com/dat V'caus,,,Derived,,,
-10373682871,hokk1249,4-nom 1-dat 2-dat 3-acc V'caus,,,Derived,,,
-10374039912,hokk1249,4-nom 1-acc 2-dat V'caus,,,Derived,,,
-10374103830,hokk1249,4-nom 1-dat 2+nituite V'caus,,,Derived,,,
-10374128544,hokk1249,4-nom 1-acc V'caus,,,Derived,,,
-10380485078,hokk1249,3-nom 2-abl V'anticaus,,,Derived,,,
-10380519272,hokk1249,2-nom 3-instr V'anticaus,,,Derived,,,
-10380642394,hokk1249,2-nom V'anticaus,,,Derived,,,
-10380823984,hokk1249,3-nom 2-dat V'anticaus,,,Derived,,,
-10380932167,hokk1249,1-nom V'anticaus,,,Derived,,,
-10380970621,hokk1249,2-nom 1-abl 3-acc V'pass,,,Derived,,,
-10381027751,hokk1249,2-nom 3-acc 1-dat/niyotte V'pass,,,Derived,,,
-10382957642,hokk1249,3-nom V'pot,,,Derived,,,
-10382985043,hokk1249,2-nom 3-instr V'pot,,,Derived,,,
-10383006260,hokk1249,2-nom 3-com V'pot,,,Derived,,,
-10383020019,hokk1249,2-nom V'pot,,,Derived,,,
-10383111736,hokk1249,3-nom 2-dat V'pot,,,Derived,,,
-10383253872,hokk1249,1-nom V'pot,,,Derived,,,
-10442125225,hokk1249,1-nom 2-abl 3-acc V'pot,,,Derived,,,
-10442188710,hokk1249,1-nom 2-acc (3-instr) V'pot,,,Derived,,,
-10442220949,hokk1249,1-nom 2-acc 3-com V'pot,,,Derived,,,
-10442233836,hokk1249,1-nom 2-acc V'pot,,,Derived,,,
-10443714898,hokk1249,1-nom 2-com/dat V'pot,,,Derived,,,
-10443722689,hokk1249,1-nom 2-dat 3-acc V'pot,,,Derived,,,
-10443877843,hokk1249,1-nom 2-dat UTT3 V'pot,,,Derived,,,
-10443890581,hokk1249,1-nom 2-dat V'pot,,,Derived,,,
-10443942152,hokk1249,1-nom 2+nituite V'pot,,,Derived,,,
-12464081701,hokk1249,UTT3 1-dat/niyotte 2-dat V'pass,,,Derived,,,
-12464221821,hokk1249,4-nom 1-dat 2-dat UTT3 V'caus,,,Derived,,,
-12464301353,hokk1249,2-nom UTT3 1-dat/niyotte V'pass,,,Derived,,,
-4895372581,ainu1240,1 2 3 subj[1].obj[2].V,"<SPAN STYLE= """" >V is a three-argument verb which is typically derived by causative, applicative or applicative-causative derivations. Core arguments are unmarked for case. In verbal cross-referencing (indices) of transitive verbs, A affixes are normally placed before P markers but when it comes to the interaction of first and second person participants there is also a number of fusional markers (A+P), which are subject to considerable dialectal variation. The third person (A/P) is always zero-marked.<BR><BR>Word order. According to Tamura (2000: 181), the basic word order is A &gt; R &gt; T. However, one finds numerous word order variations in actual text, which are probably not syntactically but pragmatically motivated; this issue requires extensive corpus based research in the future. <BR><BR>REF: Tamura, Suzuko. (1988) 2000. &ldquo;Ainugo&rdquo; [The Ainu language]. In Kamei, Takashi, Rokuroo Koono, and Eiichi Chino (eds.). Gengogaku daijiten. vol. 1, Tokyo: Sanseidoo, 6-94. English version: The Ainu language. (ICHEL Linguistic Studies vol. 2), Tokyo: Sanseidoo.<BR></SPAN>",,Basic,,,
-4895958268,ainu1240,1 2 LOC3 subj[1].obj[2].V,"<SPAN STYLE= """" >It is a monotransitive pattern, the locative participant is encoded as an oblique with locative/allative postposition.</SPAN>",,Basic,,,
-4895999026,ainu1240,1 2+(e)un 3 subj[1].obj[3].V,"<SPAN STYLE= """" >This in an indirective ditransitive construction. Rs are marked by the dative case postposition </SPAN><SPAN STYLE= ""font-style:italic;"" >eun</SPAN><SPAN STYLE= """" > &lsquo;to/toward (sb)&rsquo;, which is employed for marking animate obliques such as Recipient, Addressee or animate Goal (ex. 41), and is distinguished from un &lsquo;to/towards (sth)&rsquo;, which is employed for marking inanimate Goal obliques (ex. 43).<BR>  It should be noted that the frequency of the </SPAN><SPAN STYLE= ""font-style:italic;"" >eun</SPAN><SPAN STYLE= """" >-marked indirective ditransitive construction in texts is rather low and that it is preferably used with those few verbs for which there are no corresponding Recipient/Addressee applicatives. In other words, if there is a Recipient/Addressee applicative in </SPAN><SPAN STYLE= ""font-style:italic;"" >ko- </SPAN><SPAN STYLE= """" >(ex. 42), the </SPAN><SPAN STYLE= ""font-style:italic;"" >eun</SPAN><SPAN STYLE= """" >-marked indirective construction, has a low chance of occurring in texts, and completely no chance of occurring if R is encoded by a pronominal argument (ex. 42). <BR>  The above-mentioned frequency restriction does not apply to the cases where R participant is, strictly speaking, not a Recipient proper, i.e. </SPAN><SPAN STYLE= ""font-style:italic;"" >un</SPAN><SPAN STYLE= """" >-marked indirective construction with inanimate Goal  and </SPAN><SPAN STYLE= ""font-style:italic;"" >wa</SPAN><SPAN STYLE= """" >-marked indirective construction with animate/inanimate Source: they are fairly frequent in texts regardless of the existence/non-existence of the corresponding applicative constructions. </SPAN>",,Basic,,,
-4896036279,ainu1240,1 2 subj[1].obj[2].V,"<SPAN STYLE= """" >Core arguments are unmarked for case.<BR>In verbal cross-referencing (indices) of transitive verbs, A affixes are normally placed before P markers but when it comes to the interaction of first and second person participants there is also a number of fusional markers (A+P), which are subject to considerable dialectal variation. The third person (A/P) is always zero-marked.</SPAN>",,Basic,,,
-4896053556,ainu1240,1 2 (3+ani) subj[1].obj[2].V,,,Basic,,,
-4896240073,ainu1240,1 2+un subj[1].V,,,Basic,,,
-4896296132,ainu1240,1 subj[1].V,,,Basic,,,
-4896298101,ainu1240,1 LOC2 subj[1].V,,,Basic,,,
-11947106106,ainu1240,V,,,Basic,,,
-12499764155,ainu1240,1 2 3+wa subj[1].obj[2].V,,,Basic,,,
-6536020254,east2526,1-nom 2-acc V,,,Basic,,,
-6536020267,east2526,1-nom 2-dat 3-acc V,,,Basic,,,
-6536020270,east2526,1-nom 2-dat V,,,Basic,,,
-6536020279,east2526,1-nom 2-acc 3-cit V,,,Basic,,,
-6536020292,east2526,1-nom 2-abl 3-acc V,,,Basic,,,
-6536020308,east2526,1-nom 2-acc (3-instr) V,,,Basic,,,
-6536020310,east2526,1-nom V,,,Basic,,,
-6536020312,east2526,1-nom 2-dat/acc V,,,Basic,,,
-6536020319,east2526,1-nom (2-abl) V,,,Basic,,,
-6536020323,east2526,1-nom 2-nom V,,,Basic,,,
-6536020345,east2526,1-exp 2-nom V,,,Basic,,,
-6536020346,east2526,N/A,,,Basic,,,
-7791577823,east2526,1-exp 2-acc V,,,Basic,,,
-7797347822,east2526,1-nom 2-gen 3-acc V,,,Basic,,,
-7806644078,east2526,1-nom 2-loc/com V,,,Basic,,,
-7866275956,east2526,4-nom 1-dat 3-acc 2-abl V'rase,,,Derived,,,
-7866385965,east2526,4-nom 1-acc V'rase,,,Derived,,,
-8212111459,east2526,1-nom 2-dat (3-instr) V,,,Basic,,,
-9838553945,east2526,1-nom 2-acc 3-acc V,,,Basic,,,
-9847660188,east2526,4-nom 1-dat 2-acc (3-instr) V'rase,,,Derived,,,
-9847707657,east2526,4-nom 1-dat 2-acc (3-cit) V'rase,,,Derived,,,
-9847732796,east2526,4-nom 1-dat 2-acc V'rase,,,Derived,,,
-9847923210,east2526,4-nom 1-acc 2-dat (3-instr) V'rase,,,Derived,,,
-9847940853,east2526,4-nom 1-dat 2-dat 3-acc V'rase,,,Derived,,,
-9848039816,east2526,4-nom 1-acc 2-dat V'rase,,,Derived,,,
-9848109760,east2526,4-nom 1-acc 2-dat/acc V'rase,,,Derived,,,
-9848138645,east2526,4-nom 1-dat 2-gen 3-acc V'rase,,,Derived,,,
-9848160173,east2526,4-nom 1-acc 2-loc/com V'rase,,,Derived,,,
-9896823463,east2526,1-nom 2-acc V',,,Derived,,,
-9897008560,east2526,1-exp (2-abl) 3-acc V'pot,,,Derived,,,
-9898701342,east2526,4-nom 1-acc (2-abl) V',,,Derived,,,
-9898786102,east2526,1-exp 2-acc (3-instr) V'pot,,,Derived,,,
-9898863691,east2526,1-exp 2-acc 3-cit V'pot,,,Derived,,,
-9898873103,east2526,1-exp 2-acc V'pot,,,Derived,,,
-9898876972,east2526,1-exp 2-dat (3-instr) V'pot,,,Derived,,,
-9898882512,east2526,1-exp (2-dat) 3-acc V'pot,,,Derived,,,
-9898886733,east2526,1-exp 2-dat V'pot,,,Derived,,,
-9898892829,east2526,1-exp 2-gen 3-acc V'pot,,,Derived,,,
-9898896967,east2526,1-exp 2-loc/com V'pot,,,Derived,,,
-9898904308,east2526,1-exp V'pot,,,Derived,,,
-9899622282,east2526,2-nom 3-cit (1-loc) V'pass,,,Derived,,,
-9899648266,east2526,2-nom (1-loc/dat) V'pass,,,Derived,,,
-9905556448,east2526,2-nom (3-instr) (1-loc) V'pass,,,Derived,,,
-9905618423,east2526,3-nom 2-dat (1-loc) V'pass,,,Derived,,,
-9905761800,east2526,3-nom 2-abl (1-loc) V'pass,,,Derived,,,
-9905992221,east2526,1-nom 2-acc V'as/e,,,Derived,,,
-9905995362,east2526,2-nom 1-acc V'as/e,,,Derived,,,
-12333951523,east2526,1-nom 2-dat UTT3 V,,,Basic,,,
-12457097801,east2526,4-nom 1-dat 2-dat UTT3 V'rase,,,Derived,,,
-12463901911,east2526,1-exp 2-dat UTT3 V'pot,,,Derived,,,
-12463939506,east2526,2-nom UTT3 V'pass,,,Derived,,,
-4238289226,mand1415,1 > V > 2,,,Basic,,,
-5206065171,mand1415,1 > V,,,Basic,,,
-7385102321,mand1415,1 > (yòng+2 >) V > 3,,,Basic,,,
-7385229679,mand1415,1 > V > 2 > 3,,,Basic,,,
-7385240592,mand1415,1 > V > LOC2,,,Basic,,,
-7385353329,mand1415,1 > V > zài+2,,,Basic,,,
-7385418983,mand1415,1 > (LOC2 >) V > 3,,,Basic,,,
-7385502652,mand1415,1 > ba+2 > V > zài+3-loc,,,Basic,,,
-7385521312,mand1415,V,,,Basic,,,
-7385529946,mand1415,1 > (cóng+2 >) V > 3,,,Basic,,,
-7385806511,mand1415,1 > (duì+2 >) V > 3,,,Basic,,,
-7385839005,mand1415,1 > (gěi+2 >) V 3,,,Basic,,,
-7385895035,mand1415,1 > (PREP+2 >) V > 3,,,Basic,,,
-11073420082,mand1415,1 > (zài+2 >) V,,,Basic,,,
-11073509873,mand1415,1 > PREP+2 > V,,,Basic,,,
-12334020034,mand1415,1 > (duì+2 >) V > UTT3,,,Basic,,,
-15609907338,mand1415,N/A,,,Basic,,,
-5819272005,bali1278,1 V 2,,,Basic,,,
-5838337483,bali1278,1 V UTT2 teken+3,,,Basic,,,
-5838360848,bali1278,1 V 2 3,,,Basic,,,
-5838379629,bali1278,1 V 2 aji+3,,,Basic,,,
-5838440395,bali1278,1 V 2 uli+3,,,Basic,,,
-5838500332,bali1278,1 V 2 ke+3,,,Basic,,,
-5838582650,bali1278,1 V 2 aji+3 ke+4,,,Basic,,,
-5838594068,bali1278,1 V 2 di+3,,,Basic,,,
-5856403388,bali1278,1 V,,,Basic,,,
-5856496458,bali1278,V,,,Basic,,,
-8195607479,bali1278,1 V ke+2,,,Basic,,,
-8195624828,bali1278,1 V di+2,,,Basic,,,
-12377991904,bali1278,1 V teken+2,,,Basic,,,
-12378040230,bali1278,1 V 2 unduk+3,,,Basic,,,
-6536020574,yoru1245,1 V 2 ní+3,,,Basic,,,
-6536020575,yoru1245,1 V 2 fún+3,"<SPAN STYLE= """" >This coding frame is mainly for ditratransitive verbs in which f&uacute;n introduces the third argument, i.e., the recipient.  </SPAN>",,Basic,,,
-6536020576,yoru1245,1 fi+2 V 3,"<SPAN STYLE= """" >In this coding frame, </SPAN><SPAN STYLE= ""font-style:italic;"" >fi </SPAN><SPAN STYLE= """" >is used to introduce the instrument argument in the basic construction.</SPAN>",,Basic,,,
-6536020577,yoru1245,1 V sí+2,,,Basic,,,
-6536020578,yoru1245,1 V ní+2,,,Basic,,,
-6536020579,yoru1245,1 V,,,Basic,,,
-6536020580,yoru1245,1 V fún+2,,,Basic,,,
-6536020581,yoru1245,1 V nípa+2,,,Basic,,,
-6536020582,yoru1245,1 V mó̩+2,,,Basic,,,
-6536020583,yoru1245,1 fi+2 V sí+3,,,Basic,,,
-6536020584,yoru1245,1 V 2 sí+3,,,Basic,,,
-6536020585,yoru1245,1 V 2 LOC3,,,Basic,,,
-6536020587,yoru1245,1 V LOC2,,,Basic,,,
-6813848905,yoru1245,1 V 2,,,Basic,,,
-7003167019,yoru1245,V,,,Basic,,,
-12335165860,yoru1245,1 V 2 3,,,Basic,,,
-9000132757,otta1242,1 subjA[1].V.objI[2] 2,,,Basic,,,
-9001123828,otta1242,1 V.objI[2] 2,,,Basic,,,
-9008433573,otta1242,1 V.subjS[1],,,Basic,,,
-9008490309,otta1242,V.subjS[1],,,Basic,,,
-9050751309,otta1242,1 subjA[1].V.objI[2] 2 UTT3,,,Basic,,,
-9121252604,otta1242,1 subjA[1].V.objI[2] 2 (3),,,Basic,,,
-9121656408,otta1242,1 subjA[1].V.objI[2] 2 3-loc,,,Basic,,,
-9180643245,otta1242,1 subjS[1].V.objII[2] 2,,,Basic,,,
-9182060786,otta1242,1 V.subjS[1] 2-loc,,,Basic,,,
-9182151972,otta1242,1 V.subjS[1] UTT2,,,Basic,,,
-9242911984,otta1242,1 <2>V.subjS[1],,,Basic,,,
-3624501224,east2283,1-nom 2-nomdat V.subj[1],,,Basic,,,
-3645643772,east2283,V,,,Basic,,,
-3645700762,east2283,1-nom 2-nomdat 3-dat V.subj[1],,,Basic,,,
-3654929154,east2283,1-nom 2-dat V.subj[1],,,Basic,,,
-3663393290,east2283,1-nom 2-nomdat (3-instr) V.subj[1],,,Basic,,,
-3663754241,east2283,1-nom 2-abl V.subj[1],,,Basic,,,
-6380076923,east2283,1-nom (LOC2) V.subj[1],,,Basic,,,
-6380129586,east2283,1-nom V.subj[1],,,Basic,,,
-6442983281,east2283,1-nom 2-nomdat LOC3 V.subj[1],,,Basic,,,
-6443076608,east2283,1-nom 2-nomdat 3-nom V.subj[1],,,Basic,,,
-6449870493,east2283,1-nom 2-gen+vra V.subj[1],,,Basic,,,
-6449956696,east2283,1-nom 2+het 3+masin V.subj[1],,,Basic,,,
-6449982358,east2283,1-nom 2+masin V.subj[1],,,Basic,,,
-6451070858,east2283,1-nom 2-gen V.subj[1],,,Basic,,,
-7918611373,east2283,1-nom 2-nomdat 3-abl V.subj[1],,,Basic,,,
-7918723447,east2283,1-nom 2-dat 3-instr V.subj[1],,,Basic,,,
-7978788546,east2283,1-nom UTT2 (3-dat) V.subj[1],,,Basic,,,
-12517748421,east2283,1-nom (2+vra) V.subj[1],,,Basic,,,
-12517893404,east2283,1-nom (2-instr) V.subj[1],,,Basic,,,
-12517943003,east2283,4-nom 1-dat causV'.subj[4],,,Derived,,,
-12518064718,east2283,1/2-nom causmedV'.subj[1/2],,,Derived,,,
-12518116962,east2283,1/4-nom causmedV'.subj[1/4],,,Derived,,,
-12518142095,east2283,1/2-nom V'.subj[1/2],,,Derived,,,
-12525128858,east2283,1-nom V'.subj[1],,,Derived,,,
+ID,Language_ID,Coding_Frame_Schema,Description,Comment,Derived,Argument_Types,Coding_Set_IDs
+4867893054,even1260,1-nom 2-acc 3-abl V.subj[1],,,Basic,A;P,6996428779;4867889953
+4867943104,even1260,1-nom V.subj[1],,,Basic,,
+4867975791,even1260,1-nom 2-all V.subj[1],,,Basic,S,6996428779
+4867985804,even1260,1-nom 2-acc 3-dat V.subj[1],,,Basic,A;P,6996428779;4867889953
+4868002621,even1260,1-nom 2-acc 3-instr V.subj[1],,,Basic,A;P,6996428779;4867889953
+4868060585,even1260,1-nom 2-acc V.subj[1],,,Basic,A,6996428779
+4868175860,even1260,1-nom 2-acc 3-loc V.subj[1],,,Basic,A;P,6996428779;4867889953
+4868320170,even1260,1-nom 2-instr V.subj[1],,,Basic,S,6996428779
+4868463105,even1260,1-nom 2-loc V.subj[1],,,Basic,S,6996428779
+4868856329,even1260,1-nom 2-abl V.subj[1],,,Basic,S,6996428779
+4869819450,even1260,1-nom 2-all 3-prol V.subj[1],,,Basic,X;X,4867872503;4867978286
+4869892183,even1260,1-nom 2-acc 3-all V.subj[1],,,Basic,A;P,6996428779;4867889953
+5234890587,even1260,1-gen 2-nom V.subj[2],,,Basic,X,4868439140
+7980937751,even1260,1&2-nom recV'.subj[1&2],,,Derived,,
+7981097438,even1260,2-nom medV'.subj[2],,,Derived,,
+7981266393,even1260,2-nom 1-dat advV'.subj[2],,,Derived,,
+7981371512,even1260,1-nom V'.subj[1],,,Derived,,
+7981423947,even1260,1-nom 2-com V'.subj[1],,,Derived,,
+7981506985,even1260,1-nom resV'.subj[1],,,Derived,,
+7981525570,even1260,2-nom resV'.subj[2],,,Derived,,
+8620399287,even1260,1&3-nom 2-acc recV'.subj[1&3],,,Derived,,
+8620469029,even1260,1&2-nom 3-instr recV'.subj[1&2],,,Derived,,
+8620620888,even1260,2-nom 3-abl medV'.subj[2],,,Derived,,
+8620744094,even1260,1&3-nom 2-all V'.subj[1&3],,,Derived,,
+8620807411,even1260,2-nom 3-all medV'.subj[2],,,Derived,,
+8620809937,even1260,2-nom 3-dat medV'.subj[2],,,Derived,,
+8620812867,even1260,2-nom 3-instr medV'.subj[2],,,Derived,,
+8620816801,even1260,2-nom 3-loc medV'.subj[2],,,Derived,,
+8620837691,even1260,2-nom 1-dat 3-abl advV'.subj[2],,,Derived,,
+8620843459,even1260,2-nom 1-dat 3-instr advV'.subj[2],,,Derived,,
+8620846154,even1260,2-nom 1-dat 3-loc advV'.subj[2],,,Derived,,
+8620852635,even1260,2-nom 3-abl resV'.subj[2],,,Derived,,
+8620857288,even1260,2-nom 3-instr resV'.subj[2],,,Derived,,
+8620860570,even1260,2-nom 3-loc resV'.subj[2],,,Derived,,
+8620862951,even1260,1-nom 2-loc resV'.subj[1],,,Derived,,
+8654689090,even1260,1&2-nom 3-abl recV'.subj[1&2],,,Derived,,
+8654702359,even1260,1&2-nom 3-loc recV'.subj[1&2],,,Derived,,
+8655169809,even1260,1&3-nom 2-all recV'.subj[1&3],,,Derived,,
+2710206975,stan1295,1-nom V.subj[1] 2-acc,,,Basic,A,8083330622
+2891289685,stan1295,1-nom V.subj[1] nach+2-dat,"<SPAN STYLE= """" >The verb needs the prepositional object; </SPAN><SPAN STYLE= ""font-style:italic;"" >nach </SPAN><SPAN STYLE= """" >introduces the object being the &quot;aim of doing something&quot;.<BR>(</SPAN><SPAN STYLE= ""font-style:italic;"" >nach Gl&uuml;ck streben, nach Aufmerksamkeit verlangen</SPAN><SPAN STYLE= """" >)</SPAN>",,Basic,S,8083330622
+2960315448,stan1295,1-nom V.subj[1] vor+2-dat,"<SPAN STYLE= """" >The verb needs a subject and a prepositional object which is introduced by the preposition </SPAN><SPAN STYLE= ""font-style:italic;"" >vor.</SPAN>",,Basic,S,8083330622
+2960392624,stan1295,1-nom V.subj[1] (2-acc) um+3-acc,,,Basic,A;P,8083330622;8083333934
+2960409349,stan1295,1-nom V.subj[1] 2-acc 3-acc,,,Basic,A;P,8083330622;8083333934
+3064622350,stan1295,1-nom V.subj[1] an+2-acc,,,Basic,S,8083330622
+3583778286,stan1295,1-nom V.subj[1] 2-acc aus+3-dat,,,Basic,A;P,8083330622;8083333934
+8196509400,stan1295,1-nom V.subj[1],,,Basic,,
+8264294048,stan1295,1-nom V.subj[1] 2-dat 3-acc,,,Basic,A;X,8083330622;8413353553
+8264294052,stan1295,1-nom V.subj[1] 2-acc auf+3-acc,,,Basic,A;P,8083330622;8083333934
+8264294055,stan1295,1-nom V.subj[1] mit+2-dat,"<SPAN STYLE= ""font-family: 'Arial';"" >The verb needs apart from subject two prepositional objects: the first one has to be introduced by </SPAN><SPAN STYLE= ""font-family: 'Arial';font-style:italic;"" >mit</SPAN><SPAN STYLE= ""font-family: 'Arial';"" >, the second one by </SPAN><SPAN STYLE= ""font-family: 'Arial';font-style:italic;"" >&uuml;ber.</SPAN>",,Basic,S,8083330622
+8264294087,stan1295,1-dat V.subj[2] 2-nom,"<SPAN STYLE= """" >The Experiencer gets the first position in the syntax. The verb is congruent with X.  </SPAN>",,Basic,X,8413353553
+8413570789,stan1295,1-nom V.subj[1] 2-dat,"<SPAN STYLE= """" >The verb needs a dative object, which is generally human. </SPAN>",,Basic,S,8083330622
+8628483606,stan1295,1-nom V.subj[1] 2-acc LOC3,,,Basic,A;P,8083330622;8083333934
+8628677223,stan1295,1-nom V.subj[1] LOC2,,,Basic,S,8083330622
+8637238044,stan1295,1-dat V,"<SPAN STYLE= """" >exceptional frame for sentences in which the original place holding subject (</SPAN><SPAN STYLE= ""font-style:italic;"" >es</SPAN><SPAN STYLE= """" >) is omitted and the dative object gets the first position in the syntax</SPAN>",,Basic,,
+9208302212,stan1295,1-nom V'.subj[1] 3-dat 2-acc,,,Derived,,
+9258692481,stan1295,1-nom V'.subj[1] 4-dat 2-acc auf+3-acc,,,Derived,,
+9258770854,stan1295,1-nom V'.subj[1] 4-dat 2-acc LOC3,,,Derived,,
+9259077111,stan1295,1-nom V'.subj[1] 2-acc,,,Derived,,
+9259084860,stan1295,1-nom V'.subj[1] 3-acc LOC2,,,Derived,,
+9259177676,stan1295,1-nom V'.subj[1],,,Derived,,
+9259627224,stan1295,1/2-nom recV'.subj[1/2],,,Derived,,
+9259845521,stan1295,1/2-nom recV'.subj[1/2] um+3-acc,,,Derived,,
+9259900172,stan1295,1/2-nom recV'.subj[1/2] 3-acc,,,Derived,,
+9259915762,stan1295,1/2-nom recV'.subj[1/2] LOC3,,,Derived,,
+9260063862,stan1295,1-nom V'.subj[1] 3-acc (prep+2-case),,,Derived,,
+9260147251,stan1295,1-nom beV'.subj[1] 3-acc (mit+2-dat),,,Derived,,
+9268320672,stan1295,1-nom erV'.subj[1] 3-acc (von+2-dat),,,Derived,,
+9268381240,stan1295,2-nom V'.subj[2],,,Derived,,
+9268518020,stan1295,4-nom V'.subj[4] 2-acc,,,Derived,,
+9268724202,stan1295,1-nom beV'.subj[1] 2-acc,,,Derived,,
+9268768039,stan1295,1-nom beV'.subj[1] 4-acc mit+2-dat,,,Derived,,
+9268861843,stan1295,1-nom V.subj[1] 2-acc mit+3-dat,,,Basic,A;P,8083330622;8083333934
+9269036499,stan1295,2-nom passV'.subj[2] (von+1-dat),,,Derived,,
+9269104983,stan1295,2-nom passV'.subj[2] (von+1-dat) 3-nom,,,Derived,,
+9269131914,stan1295,2-nom passV'.subj[2] (von+1-dat) LOC3,,,Derived,,
+9269246394,stan1295,2-nom passV'.subj[2] (von+1-dat) mit+3-dat,,,Derived,,
+9269278536,stan1295,x-nom passV'.subj[x] 2-dat (von+1-dat),,,Derived,,
+9317793032,stan1295,1-nom verV'.subj[1] 2-acc,,,Derived,,
+9317812932,stan1295,1-nom verV'.subj[1] 3-acc,,,Derived,,
+9379254034,stan1295,x-nom passV'.subj[x] (nach+2-dat),,,Derived,,
+9500057942,stan1295,3-nom V'.subj[3] 2-acc,,,Derived,,
+9500290868,stan1295,1-nom V'.subj[1] 4-dat 2-acc mit+3-acc,,,Derived,,
+9500616129,stan1295,x-nom passV'.subj[x],,,Derived,,
+9500718840,stan1295,2-nom passV'.subj[2] (von+1-dat) um+3-acc,,,Derived,,
+9500837751,stan1295,3-nom passV'.subj[3] 2-dat (von+1-dat),,,Derived,,
+9501011267,stan1295,x-nom passV'.subj[x] an+2-acc,,,Derived,,
+9501061653,stan1295,x-nom passV'.subj[x] mit+2-dat,,,Derived,,
+9510509308,stan1295,1/2-nom V'.subj[1/2] sich[1/2],,,Derived,,
+9510577136,stan1295,1/2-nom V'.subj[1/2] sich[1/2] 3-acc,,,Derived,,
+9510587960,stan1295,1/2-nom V'.subj[1/2] sich[1/2] 2-dat,,,Derived,,
+9510598524,stan1295,1/2-nom V'.subj[1/2] sich[1/2] LOC3,,,Derived,,
+10485425589,stan1295,V,,,Basic,,
+12188062819,stan1295,1-nom V.subj[1] 2-acc vor+3-dat,,,Basic,A;P,8083330622;8083333934
+12222894209,stan1295,x-nom passV'.subj[x] 2-nom,,,Derived,,
+12275228306,stan1295,1-nom V.subj[1] 2-acc (zu+3-dat),,,Basic,A;P,8083330622;8083333934
+6406943077,russ1263,1-nom V.subj[1] 2-acc (3-instr),,,Basic,A;P,6406965397;6406973644
+6407016531,russ1263,1-nom V.subj[1] 2-acc (ot+3-gen),,,Basic,A;P,6406965397;6406973644
+6778441411,russ1263,1-nom V.subj[1] 2-acc k+3-dat (4-instr),,,Basic,A;P;X,6406965397;6406973644;7114868841
+6780090770,russ1263,1-nom V.subj[1] 2-acc LOC3,"<SPAN STYLE= """" >In this coding frame the Locative argument is introduced by a locative preposition which can govern different cases (dependent on the preposition choice). Alternatively it can be expressed by a locative adverb. The present representation generalizes across different prepositions (and different cases of the nouns governed by the prepositions). </SPAN>",,Basic,A;P,6406965397;6406973644
+6812858072,russ1263,1-nom V.subj[1] 2-acc 3-dat,,,Basic,A;P,6406965397;6406973644
+6812861910,russ1263,1-nom V.subj[1] 2-acc (u+3-gen),,,Basic,A;P,6406965397;6406973644
+6812888901,russ1263,1-nom V.subj[1] 2-acc,,,Basic,A,6406965397
+6813334717,russ1263,1-nom V.subj[1] 2-gen (3-instr),,,Basic,S;X,6406965397;6984461760
+6813911949,russ1263,1-nom V.subj[1] 2-acc (iz+3-gen),,,Basic,A;P,6406965397;6406973644
+6813951050,russ1263,1-nom V.subj[1] 2-dat UTT3,,UTT is for utterance,Basic,S;X,6406965397;6900880654
+6813959416,russ1263,1-nom V.subj[1] na+2-acc,,,Basic,S,6406965397
+6813992101,russ1263,1-nom V.subj[1] 2-dat,,,Basic,S,6406965397
+6813995678,russ1263,1-nom V.subj[1] za+2-instr,,,Basic,S,6406965397
+6814010603,russ1263,1-nom V.subj[1] 2-acc (v+3-acc),,,Basic,A;P,6406965397;6406973644
+6814012850,russ1263,1-nom V.subj[1],,,Basic,,
+6814020142,russ1263,1-nom V.subj[1] (LOC2),,,Basic,S,6406965397
+6814044817,russ1263,1-nom V.subj[1] (iz/ot 2-gen),,,Basic,S,6406965397
+6814056290,russ1263,1-nom V.subj[1] u+2-gen,,,Basic,S,6406965397
+6814266730,russ1263,1-nom V.subj[1] (na+2-loc),,"The Russian ""prepositional"" case is abbreviated loc (locative), following Timberlake (2004).",Basic,S,6406965397
+6814270929,russ1263,1-nom V.subj[1] (v+2-acc),,,Basic,S,6406965397
+6814574334,russ1263,1-nom V.subj[1] o+2-LOC,,"The Russian ""prepositional"" case is abbreviated loc (locative), following Timberlake (2004).",Basic,S,6406965397
+6820484926,russ1263,1-nom V.subj[1] 2-acc (LOC3),,,Basic,A;P,6406965397;6406973644
+6820489264,russ1263,1-nom V.subj[1] 2-acc (3-dat),"<SPAN STYLE= """" >3 is the thing or skill taught. It can also be an infinitive like </SPAN><SPAN STYLE= ""font-style:italic;"" >plavat'</SPAN><SPAN STYLE= """" >  &lsquo;to swim&rsquo;</SPAN>",,Basic,A;P,6406965397;6406973644
+7115580522,russ1263,1-nom V.subj[1] 2-acc s+3-gen,,,Basic,A;P,6406965397;6406973644
+7669109464,russ1263,3-nom V'.subj[3] 2-acc,,,Derived,,
+7669168484,russ1263,1-nom V'.subj[1] 2-acc,,,Derived,,
+7669306996,russ1263,1-nom obV'.subj[1] 3-acc (4-instr),,,Derived,,
+7669371048,russ1263,1-nom zaV'.subj[1] 3-acc 2-instr,,,Derived,,
+7719099625,russ1263,3-nom V'.subj[3] 2-gen,,,Derived,,
+7719749278,russ1263,1-nom obV'.subj[1] 3-acc,,,Derived,,
+7719836077,russ1263,1-nom V'sja.subj[1] (3-instr),,,Derived,,
+7719848430,russ1263,1-nom V'sja.subj[1],,,Derived,,
+7719854726,russ1263,1-nom V'sja.subj[1] (v+3-acc),,,Derived,,
+7719860852,russ1263,1-nom V'sja.subj[1] (ot+3-gen),,,Derived,,
+7720014638,russ1263,2-nom V'sja.subj[2],,,Derived,,
+7720025451,russ1263,2-nom V'sja.subj[2] LOC3,,,Derived,,
+7720030906,russ1263,2-nom V'sja.subj[2] (3-instr),,,Derived,,
+7720034206,russ1263,2-nom V'sja.subj[2] (ot+3-gen),,,Derived,,
+7720205392,russ1263,2-nom passV'.subj[2] (1-instr),,,Derived,,
+7720219275,russ1263,2-nom passV'.subj[2] s+3-gen (1-instr),,,Derived,,
+7720228376,russ1263,2-nom passV'.subj[2] LOC3 (1-instr),,,Derived,,
+7720235561,russ1263,2-nom passV'.subj[2] 3-dat (1-instr),,,Derived,,
+7720243231,russ1263,2-nom passV'.subj[2] (v+3-acc) (1-instr),,,Derived,,
+7720249044,russ1263,2-nom passV'.subj[2] (u+3-gen) (1-instr),,,Derived,,
+7720267361,russ1263,2-nom passV'.subj[2] (ot+3-gen) (1-instr),,,Derived,,
+7720275192,russ1263,2-nom passV'.subj[2] (LOC3) (1-instr),,,Derived,,
+7720297548,russ1263,2-nom passV'.subj[2] (iz+3-gen) (1-instr),,,Derived,,
+7720506204,russ1263,1-nom V'.subj[1] s+2-instr,,,Derived,,
+7720566817,russ1263,1-nom V'sja.subj[1],,,Derived,,
+7720621339,russ1263,1-nom V'.subj[1],,,Derived,,
+7720628965,russ1263,1-nom V'.subj[1] (3-instr),,,Derived,,
+7721547569,russ1263,1-nom V'.subj[1] 3-acc,,,Derived,,
+7728251358,russ1263,1-nom V'.subj[1] 2-gen,,,Derived,,
+7729941662,russ1263,(1-dat) V'sja.subj,"<SPAN STYLE= """" >The coding frame is derived by means of the Reflexive Middle from an intransitive verb. The original actor optionally appears as a dative argument here, while the verb agrees with an (implicit, not overt) 3rd person singular neuter expletive subject (analogous to English </SPAN><SPAN STYLE= ""font-style:italic;"" >it</SPAN><SPAN STYLE= """" >).</SPAN>",,Derived,,
+7865359317,russ1263,2-nom V'sja.subj[2] s+3-gen (1-instr),,,Derived,,
+7865369383,russ1263,2-nom V'sja.subj[2] LOC3 (1-instr),,,Derived,,
+7865376822,russ1263,2-nom V'sja.subj[2] 3-dat (1-instr),,,Derived,,
+7865382912,russ1263,2-nom V'sja.subj[2] u+3-gen (1-instr),,,Derived,,
+7865389114,russ1263,2-nom V'sja.subj[2] iz+3-gen (1-instr),,,Derived,,
+7865393911,russ1263,2-nom V'sja.subj[2] (3-instr)/(1-instr),"<SPAN STYLE= """" >The agent argument of the basic coding frame can only appear in the Instrumental case if no instrument is present.</SPAN>",,Derived,,
+8074159241,russ1263,1-nom negV'.subj[1] 2-gen,,,Derived,,
+8074167870,russ1263,1-nom negV'.subj[1] 2-gen (3-instr),,,Derived,,
+8074174351,russ1263,1-nom negV'.subj[1] 2-gen (iz+3-gen),,,Derived,,
+8074177215,russ1263,1-nom negV'.subj[1] 2-gen (ot+3-gen),,,Derived,,
+8074180659,russ1263,1-nom negV'.subj[1] 2-gen (u+3-gen),,,Derived,,
+8074186714,russ1263,1-nom negV'.subj[1] 2-gen (v+3-acc),,,Derived,,
+8074191272,russ1263,1-nom negV'.subj[1] 2-gen 3-dat,,,Derived,,
+8074197262,russ1263,1-nom negV'.subj[1] 2-gen k+3-dat (4-instr),,,Derived,,
+8074201436,russ1263,1-nom negV'.subj[1] 2-gen LOC3,,,Derived,,
+8074206233,russ1263,1-nom negV'.subj[1] 2-gen s+3-gen,,,Derived,,
+8074410924,russ1263,2-nom passV'.subj[2] (3-instr)/(1-instr),,,Derived,,
+8074425776,russ1263,2-nom passV'.subj[2] k+3-dat (4-instr)/(1-instr),"<SPAN STYLE= """" >The agent argument of the basic coding frame can only appear in the Instrumental case if no instrument is present.</SPAN>",,Derived,,
+10017602867,russ1263,N/A,,,Basic,,
+11401425461,russ1263,V,,,Basic,,
+13190845801,russ1263,2-nom V'sja.subj[2] (1-instr),,,Derived,,
+13190855195,russ1263,2-nom V'sja.subj[2] (ot+3-gen) (1-instr),,,Derived,,
+13191038680,russ1263,2-nom V'sja.subj[2] 3-dat,,,Derived,,
+13191051634,russ1263,1-nom V'sja.subj[1] (3-dat),,,Derived,,
+13293480754,russ1263,1-nom V'.subj[1] 3-acc (LOC2),,,Derived,,
+4237270435,hoch1243,1 2 und[2].act[1].V,,,Basic,A,3721243445
+4238251136,hoch1243,1 act[1].V,,,Basic,,
+6354922871,hoch1243,1 2 (3) und[2].act[1].V,,,Basic,A;P,3721243445;3721244147
+6354998385,hoch1243,1 2 (LOC3) und[2].act[1].V,,,Basic,A;P,3721243445;3721244147
+6355294063,hoch1243,1 und[1].V,,,Basic,,
+6355463487,hoch1243,1 UTT2 act[1].V,,,Basic,X,3721243445
+6355572301,hoch1243,1 LOC2 act[1].V,,,Basic,X,3721243445
+6355886920,hoch1243,V,,,Basic,,
+6883346751,hoch1243,N/A,,,Basic,,
+7374704735,hoch1243,1 2 3 und[3].und[2].act[1].V,,,Basic,A;P,3721243445;3721244147
+7374867684,hoch1243,2 1 und[1].act[2].V'caus,,,Derived,,
+7375733366,hoch1243,4 1 2 3 und[3].und[2].und[1].act[4].V'caus,,,Derived,,
+7375771884,hoch1243,6 1 2 und[2].und[1].act[6].V'caus,,,Derived,,
+7375805159,hoch1243,1 2 4 und[4].und[2].act[1].V'ben,,,Derived,,
+7418121311,hoch1243,1 2 5 und[5].und[2].act[1].V'inst,,,Derived,,
+7615490643,hoch1243,1 3 UTT2 und[3].act[1].V'ben,,,Derived,,
+7615504669,hoch1243,1 2 4 (LOC3) und[4].und[2].act[1].V'ben,,,Derived,,
+7615733421,hoch1243,1 2 (3) 4 und[4].und[2].act[1].V'ben,,,Derived,,
+7617567142,hoch1243,1 3 und[3].act[1].V'ben,,,Derived,,
+7650316526,hoch1243,1 4 und[4].act[1].V'inst,,,Derived,,
+7650566817,hoch1243,1 4 und[4].und[1].V'inst,,,Derived,,
+7650588658,hoch1243,1 2 5 (LOC3) und[5].und[2].act[1].V'inst,,,Derived,,
+7650763418,hoch1243,6 1 2 (3) und[2].und[1].act[6].V'caus,,,Derived,,
+7650766286,hoch1243,6 1 2 (LOC3) und[2].und[1].act[6].V'caus,,,Derived,,
+7651281536,hoch1243,1 act[1].V'caus,,,Derived,,
+7669512232,hoch1243,4 1 UTT2 und[1].act[4].V'caus,,,Derived,,
+7669548780,hoch1243,3 1 LOC2 und[1].act[3].V'caus,,,Derived,,
+7669569560,hoch1243,2 und[2].V're,,,Derived,,
+7669575928,hoch1243,2 (LOC3) und[2].V're,,,Derived,,
+7669618140,hoch1243,1 act[1].V',,,Derived,,
+7669710986,hoch1243,2 und[2].V'RDP,,,Derived,,
+7669789252,hoch1243,1/2 (LOC3) act[1/2].V'rfl/rcp,,,Derived,,
+7669793333,hoch1243,1/2 (3) act[1/2].V'rfl/rcp,,,Derived,,
+7669796137,hoch1243,1/2 3 und[3].act[1/2].V'rfl/rcp,,,Derived,,
+7669802149,hoch1243,1/2 act[1/2].V'rfl/rcp,,,Derived,,
+7669851459,hoch1243,1/3 act[1/3].V'rfl/rcp,,,Derived,,
+7669912583,hoch1243,1 2 (LOC)3 und[3].und[2].act[1].V'loc,,,Derived,,
+7669925300,hoch1243,1 LOC5 und[5].act[1].V'loc,,,Derived,,
+7669933336,hoch1243,1 LOC3 und[3].und[1].V'loc,,,Derived,,
+7669941229,hoch1243,2 und[2].V'loc,,,Derived,,
+7670022482,hoch1243,1 LOC2 und[2].act[1].V'loc,,,Derived,,
+7711131950,hoch1243,2/1 act[2/1].V'caus,,,Derived,,
+7711257098,hoch1243,6/1 2 und[2].act[6/1].V'caus,,,Derived,,
+7711505180,hoch1243,4/1 2 3 und[3].und[2].act[4/1].V'caus,,,Derived,,
+7711523311,hoch1243,3/1 LOC2 act[3/1].V'caus,,,Derived,,
+7711540433,hoch1243,6/1 2 (3) und[2].act[6/1].V'caus,,,Derived,,
+7711576123,hoch1243,6/1 2 (LOC3) und[2].act[6/1].V'caus,,,Derived,,
+8396097647,hoch1243,1 2 LOC3 und[2].act[1].V,,,Basic,A;P,3721243445;3721244147
+6536020791,stan1293,1-nom > V.subj[1] > 2-acc,,,Basic,A,7201545353
+6536020792,stan1293,1-nom > V.subj[1],,,Basic,,
+6536020795,stan1293,1-nom > V.subj[1] > 2-acc (> with+3),,,Basic,A;P,7201545353;7201552173
+6536020797,stan1293,1-nom > V.subj[1] (> to+2) (> about+3),,,Basic,S;X,7201545353;7202017067
+6536020800,stan1293,1-nom > V.subj[1] > 2-acc > 3,,,Basic,A;P,7201545353;7201552173
+6536020805,stan1293,1-nom > V.subj[1] > 2-acc (> to+3),,,Basic,A;P,7201545353;7201552173
+6536020809,stan1293,1-nom > V.subj[1] > about+2,,,Basic,S,7201545353
+6536020815,stan1293,1-nom > V.subj[1] (> 2-acc) > for+3,,,Basic,A;P,7201545353;7201552173
+6536020839,stan1293,1-nom > V.subj[1] > 2-acc (> from+3),,,Basic,A;P,7201545353;7201552173
+6536020848,stan1293,1-nom > V.subj[1] > of+2,,,Basic,S,7201545353
+6536020864,stan1293,1-nom > V.subj[1] > to+2,,,Basic,S,7201545353
+7194938619,stan1293,1-nom > V.subj[1] > at+2,,,Basic,S,7201545353
+7201409055,stan1293,1-nom > V.subj[1] > 2-acc > LOC3,,,Basic,A;P,7201545353;7201552173
+7201430694,stan1293,1-nom > V.subj[1] > LOC2,,,Basic,S,7201545353
+7202210233,stan1293,1-nom > V.subj[1] > 2-acc > LOC3 (> with+4),,,Basic,A;P;L,7201545353;7201552173;12325669690
+12309464060,stan1293,V,,,Basic,,
+12333881386,stan1293,1-nom > V.subj[1] > UTT2 (> to+3),,,Basic,S;X,7201545353;12333890968
+4323564222,bora1263,1-nom V,,,Basic,,
+4323573057,bora1263,1-nom 2-acc (3-loc/instr) V,,,Basic,A;P,4522850980;4522863495
+4782320758,bora1263,1-nom 2-acc (3-all) V,,,Basic,A;P,4522850980;4522863495
+4782330525,bora1263,1-nom 2-acc 3-abl V,,,Basic,A;P,4522850980;4522863495
+4842836491,bora1263,1-nom 2-acc 3-acc V,,,Basic,A;P,4522850980;4522863495
+4842861538,bora1263,1-nom 2-acc V,,,Basic,A,4522850980
+4842907006,bora1263,1-nom 2-acc 3-nom V,,,Basic,A;P,4522850980;4522863495
+4842955651,bora1263,1-nom (2-all) V,,,Basic,S,4522850980
+4842960265,bora1263,1-nom (2-loc/instr) V,,,Basic,S,4522850980
+4843025585,bora1263,1-nom 2-abl V,,,Basic,S,4522850980
+4965561699,bora1263,1-nom 2-soc 3-loc/instr V,,,Basic,S;X,4522850980;4522925402
+6536020698,bora1263,N/A,,,Basic,,
+9510899904,bora1263,4-nom 1-acc 2-acc 3-all V'tso,,,Derived,,
+9511064182,bora1263,4-nom 1-acc 2-all V'tso,,,Derived,,
+9561798272,bora1263,4-nom 1-acc V'tso,,,Derived,,
+9562586860,bora1263,1/2-nom V'jcatsí,,,Derived,,
+9562789863,bora1263,3-nom 2-acc V',,,Derived,,
+9579720691,bora1263,1/2-nom 3-all V'meí,,,Derived,,
+9579853419,bora1263,1/2-nom V'meí,,,Derived,,
+9580076135,bora1263,1/2-nom 3-loc/instr V'meí,,,Derived,,
+9580193015,bora1263,1/2-nom 3-abl V'meí,,,Derived,,
+9580253146,bora1263,1/2-nom 3-nom V'meí,,,Derived,,
+9580264104,bora1263,1/2-nom 3-acc V'meí,,,Derived,,
+9639254507,bora1263,1/2-nom 3-loc/instr V'jcatsí,,,Derived,,
+9639294918,bora1263,1/2-nom 3-nom V'jcatsí,,,Derived,,
+9639906986,bora1263,4-nom 1-acc (2-loc/instr) V'tso,,,Derived,,
+11314935309,bora1263,1-nom 2-acc UTT3,,,Basic,A;P,4522850980;4522863495
+11315416874,bora1263,4-nom 1-acc 2-abl V'tso,,,Derived,,
+12094086459,bora1263,4-nom 1-acc 2-acc UTT3 V'tso,,,Derived,,
+12094170261,bora1263,4-nom 1-acc 2-acc 3-loc/instr V'tso,,,Derived,,
+12094180792,bora1263,4-nom 1-acc 2-acc 3-nom V'tso,,,Derived,,
+12094218019,bora1263,4-nom 1-acc 2-acc 3-abl V'tso,,,Derived,,
+12094253391,bora1263,4-nom 1-acc 2-acc 3-acc V'tso,,,Derived,,
+12094262032,bora1263,4-nom 1-acc 2-soc 3-loc/instr V'tso,,,Derived,,
+12101169232,bora1263,1/2-nom (3-all) V'jcatsí,,,Derived,,
+12101227631,bora1263,1/2-nom 3-abl V'jcatsí,,,Derived,,
+12101243343,bora1263,1/2-nom 3-acc V'jcatsí,,,Derived,,
+12101255814,bora1263,1/2-nom UTT3 V'jcatsí,,,Derived,,
+12101295498,bora1263,1-nom 2-acc 3-loc/instr V',,,Derived,,
+12101727336,bora1263,1/2-nom UTT3 V'meí,,,Derived,,
+4886902670,sril1245,1 2-dat 3 V,,,Basic,S;X,4445257393;4445258970
+4886907372,sril1245,1 2-acc 3-abl V,,,Basic,A;P,4445257393;4445262885
+4886930312,sril1245,1 2-acc V,,,Basic,A,4445257393
+4886933032,sril1245,1 V,,,Basic,,
+4886935583,sril1245,1 2-dat V,,,Basic,S,4445257393
+4887002120,sril1245,1-dat 2-acc V,,,Basic,X,4445258970
+4887104765,sril1245,1 2-loc 3-acc V,,The accusative marker can be dropped.,Basic,A;X,4445257393;4445387613
+4887125969,sril1245,1 2-dat 3-abl V,,,Basic,S;X,4445257393;4445258970
+4887167814,sril1245,1 2-abl V,,,Basic,S,4445257393
+4887270739,sril1245,1-acc V,"<SPAN STYLE= """" >An intransitive predication where the verb assigns the accusative</SPAN>",,Basic,,
+4887306528,sril1245,V,"<SPAN STYLE= """" >avalent predication<BR>No dummy arguments whatsoever</SPAN>",,Basic,,
+6536020182,sril1245,1-dat V,"<SPAN STYLE= """" >Experiencers are marked with the dative. The word class of the predicate can be ADJ, N, or V.</SPAN>",,Basic,,
+6536020190,sril1245,replace me!,,,Basic,,
+8195306103,sril1245,1 2-acc 3-dat V,,,Basic,A;P,4445257393;4445262885
+10320350300,sril1245,1 LOC2 V,,,Basic,S,4445257393
+11410652815,sril1245,1 2 V,,,Basic,S,4445257393
+11618476637,sril1245,1-dat 2-loc 3-acc V,,,Basic,X;X,4445262885;4445258970
+12333830468,sril1245,1 2-dat UTT3 V,,,Basic,S;X,4445257393;4445258970
+12524840673,sril1245,1 2-acc LOC3 V,,,Basic,A;P,4445257393;4445262885
+12524879924,sril1245,1 2-dat 3+katha V,,,Basic,S;X,4445257393;4445258970
+12524897857,sril1245,1 2+atthas V,,,Basic,S,4445257393
+4332933120,yaqu1251,1-nom 2-acc LOC3 V,,,Basic,A;P,11237218450;4656228528
+4782773306,yaqu1251,1-nom 2-acc V,"<SPAN STYLE= """" >This is considered the most common coding frame in Yaqui due to the decision that was taken about the basic form of the equipolent verbs. All of these verbs are listed in their transitive form as the basic.</SPAN>",,Basic,A,11237218450
+4844097985,yaqu1251,1-nom 2-acc (3-instr) V,"<SPAN STYLE= """" >The coding frame shows an instrument participant, which is represented as optional (by means of the parentheses). Cases like this are considered 'extended coding frames', since they show other possible participants, although the basic frame is the one represented out of the parentheses. <BR><BR></SPAN>",,Basic,A;P,11237218450;4656228528
+4844640706,yaqu1251,1-nom (2-loc) V,,,Basic,S,11237218450
+4844692082,yaqu1251,1-nom V,,,Basic,,
+4844816615,yaqu1251,1-nom 2-loc V,"<SPAN STYLE= """" >The participant marked with the locative </SPAN><SPAN STYLE= ""font-style:italic;"" >-po</SPAN><SPAN STYLE= """" > is necessary for the verb.</SPAN>",,Basic,S,11237218450
+4904094719,yaqu1251,1-nom 2-acc 3-acc V,"<SPAN STYLE= """" >This is the construction of double object. Both of them are marked with the accusative suffix </SPAN><SPAN STYLE= ""font-style:italic;"" >-ta</SPAN><SPAN STYLE= """" >.</SPAN>",,Basic,A;P,11237218450;4656228528
+4904342921,yaqu1251,1-nom (2-dir) V,,,Basic,S,11237218450
+4904433950,yaqu1251,1-nom 2-dir 3-acc V,,,Basic,A;X,11237218450;4656390860
+5310432996,yaqu1251,1-nom 2-acc 3-loc V,,,Basic,A;P,11237218450;4656228528
+5310649687,yaqu1251,(1-dir) V,,,Basic,,
+5310952717,yaqu1251,1-nom 2-acc 3-dir V,,,Basic,A;P,11237218450;4656228528
+5311493484,yaqu1251,1-nom 2-acc 3 V,,,Basic,A;P,11237218450;4656228528
+11230097083,yaqu1251,1-nom 2-acc-dir V,,,Basic,S,11237218450
+13408028728,yaqu1251,1-nom UTT2 (3-acc) V,,,Basic,A;X,11237218450;13408050418
+13424931875,yaqu1251,1-nom 2 V,,,Basic,S,11237218450
+4783041186,indo1316,1 V 2 ke+3,,,Basic,A;P,3866239171;3866239171
+6171973400,indo1316,1 V 2,,,Basic,A,3866239171
+6172675768,indo1316,1 V 2 LOC3,,,Basic,A;P,3866239171;3866239171
+6225257568,indo1316,1 V,,,Basic,,
+6225279937,indo1316,1 V ke+2 UTT3,,,Basic,S;X,3866239171;10504686003
+6225288433,indo1316,1 V ke+2 soal+3,,,Basic,S;X,3866239171;10504686003
+6225294905,indo1316,1 V ama+2 soal+3,,,Basic,S;X,3866239171;10512826651
+6225561761,indo1316,1 V LOC2,,,Basic,S,3866239171
+6225618071,indo1316,V,,,Basic,,
+6225672924,indo1316,1 V 2 dari+3,,,Basic,A;P,3866239171;3866239171
+6225713117,indo1316,1 V 2 3,,,Basic,A;P,3866239171;3866239171
+10519275592,indo1316,1 V (UTT2),,,Basic,S,3866239171
+12732168441,kore1280,1-nom 2-acc 3-instr V,,,Basic,A;P,12732189519;12732190611
+12732199007,kore1280,1-nom 2-acc 3-loc V,,,Basic,A;P,12732189519;12732190611
+12732293737,kore1280,1-nom 2-acc 3-dir V,,,Basic,A;P,12732189519;12732190611
+12732317407,kore1280,1-nom 2-acc V,,,Basic,A,12732189519
+12732333804,kore1280,1-nom 2-acc 3-dat V,,,Basic,A;P,12732189519;12732190611
+12732492625,kore1280,1-nom 2-acc 3-abl V,,,Basic,A;P,12732189519;12732190611
+12732560131,kore1280,1-nom 2-dat 3-quot V,,,Basic,S;X,12732189519;12732351241
+12732586939,kore1280,1-nom 2-acc 3-quot V,,,Basic,A;P,12732189519;12732190611
+12732698953,kore1280,1-nom V,,,Basic,,
+12733000513,kore1280,1-nom 2-loc V,,,Basic,S,12732189519
+12733105506,kore1280,V,,,Basic,,
+12733340625,kore1280,1-nom 2-abl V,,,Basic,S,12732189519
+12733515115,kore1280,1-nom 2-dat V,,,Basic,S,12732189519
+13302558231,kore1280,1-nom 2-nom V,,,Basic,S,12732189519
+13335012104,kore1280,4-nom 1-acc causV',,,Derived,,
+13335230679,kore1280,4-nom 1-acc 2-loc causV',,,Derived,,
+13335309180,kore1280,4-nom 1-dat 2-acc causV',,,Derived,,
+13335750129,kore1280,1-nom 2-com V',,,Derived,,
+13335788745,kore1280,1-nom 2-com 3-quot V',,,Derived,,
+13336924928,kore1280,2-nom 1-dat passV',,,Derived,,
+13336936141,kore1280,2-nom 1-dat 3-quot passV',,,Derived,,
+13336959634,kore1280,2-nom 1-dat 3-loc passV',,,Derived,,
+13336966519,kore1280,2-nom 1-dat 3-instr passV',,,Derived,,
+13336974177,kore1280,2-nom 1-dat 3-dir passV',,,Derived,,
+13343797167,kore1280,1-nom 2-acc 3-acc V',,,Derived,,
+13343945946,kore1280,passperV',,,Derived,,
+13343950098,kore1280,2-nom passperV',,,Derived,,
+13343954131,kore1280,2-nom 3-dat passperV',,,Derived,,
+13344114534,kore1280,2-nom 3-loc passperV',,,Derived,,
+13344394876,kore1280,2-nom 3-instr passperV',,,Derived,,
+13344404150,kore1280,2-nom 3-dir passperV',,,Derived,,
+13344580273,kore1280,2-nom 1-instr V',,,Derived,,
+13344586953,kore1280,1-nom 3-acc 2-instr V',,,Derived,,
+13346370484,kore1280,1-nom 2+ap-loc 3-acc V,,,Basic,A;P,12732189519;12732190611
+13346623298,kore1280,1-nom 2-dat UTT3 V,,,Basic,S;X,12732189519;12732351241
+13369639161,kore1280,1-nom 2-acc LOC3 V,,,Basic,A;P,12732189519;12732190611
+13369892826,kore1280,1-nom 2-com UTT3 V',,,Derived,,
+4333093764,zenz1235,V 1,,,Basic,,
+4333118670,zenz1235,V 1 (LOC2),,,Basic,S,3797285842
+5871813350,zenz1235,UTT1 V 2 jiʔį̄+3,,,Basic,X;A,15573214929;3797285842
+5993124311,zenz1235,V 1 jiʔį̄+2,"<SPAN STYLE= """" >use of</SPAN><SPAN STYLE= ""font-style:italic;"" > ji&#660;&#299;&#808;</SPAN><SPAN STYLE= """" > is optional</SPAN>",,Basic,A,3797285842
+5993173751,zenz1235,V 1 jiʔį̄+2 (lóʔō+3),,,Basic,A;P,3797285842;3797305343
+5993180748,zenz1235,V 1 jiʔį̄+2 jiʔį̄+3 lóʔō+4,,,Basic,A;P;P,3797285842;3797305343;3797305343
+5993264997,zenz1235,V 1 jiʔį̄+2 jiʔį̄+3,,,Basic,A;P,3797285842;3797305343
+5993518069,zenz1235,V 1 jiʔį̄+2 3,,,Basic,A;P,3797285842;3797305343
+9829353545,zenz1235,V,,,Basic,,
+9837955749,zenz1235,N/A,,,Basic,,
+10761301104,zenz1235,utV' 2 jiʔį̄+1,,,Derived,,
+10761349206,zenz1235,V' 1,,,Derived,,
+11150133284,zenz1235,eV' 2 jiʔį̄+1,,,Derived,,
+11150188174,zenz1235,eV' 3 jiʔį̄+2 jiʔį̄+1,,,Derived,,
+11150362598,zenz1235,yV' 2,,,Derived,,
+11150525254,zenz1235,uV' 2 jiʔį̄+1,,,Derived,,
+11150533424,zenz1235,uV' 3 jiʔį̄+1,,,Derived,,
+11150574463,zenz1235,V' 2,,,Derived,,
+11150584955,zenz1235,V'lóʔō 1 jiʔį̄+3,,,Derived,,
+11150639059,zenz1235,V'lóʔō 1 jiʔį̄+3 LOC2,,,Derived,,
+11150682587,zenz1235,V' 1 jiʔį̄+3,,,Derived,,
+11150688727,zenz1235,V' 1 jiʔį̄+2,,,Derived,,
+11150854315,zenz1235,tV' 3,,,Derived,,
+5216958329,nenn1238,1-erg 2-abs und[2].V.act[1],,,Basic,A,5240987739
+5217949194,nenn1238,1-erg 2-abs 3-dat und[3].V.act[1],"<SPAN STYLE= """" >The basic ditransitive frame. Note that here it is the recipient, not the patient, that is encoded by the undergoer slot, and that dual vs non-dual coding is sensitive to.</SPAN>",,Basic,X;X,5240987739;5241072923
+5218007829,nenn1238,1-erg 2-abs (3-abl) und[2].V.act[1],"<SPAN STYLE= """" >Transitive frame plus instrumental NP</SPAN>",,Basic,A;P,5240987739;5240988877
+5232440547,nenn1238,1-erg 2-abs 3-dat und[2].V.act[1],,,Basic,A;P,5240987739;5240988877
+5232509389,nenn1238,1-erg 2-abs (3-dat-abl) und[2].V.act[1],"<SPAN STYLE= """" >Used with verbs of removal.<BR>Could be regarded simply as a normal transitive frame, with ablative adjunct.<BR>Source takes complex case (ablative built on dative) when human.</SPAN>",,Basic,A;P,5240987739;5240988877
+5232805269,nenn1238,1-abs 2-abs und[1].V,,,Basic,S,5240988877
+5232869690,nenn1238,1-abs V.act[1],"<SPAN STYLE= """" >This is the basic frame for inherent middle verbs; used for many concepts normally expressed by intransitive verbs cross-linguistically.</SPAN>",,Basic,,
+5232930765,nenn1238,1-erg 2-obl und[2].V.act[1],,,Basic,X,5240987739
+5233015164,nenn1238,1-abs und[1].V,,,Basic,,
+5233146478,nenn1238,1-erg 2-abs V.act[1],"<SPAN STYLE= """" >Unusual pattern: case frame like transitive, verb morphology like middle. So far only attested with </SPAN><SPAN STYLE= ""font-style:italic;"" >ors</SPAN><SPAN STYLE= """" > 'to leave'.</SPAN>",,Basic,X,5240987739
+5233183775,nenn1238,1-erg 2-abs 3-loc und[2].V.act[1],,,Basic,A;P,5240987739;5240988877
+6536020786,nenn1238,1-erg 2-abs 3-all und[2].V.act[1],"<SPAN STYLE= """" >Verbs of verbal influence taking infinitive complement</SPAN>",,Basic,A;P,5240987739;5240988877
+6536020789,nenn1238,1-erg V.act[1],,,Basic,,
+7443964678,nenn1238,1-abs 2-abs 3-dat V.act[1],"<SPAN STYLE= """" >2 is semantically restricted to cognate objects like zi 'word'</SPAN>",,Basic,X;X,5291654559;5241072923
+12197033965,nenn1238,1-abs (2-loc) V.act[1],,,Basic,X,5291654559
+12653839499,nenn1238,1-abs 2-dat V.act[1],,,Basic,X,5291654559
+12654952470,nenn1238,1-abs 2-com V.act[1],,,Basic,X,5291654559
+12655769756,nenn1238,N/A,,,Basic,,
+12739494680,nenn1238,1-erg 2-abs (LOC3) und[2].V.act[1],,,Basic,A;P,5240987739;5240988877
+12739553024,nenn1238,1-erg 2-abs (3-obl) und[2].V.act[1],,,Basic,A;P,5240987739;5240988877
+12739663728,nenn1238,1-abs 2-all und[1].V,,,Basic,S,5240988877
+13032925187,nenn1238,V,,,Basic,,
+5655417010,nuuu1241,1 V 2,,,Basic,A,10650024545
+5655420783,nuuu1241,1 V,,,Basic,,
+5748949939,nuuu1241,1 V 2-dat 3,,,Basic,A;X,10650024545;10650034039
+5748964459,nuuu1241,1 V ng+2,,,Basic,S,10650024545
+5749008211,nuuu1241,1 V 2 ng+3,,,Basic,A;P,10650024545;10650024545
+5781075063,nuuu1241,1 V ng+2 UTT3,,,Basic,S;X,10650024545;10650045224
+10017620495,nuuu1241,N/A,,,Basic,,
+4839029278,stan1318,V.subj[1] 1-nom 2-acc,,,Basic,A,4567000107
+4839039860,stan1318,V.subj[1] 1-nom 2-acc (bi+3),,,Basic,A;P,4567000107;4567001063
+4839094640,stan1318,V.subj[1] 1-nom ʾilâ+2,,,Basic,S,4567000107
+4839142023,stan1318,V.subj[1] 1-nom ʿan+2,,,Basic,S,4567000107
+4839227796,stan1318,V.subj[1] 1-nom li+2 UTT3,,,Basic,S;X,4567000107;4567063362
+4839256494,stan1318,V.subj[1] 1-nom (li+2) 3-acc,,,Basic,A;X,4567000107;4567063362
+4839263719,stan1318,V.subj[1] 1-nom,,,Basic,,
+4839270239,stan1318,V.subj[1] 1-nom (2-acc) 3-acc,,,Basic,A;P,4567000107;4567001063
+4839282971,stan1318,V.subj[1] 1-nom (ʿalâ+2),,,Basic,S,4567000107
+5362499618,stan1318,V.subj[1] 1-nom 2-acc ʿalâ+3,,,Basic,A;P,4567000107;4567001063
+5378746433,stan1318,V.subj[1] 1-nom fī+2,,,Basic,S,4567000107
+5379220181,stan1318,V.subj[1] 1-nom maʿa+2 ʿan+3,,,Basic,S;X,4567000107;4567359949
+5421193866,stan1318,V.subj[1] 1-nom 2-acc (min+3),,,Basic,A;P,4567000107;4567001063
+5421395022,stan1318,V.subj[1] 1-nom 2-acc (ʾilâ+3),,,Basic,A;P,4567000107;4567001063
+5542672087,stan1318,V.subj[1] 1-nom 2-acc 3-acc,,,Basic,A;P,4567000107;4567001063
+6328438275,stan1318,V.subj[1] 1-nom 2-acc LOC3,,,Basic,A;P,4567000107;4567001063
+6329065044,stan1318,V 1-nom,,,Basic,,
+6329221588,stan1318,V.subj[1] 1-nom min+2,,,Basic,S,4567000107
+6329469076,stan1318,V.subj[1] 1-nom 2-acc (ʿan+3),,,Basic,A;P,4567000107;4567001063
+6329608060,stan1318,V.subj[1] 1-nom ʿalâ+2 min+3,,,Basic,S;X,4567000107;4567937063
+13104662529,stan1318,V.subj[1] 1-nom 2-acc (ʾilâ+3) (bi+4),,,Basic,A;P;X,4567000107;4567001063;4567030827
+13104688890,stan1318,V.subj[1] 1-nom (LOC2),,,Basic,S,4567000107
+14375122626,stan1318,V.subj[1] 1-nom bi+ 2 (ʾilâ+3),,,Basic,X;I,10561673899;4567009252
+4808512782,bezh1248,1-erg 2-abs abs[2].V,,,Basic,A,3798134060
+4808518806,bezh1248,1-lat 2-abs abs[2].V,,,Basic,X,3798318557
+4808529704,bezh1248,1-abs 2-poss abs[1].V,,,Basic,I,3798303864
+4808571662,bezh1248,1-erg 2-abs 3-instr abs[2].V,,,Basic,A;P,3798134060;3798303864
+4837810705,bezh1248,1-abs abs[1].V,,,Basic,,
+4837828829,bezh1248,1-erg 2-lat V,,,Basic,X,3798134060
+4837837229,bezh1248,1-erg 2-poss UTT3 V,,,Basic,X;X,3798134060;3798439534
+4837856233,bezh1248,1-erg 2-lat 3-abs abs[3].V,,,Basic,A;X,3798134060;3798318557
+4842107264,bezh1248,1-erg V,,,Basic,,
+4842115440,bezh1248,1-abs 2-com abs[1].V,,,Basic,I,3798303864
+4842374522,bezh1248,1-erg 2-abl 3-abs abs[3].V,,,Basic,A;X,3798134060;9075623131
+4842403135,bezh1248,1-erg 2-abs 3-sup abs[2].V,,,Basic,A;X,3798134060;3798302261
+8343886320,bezh1248,1-erg LOC2 3-abs abs[3].V,,,Basic,A;X,3798134060;9604703507
+8343886324,bezh1248,1-erg 2-poss 3-abs abs[3].V,,,Basic,A;X,3798134060;3798439534
+8343886333,bezh1248,1-erg 2-sup V,,,Basic,X,3798134060
+8343886336,bezh1248,1-lat V,,,Basic,,
+8343886341,bezh1248,N/A,,,Basic,,
+8343886346,bezh1248,1-erg 2-iness V,,,Basic,X,3798134060
+8343886365,bezh1248,1-abs 2-supabl abs[1].V,,,Basic,I,3798303864
+8343886366,bezh1248,1-abs LOC2 abs[1].V,,,Basic,I,3798303864
+8343886367,bezh1248,1-abs 2-abl abs[1].V,,,Basic,I,3798303864
+8343886372,bezh1248,1-erg 2-abs 3-instr LOC4 abs[2].V,,,Basic,A;P;I,3798134060;3798303864;3798394299
+8343886374,bezh1248,1-lat 2-possabl 3-abs abs[3].V,,,Basic,X;X,3798318557;3876644125
+8343886377,bezh1248,1-erg 2-gen 3-abs abs[3].V,,,Basic,A;X,3798134060;9069537823
+8343886379,bezh1248,1-erg 2-possabl 3-abs abs[3].V,,,Basic,A;X,3798134060;3876644125
+9077022315,bezh1248,2-abs abs[2].V',,,Derived,,
+9077090546,bezh1248,1-abs abs[1].V'antip,,,Derived,,
+9077135513,bezh1248,1-abs 3-instr 2-abl abs[1].V'antip,,,Derived,,
+9135540855,bezh1248,1-abs 3-instr 4-loc abs[1].V'antip,,,Derived,,
+9135570486,bezh1248,1-abs 2-instr abs[1].V'antip,,,Derived,,
+9604680794,bezh1248,3-erg 1-abs 2-com abs[1].V'caus,,,Derived,,
+9604713015,bezh1248,3-erg 1-abs LOC2 abs[1].V'caus,,,Derived,,
+9604802922,bezh1248,3-erg 1-abs 2-poss abs[1].V'caus,,,Derived,,
+9604861367,bezh1248,3-erg 1-abs 2-supabl abs[1].V'caus,,,Derived,,
+9604948974,bezh1248,4-erg 1-instr 2-abl 3-abs abs[3].V'caus,,,Derived,,
+9605059526,bezh1248,5-erg 1-instr 2-abs 3-instr LOC4 abs[2].V'caus,,,Derived,,
+9622256621,bezh1248,4-erg 1-instr 2-abs 3-instr abs[2].V'caus,,,Derived,,
+9622408359,bezh1248,4-erg 1-instr 2-abs 3-sup abs[2].V'caus,,,Derived,,
+9622916363,bezh1248,4-erg 1-instr 2-gen 3-abs abs[3].V'caus,,,Derived,,
+9622953708,bezh1248,3-erg 1-instr 2-iness V'caus,,,Derived,,
+9623026647,bezh1248,4-erg 1-instr 2-lat 3-abs abs[3].V'caus,,,Derived,,
+9623121647,bezh1248,3-erg 1-instr 2-lat V'caus,,,Derived,,
+9623269501,bezh1248,4-erg 1-instr LOC2 3-abs abs[3].V'caus,,,Derived,,
+9623298644,bezh1248,4-erg 1-instr 2-poss 3-abs abs[3].V'caus,,,Derived,,
+9623348594,bezh1248,4-erg 1-instr 2-poss UTT3-quot V'caus,,,Derived,,
+9647636369,bezh1248,4-erg 1-instr 2-possabl 3-abs abs[3].V'caus,,,Derived,,
+9647674219,bezh1248,4-erg 1-instr 2-sup 3-abs V'caus,,,Derived,,
+9647727980,bezh1248,3-erg 1-instr 2-sup V'caus,,,Derived,,
+9647773649,bezh1248,2-erg 1-instr V'caus,,,Derived,,
+9648152746,bezh1248,2-erg 1-lat V'caus,,,Derived,,
+9648670975,bezh1248,2-erg 1-abs abs[1].V'caus,,,Derived,,
+9648810587,bezh1248,3-erg 1-instr 2-abs abs[2].V'caus,,,Derived,,
+9648963414,bezh1248,1-erg 2-abs 3-instr abs[2].V',,,Derived,,
+9649034379,bezh1248,1-erg 2-poss 3-abs abs[3].V',,,Derived,,
+9672531535,bezh1248,3-erg 1-lat 2-abs abs[2].V'caus,,,Derived,,
+9673282692,bezh1248,1-abs 2-lat 3-instr abs[1].V'antip,,,Derived,,
+9673354758,bezh1248,1-abs 2-lat abs[1].V'antip,,,Derived,,
+9673473034,bezh1248,1-abs 2-possabl 3-instr abs[1].V'antip,,,Derived,,
+9674004251,bezh1248,1-abs 2-sup abs[1].V'antip,,,Derived,,
+9674086388,bezh1248,1-abs LOC2 3-instr abs[1].V'antip,,,Derived,,
+9681943683,bezh1248,1-poss 2-com abs[1].V'pot,,,Derived,,
+9682028547,bezh1248,1-poss 2-poss abs[1].V'pot,,,Derived,,
+9682116236,bezh1248,1-poss LOC2 abs[1].V'pot,,,Derived,,
+9682153597,bezh1248,1-poss 2-abl 3-abs abs[3].V'pot,,,Derived,,
+9682203356,bezh1248,1-poss 2-abs 3-instr LOC4 abs[2].V'pot,,,Derived,,
+9682241256,bezh1248,1-poss 2-gen 3-abs abs[3].V'pot,,,Derived,,
+9682264005,bezh1248,1-poss 2-iness V'pot,,,Derived,,
+9682284195,bezh1248,1-poss 2-lat 3-abs abs[3].V'pot,,,Derived,,
+9682354675,bezh1248,1-poss 2-lat V'pot,,,Derived,,
+9682390170,bezh1248,1-poss 2-poss 3-abs abs[3].V'pot,,,Derived,,
+9682408115,bezh1248,1-poss 2-poss UTT3-quot V'pot,,,Derived,,
+9682430271,bezh1248,1-poss 2-possabl 3-abs abs[3]V'pot,,,Derived,,
+9682465065,bezh1248,1-poss 2-sup 3-abs V'pot,,,Derived,,
+9682486010,bezh1248,1-poss 2-sup V'pot,,,Derived,,
+9682503904,bezh1248,1-poss LOC2 3-abs abs[3].V'pot,,,Derived,,
+9682531370,bezh1248,1-poss V'pot,,,Derived,,
+9682704424,bezh1248,1-poss abs[1].V'pot,,,Derived,,
+10433098163,bezh1248,1-abs 3-sup 2-instr abs[1].V'antip,,,Derived,,
+10433495253,bezh1248,1-poss 2-abs abs[2].V'pot,,,Derived,,
+10433502686,bezh1248,1-poss 2-abs 3-instr abs[2].V'pot,,,Derived,,
+10433647583,bezh1248,2-poss 1-abs abs[1].V',,,Derived,,
+10493841266,bezh1248,3-poss 2-supabl 1-abs abs[1].V',,,Derived,,
+10493861116,bezh1248,1-poss 2-abs abs[2].V',,,Derived,,
+10493866330,bezh1248,1-poss 3-instr 2-abs abs[2].V',,,Derived,,
+10494324209,bezh1248,1-erg 2-abs abs[2].V'caus,,,Derived,,
+10494992751,bezh1248,3-erg 1-abs abs[1].V'caus,,,Derived,,
+10495019006,bezh1248,3-erg 1-abs 2-instr abs[1].V'caus4,,,Derived,,
+10510388890,bezh1248,1-erg 2-apud 3-abs abs[3].V',,,Derived,,
+10510516884,bezh1248,1-poss 2-supabl abs[1].V'pot,,,Derived,,
+10510647005,bezh1248,2-erg 1-abs abs[1].V'caus2,,,Derived,,
+10510656740,bezh1248,3-erg 1-abs 2-supabl abs[1].V'caus3,,,Derived,,
+10510665476,bezh1248,2-erg 1-abs abs[1].V'caus3,,,Derived,,
+10510676859,bezh1248,3-erg 1-abs abs[1].V'caus4,,,Derived,,
+10510682712,bezh1248,2-erg 1-abs abs[1].V'caus4,,,Derived,,
+10555018403,bezh1248,2-poss 1-abs abs[1].V'pot,,,Derived,,
+10555025609,bezh1248,3-poss 1-abs abs[1].V'pot,,,Derived,,
+11288732313,bezh1248,1-abs 2-abl abs[1].V'antip,,,Derived,,
+11288757489,bezh1248,1-abs 2-com abs[1].V'antip,,,Derived,,
+11288788242,bezh1248,1-abs 2-supabl abs[1].V'antip,,,Derived,,
+11288814704,bezh1248,1-abs LOC2 abs[1].V'antip,,,Derived,,
+11289022534,bezh1248,1-poss 2-abs 3-sup abs[2].V'pot,,,Derived,,
+11289089094,bezh1248,V,,,Basic,,
+11289103252,bezh1248,1-poss V',,,Derived,,
+11289113231,bezh1248,V'antip,,,Derived,,
+11289124660,bezh1248,1-erg V'caus,,,Derived,,
+4298676080,ital1282,1 > V.subj[1] > 2,,,Basic,A,3720896347
+4301873762,ital1282,a+1 > V.subj[2] > 2,"<SPAN STYLE= """" >The coding frame E-dat &gt; V.subj[M] &gt; M refers to the pattern where the Experiencer is realized by a pronoun (e.g.</SPAN><SPAN STYLE= ""font-style:italic;"" > gli piace la matematica</SPAN><SPAN STYLE= """" >).</SPAN>",,Basic,X,3721088397
+4301902544,ital1282,1 > V.subj[1] (> a+2),,,Basic,S,3720896347
+4302032358,ital1282,1 > V.subj[1] > 2 > 3,,,Basic,A;P,3720896347;3720897935
+4302041977,ital1282,1 > V.subj[1] > 2 (con+3),,,Basic,A;P,3720896347;3720897935
+4323589689,ital1282,1 > V.subj[1] > con+2 di+3,,,Basic,S;I,3720896347;9907796986
+4757648034,ital1282,1 > V.subj[1] > 2 (a+3),,,Basic,A;P,3720896347;3720897935
+4757686076,ital1282,1 > V.subj[1] > 2 (di+3),,,Basic,A;P,3720896347;3720897935
+4757696113,ital1282,1 > V.subj[1] (> LOC2),,,Basic,S,3720896347
+4757700126,ital1282,1 > V.subj[1] > 2 (> LOC3),,,Basic,A;P,3720896347;3720897935
+4757710632,ital1282,1 > V.subj[1],,,Basic,,
+4758013371,ital1282,1 > V.subj[1] > 2 (da+3),,,Basic,A;P,3720896347;3720897935
+4758038607,ital1282,1 > V.subj[1] > 2 (a+3) (con+4),,,Basic,A;P;X,3720896347;3720897935;3721088397
+6079839742,ital1282,1 > V.subj[1] > 2 (su+3),,,Basic,A;P,3720896347;3720897935
+6079872551,ital1282,1 V.subj[1] (da+2) (per+3),,,Basic,S;X,3720896347;3721129918
+6079880539,ital1282,1 V.subj[1] (di+2),,,Basic,S,3720896347
+6079889985,ital1282,1 V.subj[1] (con+2),,,Basic,S,3720896347
+6079945091,ital1282,V,,,Basic,,
+7865853157,ital1282,2 > siV'.subj[2] (> daParteDi+1),,,Derived,,
+9907680292,ital1282,1 > V'.subj[1],,,Derived,,
+9907740876,ital1282,1 > V'.subj[1] > (LOC3),,,Derived,,
+9907759415,ital1282,1 > V'.subj[1] > (a+3),,,Derived,,
+9907785464,ital1282,1 > V'.subj[1] > (con+3),,,Derived,,
+9907809028,ital1282,1 > V'.subj[1] > (da+3),,,Derived,,
+9907821801,ital1282,1 > V'.subj[1] > (di+3),,,Derived,,
+9907832509,ital1282,1 V'.subj[1] (su+3),,,Derived,,
+9949961024,ital1282,2 > passV'.subj[2] (> daParteDi+1),,,Derived,,
+9949986263,ital1282,2 > passV'.subj[2] (> LOC3) (> daParteDi+1),,,Derived,,
+9950011749,ital1282,2 > passV'.subj[2] (> a+3) (> daParteDi+1),,,Derived,,
+9950028074,ital1282,2 > passV'.subj[2] (a+3) (con+4) (daParteDi+1),,,Derived,,
+9950043855,ital1282,2 > passV'.subj[2] (con+3) (daParteDi+1),,,Derived,,
+9950076068,ital1282,2 > passV'.subj[2] (da+3) (daParteDi+1),,,Derived,,
+9950101669,ital1282,2 > passV'.subj[2] (di+3) (daParteDi+1),,,Derived,,
+9950115988,ital1282,2 > passV'.subj[2] > 3 (daParteDi+1),,,Derived,,
+9950128101,ital1282,2 > passV'.subj[2] (su+3) (daParteDi+1),,,Derived,,
+9959660741,ital1282,2 > siV'.subj[2] (> LOC3) (> daParteDi+1),,,Derived,,
+9959669096,ital1282,2 > siV'.subj[2] (> a+3) (> daParteDi+1),,,Derived,,
+9959683612,ital1282,2 > siV'.subj[2] (a+3) (con+4) (> daParteDi+1),,,Derived,,
+9959695048,ital1282,2 > siV'.subj[2] (> con+3) (> daParteDi+1),,,Derived,,
+9959708847,ital1282,2 > siV'.subj[2] (> da+3) (> daParteDi+1),,,Derived,,
+9959750587,ital1282,2 > siV'.subj[2] (> di+3) (> daParteDi+1),,,Derived,,
+9959757705,ital1282,2 > siV'.subj[2] (> 3) (> daParteDi+1),,,Derived,,
+9959791028,ital1282,2 > siV'.subj[2] (> su+3) (> daParteDi+1),,,Derived,,
+9959812514,ital1282,1 > V'.subj[1] > 3 > di+2,,,Derived,,
+9959838844,ital1282,2 > siV'.subj[2],,,Derived,,
+9959846765,ital1282,2 > siV'.subj[2] (> LOC3),,,Derived,,
+9959853753,ital1282,2 > siV'.subj[2] (> a+3),,,Derived,,
+9959858927,ital1282,2 > siV'.subj[2] (> con+3),,,Derived,,
+9959864734,ital1282,2 > siV'.subj[2] (> da+3),,,Derived,,
+9959870376,ital1282,2 > siV'.subj[2] (> su+3),,,Derived,,
+10018855863,ital1282,3 > V'.subj[3] (> 2),,,Derived,,
+10018997704,ital1282,4 > V'.subj[4] (> 2) (a+3),,,Derived,,
+10087589253,ital1282,1/2 > siV'.subj[1/2],,,Derived,,
+10088222885,ital1282,1/2 > siV'.subj[1/2] (> LOC3),,,Derived,,
+10088243168,ital1282,1/2 > siV'.subj[1/2] (> a+3) (> con+4),,,Derived,,
+10088797667,ital1282,1/2 > siV'.subj[1/2] (> con+3),,,Derived,,
+10088884411,ital1282,1/2 > siV'.subj[1/2] > 3,,,Derived,,
+10089055187,ital1282,1/2 > siV'.subj[1/2] (> di+3),,,Derived,,
+10089118120,ital1282,2 > V'.subj[2],,,Derived,,
+10131679668,ital1282,siV',,,Derived,,
+10131687467,ital1282,siV' (> a+2),,,Derived,,
+10131707400,ital1282,siV' (> LOC2),,,Derived,,
+10131746189,ital1282,siV'.subj[2] > 2,,,Derived,,
+10131753078,ital1282,siV'.subj[2] > 2 (> LOC3),,,Derived,,
+10131757733,ital1282,siV'.subj[2] > 2 (> a+3),,,Derived,,
+10131765120,ital1282,siV'.subj[2] > 2 (> a+3) (> con+4),,,Derived,,
+10131772887,ital1282,siV'.subj[2] > 2 (> con+3),,,Derived,,
+10131777127,ital1282,siV'.subj[2] > 2 (> da+3),,,Derived,,
+10131787773,ital1282,siV'.subj[2] > 2 (> di+3),,,Derived,,
+10131803464,ital1282,siV'.subj[2] > 2 (> 3),,,Derived,,
+10131822623,ital1282,siV' > (con+2) (di+3),,,Derived,,
+10131832239,ital1282,siV' (> con+2),,,Derived,,
+10131842092,ital1282,siV' (da+2) (per+3),,,Derived,,
+10131849471,ital1282,siV' (di+2),,,Derived,,
+10131864964,ital1282,siV'.subj[2] > 2 (> su+3),,,Derived,,
+10140195479,ital1282,4 > causV'.subj[4] > 2 > a+1,,,Derived,,
+10140582961,ital1282,3 > causV'.subj[3] > 1 (> LOC2),,,Derived,,
+10140612516,ital1282,3 > causV'.subj[3] > 1,,,Derived,,
+10140632358,ital1282,N/A,,,Basic,,
+10140649026,ital1282,3 > causV'.subj[3] (a+2) a+1,,,Derived,,
+10140816290,ital1282,4 > causV'.subj[4] > 2 (LOC3) a+1,,,Derived,,
+10140857939,ital1282,5 > causV'.subj[5] > 2 (a+3) da+1,,,Derived,,
+10190123934,ital1282,siPassV' (da+1),,,Derived,,
+10190134939,ital1282,siPassV' (LOC3) (da+1),,,Derived,,
+10190149547,ital1282,siPassV' (a+3) (da+1),,,Derived,,
+10190155525,ital1282,siPassV' (a+3) (con+4) (da+1),,,Derived,,
+10190167045,ital1282,siPassV' (con+3) (da+1),,,Derived,,
+10190196791,ital1282,siPassV' 3 (da+1),,,Derived,,
+10190205531,ital1282,siPassV' (su+3) (da+1),,,Derived,,
+10190389623,ital1282,5 > causV'.subj[5] > 2 (a+3) (con+4) da+1,,,Derived,,
+10190467003,ital1282,4 > causV'.subj[4] > 2 (con+3) a+1,,,Derived,,
+10191898306,ital1282,4 > causV'.subj[4] > 2 (da+3) a+1,,,Derived,,
+10191933391,ital1282,4 > causV'.subj[4] > 2 (di+3) a+1,,,Derived,,
+10191966305,ital1282,4 > causV'.subj[4] > 2 > 3 a+1,,,Derived,,
+10192022673,ital1282,4 > causV'.subj[4] 1 (con+2) (di+3),,,Derived,,
+10192089986,ital1282,3 > causV'.subj[3] > 1 (> con+2),,,Derived,,
+10192120167,ital1282,4 > causV'.subj[4] > 1 (da+2) (per+3),,,Derived,,
+10192132612,ital1282,3 > causV'.subj[3] > 1 (di+2),,,Derived,,
+10192388404,ital1282,4 > causV'.subj[4] > 2 (su+3) a+1,,,Derived,,
+10192410045,ital1282,1 > causV'.subj[1],,,Derived,,
+10201065760,ital1282,ciSiV',,,Derived,,
+10201070591,ital1282,ciSiV' (> a+2),,,Derived,,
+10201079689,ital1282,ciSiV' (> LOC2),,,Derived,,
+10201087826,ital1282,ciSiV' (> LOC3),,,Derived,,
+10201090932,ital1282,ciSiV' (> a+3),,,Derived,,
+12222577952,ital1282,1 > V.subj[1] > (a+2) (di+3),,,Basic,S;X,3720896347;3721088397
+12706805092,ital1282,1 > V.subj[1] > 2 (a+3) (da+4),,,Basic,A;P;X,3720896347;3720897935;3721088397
+12707247745,ital1282,1 > V'.subj[1] (a+3) (da+4),,,Derived,,
+12707357730,ital1282,2 > passV'.subj[2] (a+3) (da+4) (daParteDi+1),,,Derived,,
+13000364005,ital1282,1/3 > siV'.subj[1/3] > 2,,,Derived,,
+13001201033,ital1282,2 > siV'.subj[2] (a+3) (da+4) (> daParteDi+1),,,Derived,,
+13001355616,ital1282,siV' (a+2) (di+3),,,Derived,,
+13001370427,ital1282,siV'.subj[2] > 2 (>a+3) (>da+4),,,Derived,,
+13070400709,ital1282,1/2 > siV'.subj[1/2] (> da+3),,,Derived,,
+13070409890,ital1282,1/2 > siV'.subj[1/2] (> a+3),,,Derived,,
+13070452264,ital1282,1/5 > siV'.subj[1/5] > 2,,,Derived,,
+13070546867,ital1282,1/3 > siV'.subj[1/3] > 2 (>da+4),,,Derived,,
+13070574632,ital1282,1/5 > siV'.subj[1/5] > 2 (>con+3),,,Derived,,
+13070604377,ital1282,1/5 > siV'.subj[1/5] > 2 (>di+3),,,Derived,,
+13070751488,ital1282,1 > V'.subj[1] > 2,,,Derived,,
+13070776225,ital1282,4 > causV'.subj[4] > 1 (a+2) (di+3),,,Derived,,
+13070803369,ital1282,5 > causV'.subj[4] > 2 (a+3) (da+4) (a+1),,,Derived,,
+13251381016,ital1282,1/5 > siV'.subj[1/5] > 2 (>LOC3),,,Derived,,
+6536020144,chhi1245,1-abs V.subj[1],,,Basic,,
+7411046836,chhi1245,1-erg 2-abs V.agt[1].obj[2],,,Basic,A,9285578960
+7411097016,chhi1245,1-abs poss[1].V.subj[1],,,Basic,,
+7411181386,chhi1245,1-erg 2-abs 3-abs V.agt[1].obj[3],,,Basic,A;X,9285578960;3797534174
+7436238819,chhi1245,1-erg 2-abs 3-erg V.agt[1].obj[2],,,Basic,A;P,9285578960;3797520096
+7436483785,chhi1245,1-erg 2-abs 3-loc V.agt[1].obj[2],,,Basic,A;P,9285578960;3797520096
+7436606406,chhi1245,1-erg 2-abs 3-erg 4-loc V.agt[1].obj[2],,,Basic,A;P;I,9285578960;3797520096;3797565301
+7436890800,chhi1245,1-abs 2-loc V.subj[1],,,Basic,S,3902121070
+8111021185,chhi1245,1-abs V,,,Basic,,
+8290896275,chhi1245,1-erg 2-abs poss[1].V.agt[1].obj[2],,,Basic,X,9346521521
+8291332461,chhi1245,V,,,Basic,,
+9588500497,chhi1245,1-abs V.obj[1],,,Basic,,
+6346296240,mapu1245,V.subj[1] 1,"<SPAN STYLE= """" >Monovalent single-argument verb frame; a </SPAN><SPAN STYLE= ""font-style:italic;"" >mew</SPAN><SPAN STYLE= """" > adpositional phrase to incorporate a further participant is only reluctantly (if animate) or somewhat readily (if inanimate and semantically primed, e.g.</SPAN><SPAN STYLE= ""font-style:italic;"" > ruka mew</SPAN><SPAN STYLE= """" > 'in the house) accepted in elicitation, and infrequently found in texts </SPAN>",,Basic,,
+6346375907,mapu1245,V.subj[1].obj[2] 2 1 3+mew,"<SPAN STYLE= """" >Bipersonal transitive frame plus oblique/adjunct</SPAN>","The adposition mew covers a wide range of semantic roles: source, goal, location, afficiary, cause, recipient, topic, instrument, etc.",Basic,A;P,6633677756;6633711174
+6347398986,mapu1245,V.subj[1].obj[2] 2 3 1,,,Basic,A;P,6633677756;6633711174
+6347428233,mapu1245,V.subj[1] 1 2+mew,"<SPAN STYLE= """" >Extended monopersonal intransitive frame; the adpositional phrase is readily produced in elicitation and not infrequent in texts</SPAN>",,Basic,S,6633677756
+6347700008,mapu1245,V.subj[1].obj[2] 2 1,,,Basic,A,6633677756
+7549445631,mapu1245,V.subj[0],"<SPAN STYLE= """" >Monopersonal dummy subject frame; no NP is accepted.</SPAN>",Used with meteorological predicates,Basic,,
+4876976047,xara1244,1 > V > 2 (kèwâ+3),,,Basic,A;P,4522560507;4522560507
+4876983181,xara1244,1 > V,,,Basic,,
+4876985242,xara1244,1 > V 2 (ngê+3),,,Basic,A;P,4522560507;4522560507
+4877070908,xara1244,1 > V 2 xù+3,,,Basic,A;P,4522560507;4522560507
+4877109634,xara1244,1 > V 2 taa+3,,,Basic,A;P,4522560507;4522560507
+4877126997,xara1244,1 > V 2 (kè+3),,,Basic,A;P,4522560507;4522560507
+4877174351,xara1244,1 > V ngê+2 xù+3,,,Basic,S;I,4522560507;4522576640
+4877199126,xara1244,1 > V 2,,,Basic,A,4522560507
+4877275083,xara1244,1 > V tö+2,"<SPAN STYLE= """" >The verb is followed by a verbal directional, if the event is dynamic.</SPAN>",,Basic,S,4522560507
+4877347958,xara1244,1 > V wâ+2 (xù+3),,,Basic,S;X,4522560507;4522760200
+4877430031,xara1244,1 > V 2 (LOC3) (ngê+4),,,Basic,A;P;L,4522560507;4522560507;10624962527
+6536020573,xara1244,1 > V taa+2,,,Basic,S,4522560507
+10624947903,xara1244,1 > V (LOC2),,,Basic,S,4522560507
+10641104662,xara1244,V,,,Basic,,
+11722176718,xara1244,1 > V 2 (LOC3),,,Basic,A;P,4522560507;4522560507
+6536020485,como1259,V.obj[1].sbj[2] 1 (obl-3),,,Basic,P;A,3797065782;6805536151
+6536020486,como1259,V.obj[1].sbj[2] 1,,Clauses with two NPs (agent and patient) have to be in passive.,Basic,P,3797065782
+6536020487,como1259,V.sbj[1] 1,,,Basic,,
+6536020500,como1259,V.sbj[1] 1 obl-2,,,Basic,S,6805536151
+6536020532,como1259,V.obj[1].sbj[2] 1 niniǰi+3,,,Basic,P;A,3797065782;6805536151
+6805545501,como1259,V,,,Basic,,
+10017633972,como1259,N/A,,,Basic,,
+6345176521,emai1241,1 > V > 2,,,Basic,A,8455654874
+6345308937,emai1241,1>V>2>vbi+3,,,Basic,A;P,8455654874;8455654874
+6345501137,emai1241,1>V>UTT2,,,Basic,I,8455654874
+6345525831,emai1241,1>V>2 UTT3,,,Basic,A;P,8455654874;8455654874
+6345635763,emai1241,1>V>2>3,,,Basic,A;P,8455654874;8455654874
+6345739889,emai1241,1>V,,,Basic,,
+6345751654,emai1241,1>V>2>lí+3,,,Basic,A;P,8455654874;8455654874
+6345858014,emai1241,1>V>vbi+2,,,Basic,I,8455654874
+6346264702,emai1241,V>1,,,Basic,,
+9603947126,emai1241,1>V>2>3>vbi+4,,,Basic,A;P;I,8455654874;8455654874;8455654874
+9605011039,emai1241,V,,,Basic,,
+9768864678,emai1241,1>V'>2>lí+3,,,Derived,,
+9769040493,emai1241,1>re+4>V'>2,,,Derived,,
+9769411442,emai1241,1>re+4>V'>2>vbi+3,,,Derived,,
+9769435814,emai1241,1>re+4>V',,,Derived,,
+9769467002,emai1241,1>V>li+CC2,,,Basic,I,8455654874
+9769648750,emai1241,1>V'>2>ye+5,,,Derived,,
+9776726855,emai1241,2>V',,,Derived,,
+9776874540,emai1241,1>V'>2>vbiee+3,,,Derived,,
+9777147755,emai1241,1>V'>2>vbi+6+re,,,Derived,,
+9777204605,emai1241,1>V'>2>o+vbi+5,,,Derived,,
+9777293652,emai1241,1>V'>o+vbi+5,,,Derived,,
+9777348624,emai1241,1>V'>2>3,,,Derived,,
+9777359911,emai1241,1>V',,,Derived,,
+9829514710,emai1241,1>V'>lí+2,,,Derived,,
+9837793974,emai1241,1>V'>2>fi/ku+e+5,,,Derived,,
+9837872856,emai1241,1>V'>2>li+3+hon,,,Derived,,
+9837894282,emai1241,1>V'>li+3+hon,,,Derived,,
+10017618321,emai1241,N/A,,,Basic,,
+3291849142,even1259,1-nom 2-acc 3-instr V,,,Basic,A;P,10622276343;10622278259
+3291880259,even1259,1-nom 2-acc 3-dat V,,,Basic,A;P,10622276343;10622278259
+3291913773,even1259,1-nom 2-acc 3-loc V,,,Basic,A;P,10622276343;10622278259
+3291957923,even1259,1-nom 2-acc 3-abl V,,,Basic,A;P,10622276343;10622278259
+3292055457,even1259,1-nom 2-all V,,,Basic,S,10622276343
+3292118303,even1259,1-nom 2-acc 3-acc V,,,Basic,A;P,10622276343;10622278259
+3292150992,even1259,1-nom 2-prol 3-com V,,,Basic,S;X,10622276343;10622438672
+3292168913,even1259,1-nom 2-acc V,,,Basic,A,10622276343
+3292202487,even1259,1-nom 2-abl V,,,Basic,S,10622276343
+3292227823,even1259,1-nom 2-dat V,,,Basic,S,10622276343
+3292259875,even1259,1-nom V,,,Basic,,
+3292266433,even1259,1-nom 2-loc V,,,Basic,S,10622276343
+3292353164,even1259,V,,,Basic,,
+3295666191,even1259,1-nom 2-prol V,,,Basic,S,10622276343
+4878085582,mand1436,1 > 2 > V > 3+bala,,,Basic,A;P,4568512665;4568512665
+4878089411,mand1436,1 > niŋ+2 > V,"<SPAN STYLE= """" >This is a particular case of the standard intransitive frame Subject &gt; Verb, with an 'associative extension' of the subject NP; the preposition </SPAN><SPAN STYLE= ""font-style:italic;"" >ning</SPAN><SPAN STYLE= """" > is used in a construction superficially similar to NP coordination, but is clearly comitative in its semantics</SPAN>",,Basic,S,4568512665
+4878093648,mand1436,1 > 2 > V,,,Basic,A,4568512665
+4878102623,mand1436,1 > V > 2+la,,,Basic,S,4568512665
+4878141903,mand1436,1 > 2 > V > LOC3,,,Basic,A;P,4568512665;4568512665
+4878152088,mand1436,1 > 2 > V > 3+ye,,,Basic,A;P,4568512665;4568512665
+4878225804,mand1436,1 > 2 > V > 3+la,,,Basic,A;P,4568512665;4568512665
+4878229208,mand1436,1 > V,,,Basic,,
+4878274886,mand1436,1 > V > LOC2,,,Basic,S,4568512665
+4878479388,mand1436,1 > 2 > V > 3+bulu,,,Basic,A;P,4568512665;4568512665
+4878487820,mand1436,1 > 2 > V > 3+ma,,,Basic,A;P,4568512665;4568512665
+4878523578,mand1436,1 > V > 2+ti > 3+ye,,,Basic,S;X,4568512665;4568795537
+4878546065,mand1436,1 > 2 > V > 3+bala > 4+la,,,Basic,A;P;X,4568512665;4568512665;4568515797
+4878681330,mand1436,1 > 2 > V> 3+ti,,,Basic,A;P,4568512665;4568512665
+4878695448,mand1436,1 > V > 2+ye,,,Basic,S,4568512665
+6536021091,mand1436,N/A,,,Basic,,
+8395044003,mand1436,1 > V > 2+ti > LOC3,,,Basic,S;X,4568512665;4568795537
+8403569951,mand1436,1 > V (> LOC2),,,Basic,S,4568512665
+11290375323,mand1436,1 > V > 2+nooma,,,Basic,S,4568512665
+11340492614,mand1436,1 > V > 2+ma 3+la,,,Basic,S;X,4568512665;4568702890
+11981290811,mand1436,1 > V (> 2+ye),,,Basic,S,4568512665
+13465822749,mand1436,1 > 2 > V > 3+kóno,,,Basic,A;P,4568512665;4568512665
+6535919183,djam1255,1-erg 2-abs 3-dat subj[1].obj[2].V,"<SPAN STYLE= """" >Dative-marked recipient/beneficiary frame with a subset of (potentially semantically) ditransitive predicates.</SPAN>",,Basic,A;P,6441812133;6441825992
+6536019979,djam1255,1-erg 2-abs subj[1].obj[2].V,"<SPAN STYLE= """" >Standard transitive frame: ergative marking is usual, but not obligatory.</SPAN>",,Basic,A,6441812133
+6536020997,djam1255,1-abs 2-abs subj[1].V,"<SPAN STYLE= """" >Transitive coding frame with bivalent atelic activity predicates; only in combination with inflecting verbs </SPAN><SPAN STYLE= ""font-style:italic;"" >gagba</SPAN><SPAN STYLE= """" > 'be' or </SPAN><SPAN STYLE= ""font-style:italic;"" >gajgany</SPAN><SPAN STYLE= """" > 'go' in their atelic reading.</SPAN>",,Basic,S,6442299787
+6536021003,djam1255,1-abs 2-dat subj[1].V,,,Basic,S,6442299787
+6536021009,djam1255,V,,,Basic,,
+6536021048,djam1255,1-abs V,"<SPAN STYLE= """" >Verbless clause with nominal predicate.</SPAN>",,Basic,,
+6536021078,djam1255,1-abs 2-loc subj[1].V,"<SPAN STYLE= """" >Typically, locative marking is omitted with place names, but also with inherently locative nominals like </SPAN><SPAN STYLE= ""font-style:italic;"" >yagbali</SPAN><SPAN STYLE= """" > 'place, home, camp'. Locative marking is occasionally replaced with purposive marking when L denotes the habitat of animal species with the verb </SPAN><SPAN STYLE= ""font-style:italic;"" >gagba</SPAN><SPAN STYLE= """" > 'be'.</SPAN>",,Basic,S,6442299787
+6746080809,djam1255,1-erg 2-abs 3-abs subj[1].obj[2].V,"<SPAN STYLE= """" >Ditransitive (double absolutive) frame; recipient indexed on verb.</SPAN>",,Basic,A;P,6441812133;6441825992
+6753449817,djam1255,1-erg 2-abs subj[1].obj[2].V 3-instr,,,Basic,A;P,6441812133;6441825992
+6753521162,djam1255,1-abs subj[1].V,"<SPAN STYLE= """" >Default intransitive construction with absolutive S and S agreement on morphologically intransitive verb.</SPAN>",,Basic,,
+6772290327,djam1255,1-erg 2-abs LOC3 subj[1].obj[2].V,"<SPAN STYLE= """" >Coding frame for predicates of transfer. The goal argument can be marked with either locative or allative case (not considered here separately as a case of alternation).</SPAN>",,Basic,A;P,6441812133;6441825992
+6772313995,djam1255,1-erg 2-abs subj[1].obj[2].V 3-instr 4-loc,,,Basic,A;P;I,6441812133;6441825992;10440929669
+6883604136,djam1255,1-abs 2-all subj[1].V,,,Basic,S,6442299787
+8082708263,djam1255,2-abs obj[2].V,,,Basic,,
+9794148427,djam1255,1-erg CC2 subj[1].obj[2].V,,,Basic,X,6441812133
+12982940026,djam1255,UTT2 1-erg 3-dat subj[1].obj[2].V,,,Basic,X;X,6441812133;12982942811
+5371446322,nucl1643,1-nom 2-abl 3-acc V,,,Basic,A;X,7080879189;7192646225
+5371461865,nucl1643,1-nom 2-acc V,,,Basic,A,7080879189
+6536020711,nucl1643,1-nom 2-gen 3-acc V,,,Basic,A;X,7080879189;7081337082
+6536020719,nucl1643,1-nom 2-dat 3-acc V,,,Basic,A;X,7080879189;7081261397
+6536020729,nucl1643,1-nom 2-acc 3-quot V,,,Basic,A;P,7080879189;7080881783
+6536020733,nucl1643,1-nom (2-instr) 3-acc V,,,Basic,A;I,7080879189;7080892573
+6536020739,nucl1643,1-nom 2-loc 3-acc V,,,Basic,A;L,7080879189;7097396938
+6536020741,nucl1643,1-nom (2-instr) 3-loc 4-acc V,,,Basic,A;I;L,7080879189;7080892573;7097396938
+6536020747,nucl1643,1-nom V,,,Basic,,
+6536020751,nucl1643,1-nom 2-loc V,,,Basic,S,7080879189
+7081256030,nucl1643,1-dat 2-nom V,,,Basic,X,7081261397
+7081333520,nucl1643,1-nom 2-gen V,,,Basic,S,7080879189
+7081416451,nucl1643,1-nom 2-dat V,,,Basic,S,7080879189
+9778107494,nucl1643,3-nom (2-instr) passV',,,Derived,,
+9778140431,nucl1643,4-nom (2-instr) 3-loc passV',,,Derived,,
+9778153848,nucl1643,3-nom 2-abl passV',,,Derived,,
+9778163077,nucl1643,2-nom 3-quot passV',,,Derived,,
+9778172647,nucl1643,2-nom passV',,,Derived,,
+9778252649,nucl1643,3-nom 2-dat passV',,,Derived,,
+9778320236,nucl1643,3-nom 2-loc passV',,,Derived,,
+9778351205,nucl1643,1-nom 2-dat 3-quot V,,,Basic,S;X,7080879189;7081261397
+9778373529,nucl1643,2-nom 3-acc passV',,,Derived,,
+10017630793,nucl1643,N/A,,,Basic,,
+11349361511,nucl1643,1-nom 2-nom V,,,Basic,S,7080879189
+12333943651,nucl1643,1-nom 2-dat UTT3 V,,,Basic,S;X,7080879189;7081261397
+12456288435,nucl1643,1-nom (2-instr) 3-acc V'pot,,,Derived,,
+12456299080,nucl1643,1-nom (2-instr) 3-loc 4-acc V'pot,,,Derived,,
+12456302132,nucl1643,1-nom 2-abl 3-acc V'pot,,,Derived,,
+12456304036,nucl1643,1-nom 2-acc 3-quot V'pot,,,Derived,,
+12456306422,nucl1643,1-nom 2-acc V'pot,,,Derived,,
+12456310180,nucl1643,1-nom 2-dat 3-acc V'pot,,,Derived,,
+12456319011,nucl1643,1-nom 2-dat V'pot,,,Derived,,
+12456320762,nucl1643,1-nom 2-loc 3-acc V'pot,,,Derived,,
+12456323709,nucl1643,1-nom 2-loc V'pot,,,Derived,,
+12456325478,nucl1643,1-nom V'pot,,,Derived,,
+12456398035,nucl1643,3-nom V'decr,,,Derived,,
+12456408232,nucl1643,2-nom V'decr,,,Derived,,
+12456600663,nucl1643,2-nom 3-acc V'decr,,,Derived,,
+12456614071,nucl1643,4-nom 1-acc V'incr,,,Derived,,
+12456746165,nucl1643,1-nom 3-instr 2-acc V',,,Derived,,
+12456789854,nucl1643,1-nom 3-acc 2-abl V',,,Derived,,
+12456971443,nucl1643,1-nom 2-dat UTT3 V'pot,,,Derived,,
+12456983361,nucl1643,2-nom UTT3 passV',,,Derived,,
+6536020369,kett1243,1 2 3 subj[1].obj[3].V,,,Basic,A;X,3996924451;3997036702
+6536020371,kett1243,1 2 (3-abl) subj[1].obj[2].V,,,Basic,A;P,3996924451;3996927147
+6536020382,kett1243,1 2-dat subj[1].V,,,Basic,S,3996924451
+6536020385,kett1243,1 2-instr 3 subj[1].obj[3].V,,,Basic,A;I,3996924451;3996931849
+6536020386,kett1243,1 2 subj[1].V,,,Basic,S,3996924451
+6536020389,kett1243,1 2-poss+tān subj[1].V,,,Basic,S,3996924451
+6536020393,kett1243,1 2-adess subj[1].V,,,Basic,S,3996924451
+7437678350,kett1243,1 2 subj[1].obj[2].V,,,Basic,A,3996924451
+7437693214,kett1243,1 2 (3-instr) subj[1].obj[2].V,,,Basic,A;P,3996924451;3996927147
+7437727200,kett1243,1 2 3-dat subj[1].obj[2].V,,,Basic,A;P,3996924451;3996927147
+7437798231,kett1243,V,,,Basic,,
+7437815073,kett1243,1 V,,,Basic,,
+7437819590,kett1243,1 subj[1].V,,,Basic,,
+7437842975,kett1243,1 2 subj[1].rfl/sbj[2].V,,,Basic,S,3996924451
+7437867588,kett1243,1 subj[1].obj[2].V,,,Basic,A,3996924451
+7437881880,kett1243,1 LOC2 subj[1].V,,,Basic,S,3996924451
+7445923583,kett1243,1 2-abl subj[1].V,,,Basic,S,3996924451
+8343886238,kett1243,1 (2-abl) (3-transl) subj[1].V,,,Basic,S;X,3996924451;3997056735
+8834356159,kett1243,1 2 (LOC3) subj[1].obj[2].V,,,Basic,A;P,3996924451;3996927147
+8834636685,kett1243,1 (2-dat) subj[1].V UTT3,,,Basic,S;X,3996924451;3996956227
+10017611166,kett1243,N/A,,,Basic,,
+6865448042,yuca1254,sbj[1].V 1,,,Basic,,
+6865705177,yuca1254,sbj[1].V ti'+2 1,,,Basic,S,6865132880
+6865723890,yuca1254,sbj[1].V.obj[2] 2 1,"<SPAN STYLE= """" >Basic transitive construction:<BR>[ [ Pn ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >PC.i</SPAN><SPAN STYLE= """" > [ W ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >V.tr</SPAN><SPAN STYLE= """" > -</SPAN><SPAN STYLE= ""font-variant:small-caps;"" >Abs</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >j</SPAN><SPAN STYLE= """" > [ P ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >NP.j</SPAN><SPAN STYLE= """" > [ A ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >NP .i </SPAN><SPAN STYLE= """" >]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >VCC<BR></SPAN><SPAN STYLE= """" >&quot;A affects / acts on P.&quot;<BR>The transitive subject function (actor) is the same for different semantic roles, including agents and experiencers. The subject and direct object (P) are cross-referenced on the transitive verb. The actants themselves are optional, not case-marked and may occur in any order, although subject-final order is the default.</SPAN>",,Basic,A,6865132880
+6865841860,yuca1254,sbj[1].V.obj[2] 2 ti'+3 1,"<SPAN STYLE= """" >Construction of ditransitive verb with animate indirect complement:<BR>[ [ Pn ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >PC.i</SPAN><SPAN STYLE= """" > [ W ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >V.tr</SPAN><SPAN STYLE= """" > -</SPAN><SPAN STYLE= ""font-variant:small-caps;"" >Abs</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >j</SPAN><SPAN STYLE= """" > [ P ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >NP.j</SPAN><SPAN STYLE= """" > [ A ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >NP.i</SPAN><SPAN STYLE= """" > [ </SPAN><SPAN STYLE= ""font-style:italic;"" >ti&rsquo;</SPAN><SPAN STYLE= """" > [ L ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >NP</SPAN><SPAN STYLE= """" > ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >PrepP</SPAN><SPAN STYLE= """" > ]</SPAN><SPAN STYLE= ""font-size: 6px;vertical-align: text-bottom;"" >VCC<BR></SPAN><SPAN STYLE= """" >&quot;A acts upon P with respect to L.&quot;<BR>This is a subtype of the construction of ditransitive verb with inanimate indirect complement.</SPAN>",,Basic,A;P,6865132880;6865729264
+6865866932,yuca1254,sbj[1].V 1 yéetel+2 yóok'ol+3,,,Basic,S;I,6865132880;6865877655
+6866002191,yuca1254,sbj[1].V.obj[2] 2 1 (yéetel+3),,,Basic,A;P,6865132880;6865729264
+6866098435,yuca1254,sbj[1].V.obj[2] 2 1 LOC3,,,Basic,A;P,6865132880;6865729264
+6866132788,yuca1254,sbj[1].V.obj[2] 2 (ti'+3) (yéetel+4) 1,,,Basic,A;P;X,6865132880;6865729264;6865718864
+6866278769,yuca1254,sbj[1].V LOC2 1,,,Basic,S,6865132880
+10304951298,yuca1254,sbj[2].V'caus.obj[1] 1 2,,,Derived,,
+10305018487,yuca1254,sbj[3].V'caus.obj[1] 1 3 LOC2,,,Derived,,
+10305277288,yuca1254,sbj[2].V'deag 2 (ti'+3) (yéetel+4),,,Derived,,
+10305294278,yuca1254,sbj[2].V'deag 2,,,Derived,,
+10305301809,yuca1254,sbj[2].V'deag 2 LOC3,,,Derived,,
+10305309004,yuca1254,sbj[2].V'deag 2 (yéetel+3),,,Derived,,
+10305544265,yuca1254,sbj[1].V'extra.obj[3] 3 1,,,Derived,,
+10305665145,yuca1254,sbj[1].V'extra.obj[3] 3 1 ti'+2,,,Derived,,
+10312853525,yuca1254,sbj[1].V'intro 1,,,Derived,,
+10312940368,yuca1254,sbj[2].V'pass 2 (tumen+1),,,Derived,,
+10312974505,yuca1254,sbj[2].V'pass 2 (tumen+1) (ti'+3) (yéetel+4),,,Derived,,
+10313099041,yuca1254,sbj[2].V'pass 2 (tumen+1) (yéetel+3),,,Derived,,
+10313133229,yuca1254,sbj[2].V'pass 2 (tumen+1) LOC3,,,Derived,,
+10313192114,yuca1254,sbj[2].V'pass 2 (tumen+1) ti'+3,,,Derived,,
+10329637124,yuca1254,sbj[1/2].V',,,Derived,,
+10329797591,yuca1254,sbj[1/2].V' (yéetel+3),,,Derived,,
+10329807756,yuca1254,sbj[1/2].V' LOC3,,,Derived,,
+10330015578,yuca1254,sbj[1/2].V' ti'+3,,,Derived,,
+10381008777,yuca1254,sbj[1].V'.obj[2] 2 1,,,Derived,,
+10561737135,yuca1254,sbj[1].V'extra.obj[2] 2 1,,,Derived,,
+10561792332,yuca1254,sbj[1].V' 1,,,Derived,,
+10561798295,yuca1254,sbj[1].V' ti'+2 1,,,Derived,,
+10561958083,yuca1254,sbj[1/2].V' (ti'+3) (yéetel+4),,,Derived,,
+10561979366,yuca1254,sbj[1/2].V' (yóok'ol+3),,,Derived,,
+10641563997,yuca1254,sbj[1].V' ti'+3 1,,,Derived,,
+10641574316,yuca1254,sbj[1].V' LOC3 1,,,Derived,,
+10641579379,yuca1254,sbj[1].V' (yéetel+3) 1,,,Derived,,
+10642455917,yuca1254,sbj[2].V'usat.obj[1] 1 2,,,Derived,,
+4333019405,icel1247,1-nom V.agr[1] við-2-acc um+3-acc,,,Basic,S;X,3737373736;3737429844
+4333034006,icel1247,1-nom V.agr[1] UTT2 við+3-acc,,,Basic,S;X,3737373736;3834142628
+4781364732,icel1247,1-nom V.agr[1] 2-acc á+3-acc,,,Basic,A;P,3737373736;3737374710
+4781395547,icel1247,1-nom V.agr[1] 2-acc yfir+3-acc,,,Basic,A;P,3737373736;3737374710
+4781499904,icel1247,1-nom V.agr[1] 2-acc,,,Basic,A,3737373736
+4781522458,icel1247,1-nom V.agr[1] á+2-acc,,,Basic,S,3737373736
+4781546520,icel1247,1-nom V.agr[1] 2-acc af+3-dat,,,Basic,A;P,3737373736;3737374710
+4781763138,icel1247,1-nom V.agr[1] við+2-acc,,,Basic,S,3737373736
+4781771801,icel1247,1-dat V.agr[2] 2-nom,,,Basic,X,3796490959
+4781833472,icel1247,1-nom V.agr[1] að+2-dat,,,Basic,S,3737373736
+4781863756,icel1247,1-nom V.agr[1] um+2-acc,,,Basic,S,3737373736
+4781880751,icel1247,1-nom V.agr[1] 2-dat,,,Basic,S,3737373736
+4781888826,icel1247,1-nom V.agr[1] 2-acc (í +3-acc),,,Basic,A;P,3737373736;3737374710
+4782020736,icel1247,1-nom V.agr[1] (2-acc) um+3-acc,,,Basic,A;P,3737373736;3737374710
+4782372131,icel1247,1-nom V.agr[1] 2-acc 3-acc,,,Basic,A;P,3737373736;3737374710
+4782382762,icel1247,1-nom V.agr[1] 2-acc (úr+3-dat),,,Basic,A;P,3737373736;3737374710
+4782397674,icel1247,1-nom V.agr[1] 2-acc (með+3-dat),,,Basic,A;P,3737373736;3737374710
+4782441781,icel1247,1-nom V.agr[1] 2-acc (fyrir+3-dat),,,Basic,A;P,3737373736;3737374710
+4782463794,icel1247,1-nom V.agr[1] 2-dat 3-acc,,,Basic,A;X,3737373736;3796490959
+4782484004,icel1247,1-nom V.agr[1] 2-acc til+3-gen,,,Basic,A;P,3737373736;3737374710
+4782582333,icel1247,1-nom V.agr[1] 2-acc (með+3-dat) (við+4-acc),,,Basic,A;P;I,3737373736;3737374710;3737389234
+4782625588,icel1247,1-nom V.agr[1] 2-dat (í+3-acc),,,Basic,S;X,3737373736;3796490959
+4782645899,icel1247,1-nom V.agr[1] 2-acc (af+3-dat),,,Basic,A;P,3737373736;3737374710
+4782652132,icel1247,1-nom V.agr[1] 2-dat á+3-acc,,,Basic,S;X,3737373736;3796490959
+4782666572,icel1247,1-nom V.agr[1],,,Basic,,
+4782700699,icel1247,1-nom V.agr[1] (á+2-acc),,,Basic,S,3737373736
+4782723644,icel1247,1-nom V.agr[1] í+2-dat,,,Basic,S,3737373736
+4782734068,icel1247,1-acc V,,,Basic,,
+4782744071,icel1247,1-dat V (í+2-dat),,,Basic,X,3796490959
+4782758310,icel1247,1-acc V 2-acc,,,Basic,X,3737374710
+4782769693,icel1247,1-dat V,,,Basic,,
+4808496980,icel1247,V,,,Basic,,
+4808501465,icel1247,1-nom V.agr[1] 2-dat (frá+3-dat),,,Basic,S;X,3737373736;3796490959
+4808529404,icel1247,1-dat V.agr[2] 2-nom (frá+3-dat),,,Basic,X;S,3796490959;3737373736
+4808536204,icel1247,1-nom V.agr[1] 2-gen,,,Basic,S,3737373736
+4808541111,icel1247,1-acc V 2-gen,,,Basic,X,3737374710
+4808551488,icel1247,1-nom V.agr[1] 2-gen (í+3-dat),,,Basic,S;X,3737373736;9527200416
+4808555050,icel1247,1-gen V,,,Basic,,
+4808916071,icel1247,1-nom V.agr[1] af+2-dat,,,Basic,S,3737373736
+9526784738,icel1247,1-nom V.agr[1] (LOC2),,,Basic,S,3737373736
+9527567027,icel1247,1-nom V.agr[1] eftir+2-dat,,,Basic,S,3737373736
+9545419587,icel1247,1-nom rcpV'.agr[1] á,,,Derived,,
+9545479950,icel1247,1/2-nom rcpV'.agr[1/2],,,Derived,,
+9545547519,icel1247,1/2-nom rcpV'.agr[1/2] á,,,Derived,,
+9545570866,icel1247,1/2-nom rcpV'.agr[1/2] að,,,Derived,,
+9545620510,icel1247,1/2-nom rcpV'.agr[1/2] við,,,Derived,,
+9553108187,icel1247,2-nom V'na.agr[2],,,Derived,,
+9553137825,icel1247,2-nom V'na.agr[2] úr+3-dat,,,Derived,,
+9553234935,icel1247,1-nom V'.agr[1] við+2-dat frá+3-dat,,,Derived,,
+9553309352,icel1247,1-nom V'.agr[1] við+2-acc,,,Derived,,
+9553675647,icel1247,1-nom V'.agr[1] 3-acc með+2-dat,,,Derived,,
+9553798683,icel1247,1-nom V'.agr[1] 2-acc,,,Derived,,
+9553873434,icel1247,1-nom V'.agr[1] 2-dat LOC3,,,Derived,,
+9553993400,icel1247,2-nom V'.agr[2] 1-acc,,,Derived,,
+9554033960,icel1247,2-acc V',,,Derived,,
+9613889188,icel1247,2-dat V',,,Derived,,
+9613990704,icel1247,2-nom V'.agr[2],,,Derived,,
+9614122329,icel1247,2-nom medV'.agr[2],,,Derived,,
+9614233247,icel1247,2-nom medV'.agr[2] 3-nom,,,Derived,,
+9614267224,icel1247,2-nom medV'.agr[2] til+3-gen,,,Derived,,
+9724096836,icel1247,2-nom passV'.agr[2] um+3-acc,,,Derived,,
+9724125174,icel1247,2-nom passV'.agr[2],,,Derived,,
+9724224027,icel1247,2-nom passV'.agr[2] með+3-dat,,,Derived,,
+9724281600,icel1247,2-nom passV'.agr[2] í+3-dat,,,Derived,,
+9724365453,icel1247,2-nom passV'.agr[2] 3-nom,,,Derived,,
+9724385939,icel1247,2-nom passV'.agr[2] á+3-acc,,,Derived,,
+9724446174,icel1247,2-nom passV'.agr[2] til+3-gen,,,Derived,,
+9724477899,icel1247,2-nom passV'.agr[2] yfir+3-acc,,,Derived,,
+9724517734,icel1247,2-nom passV'.agr[2] (úr+3-dat),,,Derived,,
+9724542520,icel1247,3-nom passV'.agr[3],,,Derived,,
+9725011356,icel1247,x-nom passV'.agr[x] 1-dat,,,Derived,,
+9725037865,icel1247,x-nom passV'.agr[x],,,Derived,,
+9725228998,icel1247,x-nom passV'agr[x] um+3-acc,,,Derived,,
+9725247522,icel1247,x-nom passV'.agr[x] 2-acc,,,Derived,,
+9725307425,icel1247,x-nom passV'.agr[x] 2-acc með+3-dat,,,Derived,,
+9725340335,icel1247,x-nom passV'.agr[x] 2-acc (í+3-acc),,,Derived,,
+9725463848,icel1247,x-nom passV'.agr[x] 2-acc (úr+3-dat),,,Derived,,
+9725489233,icel1247,x-nom passV'.agr[x] 2-dat,,,Derived,,
+9725538345,icel1247,x-nom passV'.agr[x] (2-dat) 3-acc,,,Derived,,
+9725663384,icel1247,x-nom passV'.agr[x] 2-gen,,,Derived,,
+9725681788,icel1247,x-nom passV'.agr[x] á+2-acc,,,Derived,,
+9725722015,icel1247,x-nom passV'.agr[x] að+2-dat,,,Derived,,
+9725745753,icel1247,x-nom passV'.agr[x] eftir+2-dat,,,Derived,,
+9725767969,icel1247,x-nom passV'.agr[x] í+2-dat,,,Derived,,
+9725790168,icel1247,x-nom passV'.agr[x] um+2-acc,,,Derived,,
+9725819392,icel1247,x-nom passV'.agr[x] við-2-acc,,,Derived,,
+9726036149,icel1247,2-gen passV',,,Derived,,
+9726198086,icel1247,2-dat passV',,,Derived,,
+9726228198,icel1247,2-dat passV'.agr[3] 3-nom,,,Derived,,
+9734684181,icel1247,2-dat V' 3-acc,,,Derived,,
+9734710060,icel1247,x-nom medV'.arg[x],,,Derived,,
+9734735069,icel1247,x-nom medV'.arg[x] LOC2,,,Derived,,
+9734790281,icel1247,x-nom medV'.agr[x] af+2-dat,,,Derived,,
+9734827799,icel1247,x-nom medV'.arg[x] í+2-dat,,,Derived,,
+9976609648,icel1247,1-nom V.agr[1] 2-acc LOC3,,,Basic,A;P,3737373736;3737374710
+11626022779,icel1247,1/2-nom rcpV'.agr[1/2] hvort öðru,,,Derived,,
+11679325724,icel1247,2-nom passV'.agr[2] (af+3-dat),,,Derived,,
+11685652039,icel1247,2-nom V'ja.agr[2],,,Derived,,
+11686527954,icel1247,1-nom V.agr[1] 2-dat LOC3,,,Basic,S;X,3737373736;3796490959
+11686635448,icel1247,1-nom V'.agr[1] 3-acc til 2-gen,,,Derived,,
+11686698323,icel1247,1-nom V'.agr[1] 3-dat 2-acc,,,Derived,,
+11687267767,icel1247,2-nom medV'.agr[2] LOC3,,,Derived,,
+11687299524,icel1247,1-nom medV'.agr[1],,,Derived,,
+11799217784,icel1247,1-dat V um+2,,,Basic,X,3796490959
+11903393330,icel1247,2-nom V'.agr[2] 1-dat,,,Derived,,
+11903815860,icel1247,1/2-nom reflV'.agr[1/2],,,Derived,,
+11910874615,icel1247,x-nom passV'.agr[x] 3-acc við+2-acc,,,Derived,,
+11910960295,icel1247,x-nom passV'.agr[x] 2-acc LOC3,,,Derived,,
+11911045785,icel1247,x-nom passV'.agr[x] 2-dat (í+3-acc),,,Derived,,
+11911064177,icel1247,x-nom passV'.agr[x] 2-dat LOC3,,,Derived,,
+11911153909,icel1247,x-nom passV'.agr[x] 2-gen (í+3-dat),,,Derived,,
+11911233742,icel1247,1-nom V'.agr[1] 2-gen,,,Derived,,
+11911441863,icel1247,2-gen passV' (í+3-dat),,,Derived,,
+11911666317,icel1247,2-gen V' í+3-dat,,,Derived,,
+11911791619,icel1247,x-nom medV'.agr[x] um+2-acc,,,Derived,,
+12074721721,icel1247,1-nom V.agr[1] (2-dat),,,Basic,S,3737373736
+12074762812,icel1247,4-nom V'.agr[1] 1-dat LOC3,,,Derived,,
+12075873302,icel1247,1/2-nom reflV'.agr[1/2] 3-dat,,,Derived,,
+12076046665,icel1247,2-nom passV'.agr[2] LOC3,,,Derived,,
+12076398911,icel1247,2-dat passV' (LOC3),,,Derived,,
+6536020888,hokk1249,1-nom 2-acc V,,,Basic,A,8818367666
+6536020889,hokk1249,1-nom 2-dat V,,,Basic,S,8818367666
+6536020895,hokk1249,1-nom 2-nom V,,,Basic,S,8818367666
+6536020897,hokk1249,1-nom 2+nituite V,,,Basic,S,8818367666
+6536020900,hokk1249,1-nom 2-dat 3-acc V,,,Basic,A;L,8818367666;8818389682
+6536020906,hokk1249,1-nom 2-com/dat V,,,Basic,S,8818367666
+6536020911,hokk1249,1-nom 2-dat UTT3 V,,,Basic,S;L,8818367666;8818389682
+6536020912,hokk1249,1-nom 2-acc 3-com V,,,Basic,A;P,8818367666;8818369383
+6536020920,hokk1249,1-nom 2-abl 3-acc V,,,Basic,A;X,8818367666;8819158681
+6536020937,hokk1249,1-nom 2-acc (3-instr) V,,,Basic,A;P,8818367666;8818369383
+8827854105,hokk1249,1-nom V,,,Basic,,
+10348259522,hokk1249,3-nom 2-abl 1-dat/niyotte V'pass,,,Derived,,
+10348309379,hokk1249,2-nom 1-dat/niyotte 3-instr V'pass,,,Derived,,
+10348399133,hokk1249,2-nom 1-dat/niyotte 3-com V'pass,,,Derived,,
+10348419769,hokk1249,2-nom 1-dat/niyotte V'pass,,,Derived,,
+10348784284,hokk1249,3-nom 1-niyotte 2-dat V'pass,,,Derived,,
+10348968666,hokk1249,2-nom 1-dat V'pass,,,Derived,,
+10349071923,hokk1249,4-nom 1-dat 2-abl 3-acc V'caus,,,Derived,,
+10349145802,hokk1249,4-nom 1-dat 2-acc 3-instr V'caus,,,Derived,,
+10349210229,hokk1249,4-nom 1-dat 2-acc 3-com V'cause,,,Derived,,
+10349227721,hokk1249,4-nom 1-dat 2-acc V'cause,,,Derived,,
+10373656794,hokk1249,4-nom 1-acc 2-com/dat V'caus,,,Derived,,
+10373682871,hokk1249,4-nom 1-dat 2-dat 3-acc V'caus,,,Derived,,
+10374039912,hokk1249,4-nom 1-acc 2-dat V'caus,,,Derived,,
+10374103830,hokk1249,4-nom 1-dat 2+nituite V'caus,,,Derived,,
+10374128544,hokk1249,4-nom 1-acc V'caus,,,Derived,,
+10380485078,hokk1249,3-nom 2-abl V'anticaus,,,Derived,,
+10380519272,hokk1249,2-nom 3-instr V'anticaus,,,Derived,,
+10380642394,hokk1249,2-nom V'anticaus,,,Derived,,
+10380823984,hokk1249,3-nom 2-dat V'anticaus,,,Derived,,
+10380932167,hokk1249,1-nom V'anticaus,,,Derived,,
+10380970621,hokk1249,2-nom 1-abl 3-acc V'pass,,,Derived,,
+10381027751,hokk1249,2-nom 3-acc 1-dat/niyotte V'pass,,,Derived,,
+10382957642,hokk1249,3-nom V'pot,,,Derived,,
+10382985043,hokk1249,2-nom 3-instr V'pot,,,Derived,,
+10383006260,hokk1249,2-nom 3-com V'pot,,,Derived,,
+10383020019,hokk1249,2-nom V'pot,,,Derived,,
+10383111736,hokk1249,3-nom 2-dat V'pot,,,Derived,,
+10383253872,hokk1249,1-nom V'pot,,,Derived,,
+10442125225,hokk1249,1-nom 2-abl 3-acc V'pot,,,Derived,,
+10442188710,hokk1249,1-nom 2-acc (3-instr) V'pot,,,Derived,,
+10442220949,hokk1249,1-nom 2-acc 3-com V'pot,,,Derived,,
+10442233836,hokk1249,1-nom 2-acc V'pot,,,Derived,,
+10443714898,hokk1249,1-nom 2-com/dat V'pot,,,Derived,,
+10443722689,hokk1249,1-nom 2-dat 3-acc V'pot,,,Derived,,
+10443877843,hokk1249,1-nom 2-dat UTT3 V'pot,,,Derived,,
+10443890581,hokk1249,1-nom 2-dat V'pot,,,Derived,,
+10443942152,hokk1249,1-nom 2+nituite V'pot,,,Derived,,
+12464081701,hokk1249,UTT3 1-dat/niyotte 2-dat V'pass,,,Derived,,
+12464221821,hokk1249,4-nom 1-dat 2-dat UTT3 V'caus,,,Derived,,
+12464301353,hokk1249,2-nom UTT3 1-dat/niyotte V'pass,,,Derived,,
+4895372581,ainu1240,1 2 3 subj[1].obj[2].V,"<SPAN STYLE= """" >V is a three-argument verb which is typically derived by causative, applicative or applicative-causative derivations. Core arguments are unmarked for case. In verbal cross-referencing (indices) of transitive verbs, A affixes are normally placed before P markers but when it comes to the interaction of first and second person participants there is also a number of fusional markers (A+P), which are subject to considerable dialectal variation. The third person (A/P) is always zero-marked.<BR><BR>Word order. According to Tamura (2000: 181), the basic word order is A &gt; R &gt; T. However, one finds numerous word order variations in actual text, which are probably not syntactically but pragmatically motivated; this issue requires extensive corpus based research in the future. <BR><BR>REF: Tamura, Suzuko. (1988) 2000. &ldquo;Ainugo&rdquo; [The Ainu language]. In Kamei, Takashi, Rokuroo Koono, and Eiichi Chino (eds.). Gengogaku daijiten. vol. 1, Tokyo: Sanseidoo, 6-94. English version: The Ainu language. (ICHEL Linguistic Studies vol. 2), Tokyo: Sanseidoo.<BR></SPAN>",,Basic,A;P,3796601994;3796648771
+4895958268,ainu1240,1 2 LOC3 subj[1].obj[2].V,"<SPAN STYLE= """" >It is a monotransitive pattern, the locative participant is encoded as an oblique with locative/allative postposition.</SPAN>",,Basic,A;P,3796601994;3796648771
+4895999026,ainu1240,1 2+(e)un 3 subj[1].obj[3].V,"<SPAN STYLE= """" >This in an indirective ditransitive construction. Rs are marked by the dative case postposition </SPAN><SPAN STYLE= ""font-style:italic;"" >eun</SPAN><SPAN STYLE= """" > &lsquo;to/toward (sb)&rsquo;, which is employed for marking animate obliques such as Recipient, Addressee or animate Goal (ex. 41), and is distinguished from un &lsquo;to/towards (sth)&rsquo;, which is employed for marking inanimate Goal obliques (ex. 43).<BR>  It should be noted that the frequency of the </SPAN><SPAN STYLE= ""font-style:italic;"" >eun</SPAN><SPAN STYLE= """" >-marked indirective ditransitive construction in texts is rather low and that it is preferably used with those few verbs for which there are no corresponding Recipient/Addressee applicatives. In other words, if there is a Recipient/Addressee applicative in </SPAN><SPAN STYLE= ""font-style:italic;"" >ko- </SPAN><SPAN STYLE= """" >(ex. 42), the </SPAN><SPAN STYLE= ""font-style:italic;"" >eun</SPAN><SPAN STYLE= """" >-marked indirective construction, has a low chance of occurring in texts, and completely no chance of occurring if R is encoded by a pronominal argument (ex. 42). <BR>  The above-mentioned frequency restriction does not apply to the cases where R participant is, strictly speaking, not a Recipient proper, i.e. </SPAN><SPAN STYLE= ""font-style:italic;"" >un</SPAN><SPAN STYLE= """" >-marked indirective construction with inanimate Goal  and </SPAN><SPAN STYLE= ""font-style:italic;"" >wa</SPAN><SPAN STYLE= """" >-marked indirective construction with animate/inanimate Source: they are fairly frequent in texts regardless of the existence/non-existence of the corresponding applicative constructions. </SPAN>",,Basic,A;X,3796601994;11921258534
+4896036279,ainu1240,1 2 subj[1].obj[2].V,"<SPAN STYLE= """" >Core arguments are unmarked for case.<BR>In verbal cross-referencing (indices) of transitive verbs, A affixes are normally placed before P markers but when it comes to the interaction of first and second person participants there is also a number of fusional markers (A+P), which are subject to considerable dialectal variation. The third person (A/P) is always zero-marked.</SPAN>",,Basic,A,3796601994
+4896053556,ainu1240,1 2 (3+ani) subj[1].obj[2].V,,,Basic,A;P,3796601994;3796648771
+4896240073,ainu1240,1 2+un subj[1].V,,,Basic,S,3796601994
+4896296132,ainu1240,1 subj[1].V,,,Basic,,
+4896298101,ainu1240,1 LOC2 subj[1].V,,,Basic,S,3796601994
+11947106106,ainu1240,V,,,Basic,,
+12499764155,ainu1240,1 2 3+wa subj[1].obj[2].V,,,Basic,A;P,3796601994;3796648771
+6536020254,east2526,1-nom 2-acc V,,,Basic,A,3833974892
+6536020267,east2526,1-nom 2-dat 3-acc V,,,Basic,A;L,3833974892;3833976654
+6536020270,east2526,1-nom 2-dat V,,,Basic,S,3833974892
+6536020279,east2526,1-nom 2-acc 3-cit V,,,Basic,A;P,3833974892;3892270291
+6536020292,east2526,1-nom 2-abl 3-acc V,,,Basic,A;X,3833974892;3892473043
+6536020308,east2526,1-nom 2-acc (3-instr) V,,,Basic,A;P,3833974892;3892270291
+6536020310,east2526,1-nom V,,,Basic,,
+6536020312,east2526,1-nom 2-dat/acc V,,,Basic,S,3833974892
+6536020319,east2526,1-nom (2-abl) V,,,Basic,S,3833974892
+6536020323,east2526,1-nom 2-nom V,,,Basic,S,3833974892
+6536020345,east2526,1-exp 2-nom V,,,Basic,X,3866174560
+6536020346,east2526,N/A,,,Basic,,
+7791577823,east2526,1-exp 2-acc V,,,Basic,X,3866174560
+7797347822,east2526,1-nom 2-gen 3-acc V,,,Basic,A;X,3833974892;3839685245
+7806644078,east2526,1-nom 2-loc/com V,,,Basic,S,3833974892
+7866275956,east2526,4-nom 1-dat 3-acc 2-abl V'rase,,,Derived,,
+7866385965,east2526,4-nom 1-acc V'rase,,,Derived,,
+8212111459,east2526,1-nom 2-dat (3-instr) V,,,Basic,S;L,3833974892;3833976654
+9838553945,east2526,1-nom 2-acc 3-acc V,,,Basic,A;P,3833974892;3892270291
+9847660188,east2526,4-nom 1-dat 2-acc (3-instr) V'rase,,,Derived,,
+9847707657,east2526,4-nom 1-dat 2-acc (3-cit) V'rase,,,Derived,,
+9847732796,east2526,4-nom 1-dat 2-acc V'rase,,,Derived,,
+9847923210,east2526,4-nom 1-acc 2-dat (3-instr) V'rase,,,Derived,,
+9847940853,east2526,4-nom 1-dat 2-dat 3-acc V'rase,,,Derived,,
+9848039816,east2526,4-nom 1-acc 2-dat V'rase,,,Derived,,
+9848109760,east2526,4-nom 1-acc 2-dat/acc V'rase,,,Derived,,
+9848138645,east2526,4-nom 1-dat 2-gen 3-acc V'rase,,,Derived,,
+9848160173,east2526,4-nom 1-acc 2-loc/com V'rase,,,Derived,,
+9896823463,east2526,1-nom 2-acc V',,,Derived,,
+9897008560,east2526,1-exp (2-abl) 3-acc V'pot,,,Derived,,
+9898701342,east2526,4-nom 1-acc (2-abl) V',,,Derived,,
+9898786102,east2526,1-exp 2-acc (3-instr) V'pot,,,Derived,,
+9898863691,east2526,1-exp 2-acc 3-cit V'pot,,,Derived,,
+9898873103,east2526,1-exp 2-acc V'pot,,,Derived,,
+9898876972,east2526,1-exp 2-dat (3-instr) V'pot,,,Derived,,
+9898882512,east2526,1-exp (2-dat) 3-acc V'pot,,,Derived,,
+9898886733,east2526,1-exp 2-dat V'pot,,,Derived,,
+9898892829,east2526,1-exp 2-gen 3-acc V'pot,,,Derived,,
+9898896967,east2526,1-exp 2-loc/com V'pot,,,Derived,,
+9898904308,east2526,1-exp V'pot,,,Derived,,
+9899622282,east2526,2-nom 3-cit (1-loc) V'pass,,,Derived,,
+9899648266,east2526,2-nom (1-loc/dat) V'pass,,,Derived,,
+9905556448,east2526,2-nom (3-instr) (1-loc) V'pass,,,Derived,,
+9905618423,east2526,3-nom 2-dat (1-loc) V'pass,,,Derived,,
+9905761800,east2526,3-nom 2-abl (1-loc) V'pass,,,Derived,,
+9905992221,east2526,1-nom 2-acc V'as/e,,,Derived,,
+9905995362,east2526,2-nom 1-acc V'as/e,,,Derived,,
+12333951523,east2526,1-nom 2-dat UTT3 V,,,Basic,S;L,3833974892;3833976654
+12457097801,east2526,4-nom 1-dat 2-dat UTT3 V'rase,,,Derived,,
+12463901911,east2526,1-exp 2-dat UTT3 V'pot,,,Derived,,
+12463939506,east2526,2-nom UTT3 V'pass,,,Derived,,
+4238289226,mand1415,1 > V > 2,,,Basic,A,3797857495
+5206065171,mand1415,1 > V,,,Basic,,
+7385102321,mand1415,1 > (yòng+2 >) V > 3,,,Basic,A;I,3797857495;3797934175
+7385229679,mand1415,1 > V > 2 > 3,,,Basic,A;P,3797857495;3797857495
+7385240592,mand1415,1 > V > LOC2,,,Basic,A,3797857495
+7385353329,mand1415,1 > V > zài+2,,,Basic,S,3797857495
+7385418983,mand1415,1 > (LOC2 >) V > 3,,,Basic,A;X,3797857495;11124251564
+7385502652,mand1415,1 > ba+2 > V > zài+3-loc,,,Basic,S;X,3797857495;3798033189
+7385521312,mand1415,V,,,Basic,,
+7385529946,mand1415,1 > (cóng+2 >) V > 3,,,Basic,A;X,3797857495;3892672395
+7385806511,mand1415,1 > (duì+2 >) V > 3,,,Basic,A;X,3797857495;3850620585
+7385839005,mand1415,1 > (gěi+2 >) V 3,,,Basic,A;X,3797857495;3901671931
+7385895035,mand1415,1 > (PREP+2 >) V > 3,,,Basic,A;X,3797857495;3892641616
+11073420082,mand1415,1 > (zài+2 >) V,,,Basic,S,3797857495
+11073509873,mand1415,1 > PREP+2 > V,,,Basic,S,3797857495
+12334020034,mand1415,1 > (duì+2 >) V > UTT3,,,Basic,S;X,3797857495;3850620585
+15609907338,mand1415,N/A,,,Basic,,
+5819272005,bali1278,1 V 2,,,Basic,A,5819277716
+5838337483,bali1278,1 V UTT2 teken+3,,,Basic,S;X,5819277716;12378177271
+5838360848,bali1278,1 V 2 3,,,Basic,A;P,5819277716;5819277716
+5838379629,bali1278,1 V 2 aji+3,,,Basic,A;P,5819277716;5819277716
+5838440395,bali1278,1 V 2 uli+3,,,Basic,A;P,5819277716;5819277716
+5838500332,bali1278,1 V 2 ke+3,,,Basic,A;P,5819277716;5819277716
+5838582650,bali1278,1 V 2 aji+3 ke+4,,,Basic,A;P;X,5819277716;5819277716;5838505862
+5838594068,bali1278,1 V 2 di+3,,,Basic,A;P,5819277716;5819277716
+5856403388,bali1278,1 V,,,Basic,,
+5856496458,bali1278,V,,,Basic,,
+8195607479,bali1278,1 V ke+2,,,Basic,S,5819277716
+8195624828,bali1278,1 V di+2,,,Basic,S,5819277716
+12377991904,bali1278,1 V teken+2,,,Basic,S,5819277716
+12378040230,bali1278,1 V 2 unduk+3,,,Basic,A;P,5819277716;5819277716
+6536020574,yoru1245,1 V 2 ní+3,,,Basic,A;P,6995275355;6995275355
+6536020575,yoru1245,1 V 2 fún+3,"<SPAN STYLE= """" >This coding frame is mainly for ditratransitive verbs in which f&uacute;n introduces the third argument, i.e., the recipient.  </SPAN>",,Basic,A;P,6995275355;6995275355
+6536020576,yoru1245,1 fi+2 V 3,"<SPAN STYLE= """" >In this coding frame, </SPAN><SPAN STYLE= ""font-style:italic;"" >fi </SPAN><SPAN STYLE= """" >is used to introduce the instrument argument in the basic construction.</SPAN>",,Basic,A;I,6995275355;6995441528
+6536020577,yoru1245,1 V sí+2,,,Basic,S,6995275355
+6536020578,yoru1245,1 V ní+2,,,Basic,S,6995275355
+6536020579,yoru1245,1 V,,,Basic,,
+6536020580,yoru1245,1 V fún+2,,,Basic,S,6995275355
+6536020581,yoru1245,1 V nípa+2,,,Basic,S,6995275355
+6536020582,yoru1245,1 V mó̩+2,,,Basic,S,6995275355
+6536020583,yoru1245,1 fi+2 V sí+3,,,Basic,S;I,6995275355;6995441528
+6536020584,yoru1245,1 V 2 sí+3,,,Basic,A;P,6995275355;6995275355
+6536020585,yoru1245,1 V 2 LOC3,,,Basic,A;P,6995275355;6995275355
+6536020587,yoru1245,1 V LOC2,,,Basic,S,6995275355
+6813848905,yoru1245,1 V 2,,,Basic,A,6995275355
+7003167019,yoru1245,V,,,Basic,,
+12335165860,yoru1245,1 V 2 3,,,Basic,A;P,6995275355;6995275355
+9000132757,otta1242,1 subjA[1].V.objI[2] 2,,,Basic,A,9225954112
+9001123828,otta1242,1 V.objI[2] 2,,,Basic,I,9001138205
+9008433573,otta1242,1 V.subjS[1],,,Basic,,
+9008490309,otta1242,V.subjS[1],,,Basic,,
+9050751309,otta1242,1 subjA[1].V.objI[2] 2 UTT3,,,Basic,A;P,9225954112;9001085766
+9121252604,otta1242,1 subjA[1].V.objI[2] 2 (3),,,Basic,A;P,9225954112;9001085766
+9121656408,otta1242,1 subjA[1].V.objI[2] 2 3-loc,,,Basic,A;P,9225954112;9001085766
+9180643245,otta1242,1 subjS[1].V.objII[2] 2,,,Basic,S,9224892496
+9182060786,otta1242,1 V.subjS[1] 2-loc,,,Basic,S,9224892496
+9182151972,otta1242,1 V.subjS[1] UTT2,,,Basic,S,9224892496
+9242911984,otta1242,1 <2>V.subjS[1],,,Basic,S,9224892496
+3624501224,east2283,1-nom 2-nomdat V.subj[1],,,Basic,A,7911271655
+3645643772,east2283,V,,,Basic,,
+3645700762,east2283,1-nom 2-nomdat 3-dat V.subj[1],,,Basic,A;P,7911271655;7911276548
+3654929154,east2283,1-nom 2-dat V.subj[1],,,Basic,S,7911271655
+3663393290,east2283,1-nom 2-nomdat (3-instr) V.subj[1],,,Basic,A;P,7911271655;7911276548
+3663754241,east2283,1-nom 2-abl V.subj[1],,,Basic,S,7911271655
+6380076923,east2283,1-nom (LOC2) V.subj[1],,,Basic,S,7911271655
+6380129586,east2283,1-nom V.subj[1],,,Basic,,
+6442983281,east2283,1-nom 2-nomdat LOC3 V.subj[1],,,Basic,A;P,7911271655;7911276548
+6443076608,east2283,1-nom 2-nomdat 3-nom V.subj[1],,,Basic,X;X,7918806868;7911276548
+6449870493,east2283,1-nom 2-gen+vra V.subj[1],,,Basic,X,7918806868
+6449956696,east2283,1-nom 2+het 3+masin V.subj[1],,,Basic,S;X,7911271655;7918947154
+6449982358,east2283,1-nom 2+masin V.subj[1],,,Basic,S,7911271655
+6451070858,east2283,1-nom 2-gen V.subj[1],,,Basic,S,7911271655
+7918611373,east2283,1-nom 2-nomdat 3-abl V.subj[1],,,Basic,A;P,7911271655;7911276548
+7918723447,east2283,1-nom 2-dat 3-instr V.subj[1],,,Basic,S;X,7911271655;7911839146
+7978788546,east2283,1-nom UTT2 (3-dat) V.subj[1],,,Basic,X;X,7918806868;10026612471
+12517748421,east2283,1-nom (2+vra) V.subj[1],,,Basic,S,7911271655
+12517893404,east2283,1-nom (2-instr) V.subj[1],,,Basic,S,7911271655
+12517943003,east2283,4-nom 1-dat causV'.subj[4],,,Derived,,
+12518064718,east2283,1/2-nom causmedV'.subj[1/2],,,Derived,,
+12518116962,east2283,1/4-nom causmedV'.subj[1/4],,,Derived,,
+12518142095,east2283,1/2-nom V'.subj[1/2],,,Derived,,
+12525128858,east2283,1-nom V'.subj[1],,,Derived,,
