@@ -24,6 +24,7 @@ class CustomLexeme(Lexeme):
     verb_type = attr.ib(default=None)
     original_script = attr.ib(default=None)
     simplex_or_complex = attr.ib(default=None)
+    Basic_Coding_Frame_ID = attr.ib(default=None)
 
 
 @attr.s
@@ -142,6 +143,7 @@ select
     v.simplex_or_complex,
     v.verb_type,
     v.language_id,
+    v.coding_frame_id,
     mv.meaning_id
 from 
     verbs as v, meanings_verbs as mv 
@@ -161,6 +163,7 @@ order by v.language_id, mv.meaning_id;"""
                 verb_type=row['verb_type'],
                 original_script=row['original_script'],
                 simplex_or_complex=row['simplex_or_complex'],
+                Basic_Coding_Frame_ID=row['coding_frame_id'],
                 #
                 # FIXME: mark singular (SG) and plural (PL)?
                 #
@@ -416,6 +419,7 @@ where e.id = ev.example_id group by e.id"""):
                 'separator': ';',
             })
 
+        cldf.add_foreign_key('FormTable', 'Basic_Coding_Frame_ID', 'coding-frames.csv', 'ID')
         cldf.add_foreign_key('coding-frames.csv', 'Coding_Set_IDs', 'coding-sets.csv', 'ID')
         cldf.add_foreign_key('coding-frame-examples.csv', 'Coding_Frame_ID', 'coding-frames.csv', 'ID')
         cldf.add_foreign_key('alternation-values.csv', 'Alternation_ID', 'alternations.csv', 'ID')
