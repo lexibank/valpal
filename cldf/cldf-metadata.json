@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "git@github.com:lexibank/valpal",
-            "dc:created": "22860ab"
+            "dc:created": "011e1f5"
         },
         {
             "rdf:type": "prov:Entity",
@@ -573,16 +573,6 @@
                     {
                         "datatype": "string",
                         "name": "Derived"
-                    },
-                    {
-                        "datatype": "string",
-                        "separator": ";",
-                        "name": "Argument_Types"
-                    },
-                    {
-                        "datatype": "string",
-                        "separator": ";",
-                        "name": "Coding_Set_IDs"
                     }
                 ],
                 "foreignKeys": [
@@ -596,13 +586,76 @@
                                 "ID"
                             ]
                         }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "coding-frames.csv"
+        },
+        {
+            "dc:extent": 1332,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Coding_Frame_ID"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Index_Number"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Coding_Set_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Argument_Type"
+                    },
+                    {
+                        "separator": ";",
+                        "name": "Microrole_IDs"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Coding_Frame_ID"
+                        ],
+                        "reference": {
+                            "resource": "coding-frames.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
                     },
                     {
                         "columnReference": [
-                            "Coding_Set_IDs"
+                            "Coding_Set_ID"
                         ],
                         "reference": {
                             "resource": "coding-sets.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Microrole_IDs"
+                        ],
+                        "reference": {
+                            "resource": "microroles.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -613,7 +666,7 @@
                     "ID"
                 ]
             },
-            "url": "coding-frames.csv"
+            "url": "coding-frame-index-numbers.csv"
         },
         {
             "dc:extent": 3377,
