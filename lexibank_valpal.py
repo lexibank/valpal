@@ -268,6 +268,13 @@ where e.id = ev.example_id group by e.id"""):
                 Derived=row['derived'],
             ))
 
+        cf_roles = collections.defaultdict(list)
+        for row in self.query(
+            'SELECT coding_frame_index_number_id AS index_id, microrole_id'
+            '  FROM coding_frame_index_numbers_microroles'
+        ):
+            cf_roles[row['index_id']].append(str(row['microrole_id']))
+
         imap = {}
         coding_frames = {row['ID'] for row in args.writer.objects['coding-frames.csv']}
         for row in self.query(
@@ -279,6 +286,7 @@ where e.id = ev.example_id group by e.id"""):
         ):
             if row['coding_frame_id'] not in coding_frames:
                 continue
+            roles = cf_roles.get(row['id'])
             new_id = '{}-{}'.format(row['coding_frame_id'], row['index_number'])
             imap[row['id']] = new_id
             args.writer.objects['coding-frame-index-numbers.csv'].append(dict(
@@ -287,6 +295,7 @@ where e.id = ev.example_id group by e.id"""):
                 Index_Number=row['index_number'],
                 Coding_Set_ID=row['coding_set_id'],
                 Argument_Type=row['argument_type'],
+                Microrole_IDs=roles,
             ))
 
         cf_examples = collections.OrderedDict()
@@ -399,7 +408,11 @@ where e.id = ev.example_id group by e.id"""):
                 'datatype': 'integer',
             },
             'Coding_Set_ID',
-            'Argument_Type')
+            'Argument_Type',
+            {
+                'name': 'Microrole_IDs',
+                'separator': ';',
+            })
 
         cldf.add_table(
             'coding-frame-examples.csv',
@@ -439,6 +452,7 @@ where e.id = ev.example_id group by e.id"""):
         cldf.add_foreign_key('FormTable', 'Basic_Coding_Frame_ID', 'coding-frames.csv', 'ID')
         cldf.add_foreign_key('coding-frame-index-numbers.csv', 'Coding_Frame_ID', 'coding-frames.csv', 'ID')
         cldf.add_foreign_key('coding-frame-index-numbers.csv', 'Coding_Set_ID', 'coding-sets.csv', 'ID')
+        cldf.add_foreign_key('coding-frame-index-numbers.csv', 'Microrole_IDs', 'microroles.csv', 'ID')
         cldf.add_foreign_key('coding-frame-examples.csv', 'Coding_Frame_ID', 'coding-frames.csv', 'ID')
         cldf.add_foreign_key('alternation-values.csv', 'Alternation_ID', 'alternations.csv', 'ID')
         cldf.add_foreign_key('alternation-values.csv', 'Derived_Code_Frame_ID', 'coding-frames.csv', 'ID')
