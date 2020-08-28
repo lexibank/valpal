@@ -258,30 +258,7 @@ where e.id = ev.example_id group by e.id"""):
                     Language_ID=lang_id,
                 ))
 
-        arg_types = collections.defaultdict(dict)
-        frame_codingsets = collections.defaultdict(dict)
-        for row in self.query(
-            'select coding_frame_id,index_number,argument_type,coding_set_id'
-            '  from coding_frame_index_numbers join argument_types'
-            '  on argument_type_id = argument_types.id'
-            '  order by coding_frame_id, index_number'
-        ):
-            frame_codingsets[row['coding_frame_id']][row['index_number'] - 1] =\
-                row['coding_set_id']
-            arg_types[row['coding_frame_id']][row['index_number'] - 1] =\
-                row['argument_type']
-
         for row in self.query('select * from coding_frames order by language_id, id'):
-            arg_type_list = None
-            if row['id'] in arg_types:
-                arg_type_list = [
-                    arg_types[row['id']].get(i) or ''
-                    for i in range(max(arg_types[row['id']]))]
-            coding_set_list = None
-            if row['id'] in frame_codingsets:
-                coding_set_list = [
-                    frame_codingsets[row['id']].get(i) or ''
-                    for i in range(max(frame_codingsets[row['id']]))]
             args.writer.objects['coding-frames.csv'].append(dict(
                 ID=row['id'],
                 Language_ID=lmap[row['language_id']],
@@ -289,8 +266,27 @@ where e.id = ev.example_id group by e.id"""):
                 Description=row['description'],
                 Comment=row['comment'],
                 Derived=row['derived'],
-                Argument_Types=arg_type_list,
-                Coding_Set_IDs=coding_set_list,
+            ))
+
+        imap = {}
+        coding_frames = {row['ID'] for row in args.writer.objects['coding-frames.csv']}
+        for row in self.query(
+            'SELECT i.id, coding_frame_id, index_number, coding_set_id, argument_type'
+            '  FROM coding_frame_index_numbers AS i'
+            '  JOIN argument_types AS a'
+            '    ON a.id = i.argument_type_id'
+            '  ORDER BY coding_frame_id, index_number'
+        ):
+            if row['coding_frame_id'] not in coding_frames:
+                continue
+            new_id = '{}-{}'.format(row['coding_frame_id'], row['index_number'])
+            imap[row['id']] = new_id
+            args.writer.objects['coding-frame-index-numbers.csv'].append(dict(
+                ID=new_id,
+                Coding_Frame_ID=row['coding_frame_id'],
+                Index_Number=row['index_number'],
+                Coding_Set_ID=row['coding_set_id'],
+                Argument_Type=row['argument_type'],
             ))
 
         cf_examples = collections.OrderedDict()
@@ -392,17 +388,18 @@ where e.id = ev.example_id group by e.id"""):
             'Coding_Frame_Schema',
             'http://cldf.clld.org/v1.0/terms.rdf#description',
             'http://cldf.clld.org/v1.0/terms.rdf#comment',
-            'Derived',
+            'Derived')
+
+        cldf.add_table(
+            'coding-frame-index-numbers.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'Coding_Frame_ID',
             {
-                'name': 'Argument_Types',
-                'datatype': 'string',
-                'separator': ';',
+                'name': 'Index_Number',
+                'datatype': 'integer',
             },
-            {
-                'name': 'Coding_Set_IDs',
-                'datatype': 'string',
-                'separator': ';',
-            })
+            'Coding_Set_ID',
+            'Argument_Type')
 
         cldf.add_table(
             'coding-frame-examples.csv',
@@ -440,7 +437,8 @@ where e.id = ev.example_id group by e.id"""):
             })
 
         cldf.add_foreign_key('FormTable', 'Basic_Coding_Frame_ID', 'coding-frames.csv', 'ID')
-        cldf.add_foreign_key('coding-frames.csv', 'Coding_Set_IDs', 'coding-sets.csv', 'ID')
+        cldf.add_foreign_key('coding-frame-index-numbers.csv', 'Coding_Frame_ID', 'coding-frames.csv', 'ID')
+        cldf.add_foreign_key('coding-frame-index-numbers.csv', 'Coding_Set_ID', 'coding-sets.csv', 'ID')
         cldf.add_foreign_key('coding-frame-examples.csv', 'Coding_Frame_ID', 'coding-frames.csv', 'ID')
         cldf.add_foreign_key('alternation-values.csv', 'Alternation_ID', 'alternations.csv', 'ID')
         cldf.add_foreign_key('alternation-values.csv', 'Derived_Code_Frame_ID', 'coding-frames.csv', 'ID')
