@@ -323,7 +323,7 @@ where e.id = ev.example_id group by e.id"""):
         for row in self.query("select * from alternations order by language_id, id"):
             args.writer.objects['alternations.csv'].append(dict(
                 ID=row['id'],
-                Name=row['name'],
+                Name=re.sub(r'</?span[^>]*>', '', row['name'], flags=re.I),
                 Description=row['description'],
                 Language_ID=lmap[row['language_id']],
                 Alternation_Type=row['alternation_type'],
