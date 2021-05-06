@@ -298,6 +298,26 @@ where e.id = ev.example_id group by e.id"""):
                 Microrole_IDs=roles,
             ))
 
+        form_cf_roles = collections.OrderedDict()
+        for row in self.query(
+            'SELECT verb_id, coding_frame_id, microrole_id'
+            '  FROM verb_coding_frame_microroles'
+        ):
+            pair = (row['verb_id'], row['coding_frame_id'])
+            if pair not in form_cf_roles:
+                form_cf_roles[pair] = []
+            form_cf_roles[pair].append(row['microrole_id'])
+
+        args.writer.objects['form-coding-frame-microroles.csv'] = [
+            {
+                'ID': '{}-{}'.format(fmap[verb_id][0], cf_id),
+                'Form_ID': fmap[verb_id][0],
+                'Coding_Frame_ID': str(cf_id),
+                'Microrole_IDs': list(map(str, role_ids)),
+            }
+            for (verb_id, cf_id), role_ids in form_cf_roles.items()
+            if verb_id in fmap]
+
         cf_examples = collections.OrderedDict()
         for row in self.query(
             'select verb_id,coding_frame_id,language_id,number'
@@ -415,6 +435,16 @@ where e.id = ev.example_id group by e.id"""):
             })
 
         cldf.add_table(
+            'form-coding-frame-microroles.csv',
+            'http://cldf.clld.org/v1.0/terms.rdf#id',
+            'http://cldf.clld.org/v1.0/terms.rdf#formReference',
+            'Coding_Frame_ID',
+            {
+                'name': 'Microrole_IDs',
+                'separator': ';',
+            })
+
+        cldf.add_table(
             'coding-frame-examples.csv',
             'http://cldf.clld.org/v1.0/terms.rdf#id',
             'http://cldf.clld.org/v1.0/terms.rdf#formReference',
@@ -453,6 +483,8 @@ where e.id = ev.example_id group by e.id"""):
         cldf.add_foreign_key('coding-frame-index-numbers.csv', 'Coding_Frame_ID', 'coding-frames.csv', 'ID')
         cldf.add_foreign_key('coding-frame-index-numbers.csv', 'Coding_Set_ID', 'coding-sets.csv', 'ID')
         cldf.add_foreign_key('coding-frame-index-numbers.csv', 'Microrole_IDs', 'microroles.csv', 'ID')
+        cldf.add_foreign_key('form-coding-frame-microroles.csv', 'Coding_Frame_ID', 'coding-frames.csv', 'ID')
+        cldf.add_foreign_key('form-coding-frame-microroles.csv', 'Microrole_IDs', 'microroles.csv', 'ID')
         cldf.add_foreign_key('coding-frame-examples.csv', 'Coding_Frame_ID', 'coding-frames.csv', 'ID')
         cldf.add_foreign_key('alternation-values.csv', 'Alternation_ID', 'alternations.csv', 'ID')
         cldf.add_foreign_key('alternation-values.csv', 'Derived_Code_Frame_ID', 'coding-frames.csv', 'ID')
