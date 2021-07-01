@@ -18,8 +18,8 @@ Arguments do not inflect for case in Ainu: A and O are distinguished by their
 relative position in clause structure and by verbal cross-referencing markers.
 
 Obliques are marked by postpositions: locative ta , allative un (for inanimatre
-Goal) and dative e-un \<head-ALL> (for animate Goal), ablative wa , instrumental
-ani, comitative tura/turano, traversal peka (‘over’), mutative ne (‘as’; \<ne
+Goal) and dative e-un &gt;head-ALL> (for animate Goal), ablative wa , instrumental
+ani, comitative tura/turano, traversal peka (‘over’), mutative ne (‘as’; &gt;ne
 COP). Most case postpositions not only clearly originate in verbs but are still
 in a very early stage of the grammaticalization as they can often occur without
 respective nouns, as in (a).
