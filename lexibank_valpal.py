@@ -35,6 +35,21 @@ class CustomLanguage(Language):
     Comment = attr.ib(default=None)
 
 
+class UniqueIDMaker:
+
+    def __init__(self):
+        self._ids = set()
+
+    def make_unique_id(self, suggestion):
+        id_ = suggestion
+        no = 1
+        while id_ in self._ids:
+            no += 1
+            id_ = '{}-{}'.format(suggestion, no)
+        self._ids.add(id_)
+        return id_
+
+
 class Dataset(pylexibank.Dataset):
     dir = pathlib.Path(__file__).parent
     id = "valpal"
@@ -242,9 +257,14 @@ where e.id = ev.example_id group by e.id"""):
                 Form_IDs=sorted(ex2verb.get(row['id'], [])),
             ))
 
+        mr_idmaker = UniqueIDMaker()
+        mrmap = {}
         for row in self.query("select * from microroles order by meaning_id, id"):
+            # strip off the periods at the end to avoid invalid ids
+            mrmap[row['id']] = mr_idmaker.make_unique_id(
+                row['name_for_url'].rstrip('.'))
             args.writer.objects['microroles.csv'].append(dict(
-                ID=row['id'],
+                ID=mrmap[row['id']],
                 Name=row['name'],
                 Parameter_ID=cmap[row['meaning_id']],
                 Role_Letter=row['role_letter'],
@@ -277,7 +297,7 @@ where e.id = ev.example_id group by e.id"""):
             'SELECT coding_frame_index_number_id AS index_id, microrole_id'
             '  FROM coding_frame_index_numbers_microroles'
         ):
-            cf_roles[row['index_id']].append(str(row['microrole_id']))
+            cf_roles[row['index_id']].append(mrmap[row['microrole_id']])
 
         imap = {}
         coding_frames = {row['ID'] for row in args.writer.objects['coding-frames.csv']}
@@ -290,7 +310,6 @@ where e.id = ev.example_id group by e.id"""):
         ):
             if row['coding_frame_id'] not in coding_frames:
                 continue
-            roles = cf_roles.get(row['id'])
             new_id = '{}-{}'.format(row['coding_frame_id'], row['index_number'])
             imap[row['id']] = new_id
             args.writer.objects['coding-frame-index-numbers.csv'].append(dict(
@@ -299,7 +318,7 @@ where e.id = ev.example_id group by e.id"""):
                 Index_Number=row['index_number'],
                 Coding_Set_ID=row['coding_set_id'],
                 Argument_Type=row['argument_type'],
-                Microrole_IDs=roles,
+                Microrole_IDs=cf_roles.get(row['id']),
             ))
 
         form_cf_roles = collections.OrderedDict()
@@ -310,14 +329,14 @@ where e.id = ev.example_id group by e.id"""):
             pair = (row['verb_id'], row['coding_frame_id'])
             if pair not in form_cf_roles:
                 form_cf_roles[pair] = []
-            form_cf_roles[pair].append(row['microrole_id'])
+            form_cf_roles[pair].append(mrmap[row['microrole_id']])
 
         args.writer.objects['form-coding-frame-microroles.csv'] = [
             {
                 'ID': '{}-{}'.format(fmap[verb_id][0], cf_id),
                 'Form_ID': fmap[verb_id][0],
                 'Coding_Frame_ID': str(cf_id),
-                'Microrole_IDs': list(map(str, role_ids)),
+                'Microrole_IDs': role_ids,
             }
             for (verb_id, cf_id), role_ids in form_cf_roles.items()
             if verb_id in fmap]
