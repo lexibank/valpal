@@ -104,15 +104,19 @@ class Dataset(pylexibank.Dataset):
                 [contributors[d['person_id']] for d in rows if d['person_id'] in contributors])
 
         lang2gl = {l['Name']: l['Glottocode'] for l in self.languages}
+        lang2id = {
+            l['Glottocode']: l['Original_ID']
+            for l in self.etc_dir.read_csv('lang_ids.csv', dicts=True)}
         lmap = {}
         for lang in self.query('select * from languages order by name'):
             lang['glottolog_code'] = lang2gl.get(lang['name'], lang['glottolog_code'])
-            lmap[lang['id']] = lang['glottolog_code']
+            lang_id = lang2id[lang['glottolog_code']]
+            lmap[lang['id']] = lang_id
             name = lang['name']
             if lang['variety']:
                 name += ' ({0})'.format(lang['variety'])
             args.writer.add_language(
-                ID=lang['glottolog_code'],
+                ID=lang_id,
                 Name=name,
                 Glottocode=lang['glottolog_code'],
                 ISO639P3code=lang['iso_code'],
