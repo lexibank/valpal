@@ -1,8 +1,14 @@
 # CLDF dataset derived from Hartmann et al.'s "Valency Patterns Leipzig" from 2013
 
-Cite the source dataset as
+## How to cite
 
-> Hartmann, Iren & Haspelmath, Martin & Taylor, Bradley (eds.) 2013. Valency Patterns Leipzig. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://valpal.info)
+If you use these data please cite
+- the original source
+  > Hartmann, Iren & Haspelmath, Martin & Taylor, Bradley (eds.) 2013. Valency Patterns Leipzig. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://valpal.info)
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+
+## Description
+
 
 This dataset is licensed under a CC-BY-3.0 license
 
@@ -37,3 +43,10 @@ Name | GitHub user | Role
 Robert Forkel | @xrotwang | maintainer
 
 
+
+
+## CLDF Datasets
+
+The following CLDF datasets are available in [cldf](cldf):
+
+- CLDF [Wordlist](https://github.com/cldf/cldf/tree/master/modules/Wordlist) at [cldf/cldf-metadata.json](cldf/cldf-metadata.json)
