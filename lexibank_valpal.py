@@ -1,3 +1,4 @@
+import html
 import pathlib
 import re
 import sqlite3
@@ -33,6 +34,17 @@ class CustomLanguage(Language):
     contributors = attr.ib(default=None)
     continent = attr.ib(default=None)
     Comment = attr.ib(default=None)
+
+
+def clean_html(s):
+    if isinstance(s, str):
+        s = re.sub(r'<\s*\/?\s*SPAN[^>]*>', '', s)
+        s = s.replace('<BR>', ' ')
+        if '&' in s:
+            s = html.unescape(s)
+        return s
+    else:
+        return s
 
 
 class UniqueIDMaker:
@@ -73,7 +85,9 @@ class Dataset(pylexibank.Dataset):
             cu = db.cursor()
             cu.execute(sql)
             names = list(map(lambda x: x[0], cu.description))
-            return [collections.OrderedDict(zip(names, row)) for row in cu.fetchall()]
+            return [
+                collections.OrderedDict(zip(names, map(clean_html, row)))
+                for row in cu.fetchall()]
 
     def cmd_makecldf(self, args):
         self.create_schema(args.writer.cldf)
