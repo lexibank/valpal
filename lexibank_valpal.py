@@ -418,7 +418,7 @@ where e.id = ev.example_id group by e.id"""):
             'http://cldf.clld.org/v1.0/terms.rdf#name',
             {
                 'name': 'Parameter_ID',
-                'titles': 'Concept_ID',
+                'titles': 'Verb_Meaning_ID',
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#parameterReference',
             },
             'Role_Letter',
