@@ -311,8 +311,8 @@ where e.id = ev.example_id group by e.id"""):
             cf_roles[row['index_id']].append(mrmap[row['microrole_id']])
 
         argument_types = {
-            id_: name
-            for id_, name in self.query(
+            row['id']: row['argument_type']
+            for row in self.query(
                 'SELECT id, argument_type from argument_types')}
         imap = {}
         coding_frames = {row['ID'] for row in args.writer.objects['coding-frames.csv']}
