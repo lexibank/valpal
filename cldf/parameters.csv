@@ -128,7 +128,7 @@ roll-tr,ROLL (tr),827,ROLL,The child rolls the ball.,A rolls P,New meaning,roll-
 run,RUN,1519,RUN,The horse is running.,A runs,Core list,run
 say,SAY,1458,SAY,"They said ""no"" to me.","A says ""...""( to X)",Core list,say
 say-impersonal,SAY (impersonal),,,It says (it) in the article.,S says somewhere (L),New meaning,say-impersonal
-scream,SCREAM,,,The man screamed.,S screams,Core list,scream
+scream,SCREAM,3809,SCREAM (PRODUCE A CRY),The man screamed.,S screams,Core list,scream
 search-for,SEARCH FOR,1468,LOOK FOR,The men searched for the women.,A searches for X,Core list,search-for
 seat,SEAT,2878,SEAT (SOMEBODY),The mother seated her child on the chair.,A seats P (somewhere L),New meaning,seat
 see,SEE,1409,SEE,The man saw the bear.,E sees M,Core list,see
