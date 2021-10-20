@@ -296,13 +296,15 @@ where e.id = ev.example_id group by e.id"""):
         ):
             cf_roles[row['index_id']].append(mrmap[row['microrole_id']])
 
+        argument_types = {
+            id_: name
+            for id_, name in self.query(
+                'SELECT id, argument_type from argument_types')}
         imap = {}
         coding_frames = {row['ID'] for row in args.writer.objects['coding-frames.csv']}
         for row in self.query(
-            'SELECT i.id, coding_frame_id, index_number, coding_set_id, argument_type'
-            '  FROM coding_frame_index_numbers AS i'
-            '  JOIN argument_types AS a'
-            '    ON a.id = i.argument_type_id'
+            'SELECT id, coding_frame_id, index_number, coding_set_id, argument_type_id'
+            '  FROM coding_frame_index_numbers'
             '  ORDER BY coding_frame_id, index_number'
         ):
             if row['coding_frame_id'] not in coding_frames:
@@ -314,7 +316,7 @@ where e.id = ev.example_id group by e.id"""):
                 Coding_Frame_ID=row['coding_frame_id'],
                 Index_Number=row['index_number'],
                 Coding_Set_ID=row['coding_set_id'],
-                Argument_Type=row['argument_type'],
+                Argument_Type=argument_types.get(row['argument_type_id']),
                 Microrole_IDs=cf_roles.get(row['id']),
             ))
 
