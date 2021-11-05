@@ -252,8 +252,14 @@ where e.id = ev.example_id group by e.id"""):
                 row['number'] = maxnum[row['language_id']] = maxnum[row['language_id']] + 1
             row['gloss'] = gloss_fix.get(row['gloss'], row['gloss'])
             row['analyzed_text'] = morphemes_fix.get(row['analyzed_text'], row['analyzed_text'])
+
+            ex_id = example_id(row)
+            if ex_id == 'hoch1243-273':
+                row['translation'] = row['translation'].replace(
+                    'took of,', 'took off,')
+
             args.writer.objects['ExampleTable'].append(dict(
-                ID=example_id(row),
+                ID=ex_id,
                 Language_ID=lmap[row['language_id']],
                 Primary_Text=row['primary_text'],
                 Analyzed_Word=row['analyzed_text'].split(),
