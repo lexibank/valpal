@@ -20,8 +20,9 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
+[![Build Status](https://travis-ci.org/lexibank/valpal.svg?branch=master)](https://travis-ci.org/lexibank/valpal)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
-![Concepticon: 94%](https://img.shields.io/badge/Concepticon-94%25-green.svg "Concepticon: 94%")
+![Concepticon: 95%](https://img.shields.io/badge/Concepticon-95%25-green.svg "Concepticon: 95%")
 ![Source: 49%](https://img.shields.io/badge/Source-49%25-red.svg "Source: 49%")
 
 - **Varieties:** 36
