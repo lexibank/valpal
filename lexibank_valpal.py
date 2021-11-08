@@ -39,9 +39,25 @@ class CustomLanguage(Language):
 def clean_html(s):
     if isinstance(s, str):
         s = re.sub(r'<\s*\/?\s*SPAN[^>]*>', '', s)
-        s = s.replace('<BR>', ' ')
+
+        # <br> rules:
+        #
+        #  * strip newlines at the end
+        #  * strip newlines after punctuation
+        #    (note: this does not include ; because that would include
+        #    html escape sequences like `&gt;`)
+        #  * replace newlines with semicolons in the middle
+        #    (resulting double-semicolons will be stripped when he html escapes
+        #    are gon)
+        s = re.sub(r'\s*(<BR>\s*)+$', '', s)
+        s = re.sub(r'([.,!?:])\s*(<BR>\s*)+', r'\1 ', s)
+        s = re.sub(r'\s*(<BR>\s*)+', '; ', s)
+
         if '&' in s:
             s = html.unescape(s)
+
+        s = re.sub(r';+', ';', s)
+        s = re.sub(r'\s+', ' ', s.strip())
         return s
     else:
         return s
