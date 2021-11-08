@@ -2098,7 +2098,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 70938,russ1263-touch-1,565727431,Never,,,
 71475,russ1263-touch-1,566291510,Never,,,
 72279,russ1263-touch-1,7116993311,Never,,,
-75548,russ1263-touch-1,7289645873,Never,The argument of  kosnut'sja is always marked with the genitive case.,,
+75548,russ1263-touch-1,7289645873,Never,The argument of kosnut'sja is always marked with the genitive case.,,
 81358,russ1263-touch-1,7729642707,Never,,,
 70939,russ1263-hit-1,540118552,Marginally,,,
 70940,russ1263-hit-1,540414281,Never,,,
@@ -2926,7 +2926,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 97001,bora1263-bring-1,3635725724,Never,"suffixation of reflexive marker -mei possible, but results not in a valency change, but in a reading where the agentivity of the subject is deranked, translated by native speakers as 'do x poorly'",,
 97220,bora1263-bring-1,3739129821,Never,,,
 96848,bora1263-carry-1,705880754,Regularly,,9510899904,
-96849,bora1263-carry-1,705882152,Regularly,with object and downgraded subject or without object ,12101169232,
+96849,bora1263-carry-1,705882152,Regularly,with object and downgraded subject or without object,12101169232,
 97221,bora1263-carry-1,826838806,Never,,,
 97002,bora1263-carry-1,3635725724,Regularly,,9579720691,
 97222,bora1263-carry-1,3739129821,Never,,,
@@ -3454,7 +3454,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 69384,hoch1243-fill-1,1095420743,Never,,,
 69385,hoch1243-fill-1,1139186218,Marginally,can be added if the context arises,,hoch1243-1268
 69386,hoch1243-fill-1,1139187239,Regularly,replaces hii OR can be added,7711540433,hoch1243-17;hoch1243-1360
-69387,hoch1243-fill-1,1139188240,Regularly,replaces hii = 'fill his sth.'  / 'fill his for him' OR can be added,7650763418,hoch1243-16;hoch1243-18;hoch1243-732;hoch1243-740;hoch1243-741
+69387,hoch1243-fill-1,1139188240,Regularly,replaces hii = 'fill his sth.' / 'fill his for him' OR can be added,7650763418,hoch1243-16;hoch1243-18;hoch1243-732;hoch1243-740;hoch1243-741
 69388,hoch1243-fill-1,1146719646,Never,,,
 69389,hoch1243-fill-1,1146733702,Never,,,
 69390,hoch1243-fill-1,1147019688,Never,,,
@@ -4117,7 +4117,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 69692,hoch1243-shave-self-1,4343754482,Regularly,,7374867684,hoch1243-1099
 69889,hoch1243-shave-self-1,6356490381,Never,,,
 68232,hoch1243-grind-1,1079002970,Regularly,,7375805159,hoch1243-302
-68233,hoch1243-grind-1,1079003919,Never,"only as  noun, maybe mąąhį paras higicop = 'chop with a wide knife'",,
+68233,hoch1243-grind-1,1079003919,Never,"only as noun, maybe mąąhį paras higicop = 'chop with a wide knife'",,
 68234,hoch1243-grind-1,1079004561,Never,,,
 68235,hoch1243-grind-1,1079005179,Never,,,
 68236,hoch1243-grind-1,1079005766,Marginally,only with benefactive meaning,,hoch1243-1092
@@ -4151,7 +4151,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 68261,hoch1243-peel-1,1095046958,Marginally,,,hoch1243-858
 68262,hoch1243-peel-1,1095048635,Never,,,
 68263,hoch1243-peel-1,1095418452,Marginally,maybe possible with reciprocal meaning,,hoch1243-851
-68264,hoch1243-peel-1,1095420743,Never,sound like you'd be taking your clothes off ,,
+68264,hoch1243-peel-1,1095420743,Never,sound like you'd be taking your clothes off,,
 68265,hoch1243-peel-1,1139186218,Regularly,,7375771884,hoch1243-859;hoch1243-860
 68266,hoch1243-peel-1,1139187239,Marginally,,,hoch1243-861
 68267,hoch1243-peel-1,1139188240,Regularly,,7375771884,hoch1243-1338;hoch1243-1339
@@ -4455,7 +4455,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 68529,hoch1243-be-dry-1,1139186218,Regularly,,7374867684,
 68530,hoch1243-be-dry-1,1139187239,Regularly,,7711131950,hoch1243-913
 68531,hoch1243-be-dry-1,1139188240,Regularly,,7374867684,hoch1243-907
-68532,hoch1243-be-dry-1,1146719646,Marginally,"wuusre is possible !! wuus = 'dry'  vs. wuusre = 'dried', no direct deletion of INST, but compare to giwus vs. wuusre",,hoch1243-911
+68532,hoch1243-be-dry-1,1146719646,Marginally,"wuusre is possible !! wuus = 'dry' vs. wuusre = 'dried', no direct deletion of INST, but compare to giwus vs. wuusre",,hoch1243-911
 68533,hoch1243-be-dry-1,1146733702,Marginally,,,hoch1243-912
 68534,hoch1243-be-dry-1,1147019688,Never,,,
 68535,hoch1243-be-dry-1,1147020749,Never,,,hoch1243-909
@@ -5136,7 +5136,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 69011,hoch1243-frighten-1,1095418452,Never,,,
 69012,hoch1243-frighten-1,1095420743,Never,,,
 69013,hoch1243-frighten-1,1139186218,Regularly,"already part of the counterpart given here, but ex 578 shows the usage of the verb without CAUS, another CAUS can also be added",7375771884,hoch1243-567;hoch1243-1005
-69014,hoch1243-frighten-1,1139187239,Never,"replaces hii, naaǧire hii kįį seems impossible ",,hoch1243-571;hoch1243-1006;hoch1243-1007
+69014,hoch1243-frighten-1,1139187239,Never,"replaces hii, naaǧire hii kįį seems impossible",,hoch1243-571;hoch1243-1006;hoch1243-1007
 69015,hoch1243-frighten-1,1139188240,Regularly,"possessive meaning only, either replaces hii or can be added",7375771884,hoch1243-1003;hoch1243-1305
 69016,hoch1243-frighten-1,1146719646,Never,,,
 69017,hoch1243-frighten-1,1146733702,Never,,,
@@ -5175,7 +5175,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 69675,hoch1243-hear-1,4343754482,Marginally,,,hoch1243-1008
 69927,hoch1243-hear-1,6356490381,Never,,,
 69046,hoch1243-live-1,1079002970,Marginally,like living with so. to take care of them --> slightly different meaning,,hoch1243-1009
-69047,hoch1243-live-1,1079003919,Marginally,hici  also means 'reed',,hoch1243-1010
+69047,hoch1243-live-1,1079003919,Marginally,hici also means 'reed',,hoch1243-1010
 69048,hoch1243-live-1,1079004561,Regularly,"hoci also means 'house, home'",7670022482,hoch1243-603;hoch1243-707;hoch1243-1307
 69049,hoch1243-live-1,1079005179,Regularly,,7670022482,hoch1243-601
 69050,hoch1243-live-1,1079005766,Never,,,
@@ -5377,7 +5377,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 69222,hoch1243-put-1,1079002970,Regularly,,7615504669,hoch1243-646;hoch1243-648;hoch1243-1256
 69223,hoch1243-put-1,1079003919,Never,,,
 69224,hoch1243-put-1,1079004561,Never,,,
-69225,hoch1243-put-1,1079005179,Regularly,ha- replaces ho- ,7669912583,hoch1243-647;hoch1243-1257
+69225,hoch1243-put-1,1079005179,Regularly,ha- replaces ho-,7669912583,hoch1243-647;hoch1243-1257
 69226,hoch1243-put-1,1079005766,Regularly,,7669789252,hoch1243-651
 69227,hoch1243-put-1,1079006896,Regularly,,7669789252,hoch1243-653
 69228,hoch1243-put-1,1095045619,Regularly,"also in combination with gi-, cf. ex 1047, this combination however is marginal and not accepted by all speakers",,hoch1243-649;hoch1243-1035
@@ -6144,9 +6144,9 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 78054,yaqu1251-feel-cold-1,3685676178,Never,,,
 78055,yaqu1251-feel-cold-1,3686921600,Never,,,
 78056,yaqu1251-feel-cold-1,3763684078,Regularly,,,yaqu1251-616
-78057,yaqu1251-feel-cold-1,3764383011,Never,applies to the causative version ,,yaqu1251-274
+78057,yaqu1251-feel-cold-1,3764383011,Never,applies to the causative version,,yaqu1251-274
 78058,yaqu1251-feel-cold-1,3766658805,Never,,,
-78059,yaqu1251-feel-cold-1,3767178630,Regularly,"If one wants to use the chubakte verb in order to express a causation, it is necessary to suffix the -tua causative morpheme. This  verb does not accept an equipollent causal verb form such as *chubakta.",,yaqu1251-272;yaqu1251-273;yaqu1251-274
+78059,yaqu1251-feel-cold-1,3767178630,Regularly,"If one wants to use the chubakte verb in order to express a causation, it is necessary to suffix the -tua causative morpheme. This verb does not accept an equipollent causal verb form such as *chubakta.",,yaqu1251-272;yaqu1251-273;yaqu1251-274
 78060,yaqu1251-feel-cold-1,3767209477,Never,,,
 78061,yaqu1251-feel-cold-1,3774709256,Never,,,
 78062,yaqu1251-feel-cold-1,3774714449,Never,,,
@@ -6588,7 +6588,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 94462,indo1316-teach-1,2537065358,Never,,,
 94550,indo1316-teach-1,2537076434,Never,,,
 94638,indo1316-teach-1,2537123503,Never,can occur with N-ajar,,
-94727,indo1316-teach-1,2537138692,Marginally,can occur with N-ajar-in ,,
+94727,indo1316-teach-1,2537138692,Marginally,can occur with N-ajar-in,,
 94816,indo1316-teach-1,2537173482,Marginally,,,
 94905,indo1316-teach-1,2537254508,Regularly,,,indo1316-11
 95083,indo1316-teach-1,2537323387,Never,,,
@@ -6599,7 +6599,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 95358,indo1316-teach-1,2597386238,Regularly,,,indo1316-50
 115133,indo1316-teach-1,11229214737,Regularly,,,
 115236,indo1316-teach-1,11229595746,Never,,,
-115415,indo1316-teach-1,11230050459,Regularly,preferred in the prenasalized form. ,,indo1316-10
+115415,indo1316-teach-1,11230050459,Regularly,preferred in the prenasalized form.,,indo1316-10
 92647,indo1316-think-1,2536502674,Never,,,
 93228,indo1316-think-1,2536565802,Regularly,,,
 93492,indo1316-think-1,2536611442,Never,,,
@@ -6821,7 +6821,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 125303,kore1280-cover-1,2051114391,Regularly,,,kore1280-2
 125304,kore1280-cover-1,2051293681,Regularly,,,kore1280-101
 125315,kore1280-cover-1,2051376813,Never,,,
-125536,kore1280-cover-1,3688504927,Regularly,"It has been mentioned in the verb layout that this verb apparently takes part in a locative alternation where the two coding patterns NOM-ACC<instrument>-LOC and NOM-ACC<location>-INSTR alternate with each other. The morphological passive operation can be applied on both versions, but of course always only on the accusative-marked argument of the non-passive counterpart. This might be one way to show that it is hard to determine which one of these alternating case frames is the basic one. I do not know how one would be able to express the agents here; maybe they are not expressible. ",13336959634,kore1280-160;kore1280-161
+125536,kore1280-cover-1,3688504927,Regularly,"It has been mentioned in the verb layout that this verb apparently takes part in a locative alternation where the two coding patterns NOM-ACC<instrument>-LOC and NOM-ACC<location>-INSTR alternate with each other. The morphological passive operation can be applied on both versions, but of course always only on the accusative-marked argument of the non-passive counterpart. This might be one way to show that it is hard to determine which one of these alternating case frames is the basic one. I do not know how one would be able to express the agents here; maybe they are not expressible.",13336959634,kore1280-160;kore1280-161
 125737,kore1280-cover-1,4378368994,Regularly,,,
 126324,kore1280-cover-1,4378371087,Never,,,
 125738,kore1280-cover-1,4378424079,Regularly,ex. 153 shows derivation from the alternative coding frame 1-nom 2-acc 3-instr V,13344114534,
@@ -7022,7 +7022,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 85833,nuuu1241-wash-1,6996152202,Never,,,
 85834,nuuu1241-wash-1,6996185766,Never,,,
 85835,nuuu1241-wash-1,6996190701,Never,,,
-85836,nuuu1241-wash-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+85836,nuuu1241-wash-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 85837,nuuu1241-wash-1,6996228859,Marginally,a purposive construction would be preferred here,,
 86032,nuuu1241-wash-1,7000722401,Never,,,
 86033,nuuu1241-wash-1,7000741712,Never,,,
@@ -7401,7 +7401,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 87736,nuuu1241-take-1,7013562788,Never,,,
 88193,nuuu1241-take-1,7106467464,Never,,,
 85387,nuuu1241-cough-1,2684204559,Never,,,
-85353,nuuu1241-cough-1,2768057282,Marginally,i.e.  'He coughs (out) blood.',,
+85353,nuuu1241-cough-1,2768057282,Marginally,i.e. 'He coughs (out) blood.',,
 85421,nuuu1241-cough-1,2768080474,Marginally,i.e 'He coughed blood from/out of his lungs.',,
 85487,nuuu1241-cough-1,3366770863,Never,,,
 85679,nuuu1241-cough-1,6055158537,Never,,,
@@ -7547,7 +7547,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 86201,nuuu1241-frighten-1,6996152202,Never,,,
 86202,nuuu1241-frighten-1,6996185766,Never,,,
 86203,nuuu1241-frighten-1,6996190701,Never,,,
-86204,nuuu1241-frighten-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+86204,nuuu1241-frighten-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 86205,nuuu1241-frighten-1,6996228859,Never,It is already a causative construction derived from S V.,,
 86212,nuuu1241-frighten-1,7000722401,Never,,,
 86213,nuuu1241-frighten-1,7000741712,Never,,,
@@ -7639,7 +7639,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 86281,nuuu1241-search-for-1,6996152202,Never,,,
 86282,nuuu1241-search-for-1,6996185766,Never,,,
 86283,nuuu1241-search-for-1,6996190701,Never,,,
-86284,nuuu1241-search-for-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+86284,nuuu1241-search-for-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 86285,nuuu1241-search-for-1,6996228859,Marginally,,,
 86292,nuuu1241-search-for-1,7000722401,Never,,,
 86293,nuuu1241-search-for-1,7000741712,Never,,,
@@ -8783,7 +8783,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 103878,stan1295-send-1,9318530491,,,,
 82895,stan1295-fill-1,2710267228,Never,,,
 82426,stan1295-fill-1,2710611180,Never,,,
-82897,stan1295-fill-1,2761071517,Never,alternation of the benefactive alternation ,,
+82897,stan1295-fill-1,2761071517,Never,alternation of the benefactive alternation,,
 82455,stan1295-fill-1,2761141115,Regularly,,9269246394,
 82520,stan1295-fill-1,2761220243,Never,,,
 82433,stan1295-fill-1,2761608627,Never,,,stan1295-57
@@ -8966,7 +8966,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 86764,nuuu1241-go-1,6996152202,Never,,,
 86765,nuuu1241-go-1,6996185766,Never,,,
 86766,nuuu1241-go-1,6996190701,Never,,,
-86767,nuuu1241-go-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+86767,nuuu1241-go-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 86768,nuuu1241-go-1,6996228859,Marginally,,,
 86775,nuuu1241-go-1,7000722401,Never,,,
 86776,nuuu1241-go-1,7000741712,Never,,,
@@ -9172,7 +9172,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 114167,bezh1248-leave-1,2900427415,Never,,,
 114093,bezh1248-leave-1,2907338426,Regularly,,11288732313,bezh1248-296
 114024,bezh1248-leave-1,2934970790,Never,,,
-113947,bezh1248-leave-1,2934995173,Never, ,,
+113947,bezh1248-leave-1,2934995173,Never,,,
 113873,bezh1248-leave-1,3373843934,Never,,,
 113795,bezh1248-leave-1,3374893027,Never,,,
 114347,bezh1248-leave-1,5552767880,Never,,,
@@ -10547,7 +10547,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 103885,stan1295-search-for-1,9318530491,,,,
 83218,stan1295-wash-1,2710267228,Regularly,,9259177676,
 83219,stan1295-wash-1,2710611180,Never,,,
-83221,stan1295-wash-1,2761071517,Never,alternation of the benefactive alternation ,,
+83221,stan1295-wash-1,2761071517,Never,alternation of the benefactive alternation,,
 83222,stan1295-wash-1,2761141115,Regularly,,9269036499,stan1295-13
 82529,stan1295-wash-1,2761220243,Never,,,
 83061,stan1295-wash-1,2761608627,Never,,,
@@ -10867,7 +10867,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 83846,stan1295-show-1,3729250165,Marginally,,,
 91412,stan1295-show-1,8828175881,Never,,,
 103907,stan1295-show-1,9318530491,,,,
-83111,stan1295-give-1,2710267228,Marginally,generic semantics - Ich gebe gern. ,,
+83111,stan1295-give-1,2710267228,Marginally,generic semantics - Ich gebe gern.,,
 83112,stan1295-give-1,2710611180,Never,,,
 83114,stan1295-give-1,2761071517,Never,,,
 83115,stan1295-give-1,2761141115,Marginally,,,
@@ -10925,7 +10925,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 103911,stan1295-tie-1,9318530491,,,,
 83422,stan1295-put-1,2710267228,Never,,,
 83540,stan1295-put-1,2710611180,Never,,,
-83583,stan1295-put-1,2761071517,Never,alternation of benefactive alternation ,,
+83583,stan1295-put-1,2761071517,Never,alternation of benefactive alternation,,
 83624,stan1295-put-1,2761141115,Regularly,,9269131914,
 82552,stan1295-put-1,2761220243,Never,,,
 83081,stan1295-put-1,2761608627,Marginally,,,
@@ -10939,7 +10939,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 103912,stan1295-put-1,9318530491,,,,
 83423,stan1295-put-2,2710267228,Never,,,
 83541,stan1295-put-2,2710611180,Never,,,
-83584,stan1295-put-2,2761071517,Never,alternation of the benefactive alternation ,,
+83584,stan1295-put-2,2761071517,Never,alternation of the benefactive alternation,,
 83625,stan1295-put-2,2761141115,Regularly,,9269131914,
 82553,stan1295-put-2,2761220243,Never,,,
 83082,stan1295-put-2,2761608627,Regularly,,9260147251,
@@ -11406,7 +11406,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 86787,nuuu1241-leave-1,6996152202,Never,,,
 86788,nuuu1241-leave-1,6996185766,Never,,,
 86789,nuuu1241-leave-1,6996190701,Never,,,
-86790,nuuu1241-leave-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+86790,nuuu1241-leave-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 86791,nuuu1241-leave-1,6996228859,Marginally,,,
 86798,nuuu1241-leave-1,7000722401,Never,,,
 86799,nuuu1241-leave-1,7000741712,Never,,,
@@ -12017,7 +12017,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 86974,nuuu1241-burn-tr-1,6996152202,Never,,,
 86975,nuuu1241-burn-tr-1,6996185766,Never,,,
 86976,nuuu1241-burn-tr-1,6996190701,Never,,,
-86977,nuuu1241-burn-tr-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+86977,nuuu1241-burn-tr-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 86978,nuuu1241-burn-tr-1,6996228859,Marginally,,,
 86985,nuuu1241-burn-tr-1,7000722401,Never,,,
 86986,nuuu1241-burn-tr-1,7000741712,Never,,,
@@ -12173,13 +12173,13 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 83873,stan1295-be-dry-1,3729250165,Never,,,
 91437,stan1295-be-dry-1,8828175881,Never,,,
 103934,stan1295-be-dry-1,9318530491,Never,,,
-82644,stan1295-burn-1,2710267228,Never,es brennt = es regnet ,,
+82644,stan1295-burn-1,2710267228,Never,es brennt = es regnet,,
 82645,stan1295-burn-1,2710611180,Never,,,
 82647,stan1295-burn-1,2761071517,Never,,,
 82648,stan1295-burn-1,2761141115,Never,,,
 82649,stan1295-burn-1,2761220243,Never,,,
 82650,stan1295-burn-1,2761608627,Never,,,
-82651,stan1295-burn-1,2846634973,Never,verbrennen  as in Ich verbrenne das Holz 'I burn the wood' appears to be another lexical entry. The prefix ver- does not seem to have the impact on valeny described through the ver-Alternation(I).,,
+82651,stan1295-burn-1,2846634973,Never,verbrennen as in Ich verbrenne das Holz 'I burn the wood' appears to be another lexical entry. The prefix ver- does not seem to have the impact on valeny described through the ver-Alternation(I).,,
 82653,stan1295-burn-1,2892391944,Never,,,
 82863,stan1295-burn-1,3038159205,Never,,,
 83295,stan1295-burn-1,3038169672,Never,,,
@@ -12192,7 +12192,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 83591,stan1295-jump-1,2761071517,Never,,,
 83632,stan1295-jump-1,2761141115,Marginally,,,
 83026,stan1295-jump-1,2761220243,Never,,,
-83094,stan1295-jump-1,2761608627,Regularly, ,9268724202,
+83094,stan1295-jump-1,2761608627,Regularly,,9268724202,
 83503,stan1295-jump-1,2846634973,Never,,,
 82996,stan1295-jump-1,2892391944,Never,,,
 82864,stan1295-jump-1,3038159205,Never,die Katze bespringt den Baum.,,
@@ -12219,12 +12219,12 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 83236,stan1295-go-1,2710611180,Never,,,
 83238,stan1295-go-1,2761071517,Never,,,
 83239,stan1295-go-1,2761141115,Never,,,
-83028,stan1295-go-1,2761220243,Marginally,Er geht den Gang zum Ziel. ,,
+83028,stan1295-go-1,2761220243,Marginally,Er geht den Gang zum Ziel.,,
 83096,stan1295-go-1,2761608627,Marginally,,,
 83240,stan1295-go-1,2846634973,Never,,,
 82998,stan1295-go-1,2892391944,Never,,,
 82866,stan1295-go-1,3038159205,Never,,,
-83242,stan1295-go-1,3038169672,Never,lexikalisiert: jmdm. aus dem Weg gehen. ?? ,,
+83242,stan1295-go-1,3038169672,Never,lexikalisiert: jmdm. aus dem Weg gehen. ??,,
 83522,stan1295-go-1,3254999381,Never,,,
 83877,stan1295-go-1,3729250165,Never,,,
 91441,stan1295-go-1,8828175881,Marginally,,,
@@ -12427,7 +12427,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 103952,stan1295-cry-1,9318530491,,,,
 83445,stan1295-make-1,2710267228,Never,,,
 83560,stan1295-make-1,2710611180,Never,,,
-83603,stan1295-make-1,2761071517,Never,alternation of the benefactive alternation ,,
+83603,stan1295-make-1,2761071517,Never,alternation of the benefactive alternation,,
 83644,stan1295-make-1,2761141115,Regularly,,9269036499,
 83040,stan1295-make-1,2761220243,Never,,,
 83108,stan1295-make-1,2761608627,Never,,,
@@ -12480,7 +12480,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 95865,zenz1235-look-at-1,2989293792,Never,,,
 95745,zenz1235-look-at-1,3007309358,Never,,,
 96048,zenz1235-look-at-1,3383210286,Never,,,
-95582,zenz1235-give-1,2955076236,Marginally,"Leaving out the theme object, the verb means 'provide for him/her'. ",,zenz1235-225
+95582,zenz1235-give-1,2955076236,Marginally,"Leaving out the theme object, the verb means 'provide for him/her'.",,zenz1235-225
 95583,zenz1235-give-1,2955210398,Never,,,
 95584,zenz1235-give-1,2955527166,Never,,,
 95566,zenz1235-give-1,2961422245,Never,,,
@@ -12786,7 +12786,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 63532,stan1318-kill-1,2781095107,Never,,,
 63531,stan1318-kill-1,2781391228,Never,,,
 63541,stan1318-kill-1,3262800485,Never,,,
-63791,stan1318-kill-1,3289058347,Never,derivation takes place from the stem III verb with similar meaning 'fight with' <NOM ACC>  (exs. 70 and 212),,
+63791,stan1318-kill-1,3289058347,Never,derivation takes place from the stem III verb with similar meaning 'fight with' <NOM ACC>; (exs. 70 and 212),,
 63792,stan1318-kill-1,3289790961,Never,,,
 63793,stan1318-kill-1,3290489336,Never,,,
 63794,stan1318-kill-1,3290712069,Never,,,
@@ -13784,7 +13784,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 77268,mapu1245-tear-1,5843898430,Never,,,
 77420,mapu1245-tear-1,7400433793,Never,,,
 77019,mapu1245-peel-1,3762066552,Regularly,,,
-77020,mapu1245-peel-1,3762101911,Regularly,"'receive many presents (itr.), partake from (sth.), destined to somebody else (tr.)' ",,
+77020,mapu1245-peel-1,3762101911,Regularly,"'receive many presents (itr.), partake from (sth.), destined to somebody else (tr.)'",,
 77021,mapu1245-peel-1,3762108816,No data,,,
 77022,mapu1245-peel-1,3762129755,No data,,,
 77023,mapu1245-peel-1,3779418712,Never,,,
@@ -15907,7 +15907,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 126202,kore1280-give-1,4758416019,Never,,,
 125764,kore1280-show-1,2050992691,Never,,,
 125765,kore1280-show-1,2051114391,Regularly,,,
-125419,kore1280-show-1,2051293681,Regularly,"One could also see boida as having a ditransitive case frame. In this case, the alternation value for this verb would change to 'never' here. See comment in verb layout. ",,kore1280-98
+125419,kore1280-show-1,2051293681,Regularly,"One could also see boida as having a ditransitive case frame. In this case, the alternation value for this verb would change to 'never' here. See comment in verb layout.",,kore1280-98
 125766,kore1280-show-1,2051376813,Never,,,
 125767,kore1280-show-1,3688504927,Never,,,
 125768,kore1280-show-1,4378368994,Never,,,
@@ -16238,7 +16238,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 125442,kore1280-eat-1,2051293681,Never,,,
 125520,kore1280-eat-1,2051376813,Never,,,
 125521,kore1280-eat-1,3688504927,Regularly,,13336924928,kore1280-257
-125855,kore1280-eat-1,4378368994,Regularly,Not sure. ,,
+125855,kore1280-eat-1,4378368994,Regularly,Not sure.,,
 125856,kore1280-eat-1,4378371087,Never,,,
 125857,kore1280-eat-1,4378424079,Regularly,,13343950098,kore1280-256
 125858,kore1280-eat-1,4567124892,Never,,,
@@ -16395,7 +16395,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 126260,kore1280-be-hungry-1,4758416019,Never,,,
 125956,kore1280-rain-1,2050992691,Never,,,
 125957,kore1280-rain-1,2051114391,Regularly,,,
-125455,kore1280-rain-1,2051293681,Never,"no overt syntactic argument seems to be added, although it is semantically implied. ",,kore1280-303
+125455,kore1280-rain-1,2051293681,Never,"no overt syntactic argument seems to be added, although it is semantically implied.",,kore1280-303
 125958,kore1280-rain-1,2051376813,Never,,,
 125959,kore1280-rain-1,3688504927,Never,,,
 125960,kore1280-rain-1,4378368994,Never,,,
@@ -16405,7 +16405,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 126261,kore1280-rain-1,4758416019,Never,,,
 125964,kore1280-get-1,2050992691,Marginally,,,kore1280-273
 125965,kore1280-get-1,2051114391,Regularly,,,
-125456,kore1280-get-1,2051293681,Never,"See ex. 147, the coding pattern does not change which is why 'never' has been ticked for this verb. ",,kore1280-116
+125456,kore1280-get-1,2051293681,Never,"See ex. 147, the coding pattern does not change which is why 'never' has been ticked for this verb.",,kore1280-116
 125966,kore1280-get-1,2051376813,Never,,,
 125967,kore1280-get-1,3688504927,Never,,,
 125968,kore1280-get-1,4378368994,Never,,,
@@ -16638,7 +16638,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 126083,kore1280-teach-1,4567124892,Never,,,
 126283,kore1280-teach-1,4758416019,Never,,,
 126084,kore1280-hear-1,2050992691,Never,,,
-126085,kore1280-hear-1,2051114391,Marginally,Not certain. ,,
+126085,kore1280-hear-1,2051114391,Marginally,Not certain.,,
 125478,kore1280-hear-1,2051293681,Never,,,
 126086,kore1280-hear-1,2051376813,Never,,,
 126087,kore1280-hear-1,3688504927,Never,,,
@@ -17972,7 +17972,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 87135,nuuu1241-look-at-1,6996152202,Never,,,
 87136,nuuu1241-look-at-1,6996185766,Never,,,
 87137,nuuu1241-look-at-1,6996190701,Never,,,
-87138,nuuu1241-look-at-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+87138,nuuu1241-look-at-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 87139,nuuu1241-look-at-1,6996228859,Marginally,,,
 87146,nuuu1241-look-at-1,7000722401,Never,,,
 87147,nuuu1241-look-at-1,7000741712,Never,,,
@@ -18014,7 +18014,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 96302,nucl1643-see-1,3314135074,Never,,,
 96298,nucl1643-see-1,3314597701,Regularly,,12456408232,
 96299,nucl1643-see-1,3314631024,Never,,,
-96303,nucl1643-see-1,3314672395,Regularly, source: kara 'from',,
+96303,nucl1643-see-1,3314672395,Regularly,source: kara 'from',,
 96304,nucl1643-see-1,3314694344,Never,,,
 96307,nucl1643-smell-1,3314023269,Regularly,,12456325478,
 96308,nucl1643-smell-1,3314094332,Never,,,
@@ -18060,7 +18060,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 87181,nuuu1241-smell-1,6996152202,Marginally,,,
 87182,nuuu1241-smell-1,6996185766,Never,,,
 87183,nuuu1241-smell-1,6996190701,Never,,,
-87184,nuuu1241-smell-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+87184,nuuu1241-smell-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 87185,nuuu1241-smell-1,6996228859,Marginally,,,
 87192,nuuu1241-smell-1,7000722401,Never,,,
 87193,nuuu1241-smell-1,7000741712,Never,,,
@@ -18199,7 +18199,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 63638,stan1318-dress-1,3289790961,Never,,,
 63639,stan1318-dress-1,3290489336,Never,,,
 63640,stan1318-dress-1,3290712069,Never,,,
-63641,stan1318-dress-1,3333237087,Never,derivation available from stem II 'to dress so.' ,,
+63641,stan1318-dress-1,3333237087,Never,derivation available from stem II 'to dress so.',,
 63642,stan1318-dress-1,3333383573,Never,derivation available from stem II 'to dress so.',,
 63687,stan1318-dress-1,3333482214,Never,,,
 63818,stan1318-dress-1,3343624048,Never,,,
@@ -20595,7 +20595,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 63863,stan1318-beat-1,2781095107,Never,,,
 63864,stan1318-beat-1,2781391228,Never,,,
 63865,stan1318-beat-1,3262800485,Never,,,
-63866,stan1318-beat-1,3289058347,Never," derived from stem III with similar meaning 'to beat, to fight with so. <NOM ACC>'",,
+63866,stan1318-beat-1,3289058347,Never,"derived from stem III with similar meaning 'to beat, to fight with so. <NOM ACC>'",,
 63867,stan1318-beat-1,3289790961,Never,,,
 63868,stan1318-beat-1,3290489336,Never,,,
 63869,stan1318-beat-1,3290712069,Never,,,
@@ -20643,7 +20643,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 63887,stan1318-touch-1,2781095107,Never,,,
 63888,stan1318-touch-1,2781391228,Never,,,
 63889,stan1318-touch-1,3262800485,Never,,,
-63890,stan1318-touch-1,3289058347,Regularly,the derivation probably takes place from stem III but it has the same meaning and valency ,,stan1318-78
+63890,stan1318-touch-1,3289058347,Regularly,the derivation probably takes place from stem III but it has the same meaning and valency,,stan1318-78
 63891,stan1318-touch-1,3289790961,Never,,,
 63892,stan1318-touch-1,3290489336,Never,,,
 63893,stan1318-touch-1,3290712069,Never,,,
@@ -20805,7 +20805,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 63928,stan1318-hide-1,3290489336,Never,,,
 63929,stan1318-hide-1,3290712069,Never,,,
 63930,stan1318-hide-1,3333237087,Never,,,
-63931,stan1318-hide-1,3333383573,Regularly,the derivation takes place from stem I of the same root. Stem II does not exists. ,,stan1318-199
+63931,stan1318-hide-1,3333383573,Regularly,the derivation takes place from stem I of the same root. Stem II does not exists.,,stan1318-199
 63932,stan1318-hide-1,3333482214,Never,,,
 63933,stan1318-hide-1,3343624048,Never,,,
 63934,stan1318-hide-1,3349390484,Never,,,
@@ -20985,7 +20985,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 105615,como1259-fill-1,3288977462,Regularly,,,
 105616,como1259-fill-1,3291802178,Regularly,,,como1259-212
 105617,como1259-fill-1,3295320204,No data,,,
-104456,como1259-fill-1,3297656371,Never,used as the basic form ,,
+104456,como1259-fill-1,3297656371,Never,used as the basic form,,
 105618,como1259-fill-1,3298161637,No data,,,
 104312,como1259-fill-1,3306373805,Regularly,,,como1259-52
 105619,como1259-fill-1,3356382894,Regularly,,,
@@ -21650,7 +21650,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 87479,nuuu1241-boil-1,6996152202,Never,,,
 87480,nuuu1241-boil-1,6996185766,Never,,,
 87481,nuuu1241-boil-1,6996190701,Never,,,
-87482,nuuu1241-boil-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+87482,nuuu1241-boil-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 87483,nuuu1241-boil-1,6996228859,Marginally,,,
 87490,nuuu1241-boil-1,7000722401,Never,,,
 87491,nuuu1241-boil-1,7000741712,Never,,,
@@ -21673,7 +21673,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 87507,nuuu1241-cook-1,6996152202,Never,,,
 87508,nuuu1241-cook-1,6996185766,Never,,,
 87509,nuuu1241-cook-1,6996190701,Never,,,
-87510,nuuu1241-cook-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+87510,nuuu1241-cook-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 87511,nuuu1241-cook-1,6996228859,Marginally,,,
 87518,nuuu1241-cook-1,7000722401,Never,,,
 87519,nuuu1241-cook-1,7000741712,Never,,,
@@ -21706,7 +21706,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 63961,stan1318-send-1,2781095107,Never,,,
 63962,stan1318-send-1,2781391228,Never,,,
 63963,stan1318-send-1,3262800485,Never,,,
-63964,stan1318-send-1,3289058347,Never,derivation takes place from the  stem III verb 'to correspond',,
+63964,stan1318-send-1,3289058347,Never,derivation takes place from the stem III verb 'to correspond',,
 63965,stan1318-send-1,3289790961,Never,,,
 63966,stan1318-send-1,3290489336,Never,,,
 63967,stan1318-send-1,3290712069,Never,,,
@@ -23034,7 +23034,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 87290,nuuu1241-steal-1,6996092386,Never,,,
 87291,nuuu1241-steal-1,6996092896,Never,,,
 87292,nuuu1241-steal-1,6996102227,Never,,,
-87293,nuuu1241-steal-1,6996106097,Regularly,"possible when stealing is seen more as a habit (i.e. 'I don't steal'  (= 'I am not a thief.'), 'Do you think I steal?' (= 'Do you think I am a thief?')",,
+87293,nuuu1241-steal-1,6996106097,Regularly,"possible when stealing is seen more as a habit (i.e. 'I don't steal' (= 'I am not a thief.'), 'Do you think I steal?' (= 'Do you think I am a thief?')",,
 87294,nuuu1241-steal-1,6996108428,Never,,,
 87295,nuuu1241-steal-1,6996128991,Never,,,
 87296,nuuu1241-steal-1,6996150937,Never,,,
@@ -27346,7 +27346,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 64441,stan1318-burn-1,3289790961,Never,,,
 64442,stan1318-burn-1,3290489336,Never,,,
 64443,stan1318-burn-1,3290712069,Never,,,
-64444,stan1318-burn-1,3333237087,Never, ,,
+64444,stan1318-burn-1,3333237087,Never,,,
 64445,stan1318-burn-1,3333383573,Never,,,
 64446,stan1318-burn-1,3333482214,Never,,,
 64447,stan1318-burn-1,3343624048,Never,,,
@@ -28252,7 +28252,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 87227,nuuu1241-grind-1,6996152202,Never,,,
 87228,nuuu1241-grind-1,6996185766,Never,,,
 87229,nuuu1241-grind-1,6996190701,Never,,,
-87230,nuuu1241-grind-1,6996220816,Regularly,"this is possible, but we  regard the COM/INST as an adjunct?",,
+87230,nuuu1241-grind-1,6996220816,Regularly,"this is possible, but we regard the COM/INST as an adjunct?",,
 87231,nuuu1241-grind-1,6996228859,Marginally,,,
 87238,nuuu1241-grind-1,7000722401,Never,,,
 87239,nuuu1241-grind-1,7000741712,Never,,,
@@ -28687,7 +28687,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 87204,nuuu1241-tear-1,6996152202,Never,,,
 87205,nuuu1241-tear-1,6996185766,Never,,,
 87206,nuuu1241-tear-1,6996190701,Never,,,
-87207,nuuu1241-tear-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+87207,nuuu1241-tear-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 87208,nuuu1241-tear-1,6996228859,Marginally,,,
 87215,nuuu1241-tear-1,7000722401,Never,,,
 87216,nuuu1241-tear-1,7000741712,Never,,,
@@ -28710,7 +28710,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 86501,nuuu1241-hide-1,6996152202,Never,,,
 86502,nuuu1241-hide-1,6996185766,Never,,,
 86503,nuuu1241-hide-1,6996190701,Never,,,
-86504,nuuu1241-hide-1,6996220816,Never,"possible, but we  regard the COM/INST as an adjunct",,
+86504,nuuu1241-hide-1,6996220816,Never,"possible, but we regard the COM/INST as an adjunct",,
 86505,nuuu1241-hide-1,6996228859,Marginally,,,
 86512,nuuu1241-hide-1,7000722401,Never,,,
 86513,nuuu1241-hide-1,7000741712,Never,,,
@@ -29825,7 +29825,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 120477,yuca1254-wipe-1,12127205883,Never,,,
 102561,yuca1254-wipe-2,3485330272,Regularly,,10312940368,yuca1254-245
 102562,yuca1254-wipe-2,3485393659,Never,,,
-102563,yuca1254-wipe-2,3485722710,Regularly,púus ,10312853525,
+102563,yuca1254-wipe-2,3485722710,Regularly,púus,10312853525,
 102564,yuca1254-wipe-2,3485751956,Never,,,
 102565,yuca1254-wipe-2,3485775509,Marginally,,,yuca1254-246
 102566,yuca1254-wipe-2,3485910654,Marginally,,,yuca1254-247
@@ -35596,7 +35596,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 111585,east2283-feel-cold-2,3654985185,Never,,,
 111586,east2283-feel-cold-2,5986758523,Never,,,
 111587,east2283-feel-cold-2,5986812346,Never,,,
-111501,east2283-be-hungry-1,3653081313,Never,annotated as a non-derived mediopassive ,,
+111501,east2283-be-hungry-1,3653081313,Never,annotated as a non-derived mediopassive,,
 112252,east2283-be-hungry-1,3653136610,Never,,,
 112253,east2283-be-hungry-1,3653204427,Never,,,
 112157,east2283-be-hungry-1,3654440833,Never,,,
@@ -36372,7 +36372,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 125593,kore1280-smell-1,2051293681,Never,,,
 125594,kore1280-smell-1,2051376813,Never,,,
 125596,kore1280-smell-1,3688504927,Never,,,
-125597,kore1280-smell-1,4378368994,Regularly,Not sure about the applicability here. ,,
+125597,kore1280-smell-1,4378368994,Regularly,Not sure about the applicability here.,,
 125598,kore1280-smell-1,4378371087,Never,,,
 125599,kore1280-smell-1,4378424079,Never,,,
 126140,kore1280-smell-1,4567124892,Never,,,
@@ -37033,7 +37033,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 118505,ainu1240-know-1,3560189271,Regularly,,,ainu1240-84
 118644,ainu1240-know-1,3564471126,Never,,,
 118648,ainu1240-know-1,3566027300,No data,,,
-118642,ainu1240-know-1,3566994076,No data,"No data for the antipassive. This is probably due to the fact that a similar function is borne by the noun incorporation, cf. sir-amkir <appearance/land-remember> 'remember one's way/road'  (K7908032UP)",,
+118642,ainu1240-know-1,3566994076,No data,"No data for the antipassive. This is probably due to the fact that a similar function is borne by the noun incorporation, cf. sir-amkir <appearance/land-remember> 'remember one's way/road' (K7908032UP)",,
 118645,ainu1240-know-1,3568117192,Never,,,
 118641,ainu1240-know-1,3680685231,Never,,,
 119286,ainu1240-know-1,11202092066,Regularly,,,ainu1240-261
@@ -37080,7 +37080,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 78136,yaqu1251-be-dry-1,3685676178,Never,,,
 78137,yaqu1251-be-dry-1,3686921600,Never,,,
 78138,yaqu1251-be-dry-1,3763684078,Regularly,,,yaqu1251-640
-78139,yaqu1251-be-dry-1,3764383011,Marginally,applies to the causative version ,,yaqu1251-281;yaqu1251-283
+78139,yaqu1251-be-dry-1,3764383011,Marginally,applies to the causative version,,yaqu1251-281;yaqu1251-283
 78140,yaqu1251-be-dry-1,3766658805,Never,,,
 78141,yaqu1251-be-dry-1,3767178630,Regularly,,,
 78142,yaqu1251-be-dry-1,3767209477,Marginally,It only allows the applicative marker by using the waacha stem.,,yaqu1251-281
@@ -37221,7 +37221,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 118571,ainu1240-eat-1,3560189271,No data,,,
 118576,ainu1240-eat-1,3564471126,No data,,,
 118527,ainu1240-eat-1,3566027300,Regularly,,,ainu1240-120
-118526,ainu1240-eat-1,3566994076,Regularly,"It is not clear why i-p-e <APASS-EP-eat> contains  /p/ which I interpret here as an the epenthetic consonant. However, there is little doubt that, at least historically, i-  may be traced back to the antipassive prefix.",,ainu1240-119
+118526,ainu1240-eat-1,3566994076,Regularly,"It is not clear why i-p-e <APASS-EP-eat> contains /p/ which I interpret here as an the epenthetic consonant. However, there is little doubt that, at least historically, i- may be traced back to the antipassive prefix.",,ainu1240-119
 118573,ainu1240-eat-1,3568117192,No data,,,
 118572,ainu1240-eat-1,3680685231,Never,,,
 119277,ainu1240-eat-1,11202092066,Regularly,,,ainu1240-250
@@ -37733,7 +37733,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 102889,yuca1254-wipe-3,3485751956,Never,,,
 102892,yuca1254-wipe-3,3485775509,Never,,,
 102891,yuca1254-wipe-3,3485910654,Never,,,
-102843,yuca1254-wipe-3,3487719426,Regularly, ,10305544265,yuca1254-85
+102843,yuca1254-wipe-3,3487719426,Regularly,,10305544265,yuca1254-85
 103053,yuca1254-wipe-3,4038508182,Never,,,
 103536,yuca1254-wipe-3,6952335828,Never,,,
 103592,yuca1254-wipe-3,6953377644,Never,,,
@@ -39116,7 +39116,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 123376,djam1255-wash-1,3895846055,Regularly,,,djam1255-44
 123377,djam1255-wash-1,3895849755,Never,,,
 123378,djam1255-wash-1,3895852045,Never,,,
-123847,djam1255-wash-1,3895981655,No data,Possibly form in reciprocal interpretation ,,
+123847,djam1255-wash-1,3895981655,No data,Possibly form in reciprocal interpretation,,
 123848,djam1255-wash-1,3944921413,Never,,,
 123849,djam1255-wash-1,4055807420,Never,,,
 123850,djam1255-wash-1,4056027999,Never,,,
@@ -39859,11 +39859,11 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 123472,djam1255-peel-1,3850412402,No data,,,
 123473,djam1255-peel-1,3851151567,Never,,,
 123474,djam1255-peel-1,3851397107,Never,,,
-123475,djam1255-peel-1,3895650507,No data,Should be possible in principle but not attested ,,
+123475,djam1255-peel-1,3895650507,No data,Should be possible in principle but not attested,,
 123476,djam1255-peel-1,3895846055,Never,,,
 123477,djam1255-peel-1,3895849755,Never,,,
 123478,djam1255-peel-1,3895852045,Marginally,dirawu gajgany 'it peeled off' attested in fieldnotes.,,
-123479,djam1255-peel-1,3895981655,No data,Should be possible in principle but anomalous semantically. ,,
+123479,djam1255-peel-1,3895981655,No data,Should be possible in principle but anomalous semantically.,,
 124317,djam1255-peel-1,3944921413,Never,,,
 124318,djam1255-peel-1,4055807420,Never,,,
 124319,djam1255-peel-1,4056027999,Never,,,
@@ -40736,7 +40736,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 124787,djam1255-name-3,3895846055,Never,,,
 124788,djam1255-name-3,3895849755,Never,,,
 124789,djam1255-name-3,3895852045,Never,,,
-124790,djam1255-name-3,3895981655,No data,Plausible for reciprocal 'call each other X' but not attested. ,,
+124790,djam1255-name-3,3895981655,No data,Plausible for reciprocal 'call each other X' but not attested.,,
 124791,djam1255-name-3,3944921413,Never,Only double absolutive - no recipient that could take the dative.,,
 124792,djam1255-name-3,4055807420,Never,,,
 124793,djam1255-name-3,4056027999,Never,,,
@@ -41899,7 +41899,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 78676,yoru1245-help-1,6453281812,Never,,,
 78677,yoru1245-help-1,6506304360,Never,,,
 79460,yoru1245-help-1,7477034930,Never,,,
-78463,yoru1245-shave-a-body-part_person-1,6288765854,Marginally,This alternation is marginal because it is only realized if the construction expresses a possession. ,,yoru1245-26
+78463,yoru1245-shave-a-body-part_person-1,6288765854,Marginally,This alternation is marginal because it is only realized if the construction expresses a possession.,,yoru1245-26
 78681,yoru1245-shave-a-body-part_person-1,6290729587,Never,,,
 78682,yoru1245-shave-a-body-part_person-1,6290945540,Never,,,
 78683,yoru1245-shave-a-body-part_person-1,6339487971,Never,,,
@@ -42093,7 +42093,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 71962,russ1263-roll-1,540414281,Never,,,
 71963,russ1263-roll-1,541252423,Never,,,
 71964,russ1263-roll-1,541416714,Never,,,
-71967,russ1263-roll-1,548454225,Never,Deponent reflexive. ,,
+71967,russ1263-roll-1,548454225,Never,Deponent reflexive.,,
 71968,russ1263-roll-1,548565480,Never,,,
 71971,russ1263-roll-1,548821508,Never,,,
 71973,russ1263-roll-1,549132726,Never,,,
@@ -42297,8 +42297,8 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 72181,russ1263-teach-1,540118552,Never,,,
 72182,russ1263-teach-1,540414281,Never,,,
 72183,russ1263-teach-1,541252423,Never,,,
-72184,russ1263-teach-1,541416714,Regularly,The reflexive form has either a (semantic) reflexive or anticausative reading. ,13191051634,
-72187,russ1263-teach-1,548454225,Regularly,The reflexive form has either a (semantic) reflexive or anticausative reading. ,13191038680,
+72184,russ1263-teach-1,541416714,Regularly,The reflexive form has either a (semantic) reflexive or anticausative reading.,13191051634,
+72187,russ1263-teach-1,548454225,Regularly,The reflexive form has either a (semantic) reflexive or anticausative reading.,13191038680,
 72188,russ1263-teach-1,548565480,Regularly,,7720235561,
 72191,russ1263-teach-1,548821508,Never,,,
 72193,russ1263-teach-1,549132726,Never,,,
@@ -42319,7 +42319,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 78779,yoru1245-build-1,6453281812,Never,,,
 78780,yoru1245-build-1,6506304360,Never,,,
 79495,yoru1245-build-1,7477034930,Never,,,
-78469,yoru1245-break-1,6288765854,Regularly,It is considered marginal because it only occurs with a possessive expression. ,,yoru1245-44
+78469,yoru1245-break-1,6288765854,Regularly,It is considered marginal because it only occurs with a possessive expression.,,yoru1245-44
 78784,yoru1245-break-1,6290729587,Never,,,
 78785,yoru1245-break-1,6290945540,Never,,,
 78468,yoru1245-break-1,6339487971,Regularly,,,yoru1245-45
@@ -42471,7 +42471,7 @@ ID,Form_ID,Alternation_ID,Alternation_Occurs,Comment,Derived_Code_Frame_ID,Examp
 78915,yoru1245-send-1,6394061384,Never,,,
 78916,yoru1245-send-1,6419144433,Never,,,
 78917,yoru1245-send-1,6453281812,Never,,,
-78486,yoru1245-send-1,6506304360,Marginally,"Although the recipient is omitted, it can be contextually inferred.  ",,yoru1245-79
+78486,yoru1245-send-1,6506304360,Marginally,"Although the recipient is omitted, it can be contextually inferred.",,yoru1245-79
 79547,yoru1245-send-1,7477034930,Never,,,
 78921,yoru1245-carry-1,6288765854,Never,,,
 78922,yoru1245-carry-1,6290729587,Never,,,

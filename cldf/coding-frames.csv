@@ -48,8 +48,8 @@ ID,Language_ID,Coding_Frame_Schema,Description,Comment,Derived
 8264294048,stan1295,1-nom V.subj[1] 2-dat 3-acc,,,Basic
 8264294052,stan1295,1-nom V.subj[1] 2-acc auf+3-acc,,,Basic
 8264294055,stan1295,1-nom V.subj[1] mit+2-dat,"The verb needs apart from subject two prepositional objects: the first one has to be introduced by mit, the second one by über.",,Basic
-8264294087,stan1295,1-dat V.subj[2] 2-nom,The Experiencer gets the first position in the syntax. The verb is congruent with X.  ,,Basic
-8413570789,stan1295,1-nom V.subj[1] 2-dat,"The verb needs a dative object, which is generally human. ",,Basic
+8264294087,stan1295,1-dat V.subj[2] 2-nom,The Experiencer gets the first position in the syntax. The verb is congruent with X.,,Basic
+8413570789,stan1295,1-nom V.subj[1] 2-dat,"The verb needs a dative object, which is generally human.",,Basic
 8628483606,stan1295,1-nom V.subj[1] 2-acc LOC3,,,Basic
 8628677223,stan1295,1-nom V.subj[1] LOC2,,,Basic
 8637238044,stan1295,1-dat V,exceptional frame for sentences in which the original place holding subject (es) is omitted and the dative object gets the first position in the syntax,,Basic
@@ -97,7 +97,7 @@ ID,Language_ID,Coding_Frame_Schema,Description,Comment,Derived
 6406943077,russ1263,1-nom V.subj[1] 2-acc (3-instr),,,Basic
 6407016531,russ1263,1-nom V.subj[1] 2-acc (ot+3-gen),,,Basic
 6778441411,russ1263,1-nom V.subj[1] 2-acc k+3-dat (4-instr),,,Basic
-6780090770,russ1263,1-nom V.subj[1] 2-acc LOC3,In this coding frame the Locative argument is introduced by a locative preposition which can govern different cases (dependent on the preposition choice). Alternatively it can be expressed by a locative adverb. The present representation generalizes across different prepositions (and different cases of the nouns governed by the prepositions). ,,Basic
+6780090770,russ1263,1-nom V.subj[1] 2-acc LOC3,In this coding frame the Locative argument is introduced by a locative preposition which can govern different cases (dependent on the preposition choice). Alternatively it can be expressed by a locative adverb. The present representation generalizes across different prepositions (and different cases of the nouns governed by the prepositions).,,Basic
 6812858072,russ1263,1-nom V.subj[1] 2-acc 3-dat,,,Basic
 6812861910,russ1263,1-nom V.subj[1] 2-acc (u+3-gen),,,Basic
 6812888901,russ1263,1-nom V.subj[1] 2-acc,,,Basic
@@ -116,7 +116,7 @@ ID,Language_ID,Coding_Frame_Schema,Description,Comment,Derived
 6814270929,russ1263,1-nom V.subj[1] (v+2-acc),,,Basic
 6814574334,russ1263,1-nom V.subj[1] o+2-LOC,,"The Russian ""prepositional"" case is abbreviated loc (locative), following Timberlake (2004).",Basic
 6820484926,russ1263,1-nom V.subj[1] 2-acc (LOC3),,,Basic
-6820489264,russ1263,1-nom V.subj[1] 2-acc (3-dat),3 is the thing or skill taught. It can also be an infinitive like plavat'  ‘to swim’,,Basic
+6820489264,russ1263,1-nom V.subj[1] 2-acc (3-dat),3 is the thing or skill taught. It can also be an infinitive like plavat' ‘to swim’,,Basic
 7115580522,russ1263,1-nom V.subj[1] 2-acc s+3-gen,,,Basic
 7669109464,russ1263,3-nom V'.subj[3] 2-acc,,,Derived
 7669168484,russ1263,1-nom V'.subj[1] 2-acc,,,Derived
@@ -288,7 +288,7 @@ ID,Language_ID,Coding_Frame_Schema,Description,Comment,Derived
 4887125969,sril1245,1 2-dat 3-abl V,,,Basic
 4887167814,sril1245,1 2-abl V,,,Basic
 4887270739,sril1245,1-acc V,An intransitive predication where the verb assigns the accusative,,Basic
-4887306528,sril1245,V,avalent predication No dummy arguments whatsoever,,Basic
+4887306528,sril1245,V,avalent predication; No dummy arguments whatsoever,,Basic
 6536020182,sril1245,1-dat V,"Experiencers are marked with the dative. The word class of the predicate can be ADJ, N, or V.",,Basic
 6536020190,sril1245,replace me!,,,Basic
 8195306103,sril1245,1 2-acc 3-dat V,,,Basic
@@ -301,7 +301,7 @@ ID,Language_ID,Coding_Frame_Schema,Description,Comment,Derived
 12524897857,sril1245,1 2+atthas V,,,Basic
 4332933120,yaqu1251,1-nom 2-acc LOC3 V,,,Basic
 4782773306,yaqu1251,1-nom 2-acc V,This is considered the most common coding frame in Yaqui due to the decision that was taken about the basic form of the equipolent verbs. All of these verbs are listed in their transitive form as the basic.,,Basic
-4844097985,yaqu1251,1-nom 2-acc (3-instr) V,"The coding frame shows an instrument participant, which is represented as optional (by means of the parentheses). Cases like this are considered 'extended coding frames', since they show other possible participants, although the basic frame is the one represented out of the parentheses.   ",,Basic
+4844097985,yaqu1251,1-nom 2-acc (3-instr) V,"The coding frame shows an instrument participant, which is represented as optional (by means of the parentheses). Cases like this are considered 'extended coding frames', since they show other possible participants, although the basic frame is the one represented out of the parentheses.",,Basic
 4844640706,yaqu1251,1-nom (2-loc) V,,,Basic
 4844692082,yaqu1251,1-nom V,,,Basic
 4844816615,yaqu1251,1-nom 2-loc V,The participant marked with the locative -po is necessary for the verb.,,Basic
@@ -679,7 +679,7 @@ ID,Language_ID,Coding_Frame_Schema,Description,Comment,Derived
 8290896275,chhi1245,1-erg 2-abs poss[1].V.agt[1].obj[2],,,Basic
 8291332461,chhi1245,V,,,Basic
 9588500497,chhi1245,1-abs V.obj[1],,,Basic
-6346296240,mapu1245,V.subj[1] 1,"Monovalent single-argument verb frame; a mew adpositional phrase to incorporate a further participant is only reluctantly (if animate) or somewhat readily (if inanimate and semantically primed, e.g. ruka mew 'in the house) accepted in elicitation, and infrequently found in texts ",,Basic
+6346296240,mapu1245,V.subj[1] 1,"Monovalent single-argument verb frame; a mew adpositional phrase to incorporate a further participant is only reluctantly (if animate) or somewhat readily (if inanimate and semantically primed, e.g. ruka mew 'in the house) accepted in elicitation, and infrequently found in texts",,Basic
 6346375907,mapu1245,V.subj[1].obj[2] 2 1 3+mew,Bipersonal transitive frame plus oblique/adjunct,"The adposition mew covers a wide range of semantic roles: source, goal, location, afficiary, cause, recipient, topic, instrument, etc.",Basic
 6347398986,mapu1245,V.subj[1].obj[2] 2 3 1,,,Basic
 6347428233,mapu1245,V.subj[1] 1 2+mew,Extended monopersonal intransitive frame; the adpositional phrase is readily produced in elicitation and not infrequent in texts,,Basic
@@ -854,8 +854,8 @@ ID,Language_ID,Coding_Frame_Schema,Description,Comment,Derived
 10017611166,kett1243,N/A,,,Basic
 6865448042,yuca1254,sbj[1].V 1,,,Basic
 6865705177,yuca1254,sbj[1].V ti'+2 1,,,Basic
-6865723890,yuca1254,sbj[1].V.obj[2] 2 1,"Basic transitive construction: [ [ Pn ]PC.i [ W ]V.tr -Absj [ P ]NP.j [ A ]NP .i ]VCC ""A affects / acts on P."" The transitive subject function (actor) is the same for different semantic roles, including agents and experiencers. The subject and direct object (P) are cross-referenced on the transitive verb. The actants themselves are optional, not case-marked and may occur in any order, although subject-final order is the default.",,Basic
-6865841860,yuca1254,sbj[1].V.obj[2] 2 ti'+3 1,"Construction of ditransitive verb with animate indirect complement: [ [ Pn ]PC.i [ W ]V.tr -Absj [ P ]NP.j [ A ]NP.i [ ti’ [ L ]NP ]PrepP ]VCC ""A acts upon P with respect to L."" This is a subtype of the construction of ditransitive verb with inanimate indirect complement.",,Basic
+6865723890,yuca1254,sbj[1].V.obj[2] 2 1,"Basic transitive construction: [ [ Pn ]PC.i [ W ]V.tr -Absj [ P ]NP.j [ A ]NP .i ]VCC; ""A affects / acts on P.""; The transitive subject function (actor) is the same for different semantic roles, including agents and experiencers. The subject and direct object (P) are cross-referenced on the transitive verb. The actants themselves are optional, not case-marked and may occur in any order, although subject-final order is the default.",,Basic
+6865841860,yuca1254,sbj[1].V.obj[2] 2 ti'+3 1,"Construction of ditransitive verb with animate indirect complement: [ [ Pn ]PC.i [ W ]V.tr -Absj [ P ]NP.j [ A ]NP.i [ ti’ [ L ]NP ]PrepP ]VCC; ""A acts upon P with respect to L.""; This is a subtype of the construction of ditransitive verb with inanimate indirect complement.",,Basic
 6865866932,yuca1254,sbj[1].V 1 yéetel+2 yóok'ol+3,,,Basic
 6866002191,yuca1254,sbj[1].V.obj[2] 2 1 (yéetel+3),,,Basic
 6866098435,yuca1254,sbj[1].V.obj[2] 2 1 LOC3,,,Basic
@@ -1060,9 +1060,9 @@ ID,Language_ID,Coding_Frame_Schema,Description,Comment,Derived
 12464081701,hokk1249,UTT3 1-dat/niyotte 2-dat V'pass,,,Derived
 12464221821,hokk1249,4-nom 1-dat 2-dat UTT3 V'caus,,,Derived
 12464301353,hokk1249,2-nom UTT3 1-dat/niyotte V'pass,,,Derived
-4895372581,ainu1240,1 2 3 subj[1].obj[2].V,"V is a three-argument verb which is typically derived by causative, applicative or applicative-causative derivations. Core arguments are unmarked for case. In verbal cross-referencing (indices) of transitive verbs, A affixes are normally placed before P markers but when it comes to the interaction of first and second person participants there is also a number of fusional markers (A+P), which are subject to considerable dialectal variation. The third person (A/P) is always zero-marked.  Word order. According to Tamura (2000: 181), the basic word order is A > R > T. However, one finds numerous word order variations in actual text, which are probably not syntactically but pragmatically motivated; this issue requires extensive corpus based research in the future.   REF: Tamura, Suzuko. (1988) 2000. “Ainugo” [The Ainu language]. In Kamei, Takashi, Rokuroo Koono, and Eiichi Chino (eds.). Gengogaku daijiten. vol. 1, Tokyo: Sanseidoo, 6-94. English version: The Ainu language. (ICHEL Linguistic Studies vol. 2), Tokyo: Sanseidoo. ",,Basic
+4895372581,ainu1240,1 2 3 subj[1].obj[2].V,"V is a three-argument verb which is typically derived by causative, applicative or applicative-causative derivations. Core arguments are unmarked for case. In verbal cross-referencing (indices) of transitive verbs, A affixes are normally placed before P markers but when it comes to the interaction of first and second person participants there is also a number of fusional markers (A+P), which are subject to considerable dialectal variation. The third person (A/P) is always zero-marked. Word order. According to Tamura (2000: 181), the basic word order is A > R > T. However, one finds numerous word order variations in actual text, which are probably not syntactically but pragmatically motivated; this issue requires extensive corpus based research in the future. REF: Tamura, Suzuko. (1988) 2000. “Ainugo” [The Ainu language]. In Kamei, Takashi, Rokuroo Koono, and Eiichi Chino (eds.). Gengogaku daijiten. vol. 1, Tokyo: Sanseidoo, 6-94. English version: The Ainu language. (ICHEL Linguistic Studies vol. 2), Tokyo: Sanseidoo.",,Basic
 4895958268,ainu1240,1 2 LOC3 subj[1].obj[2].V,"It is a monotransitive pattern, the locative participant is encoded as an oblique with locative/allative postposition.",,Basic
-4895999026,ainu1240,1 2+(e)un 3 subj[1].obj[3].V,"This in an indirective ditransitive construction. Rs are marked by the dative case postposition eun ‘to/toward (sb)’, which is employed for marking animate obliques such as Recipient, Addressee or animate Goal (ex. 41), and is distinguished from un ‘to/towards (sth)’, which is employed for marking inanimate Goal obliques (ex. 43).   It should be noted that the frequency of the eun-marked indirective ditransitive construction in texts is rather low and that it is preferably used with those few verbs for which there are no corresponding Recipient/Addressee applicatives. In other words, if there is a Recipient/Addressee applicative in ko- (ex. 42), the eun-marked indirective construction, has a low chance of occurring in texts, and completely no chance of occurring if R is encoded by a pronominal argument (ex. 42).    The above-mentioned frequency restriction does not apply to the cases where R participant is, strictly speaking, not a Recipient proper, i.e. un-marked indirective construction with inanimate Goal  and wa-marked indirective construction with animate/inanimate Source: they are fairly frequent in texts regardless of the existence/non-existence of the corresponding applicative constructions. ",,Basic
+4895999026,ainu1240,1 2+(e)un 3 subj[1].obj[3].V,"This in an indirective ditransitive construction. Rs are marked by the dative case postposition eun ‘to/toward (sb)’, which is employed for marking animate obliques such as Recipient, Addressee or animate Goal (ex. 41), and is distinguished from un ‘to/towards (sth)’, which is employed for marking inanimate Goal obliques (ex. 43). It should be noted that the frequency of the eun-marked indirective ditransitive construction in texts is rather low and that it is preferably used with those few verbs for which there are no corresponding Recipient/Addressee applicatives. In other words, if there is a Recipient/Addressee applicative in ko- (ex. 42), the eun-marked indirective construction, has a low chance of occurring in texts, and completely no chance of occurring if R is encoded by a pronominal argument (ex. 42). The above-mentioned frequency restriction does not apply to the cases where R participant is, strictly speaking, not a Recipient proper, i.e. un-marked indirective construction with inanimate Goal and wa-marked indirective construction with animate/inanimate Source: they are fairly frequent in texts regardless of the existence/non-existence of the corresponding applicative constructions.",,Basic
 4896036279,ainu1240,1 2 subj[1].obj[2].V,"Core arguments are unmarked for case. In verbal cross-referencing (indices) of transitive verbs, A affixes are normally placed before P markers but when it comes to the interaction of first and second person participants there is also a number of fusional markers (A+P), which are subject to considerable dialectal variation. The third person (A/P) is always zero-marked.",,Basic
 4896053556,ainu1240,1 2 (3+ani) subj[1].obj[2].V,,,Basic
 4896240073,ainu1240,1 2+un subj[1].V,,,Basic
@@ -1153,7 +1153,7 @@ ID,Language_ID,Coding_Frame_Schema,Description,Comment,Derived
 12377991904,bali1278,1 V teken+2,,,Basic
 12378040230,bali1278,1 V 2 unduk+3,,,Basic
 6536020574,yoru1245,1 V 2 ní+3,,,Basic
-6536020575,yoru1245,1 V 2 fún+3,"This coding frame is mainly for ditratransitive verbs in which fún introduces the third argument, i.e., the recipient.  ",,Basic
+6536020575,yoru1245,1 V 2 fún+3,"This coding frame is mainly for ditratransitive verbs in which fún introduces the third argument, i.e., the recipient.",,Basic
 6536020576,yoru1245,1 fi+2 V 3,"In this coding frame, fi is used to introduce the instrument argument in the basic construction.",,Basic
 6536020577,yoru1245,1 V sí+2,,,Basic
 6536020578,yoru1245,1 V ní+2,,,Basic
