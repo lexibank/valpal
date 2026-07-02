@@ -5,35 +5,39 @@ import sqlite3
 import itertools
 import contextlib
 import collections
+import dataclasses
+from typing import Optional
 
 from pycldf.sources import Source
-import attr
 
 import pylexibank
 from pylexibank import Concept, Lexeme, Language
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomConcept(Concept):
-    typical_context = attr.ib(default=None)
-    role_frame = attr.ib(default=None)
-    meaning_list = attr.ib(default=None)
-    label_for_url = attr.ib(default=None)
+    """ValPal concepts provide some information on role frames."""
+    typical_context: Optional[str] = None
+    role_frame: Optional[str] = None
+    meaning_list: Optional[str] = None
+    label_for_url: Optional[str] = None
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomLexeme(Lexeme):
-    verb_type = attr.ib(default=None)
-    original_script = attr.ib(default=None)
-    simplex_or_complex = attr.ib(default=None)
-    Basic_Coding_Frame_ID = attr.ib(default=None)
+    """ValPal lexemes are tied to basic coding frames."""
+    verb_type: Optional[str] = None
+    original_script: Optional[str] = None
+    simplex_or_complex: Optional[str] = None
+    Basic_Coding_Frame_ID: Optional[str] = None
 
 
-@attr.s
+@dataclasses.dataclass
 class CustomLanguage(Language):
-    contributors = attr.ib(default=None)
-    continent = attr.ib(default=None)
-    Comment = attr.ib(default=None)
+    """ValPal languages."""
+    contributors: Optional[str] = None
+    continent: Optional[str] = None
+    Comment: Optional[str] = None
 
 
 def clean_html(s):

@@ -4,12 +4,10 @@
     "dc:bibliographicCitation": "Hartmann, Iren & Haspelmath, Martin & Taylor, Bradley (eds.) 2013. Valency Patterns Leipzig. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://valpal.info)",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:format": [
-        "http://concepticon.clld.org/contributions/Hartmann-2013-162"
+        "https://concepticon.clld.org/contributions/Hartmann-2013-162"
     ],
     "dc:identifier": "http://valpal.info/",
-    "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/3.0/",
-    "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Hartmann et al.'s \"Valency Patterns Leipzig\" from 2013",
     "dcat:accessURL": "https://github.com/lexibank/valpal",
@@ -17,25 +15,25 @@
         {
             "rdf:about": "https://github.com/lexibank/valpal",
             "rdf:type": "prov:Entity",
-            "dc:created": "601021b",
+            "dc:created": "v1.0-2-gf6b18f0",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.4",
+            "dc:created": "v5.3",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.5.0",
+            "dc:created": "v3.4.0",
             "dc:title": "Concepticon"
         },
         {
             "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.1.0",
+            "dc:created": "v2.3.0",
             "dc:title": "CLTS"
         }
     ],
@@ -46,7 +44,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.8.10"
+            "dc:description": "3.12.3"
         },
         {
             "dc:title": "python-packages",
@@ -55,12 +53,10 @@
     ],
     "rdf:ID": "valpal",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
-    "dialect": {
-        "commentPrefix": null
-    },
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
+            "dc:description": "ValPal lexemes are tied to basic coding frames.",
             "dc:extent": 3599,
             "tableSchema": {
                 "columns": [
@@ -191,6 +187,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+            "dc:description": "ValPal languages.",
             "dc:extent": 36,
             "tableSchema": {
                 "columns": [
@@ -207,7 +204,7 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
-                        "valueUrl": "http://glottolog.org/resource/languoid/id/{glottolog_id}",
+                        "valueUrl": "http://glottolog.org/resource/languoid/id/{Glottocode}",
                         "name": "Glottocode"
                     },
                     {
@@ -269,6 +266,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+            "dc:description": "ValPal concepts provide some information on role frames.",
             "dc:extent": 162,
             "tableSchema": {
                 "columns": [
@@ -285,7 +283,7 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#concepticonReference",
-                        "valueUrl": "http://concepticon.clld.org/parameters/{concepticon_id}",
+                        "valueUrl": "http://concepticon.clld.org/parameters/{Concepticon_ID}",
                         "name": "Concepticon_ID"
                     },
                     {
@@ -350,7 +348,7 @@
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#analyzedWord",
                         "required": false,
-                        "separator": "\\t",
+                        "separator": "\t",
                         "name": "Analyzed_Word"
                     },
                     {
@@ -359,7 +357,7 @@
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#gloss",
                         "required": false,
-                        "separator": "\\t",
+                        "separator": "\t",
                         "name": "Gloss"
                     },
                     {
@@ -377,6 +375,17 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#metaLanguageReference",
                         "required": false,
                         "name": "Meta_Language_ID"
+                    },
+                    {
+                        "dc:description": "The level of conformance of the example with the Leipzig Glossing Rules",
+                        "dc:extent": "singlevalued",
+                        "datatype": {
+                            "base": "string",
+                            "format": "WORD_ALIGNED|MORPHEME_ALIGNED"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#lgrConformance",
+                        "required": false,
+                        "name": "LGR_Conformance"
                     },
                     {
                         "datatype": "string",
@@ -415,6 +424,17 @@
                 "foreignKeys": [
                     {
                         "columnReference": [
+                            "Form_IDs"
+                        ],
+                        "reference": {
+                            "resource": "forms.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
                             "Language_ID"
                         ],
                         "reference": {
@@ -430,17 +450,6 @@
                         ],
                         "reference": {
                             "resource": "languages.csv",
-                            "columnReference": [
-                                "ID"
-                            ]
-                        }
-                    },
-                    {
-                        "columnReference": [
-                            "Form_IDs"
-                        ],
-                        "reference": {
-                            "resource": "forms.csv",
                             "columnReference": [
                                 "ID"
                             ]

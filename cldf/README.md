@@ -10,17 +10,19 @@ property | value
  --- | ---
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Hartmann, Iren & Haspelmath, Martin & Taylor, Bradley (eds.) 2013. Valency Patterns Leipzig. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at http://valpal.info)
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
-[dc:format](http://purl.org/dc/terms/format) | <ol><li>http://concepticon.clld.org/contributions/Hartmann-2013-162</li></ol>
+[dc:format](http://purl.org/dc/terms/format) | <ol><li>https://concepticon.clld.org/contributions/Hartmann-2013-162</li></ol>
 [dc:identifier](http://purl.org/dc/terms/identifier) | http://valpal.info/
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/3.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/lexibank/valpal
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/valpal/tree/601021b">lexibank/valpal 601021b</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.4">Glottolog v4.4</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v2.5.0">Concepticon v2.5.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.1.0">CLTS v2.1.0</a></li></ol>
-[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.8.10</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/valpal/tree/f6b18f0">lexibank/valpal  v1.0-2-gf6b18f0</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.3">Glottolog  v5.3</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.4.0">Concepticon  v3.4.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS  v2.3.0</a></li></ol>
+[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.12.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | valpal
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 
 ## <a name="table-formscsv"></a>Table [forms.csv](./forms.csv)
+
+ValPal lexemes are tied to basic coding frames.
 
 property | value
  --- | ---
@@ -52,6 +54,8 @@ Name/Property | Datatype | Description
 
 ## <a name="table-languagescsv"></a>Table [languages.csv](./languages.csv)
 
+ValPal languages.
+
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
@@ -68,14 +72,16 @@ Name/Property | Datatype | Description
 `Glottolog_Name` | `string` | 
 [ISO639P3code](http://cldf.clld.org/v1.0/terms.rdf#iso639P3code) | `string` | 
 [Macroarea](http://cldf.clld.org/v1.0/terms.rdf#macroarea) | `string` | 
-[Latitude](http://cldf.clld.org/v1.0/terms.rdf#latitude) | `decimal` | 
-[Longitude](http://cldf.clld.org/v1.0/terms.rdf#longitude) | `decimal` | 
+[Latitude](http://cldf.clld.org/v1.0/terms.rdf#latitude) | `decimal`<br>&ge; -90<br>&le; 90 | 
+[Longitude](http://cldf.clld.org/v1.0/terms.rdf#longitude) | `decimal`<br>&ge; -180<br>&le; 180 | 
 `Family` | `string` | 
 `contributors` | `string` | 
 `continent` | `string` | 
 `Comment` | `string` | 
 
 ## <a name="table-parameterscsv"></a>Table [parameters.csv](./parameters.csv)
+
+ValPal concepts provide some information on role frames.
 
 property | value
  --- | ---
@@ -108,13 +114,14 @@ property | value
 
 Name/Property | Datatype | Description
  --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
 [Language_ID](http://cldf.clld.org/v1.0/terms.rdf#languageReference) | `string` | References [languages.csv::ID](#table-languagescsv)
 [Primary_Text](http://cldf.clld.org/v1.0/terms.rdf#primaryText) | `string` | The example text in the source language.
-[Analyzed_Word](http://cldf.clld.org/v1.0/terms.rdf#analyzedWord) | list of `string` (separated by `\t`) | The sequence of words of the primary text to be aligned with glosses
-[Gloss](http://cldf.clld.org/v1.0/terms.rdf#gloss) | list of `string` (separated by `\t`) | The sequence of glosses aligned with the words of the primary text
+[Analyzed_Word](http://cldf.clld.org/v1.0/terms.rdf#analyzedWord) | list of `string` (separated by `	`) | The sequence of words of the primary text to be aligned with glosses
+[Gloss](http://cldf.clld.org/v1.0/terms.rdf#gloss) | list of `string` (separated by `	`) | The sequence of glosses aligned with the words of the primary text
 [Translated_Text](http://cldf.clld.org/v1.0/terms.rdf#translatedText) | `string` | The translation of the example text in a meta language
 [Meta_Language_ID](http://cldf.clld.org/v1.0/terms.rdf#metaLanguageReference) | `string` | References the language of the translated text<br>References [languages.csv::ID](#table-languagescsv)
+[LGR_Conformance](http://cldf.clld.org/v1.0/terms.rdf#lgrConformance) | `string`<br>Valid choices:<br> `WORD_ALIGNED` `MORPHEME_ALIGNED` | The level of conformance of the example with the Leipzig Glossing Rules
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | 
 `Original_Orthography` | `string` | 
 `Translation_Other` | `string` | 
@@ -134,7 +141,7 @@ property | value
 
 Name/Property | Datatype | Description
  --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
 [Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | 
 [Parameter_ID](http://cldf.clld.org/v1.0/terms.rdf#parameterReference) | `string` | References [parameters.csv::ID](#table-parameterscsv)
 `Role_Letter` | `string` | 
@@ -152,7 +159,7 @@ property | value
 
 Name/Property | Datatype | Description
  --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
 [Language_ID](http://cldf.clld.org/v1.0/terms.rdf#languageReference) | `string` | References [languages.csv::ID](#table-languagescsv)
 [Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | 
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | 
@@ -168,7 +175,7 @@ property | value
 
 Name/Property | Datatype | Description
  --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
 [Language_ID](http://cldf.clld.org/v1.0/terms.rdf#languageReference) | `string` | References [languages.csv::ID](#table-languagescsv)
 `Coding_Frame_Schema` | `string` | 
 [Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
@@ -186,7 +193,7 @@ property | value
 
 Name/Property | Datatype | Description
  --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
 `Coding_Frame_ID` | `string` | References [coding-frames.csv::ID](#table-codingframescsv)
 `Index_Number` | `integer` | 
 `Coding_Set_ID` | `string` | References [coding-sets.csv::ID](#table-codingsetscsv)
@@ -204,7 +211,7 @@ property | value
 
 Name/Property | Datatype | Description
  --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
 [Form_ID](http://cldf.clld.org/v1.0/terms.rdf#formReference) | `string` | References [forms.csv::ID](#table-formscsv)
 `Coding_Frame_ID` | `string` | References [coding-frames.csv::ID](#table-codingframescsv)
 `Microrole_IDs` | list of `string` (separated by `;`) | References [microroles.csv::ID](#table-microrolescsv)
@@ -220,7 +227,7 @@ property | value
 
 Name/Property | Datatype | Description
  --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
 [Form_ID](http://cldf.clld.org/v1.0/terms.rdf#formReference) | `string` | References [forms.csv::ID](#table-formscsv)
 `Coding_Frame_ID` | `string` | References [coding-frames.csv::ID](#table-codingframescsv)
 [Example_IDs](http://cldf.clld.org/v1.0/terms.rdf#exampleReference) | list of `string` (separated by `;`) | References [examples.csv::ID](#table-examplescsv)
@@ -236,7 +243,7 @@ property | value
 
 Name/Property | Datatype | Description
  --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
 [Language_ID](http://cldf.clld.org/v1.0/terms.rdf#languageReference) | `string` | References [languages.csv::ID](#table-languagescsv)
 [Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | 
 [Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
@@ -255,11 +262,10 @@ property | value
 
 Name/Property | Datatype | Description
  --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
 [Form_ID](http://cldf.clld.org/v1.0/terms.rdf#formReference) | `string` | References [forms.csv::ID](#table-formscsv)
 `Alternation_ID` | `string` | References [alternations.csv::ID](#table-alternationscsv)
 `Alternation_Occurs` | `string` | 
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | 
 `Derived_Code_Frame_ID` | `string` | References [coding-frames.csv::ID](#table-codingframescsv)
 [Example_IDs](http://cldf.clld.org/v1.0/terms.rdf#exampleReference) | list of `string` (separated by `;`) | References [examples.csv::ID](#table-examplescsv)
-
