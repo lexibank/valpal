@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/lexibank/valpal",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.1",
+            "dc:created": "v1.1-1-g44b4c43",
             "dc:title": "Repository"
         },
         {
