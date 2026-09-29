@@ -1,5 +1,11 @@
 # Releasing valpal
 
+```shell
+git clone https://github.com/lexibank/valpal valpal-cldf
+cd valpal-cldf/
+pip install -e .[test]
+```
+
 Recreate the CLDF dataset:
 
 ```shell
