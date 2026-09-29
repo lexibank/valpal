@@ -35,7 +35,7 @@ pycountry==26.2.16
 pyglottolog==4.0.1
 Pygments==2.20.0
 pylatexenc==2.10
--e git+https://github.com/lexibank/pylexibank@04ed6a45aaca1b0da0bd4dc8e66550436f74b29a#egg=pylexibank
+-e git+https://github.com/lexibank/pylexibank@96df3ea24494677fa39463fb816f5d9aefa6e95a#egg=pylexibank
 pytest==9.1.1
 python-dateutil==2.9.0.post0
 rdflib==7.6.0

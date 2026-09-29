@@ -1,6 +1,7 @@
 import html
 import pathlib
 import re
+import shutil
 import sqlite3
 import itertools
 import contextlib
@@ -37,7 +38,11 @@ class CustomLanguage(Language):
     """ValPal languages."""
     contributors: Optional[str] = None
     continent: Optional[str] = None
-    Comment: Optional[str] = None
+    Comment_File: Optional[str] = dataclasses.field(
+        default=None,
+        metadata={
+            'dc:description': 'Comments on the ValPal coding for the language',
+            'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#mediaReference'})
 
 
 def clean_html(s):
@@ -112,6 +117,47 @@ class Dataset(pylexibank.Dataset):
     def cmd_makecldf(self, args):
         self.create_schema(args.writer.cldf)
 
+        media_dir = self.cldf_dir / 'media'
+        media_dir.mkdir(exist_ok=True)
+        for stem in ['credits', 'database', 'project']:
+            shutil.copy(self.etc_dir / f'{stem}.md', media_dir)
+            args.writer.objects['MediaTable'].append(dict(
+                ID=stem,
+                Name=f'{stem}.md',
+                Description=f'{stem} page',
+                Download_URL=f'media/{stem}.md',
+                Media_Type='text/markdown',
+            ))
+        fname = 'ValencyDBQuestionnaireManual.pdf'
+        shutil.copy(self.raw_dir / fname, media_dir)
+        args.writer.objects['MediaTable'].append(dict(
+            ID='questionnaire',
+            Name=fname,
+            Description='Valency Database Questionnaire Manual',
+            Download_URL='media/' + fname,
+            Media_Type='application/pdf',
+        ))
+        shutil.copy(self.etc_dir / 'terms.csv', media_dir)
+        args.writer.objects['MediaTable'].append(dict(
+            ID='terms',
+            Name='terms.csv',
+            Description='Glossary',
+            Download_URL='media/terms.csv',
+            Media_Type='text/csv',
+        ))
+        comment_files = {}
+        for p in self.etc_dir.glob('comments-*.md'):
+            gc = p.stem.split('-')[1]
+            shutil.copy(p, media_dir)
+            args.writer.objects['MediaTable'].append(dict(
+                ID=p.stem,
+                Name=p.name,
+                Description=f'Comments on {gc}',
+                Download_URL=f'media/{p.name}',
+                Media_Type='text/markdown',
+            ))
+            comment_files[gc] = p.stem
+
         rmap = collections.defaultdict(list)
         for row in self.query('select * from "references"'):
             rmap[row['language_id']].append(row['id'])
@@ -168,7 +214,7 @@ class Dataset(pylexibank.Dataset):
                 ISO639P3code=lang['iso_code'],
                 Latitude=lang['latitude'],
                 Longitude=lang['longitude'],
-                Comment=lang['comments'],
+                Comment_File=comment_files.get(lang['glottolog_code']),
                 contributors=contributions[lang['id']],
                 continent=lang['continent'],
             )
@@ -436,6 +482,7 @@ where e.id = ev.example_id group by e.id"""):
                 ))
 
     def create_schema(self, cldf):
+        cldf.add_component('MediaTable')
         cldf.add_component(
             'ExampleTable',
             'Original_Orthography',

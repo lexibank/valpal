@@ -14,3 +14,4 @@ def test_parameters(cldf_dataset):
 def test_languages(cldf_dataset, cldf_sqlite_database):
     assert cldf_sqlite_database
     assert len(list(cldf_dataset["LanguageTable"])) == 36
+    assert len(list(cldf_dataset["MediaTable"])) > 10

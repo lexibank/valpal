@@ -8,7 +8,7 @@ cldfbench lexibank.makecldf lexibank_valpal.py --glottolog-version v5.3
 
 Validate it:
 ```shell
-cldf validate cldf/
+pytest
 ```
 
 Create the metadata:
