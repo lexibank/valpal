@@ -331,13 +331,12 @@ coding, i.e. flagging (case-marking or adposition marking), indexing
 ("agreement" or "cross-referencing"), possibly word order, plus a verb
 variable.
 
-<p>The following conventions are used:
+The following conventions are used:
 
 - cases: case labels are attached to an argument variable by a hyphen, e.g.
   **A-nom** (for nominative case), **R-dat**, **P-abs**
 - adpositions: forms of adpositions are attached to an argument variable by
-  a plus sign, e.g. ***for*+X**,
-    ***à*+R**
+  a plus sign, e.g. ***for*+X**, ***à*+R**
 - indices: index labels are attached to the verb variable by a period, e.g.
   **V.subj[A]** (for German subject agreement),
   **subj[A].obj[P].V** (for Bantu subject and object agreement);
